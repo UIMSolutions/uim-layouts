@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.cards.body_;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CardBody : BS4Obj {
 	mixin(H5This!("DIV", ["card-body"]));

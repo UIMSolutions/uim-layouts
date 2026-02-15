@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.modals.modal;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Modal : BS4Obj {
 	mixin(H5This!("DIV", ["modal"], `["tabindex":"-1", "role":"dialog", "aria-hidden":"true"]`));

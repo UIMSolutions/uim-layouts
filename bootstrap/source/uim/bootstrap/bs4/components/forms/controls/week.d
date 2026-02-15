@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.controls.week;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS4InputWeek : BS4Input {
 	mixin(H5This!("", null, `["type":"week"]`));

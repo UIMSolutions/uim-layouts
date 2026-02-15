@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.dropdowns.header;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4DropdownHeader : BS4Obj {
 	mixin(H5This!("H6", ["dropdown-header"]));

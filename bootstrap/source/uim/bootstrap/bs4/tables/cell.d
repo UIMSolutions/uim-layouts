@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.tables.cell;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4TableCell : BS4Obj {
 	mixin(H5This!"Td");

@@ -1,7 +1,10 @@
 module uim.bootstrap.bs4;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 public import uim.bootstrap.bs4.apps;
 public import uim.bootstrap.bs4.obj;

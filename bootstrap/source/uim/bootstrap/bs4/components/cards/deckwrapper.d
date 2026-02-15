@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.cards.deckwrapper;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CardDeckwrapper : BS4Obj {
 	mixin(H5This!("DIV", ["card-deck-wrapper"]));

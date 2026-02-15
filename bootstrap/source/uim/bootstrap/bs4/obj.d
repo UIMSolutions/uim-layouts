@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.obj;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Obj : DH5Obj {
 	mixin(H5This!("DIV"));

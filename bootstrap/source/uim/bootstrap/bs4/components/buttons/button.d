@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.buttons.button;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Button : BS4ButtonObj {
 	mixin(H5This!("button", ["btn"], `["type":"button"]`));

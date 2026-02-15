@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.controls.text;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS4InputText : BS4Input {
 	mixin(H5This!("", null, `["type":"text"]`));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.modals.content;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4ModalContent : BS4Obj {
 	mixin(H5This!("DIV", ["modal-content"]));

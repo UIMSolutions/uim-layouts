@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.check;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4FormCheck : BS4Obj {
 	mixin(H5This!("Div", ["form-check"]));

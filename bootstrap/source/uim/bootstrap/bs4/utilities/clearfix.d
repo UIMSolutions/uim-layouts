@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.utilities.clearfix;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 T clearfix(T)(T h5) {
 	return h5.addClasses("clearfix");

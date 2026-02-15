@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.tables.header;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4TableHeader : BS4Obj {
 	mixin(H5This!"Thead");

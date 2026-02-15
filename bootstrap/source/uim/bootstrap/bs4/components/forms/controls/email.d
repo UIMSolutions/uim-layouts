@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.controls.email;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS4InputEmail : BS4Input {
 	mixin(H5This!(null, null, `["type":"email"]`));

@@ -1,7 +1,10 @@
 module uim.bootstrap.bs4.apps.app;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /* class BS4App : DH5App {
 	this() { super(); }

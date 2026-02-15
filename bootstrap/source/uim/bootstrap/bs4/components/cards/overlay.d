@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.cards.overlay;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /// Turns an image into a card background and adds text on top of the image
 class BS4CardOverlay : BS4Obj {

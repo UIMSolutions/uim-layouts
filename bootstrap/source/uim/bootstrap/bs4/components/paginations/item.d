@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.paginations.item;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4PageItem : BS4Obj {
 	mixin(H5This!("LI", ["page-item"]));

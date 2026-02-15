@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.cards.columns;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /// The .BS4CardColumns creates a masonry-like grid of cards (like pinterest)
 class BS4CardColumns : BS4Obj {

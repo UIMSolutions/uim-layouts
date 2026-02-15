@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.tabs.list;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4TabList : BS4Obj {
 	mixin(H5This!("UL", ["nav"], `["role":"tablist"]`));

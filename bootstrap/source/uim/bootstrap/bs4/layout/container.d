@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.layout.container;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /*
 BS4Container / BS4Container

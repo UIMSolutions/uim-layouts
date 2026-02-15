@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.medias.media;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Media : BS4Obj {
 	mixin(H5This!("DIV", ["media"]));

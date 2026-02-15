@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.modals.body_;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4ModalBody : BS4Obj {
 	mixin(H5This!("Div", ["modal-body"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.group;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4FormGroup : BS4Obj {
 	mixin(H5This!("div", ["form-group"]));

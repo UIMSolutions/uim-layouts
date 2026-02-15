@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.inputgroups.append;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4InputGroupAppend : BS4Obj {
 	mixin(H5This!("DIV", ["input-group-append"]));

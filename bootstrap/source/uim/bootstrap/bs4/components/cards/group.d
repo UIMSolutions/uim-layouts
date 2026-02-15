@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.cards.group;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /// The BS4CardGroup creates a grid of cards that are of equal height and width, and no margin between cards
 class BS4CardGroup : BS4Obj {

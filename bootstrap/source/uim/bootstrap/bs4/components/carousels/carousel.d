@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.carousels.carousel;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Carousel : BS4Obj
 {

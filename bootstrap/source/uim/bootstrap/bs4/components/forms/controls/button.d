@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.controls.button;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS4InputButton : BS4Input {
 	mixin(H5This!(null, null, `["type":"button"]`));

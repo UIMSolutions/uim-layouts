@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.carousels.indicators;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CarouselIndicators : BS4Obj {
 	mixin(H5This!("ol", ["carousel-indicators"]));

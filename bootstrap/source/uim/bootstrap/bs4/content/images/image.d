@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.content.images.image;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Image : BS4Obj {
 	mixin(H5This!("Img"));

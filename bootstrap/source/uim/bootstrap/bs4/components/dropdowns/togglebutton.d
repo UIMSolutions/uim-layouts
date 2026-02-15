@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.dropdowns.togglebutton;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4DropdownTogglebutton : BS4Button {
 	mixin(H5This!("Button", ["btn", "dropdown-toggle"], `["aria-haspopup":"true", "aria-expanded":"false"]`));

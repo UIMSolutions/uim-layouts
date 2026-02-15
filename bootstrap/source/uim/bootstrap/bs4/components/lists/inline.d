@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.lists.inline;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /// An unordered list with list items
 class BS4ListInline : BS4Obj {

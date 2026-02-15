@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.navbars.navbar;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4Navbar : BS4Obj {
 	mixin(H5This!("Nav", ["navbar"]));

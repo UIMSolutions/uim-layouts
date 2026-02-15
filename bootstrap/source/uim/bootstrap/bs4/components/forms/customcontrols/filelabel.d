@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.customcontrols.filelabel;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CustomFileLabel : BS4Obj
 {

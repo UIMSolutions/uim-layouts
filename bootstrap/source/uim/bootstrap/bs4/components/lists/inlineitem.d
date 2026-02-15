@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.lists.inlineitem;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4ListInlineItem : BS4Obj {
 	mixin(H5This!("LI", ["list-inline-item"]));

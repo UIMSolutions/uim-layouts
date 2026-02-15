@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.customcontrols.checkbox;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CustomCheckbox : BS4CustomControl {
 	mixin(H5This!("DIV", ["custom-checkbox"]));

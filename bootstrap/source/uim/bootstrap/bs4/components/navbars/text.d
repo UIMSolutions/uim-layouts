@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.navbars.text;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4NavbarText : BS4Obj {
 	mixin(H5This!("SPAN", ["navbar-text"]));

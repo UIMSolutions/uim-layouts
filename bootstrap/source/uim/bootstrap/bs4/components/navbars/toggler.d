@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.navbars.toggler;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /* BS4NavbarToggler - for use with collapse plugin and other navigation toggling behaviors */
 class BS4NavbarToggler : BS4ButtonObj {

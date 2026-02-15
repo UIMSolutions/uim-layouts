@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.checklabel;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4FormCheckLabel : BS4Obj {
 	mixin(H5This!("LABEL", ["form-check-label"]));

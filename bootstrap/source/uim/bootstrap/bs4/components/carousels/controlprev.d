@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.carousels.controlprev;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CarouselControlPrev : BS4Obj {
 	mixin(H5This!("a", ["carousel-control-prev"], `["data-slide":"prev"]`));

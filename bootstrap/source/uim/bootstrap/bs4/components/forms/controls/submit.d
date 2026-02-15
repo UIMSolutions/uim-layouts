@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.controls.submit;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS4InputSubmit : BS4Obj {
 	mixin(H5This!("Input", ["form-control"], `["type":"submit"]`));

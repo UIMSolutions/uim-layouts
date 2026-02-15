@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.dropdowns.text;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4DropdownText : BS4Obj {
 	mixin(H5This!("p", null, null));

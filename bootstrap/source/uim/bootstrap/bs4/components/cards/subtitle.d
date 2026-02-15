@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.cards.subtitle;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CardSubtitle : BS4Obj {
 	mixin(H5This!("H6", ["card-subtitle"]));

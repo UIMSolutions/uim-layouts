@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.customcontrols.fileinput;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4CustomFileInput : BS4Obj {
 	mixin(H5This!("INPUT", ["custom-file-input"]));

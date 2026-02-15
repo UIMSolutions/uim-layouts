@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.forms.controls.url;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS4InputUrl : BS4Input {
 	mixin(H5This!("", null, `["type":"url"]`));

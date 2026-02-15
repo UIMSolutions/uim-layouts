@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.breadcrumbs.list;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4BreadcrumbList : BS4Obj {
 	mixin(H5This!("Ol", ["breadcrumb"], null));

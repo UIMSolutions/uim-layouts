@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.utilities.displays;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 T displayInline(T)(T h5) {
 	return h5.addClasses("d-inline");

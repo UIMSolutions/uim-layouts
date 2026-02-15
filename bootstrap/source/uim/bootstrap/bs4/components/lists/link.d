@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.lists.link;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4ListLink : BS4Obj {
 	mixin(H5This!("A", ["list-group-item", "list-group-item-action"], null));

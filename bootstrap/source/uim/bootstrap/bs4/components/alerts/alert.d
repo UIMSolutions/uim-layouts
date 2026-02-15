@@ -1,7 +1,10 @@
 module uim.bootstrap.bs4.components.alerts.alert;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 ///Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
 class BS4Alert : BS4Obj {

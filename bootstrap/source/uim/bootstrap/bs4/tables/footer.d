@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.tables.footer;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4TableFooter : BS4Obj {
 	mixin(H5This!"Tfoot");

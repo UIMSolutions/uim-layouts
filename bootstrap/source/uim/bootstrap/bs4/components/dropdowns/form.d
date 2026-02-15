@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.dropdowns.form;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4DropdownForm : BS4Obj {
 	mixin(H5This!("form", null, null));

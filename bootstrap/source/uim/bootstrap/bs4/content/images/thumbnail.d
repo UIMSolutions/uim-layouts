@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.content.images.thumbnail;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4ImageFluid : BS4Image {
 	mixin(H5This!("Img", ["img-thumbnail"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs4.components.navs.header;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS4NavHeader : BS4Obj {
 	mixin(H5This!("li", ["nav-header"]));
