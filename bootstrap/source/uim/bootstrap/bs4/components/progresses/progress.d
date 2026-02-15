@@ -11,7 +11,7 @@ class BS4Progress : BS4Obj {
 
 	mixin(MyContent!("bar", "BS4ProgressBar"));
 }
-mixin(H5Calls!"BS4Progress");
+static BS4Progress");
 
 ///
 unittest { {

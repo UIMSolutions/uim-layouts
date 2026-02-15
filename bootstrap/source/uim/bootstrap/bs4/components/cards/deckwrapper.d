@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4CardDeckwrapper : BS4Obj {
 	mixin(H5This!("DIV", ["card-deck-wrapper"]));
 }
-mixin(H5Calls!"BS4CardDeckwrapper");
+static BS4CardDeckwrapper");
 
 ///
 unittest { {

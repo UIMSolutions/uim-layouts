@@ -11,7 +11,7 @@ class BS4CardOverlay : BS4Obj {
 	mixin(H5This!("Div", ["card-img-overlay"]));
 }
 /// Shortcuts
-mixin(H5Calls!"BS4CardOverlay");
+static BS4CardOverlay");
 ///
 unittest { {
 	assert(BS4CardOverlay == `<div class="card-img-overlay"></div>`);

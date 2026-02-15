@@ -16,7 +16,7 @@ unittest { {
 	}}
 
 }
-mixin(H5Calls!"BS4Breadcrumb");
+static BS4Breadcrumb");
 
 ///
 unittest { {

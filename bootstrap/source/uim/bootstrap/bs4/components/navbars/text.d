@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4NavbarText : BS4Obj {
 	mixin(H5This!("SPAN", ["navbar-text"]));
 }
-mixin(H5Calls!"BS4NavbarText");
+static BS4NavbarText");
 
 ///
 unittest { {

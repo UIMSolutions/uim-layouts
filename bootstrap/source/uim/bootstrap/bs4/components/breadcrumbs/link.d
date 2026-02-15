@@ -10,7 +10,7 @@ class BS4BreadcrumbLink : BS4Obj {
 	mixin(H5This!("A", null, null));
 
 }
-mixin(H5Calls!"BS4BreadcrumbLink");
+static BS4BreadcrumbLink");
 
 ///
 unittest { {

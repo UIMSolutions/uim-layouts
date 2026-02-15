@@ -12,7 +12,7 @@ class BS4NavbarBrand : BS4Obj {
 	mixin(MyContent!("image", "H5IMG"));
 }
 
-mixin(H5Calls!"BS4NavbarBrand");
+static BS4NavbarBrand");
 
 ///
 unittest { {

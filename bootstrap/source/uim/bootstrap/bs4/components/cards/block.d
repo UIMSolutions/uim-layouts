@@ -10,7 +10,7 @@ class BS4CardBlock : BS4Obj {
 	mixin(H5This!("DIV", ["card-block"]));
 }
 
-mixin(H5Calls!"BS4CardBlock");
+static BS4CardBlock");
 ///
 unittest { {
 	assert(BS4CardBlock == `<div class="card-block"></div>`);

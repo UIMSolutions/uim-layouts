@@ -27,7 +27,7 @@ unittest { {
 		assert(BS4TableCell.rowspan(2) == `<td rowspan="2"></td>`);
 	}}
 }
-mixin(H5Calls!"BS4TableCell");
+static BS4TableCell");
 
 ///
 unittest { {

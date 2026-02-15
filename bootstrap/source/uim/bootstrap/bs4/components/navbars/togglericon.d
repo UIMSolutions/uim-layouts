@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4NavbarTogglerIcon : BS4Obj {
 	mixin(H5This!("Span", ["navbar-toggler-icon"]));
 }
-mixin(H5Calls!"BS4NavbarTogglerIcon");
+static BS4NavbarTogglerIcon");
 
 ///
 unittest { {

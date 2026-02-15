@@ -15,7 +15,7 @@ class BS4ModalButton : BS4Obj {
 		return cast(O)this;
 	}
 }
-mixin(H5Calls!"BS4ModalButton");
+static BS4ModalButton");
 ///
 unittest { {
 	// assert(BS4ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);

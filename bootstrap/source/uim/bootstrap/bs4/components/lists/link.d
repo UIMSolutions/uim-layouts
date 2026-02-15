@@ -15,7 +15,7 @@ class BS4ListLink : BS4Obj {
 
 	O color(this O)(string aColor) { return this.addClasses("list-group-item-"~aColor); }
 }
-mixin(H5Calls!"BS4ListLink");
+static BS4ListLink");
 
 ///
 unittest { {

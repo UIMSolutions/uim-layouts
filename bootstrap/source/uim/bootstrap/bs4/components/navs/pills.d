@@ -10,7 +10,7 @@ class BS4NavPills : BS4Obj {
 	mixin(H5This!("UL", ["nav", "nav-pills"], `["role":"tablist"]`));
 	mixin(MyContent!("item", "BS4NavItem"));
 }
-mixin(H5Calls!"BS4NavPills");
+static BS4NavPills");
 
 ///
 unittest { {

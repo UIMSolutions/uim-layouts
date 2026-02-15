@@ -12,7 +12,7 @@ class BS4ListLinks : BS4Obj {
 	mixin(MyContent!("link", "BS4ListLink"));
 	mixin(MyContent!("button", "BS4ListButton"));
 }
-mixin(H5Calls!"BS4ListLinks");
+static BS4ListLinks");
 
 ///
 unittest { {

@@ -16,7 +16,7 @@ class BS4CarouselControlNext : BS4Obj {
 			.addContent(H5Span(["sr-only"], "Next"));
 	}
 }
-mixin(H5Calls!"BS4CarouselControlNext");
+static BS4CarouselControlNext");
 
 ///
 unittest { {

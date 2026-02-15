@@ -15,7 +15,7 @@ unittest { {
 		assert(BS4InputGroupPrepend.text == `<div class="input-group-prepend"><div class="input-group-text"></div></div>`);
 	}}
 }
-mixin(H5Calls!"BS4InputGroupPrepend");
+static BS4InputGroupPrepend");
 
 ///
 unittest { {

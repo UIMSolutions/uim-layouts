@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4CardLink : BS4Obj {
 	mixin(H5This!("A", ["card-link"], `["href":"#"]`));
 }
-mixin(H5Calls!"BS4CardLink");
+static BS4CardLink");
 ///
 unittest { {
 	assert(BS4CardLink == `<a class="card-link" href="#"></a>`);

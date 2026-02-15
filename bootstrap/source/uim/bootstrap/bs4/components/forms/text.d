@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4FormText : BS4Obj {
 	mixin(H5This!("SMALL", ["form-text"]));
 }
-mixin(H5Calls!"BS4FormText");
+static BS4FormText");
 
 ///
 unittest { {

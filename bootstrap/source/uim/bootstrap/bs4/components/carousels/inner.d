@@ -16,7 +16,7 @@ unittest { {
 	}}
 }
 
-mixin(H5Calls!"BS4CarouselInner");
+static BS4CarouselInner");
 ///
 unittest { {
 	assert(BS4CarouselInner == `<div class="carousel-inner"></div>`);

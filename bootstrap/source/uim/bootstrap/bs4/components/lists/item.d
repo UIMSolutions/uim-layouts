@@ -11,7 +11,7 @@ class BS4ListItem : BS4Obj {
 
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
 }
-mixin(H5Calls!"BS4ListItem");
+static BS4ListItem");
 
 ///
 unittest { {

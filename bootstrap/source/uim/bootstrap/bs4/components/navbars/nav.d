@@ -14,7 +14,7 @@ class BS4NavbarNav : BS4Obj {
 	mixin(MyContent!("link", "this.item", "BS4NavLink"));
 }
 
-mixin(H5Calls!"BS4NavbarNav");
+static BS4NavbarNav");
 
 ///
 unittest { {

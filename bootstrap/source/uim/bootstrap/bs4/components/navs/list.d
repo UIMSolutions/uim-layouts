@@ -16,7 +16,7 @@ class BS4NavList : BS4Obj {
 	O fill(this O)(bool mode = true) { return this.addClasses("nav-fill"); }
 	O justified(this O)(bool mode = true) { return this.clasaddClassesses("nav-justified"); }
 }
-mixin(H5Calls!"BS4NavList");
+static BS4NavList");
 
 ///
 unittest { {

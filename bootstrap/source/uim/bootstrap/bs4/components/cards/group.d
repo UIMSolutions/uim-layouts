@@ -14,7 +14,7 @@ class BS4CardGroup : BS4Obj {
 	mixin(MyContent!("card", "BS4Card"));
 	O card(this O)(BS4Card[] cards) { foreach(c; cards) this.card(c); return cast(O)this; }
 }
-mixin(H5Calls!"BS4CardGroup");
+static BS4CardGroup");
 ///
 unittest { {
 	assert(BS4CardGroup == `<div class="card-group"></div>`);

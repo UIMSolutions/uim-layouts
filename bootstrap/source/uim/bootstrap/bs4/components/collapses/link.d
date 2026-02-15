@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4CollapseLink : BS4Obj {
 	mixin(H5This!("a", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
 }
-mixin(H5Calls!"BS4CollapseLink");
+static BS4CollapseLink");
 
 ///
 unittest { {

@@ -10,7 +10,7 @@ class BS4NavbarCollapse : BS4Obj {
 	mixin(H5This!("div", ["collapse", "navbar-collapse"]));
 
 }
-mixin(H5Calls!"BS4NavbarCollapse");
+static BS4NavbarCollapse");
 
 ///
 unittest { {

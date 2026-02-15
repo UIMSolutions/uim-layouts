@@ -14,7 +14,7 @@ class BS4Form : BS4Obj {
 	mixin(MyContent!("label", "H5Label"));
 	mixin(MyContent!("formGroup", "BS4FormGroup"));
 }
-mixin(H5Calls!"BS4Form");
+static BS4Form");
 
 ///
 unittest { {

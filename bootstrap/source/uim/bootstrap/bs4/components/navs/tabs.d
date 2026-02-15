@@ -11,7 +11,7 @@ class BS4NavTabs : BS4Obj {
 
 	mixin(MyContent!("item", "BS4NavItem"));
 }
-mixin(H5Calls!"BS4NavTabs");
+static BS4NavTabs");
 
 ///
 unittest { {

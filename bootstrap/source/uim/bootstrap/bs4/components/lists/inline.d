@@ -17,7 +17,7 @@ unittest { {
 		assert(BS4ListInline.item("test") == `<ul class="list-inline"><li class="list-inline-item">test</li></ul>`);
 	}}
 }
-mixin(H5Calls!"BS4ListInline");
+static BS4ListInline");
 
 ///
 unittest { {

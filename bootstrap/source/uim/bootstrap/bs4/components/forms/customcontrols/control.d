@@ -19,4 +19,4 @@ unittest { {
 		assert(BS4CustomControl == `<div class="custom-control"></div>`);
 	}}
 }
-mixin(H5Calls!"BS4CustomControl");
+static BS4CustomControl");

@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4CarouselItem : BS4Obj {
 	mixin(H5This!("div", ["carousel-item"]));
 }
-mixin(H5Calls!"BS4CarouselItem");
+static BS4CarouselItem");
 ///
 unittest { {
 	assert(BS4CarouselItem == `<div class="carousel-item"></div>`);

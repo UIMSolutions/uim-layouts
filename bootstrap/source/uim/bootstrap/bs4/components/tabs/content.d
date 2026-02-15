@@ -11,7 +11,7 @@ class BS4TabContent : BS4Obj {
 
 	mixin(MyContent!("pane", "BS4TabPane"));
 }
-mixin(H5Calls!"BS4TabContent");
+static BS4TabContent");
 
 ///
 unittest { {

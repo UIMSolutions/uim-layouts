@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4DropdownLink : BS4Obj {
 	mixin(H5This!("A", ["dropdown-item"]));
 }
-mixin(H5Calls!"BS4DropdownLink");
+static BS4DropdownLink");
 
 ///
 unittest { {

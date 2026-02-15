@@ -30,7 +30,7 @@ unittest { {
 		assert(BS4List.link == `<ul class="list-group"><li class="list-group-item"><a class="list-group-item list-group-item-action"></a></li></ul>`);
 	}}
 }
-mixin(H5Calls!"BS4List");
+static BS4List");
 
 ///
 unittest { {

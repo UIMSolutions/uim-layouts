@@ -18,7 +18,7 @@ class BS4ListButton : BS4Obj {
 	/// Set button color
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
 }
-mixin(H5Calls!"BS4ListButton");
+static BS4ListButton");
 
 ///
 unittest { {

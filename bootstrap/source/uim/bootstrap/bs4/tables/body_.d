@@ -16,7 +16,7 @@ unittest { {
 		assert(BS4Table.row == `<table class="table"><tr></tr></table>`);
 	}}
 }
-mixin(H5Calls!"BS4TableBody");
+static BS4TableBody");
 
 ///
 unittest { {

@@ -17,7 +17,7 @@ class BS4TabList : BS4Obj {
 	O fill(this O)(bool mode = true) { return this.addClasses("nav-fill"); }
 	O justified(this O)(bool mode = true) { return this.addClasses("nav-justified"); }
 }
-mixin(H5Calls!"BS4TabList");
+static BS4TabList");
 
 ///
 unittest { {

@@ -14,7 +14,7 @@ class BS4ButtonClose : BS4Button {
 		return super.renderHTML;
 	}
 }
-mixin(H5Calls!"BS4ButtonClose");
+static BS4ButtonClose");
 
 ///
 unittest { {

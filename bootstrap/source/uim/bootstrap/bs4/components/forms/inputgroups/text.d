@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputGroupText : BS4Obj {
 	mixin(H5This!("DIV", ["input-group-text"]));
 }
-mixin(H5Calls!"BS4InputGroupText");
+static BS4InputGroupText");
 
 ///
 unittest { {

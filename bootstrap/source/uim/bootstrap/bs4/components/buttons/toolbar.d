@@ -21,7 +21,7 @@ unittest { {
 		assert(BS4ButtonToolbar.group == `<div class="btn-toolbar" role="toolbar"><div class="btn-group" role="group"></div></div>`);
 	}}
 }
-mixin(H5Calls!"BS4ButtonToolbar");
+static BS4ButtonToolbar");
 
 ///
 unittest { {

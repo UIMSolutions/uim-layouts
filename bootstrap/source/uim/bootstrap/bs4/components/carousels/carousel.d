@@ -13,7 +13,7 @@ class BS4Carousel : BS4Obj
 	mixin(MyContent!("inner	", "BS4CarouselInner"));
 }
 
-mixin(H5Calls!"BS4Carousel");
+static BS4Carousel");
 ///
 unittest
 {

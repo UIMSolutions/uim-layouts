@@ -42,7 +42,7 @@ unittest { {
 		assert(BS4Navbar.nav == `<nav class="navbar"><ul class="navbar-nav"></ul></nav>`);
 	}*/
 }
-mixin(H5Calls!"BS4Navbar");
+static BS4Navbar");
 
 ///
 unittest { {

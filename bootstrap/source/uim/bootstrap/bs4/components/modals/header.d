@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4ModalHeader : BS4Obj {
 	mixin(H5This!("DIV", ["modal-header"]));
 }
-mixin(H5Calls!"BS4ModalHeader");
+static BS4ModalHeader");
 
 ///
 unittest { {

@@ -18,7 +18,7 @@ class BS4Pagination : BS4Obj {
 
 	mixin(MyContent!("link", "this.item", "BS4PageLink"));
 }
-mixin(H5Calls!"BS4Pagination");
+static BS4Pagination");
 
 ///
 unittest { {

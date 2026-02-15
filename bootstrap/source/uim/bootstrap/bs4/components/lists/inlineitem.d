@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4ListInlineItem : BS4Obj {
 	mixin(H5This!("LI", ["list-inline-item"]));
 }
-mixin(H5Calls!"BS4ListInlineItem");
+static BS4ListInlineItem");
 
 ///
 unittest { {

@@ -18,7 +18,7 @@ class BS4NavbarToggler : BS4ButtonObj {
 		return attributes(["data-target": "#" ~ targetId]);
 	}
 }
-mixin(H5Calls!"BS4NavbarToggler");
+static BS4NavbarToggler");
 
 ///
 unittest { {

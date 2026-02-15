@@ -14,7 +14,7 @@ class BS4CustomFileInput : BS4Obj {
 	}
 }
 
-mixin(H5Calls!"BS4CustomFileInput");
+static BS4CustomFileInput");
 ///
 unittest { {
 	assert(BS4CustomFileInput == `<input class="custom-file-input">`);

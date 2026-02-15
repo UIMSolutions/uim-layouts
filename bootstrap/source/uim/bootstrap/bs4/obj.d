@@ -189,7 +189,7 @@ unittest { {
 	}}
 }
 
-mixin(H5Calls!"BS4Obj");
+static BS4Obj");
 
 ///
 unittest { {

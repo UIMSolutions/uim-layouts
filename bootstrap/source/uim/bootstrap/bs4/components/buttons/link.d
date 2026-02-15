@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4ButtonLink : BS4ButtonObj {
 	mixin(H5This!("A", ["btn"], `["type":"button"]`));
 }
-mixin(H5Calls!"BS4ButtonLink");
+static BS4ButtonLink");
 
 ///
 unittest { {

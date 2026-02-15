@@ -16,7 +16,7 @@ class BS4ProgressBar : BS4Obj {
 	O striped(this O)(bool mode = true) { return this.addClasses("progress-bar-striped"); }
 	O animated(this O)(bool mode = true) { return this.addClasses("progress-bar-animated"); }
 }
-mixin(H5Calls!"BS4ProgressBar");
+static BS4ProgressBar");
 
 ///
 unittest { {

@@ -12,7 +12,7 @@ class BS4TableFooter : BS4Obj {
 	mixin(MyContent!("row", "BS4TableRow"));
 	mixin(MyContent!("tr", "BS4TableRow"));
 }
-mixin(H5Calls!"BS4TableFooter");
+static BS4TableFooter");
 
 ///
 unittest { {

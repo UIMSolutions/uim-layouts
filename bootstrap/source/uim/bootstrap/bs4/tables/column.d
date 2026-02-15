@@ -22,7 +22,7 @@ class BS4TableColumn : BS4Obj {
 		return super.renderHTML;
 	}
 }
-mixin(H5Calls!"BS4TableColumn");
+static BS4TableColumn");
 
 ///
 unittest { {

@@ -58,7 +58,7 @@ unittest { {
 	mixin(MyContent!("url", "BS4InputUrl"));
 	mixin(MyContent!("week", "BS4InputWeek"));
 }
-mixin(H5Calls!"BS4InputGroup");
+static BS4InputGroup");
 
 ///
 unittest { {

@@ -18,7 +18,7 @@ unittest { {
 
 	mixin(MyContent!("label", "BS4FormCheckLabel"));
 }
-mixin(H5Calls!"BS4FormCheck");
+static BS4FormCheck");
 
 ///
 unittest { {

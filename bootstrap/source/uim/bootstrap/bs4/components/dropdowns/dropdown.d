@@ -12,7 +12,7 @@ class BS4Dropdown : BS4Obj {
 	mixin(MyContent!("menu", "BS4DropdownMenu"));
 	mixin(MyContent!("toggleLink", "BS4ToggleLink"));
 }
-mixin(H5Calls!"BS4Dropdown");
+static BS4Dropdown");
 
 ///
 unittest { {

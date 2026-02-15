@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4FormCheckLabel : BS4Obj {
 	mixin(H5This!("LABEL", ["form-check-label"]));
 }
-mixin(H5Calls!"BS4FormCheckLabel");
+static BS4FormCheckLabel");
 
 ///
 unittest { {

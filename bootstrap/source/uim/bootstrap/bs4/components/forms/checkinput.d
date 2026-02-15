@@ -17,7 +17,7 @@ unittest { {
 		assert(BS4FormCheckInput == `<input class="form-check-input">`);
 	}}
 }
-mixin(H5Calls!"BS4FormCheckInput");
+static BS4FormCheckInput");
 
 ///
 unittest { {

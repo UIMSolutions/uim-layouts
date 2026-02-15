@@ -16,7 +16,7 @@ unittest { {
 		assert(BS4NavItem.dropdown == `<li class="dropdown nav-item"></li>`);
 	}}
 }
-mixin(H5Calls!"BS4NavItem");
+static BS4NavItem");
 
 ///
 unittest { {

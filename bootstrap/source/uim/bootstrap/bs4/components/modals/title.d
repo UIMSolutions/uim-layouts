@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4ModalTitle : BS4Obj {
 	mixin(H5This!("H5", ["modal-title"]));
 }
-mixin(H5Calls!"BS4ModalTitle");
+static BS4ModalTitle");
 
 ///
 unittest { {

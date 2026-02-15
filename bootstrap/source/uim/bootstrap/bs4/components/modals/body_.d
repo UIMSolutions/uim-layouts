@@ -10,7 +10,7 @@ class BS4ModalBody : BS4Obj {
 	mixin(H5This!("Div", ["modal-body"]));
 }
 
-mixin(H5Calls!"BS4ModalBody");
+static BS4ModalBody");
 
 ///
 unittest { {

@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4CardBlockquote : BS4Obj {
 	mixin(H5This!("BLOCKQUOTE", ["card-blockquote"]));
 }
-mixin(H5Calls!"BS4CardBlockquote");
+static BS4CardBlockquote");
 ///
 ///
 unittest { {

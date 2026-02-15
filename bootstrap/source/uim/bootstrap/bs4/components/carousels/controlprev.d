@@ -15,7 +15,7 @@ class BS4CarouselControlPrev : BS4Obj {
 	}
 }
 
-mixin(H5Calls!"BS4CarouselControlPrev");
+static BS4CarouselControlPrev");
 ///
 unittest { {
 	assert(BS4CarouselControlPrev, 

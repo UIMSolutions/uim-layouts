@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4NavHeader : BS4Obj {
 	mixin(H5This!("li", ["nav-header"]));
 }
-mixin(H5Calls!"BS4NavHeader");
+static BS4NavHeader");
 
 ///
 unittest { {

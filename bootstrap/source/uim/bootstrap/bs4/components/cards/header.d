@@ -11,7 +11,7 @@ mixin(showmodule!());
 class BS4CardHeader : BS4Obj {
 	mixin(H5This!("DIV", ["card-header"]));
 }
-mixin(H5Calls!"BS4CardHeader");
+static BS4CardHeader");
 ///
 unittest { {
 	assert(BS4CardHeader == `<div class="card-header"></div>`);

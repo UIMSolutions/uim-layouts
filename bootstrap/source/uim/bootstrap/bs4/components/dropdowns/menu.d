@@ -22,7 +22,7 @@ unittest { {
 		assert(BS4DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
 	}}
 }
-mixin(H5Calls!"BS4DropdownMenu");
+static BS4DropdownMenu");
 
 ///
 unittest { {

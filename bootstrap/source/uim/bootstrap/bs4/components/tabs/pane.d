@@ -12,7 +12,7 @@ class BS4TabPane : BS4Obj {
 	O active(this O)(bool value = true) { if (value) { this.addClasses("active").attributes("aria-expanded", "true"); } return cast(O)this; }
 	O fade(this O)(bool value = true) { if (value) this.addClasses("fade"); return cast(O)this; }
 }
-mixin(H5Calls!"BS4TabPane");
+static BS4TabPane");
 
 ///
 unittest { {

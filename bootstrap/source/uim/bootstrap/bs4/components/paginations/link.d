@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4PageLink : BS4Obj {
 	mixin(H5This!("A", ["page-link"], `["href":"#"]`));
 }
-mixin(H5Calls!"BS4PageLink");
+static BS4PageLink");
 
 ///
 unittest { {

@@ -11,7 +11,7 @@ class BS4Media : BS4Obj {
 
 	mixin(MyContent!("body_", "BS4MediaBody"));
 }
-mixin(H5Calls!"BS4Media");
+static BS4Media");
 
 ///
 unittest { {

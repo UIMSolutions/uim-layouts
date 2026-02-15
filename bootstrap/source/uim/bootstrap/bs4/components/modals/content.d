@@ -11,7 +11,7 @@ class BS4ModalContent : BS4Obj {
 
 	O fade(this O)(bool mode = true) { return this.addClasses("fade"); }
 }
-mixin(H5Calls!"BS4ModalContent");
+static BS4ModalContent");
 
 ///
 unittest { {
