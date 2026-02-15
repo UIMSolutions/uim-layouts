@@ -7,52 +7,52 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5TableRow : BS5Obj {
-	mixin(H5This!"Tr");
+  mixin(H5This!"Tr");
 
-	/// Adding a header cell
-	mixin(MyContent!("th", "H5Th"));
-	///
+  /// Adding a header cell
+  mixin(MyContent!("th", "H5Th"));
+  ///
 unittest {
-		assert(BS5TableRow.th == `<tr><th></th></tr>`);
-	}}
+    assert(BS5TableRow.th == `<tr><th></th></tr>`);
+  }}
 
-	/// Adding a cell
-	mixin(MyContent!("cell", "H5Td"));
-	mixin(MyContent!("td", "H5Td"));
-	///
+  /// Adding a cell
+  mixin(MyContent!("cell", "H5Td"));
+  mixin(MyContent!("td", "H5Td"));
+  ///
 unittest {
-		assert(BS5TableRow.cell == `<tr><td></td></tr>`);
-		assert(BS5TableRow.td == `<tr><td></td></tr>`);
-	}
+    assert(BS5TableRow.cell == `<tr><td></td></tr>`);
+    assert(BS5TableRow.td == `<tr><td></td></tr>`);
+  }
 
 /*
-	mixin(TProperty!("STRINGAA", "keyPairs"));
-	mixin(TProperty!("string[]", "values"));
+  mixin(TProperty!("STRINGAA", "keyPairs"));
+  mixin(TProperty!("string[]", "values"));
 
-	string renderHTML(BS5TableColumn[] columns) {
-		this.clearContent;
-		if (_keyPairs.empty) return renderHTML;
-		else {
-			foreach(col; columns) {
-				if (col.key in _keyPairs) this.content("<td>"~_keyPairs[col.key]~"</td>");
-			}
-		}
-		return super.renderHTML;
-	}
-	override string renderHTML(STRINGAA bindings = null) {
-		this.clearContent;
-		if ((_values.length == 0) && (!_keyPairs.empty)) _values = _keyPairs.values;
-		foreach(v; _values) {
-			this.content("<td>"~v~"</td>");
-		}
-		return super.renderHTML;
-	}*/
+  string renderHTML(BS5TableColumn[] columns) {
+    this.clearContent;
+    if (_keyPairs.empty) return renderHTML;
+    else {
+      foreach(col; columns) {
+        if (col.key in _keyPairs) this.content("<td>"~_keyPairs[col.key]~"</td>");
+      }
+    }
+    return super.renderHTML;
+  }
+  override string renderHTML(STRINGAA bindings = null) {
+    this.clearContent;
+    if ((_values.length == 0) && (!_keyPairs.empty)) _values = _keyPairs.values;
+    foreach(v; _values) {
+      this.content("<td>"~v~"</td>");
+    }
+    return super.renderHTML;
+  }*/
 } 
 static BS5TableRow");
 
 ///
 unittest {
-	assert(BS5TableRow == "<tr></tr>");
-	//assert(BS5TableRow.values(["a","b"]) == `<tr><td>a</td><td>b</td></tr>`);
+  assert(BS5TableRow == "<tr></tr>");
+  //assert(BS5TableRow.values(["a","b"]) == `<tr><td>a</td><td>b</td></tr>`);
 }}
 

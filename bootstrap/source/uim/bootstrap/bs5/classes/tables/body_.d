@@ -7,20 +7,20 @@ mixin(ShowModule!());
 @safe:
 
 class BS5TableBody : BS5Obj {
-	mixin(H5This!"Tbody");
+  mixin(H5This!"Tbody");
 
-	mixin(MyContent!("row", "BS5TableRow"));
-	mixin(MyContent!("tr", "BS5TableRow"));
-	///
-	unittest {
-		assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
-	}
+  mixin(MyContent!("row", "BS5TableRow"));
+  mixin(MyContent!("tr", "BS5TableRow"));
+  ///
+  unittest {
+    assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
+  }
 
-	static BS5TableBody opCall() {
-		return new BS5TableBody;
-	}
+  static BS5TableBody opCall() {
+    return new BS5TableBody;
+  }
 }
 ///
 unittest {
-	assert(BS5TableBody == `<tbody></tbody>`);
+  assert(BS5TableBody == `<tbody></tbody>`);
 }
