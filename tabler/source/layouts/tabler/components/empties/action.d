@@ -8,6 +8,7 @@ class BS5EmptyAction : BS5Obj {
 }
 static BS5EmptyAction");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5EmptyAction, `<div class="empty-action"></div>`);
 }}

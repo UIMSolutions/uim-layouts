@@ -8,6 +8,7 @@ class BS5EmptyIcon : BS5Obj {
 }
 static BS5EmptyIcon");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5EmptyIcon, `<div class="empty-icon"></div>`);
 }}

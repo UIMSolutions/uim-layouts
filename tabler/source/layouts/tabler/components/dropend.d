@@ -8,6 +8,7 @@ class BS5Dropend : BS5Obj {
 }
 static BS5Dropend");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5Dropend, `<div class="dropend"></div>`);
 }}

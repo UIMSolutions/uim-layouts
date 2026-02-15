@@ -8,6 +8,7 @@ class BS5TimelineTitle : BS5Obj {
 }
 static BS5TimelineTitle");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5TimelineTitle == `<p class="list-timeline-title"></p>`);
 }}

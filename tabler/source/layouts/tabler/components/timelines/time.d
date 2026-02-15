@@ -8,6 +8,7 @@ class BS5TimelineTime : BS5Obj {
 }
 static BS5TimelineTime");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5TimelineTime, `<div class="list-timeline-time"></div>`);
 }}

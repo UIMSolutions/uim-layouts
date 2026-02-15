@@ -8,6 +8,7 @@ class BS5NavLinkTitle : BS5Obj {
 }
 static BS5NavLinkTitle");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5NavLinkTitle, `<span class="nav-link-title"></span>`);
 }}

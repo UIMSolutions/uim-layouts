@@ -11,7 +11,8 @@ class DTABFormCheck : BS5Obj {
 }
 static TABFormCheck");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(TABFormCheck, `<label class="form-check"></label>`);
 }}
 

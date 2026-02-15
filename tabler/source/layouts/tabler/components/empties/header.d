@@ -8,6 +8,7 @@ class BS5EmptyHeader : BS5Obj {
 }
 static BS5EmptyHeader");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5EmptyHeader == `<div class="empty-header"></div>`);
 }}

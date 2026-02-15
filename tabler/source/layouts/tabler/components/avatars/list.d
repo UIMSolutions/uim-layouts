@@ -10,7 +10,8 @@ class BS5AvatarList : BS5Obj {
 }
 static BS5AvatarList");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5AvatarList, `<div class="avatar-list"></div>`);
 	assert(BS5AvatarList.avatar, `<div class="avatar-list"><span class="avatar"></span></div>`);
 }}

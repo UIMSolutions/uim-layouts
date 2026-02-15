@@ -10,7 +10,8 @@ import layouts.tabler;
 }
 static BS5AccordionCollapse");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5AccordionCollapse, `<div class="accordion-collapse collapse"></div>`);
 }
  */

@@ -8,6 +8,7 @@ class BS5NavLinkIcon : BS5Obj {
 }
 static BS5NavLinkIcon");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);
 }}

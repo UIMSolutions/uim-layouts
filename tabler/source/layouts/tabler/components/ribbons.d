@@ -8,6 +8,7 @@ class BS5Ribbon : BS5Obj {
 }
 static BS5Ribbon");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5Ribbon == `<div class="ribbon"></div>`);
 }}

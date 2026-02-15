@@ -10,7 +10,8 @@ class BS5TimelineIcon : BS5Obj {
 }
 static BS5TimelineIcon");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5TimelineIcon, `<span class="status"></span>`);
 	assert(BS5TimelineIcon.color("blue"),`<div class="bg-blue list-timeline-icon"></div>`);
 }}

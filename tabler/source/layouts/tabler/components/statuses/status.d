@@ -12,7 +12,8 @@ class BS5Status : BS5Obj {
 }
 static BS5Status");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5Status == `<span class="status"></span>`);
 	assert(BS5Status.color("blue") == `<span class="status status-blue"></span>`);
 	assert(BS5Status.lite == `<span class="status status-lite"></span>`);

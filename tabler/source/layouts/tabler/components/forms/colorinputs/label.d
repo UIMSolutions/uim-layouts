@@ -8,7 +8,8 @@ class BS5FormColorInputLabel : BS5Obj {
 }
 static BS5FormColorInputLabel");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5FormColorInputLabel, `<label class="form-colorinput">`);
 }}
 

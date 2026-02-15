@@ -8,7 +8,8 @@ class BS5FormColorInputRadio : BS5FormColorInput {
 }
 static BS5FormColorInputRadio");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5FormColorInputRadio, `<input class="form-colorinput-input">`);
 }}
 

@@ -8,7 +8,8 @@ import layouts.tabler;
 }
 static BS5AccordionHeader");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5AccordionHeader, `<h2 class="accordion-header"></h2>`);
 }
  */

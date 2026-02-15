@@ -22,7 +22,8 @@ class BS5DropdownMenuColumn : BS5Obj {
 }
 static BS5DropdownMenuColumn");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5DropdownMenuColumn, `<div class="dropdown-menu-column"></div>`);
 	assert(BS5DropdownMenuColumn.link, `<div class="dropdown-menu-column"><a class="dropdown-item"></a></div>`);
 }}

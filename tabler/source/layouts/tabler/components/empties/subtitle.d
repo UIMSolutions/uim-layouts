@@ -8,6 +8,7 @@ class BS5EmptySubtitle : BS5Obj {
 }
 static BS5EmptySubtitle");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5EmptySubtitle == `<p class="empty-subtitle"></p>`);
 }}

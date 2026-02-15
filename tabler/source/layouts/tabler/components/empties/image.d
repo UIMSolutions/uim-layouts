@@ -8,6 +8,7 @@ class BS5EmptyImage : BS5Obj {
 }
 static BS5EmptyImage");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5EmptyImage == `<div class="empty-img"></div>`);
 }}

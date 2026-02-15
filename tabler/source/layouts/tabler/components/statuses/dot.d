@@ -12,7 +12,8 @@ class BS5StatusDot : BS5Obj {
 }
 static BS5StatusDot");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5StatusDot, `<span class="status-dot"></span>`);
   assert(BS5StatusDot.animated,`<span class="status-dot status-dot-animated"></span>`);
   assert(BS5Status.color("blue"),`<span class="status-dot status-blue"></span>`);

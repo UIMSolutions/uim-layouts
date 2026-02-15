@@ -8,7 +8,8 @@ class BS5SelectgroupLabel : BS5Obj {
 }
 static BS5SelectgroupLabel");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`);
 }}
 

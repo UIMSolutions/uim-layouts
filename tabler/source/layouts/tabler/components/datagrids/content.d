@@ -10,7 +10,8 @@ class BS5DatagridContent : BS5Obj {
 }
 static BS5DatagridContent");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5DatagridContent, `<div class="datagrid-content"></div>`);
 	assert(BS5DatagridContent.color("blue"),`<div class="bg-blue datagrid-content"></div>`);
 }}

@@ -8,6 +8,7 @@ class BS5CardTabs : BS5Obj {
 }
 static BS5CardTabs");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5CardTabs, `<div class="card-tabs"></div>`);
 }}

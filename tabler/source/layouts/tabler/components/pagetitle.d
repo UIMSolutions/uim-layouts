@@ -8,6 +8,7 @@ class BS5PageTitle : BS5Obj {
 }
 static BS5PageTitle");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5PageTitle, `<h2 class="page-title"></h2>`);
 }}

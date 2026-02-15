@@ -13,6 +13,7 @@ class BS5ImageCheckImage : BS5Obj {
 }
 static BS5ImageCheckImage");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5ImageCheckImage, `<img class="form-imagecheck-image">`);
 }}

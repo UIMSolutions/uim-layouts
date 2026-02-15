@@ -8,6 +8,7 @@ class BS5PageHeader : BS5Obj {
 }
 static BS5PageHeader");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5PageHeader, `<div class="page-header"></div>`);
 }}

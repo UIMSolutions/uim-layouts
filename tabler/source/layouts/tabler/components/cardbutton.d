@@ -8,6 +8,7 @@ class BS5CardButton : BS5Obj {
 }
 static BS5CardButton");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5CardButton, `<a class="card-btn"></a>`);
 }}

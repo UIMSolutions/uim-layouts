@@ -11,6 +11,7 @@ class BS5SelectgroupItem : BS5Obj {
 }
 static BS5SelectgroupItem");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5SelectgroupItem, `<label class="form-selectgroup-item"></label>`);
 }}

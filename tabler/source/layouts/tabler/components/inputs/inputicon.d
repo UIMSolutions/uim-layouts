@@ -8,6 +8,7 @@ class BS5InputIcon : BS5Obj {
 }
 static BS5InputIcon");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5InputIcon, `<div class="input-icon"></div>`);
 }}

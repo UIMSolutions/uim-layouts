@@ -8,6 +8,7 @@ class BS5SelectgroupInput : BS5Obj {
 }
 static BS5SelectgroupInput");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5SelectgroupInput, `<input class="form-selectgroup-input">`);
 }}

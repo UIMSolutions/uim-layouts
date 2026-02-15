@@ -8,7 +8,8 @@ class DTABFormCheckLabel : BS5Obj {
 }
 static TABFormCheckLabel");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(TABFormCheckLabel, `<span class="form-check-label"></span>`);
 }}
 

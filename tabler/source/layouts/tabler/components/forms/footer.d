@@ -8,7 +8,8 @@ class BS5FormFooter : BS5Obj {
 }
 static BS5FormFooter");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5FormFooter, `<div class="form-footer"></div>`);
 }}
 

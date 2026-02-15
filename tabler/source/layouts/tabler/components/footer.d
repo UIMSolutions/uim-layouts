@@ -8,6 +8,7 @@ class BS5Footer : BS5Obj {
 }
 static BS5Footer");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5Footer, `<footer class="footer"></footer>`);
 }}

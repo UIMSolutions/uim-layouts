@@ -8,7 +8,8 @@ class DTABFormCheckInput : BS5Obj {
 }
 static TABFormCheckInput");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(TABFormCheckInput, `<input class="form-check-input">`);
 }}
 

@@ -8,6 +8,7 @@ class BS5ImageCheckLabel : BS5Obj {
 }
 static BS5ImageCheckLabel");
 
-version(test_layout_tabler) { unittest {
+///
+unittest {
 	assert(BS5ImageCheckLabel, `<label class="form-imagecheck"></label>`);
 }}
