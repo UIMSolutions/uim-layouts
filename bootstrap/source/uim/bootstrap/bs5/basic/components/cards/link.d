@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5CardLink : BS5Obj {
 	mixin(H5This!("A", ["card-link"], `["href":"#"]`));
 }
-mixin(H5Calls!"BS5CardLink");
+static BS5CardLink");
 
 ///
 unittest { {

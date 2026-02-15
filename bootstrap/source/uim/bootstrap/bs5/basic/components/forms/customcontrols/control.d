@@ -21,7 +21,7 @@ class BS5CustomControl : BS5Obj {
 	mixin(MyContent!("radio", "BS5CustomRadio"));
 	mixin(MyContent!("label", "H5Label"));	
 }
-mixin(H5Calls!"BS5CustomControl");
+static BS5CustomControl");
 
 ///
 unittest { {

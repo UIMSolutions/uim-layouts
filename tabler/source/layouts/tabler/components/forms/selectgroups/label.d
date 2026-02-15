@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5SelectgroupLabel : BS5Obj {
 	mixin(H5This!("span", ["form-selectgroup-label"]));
 }
-mixin(H5Calls!"BS5SelectgroupLabel");
+static BS5SelectgroupLabel");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`);

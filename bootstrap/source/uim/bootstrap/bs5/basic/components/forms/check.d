@@ -14,7 +14,7 @@ class BS5FormCheck : BS5Obj {
 	
 	mixin(MyContent!("label", "BS5FormCheckLabel"));
 }
-mixin(H5Calls!"BS5FormCheck");
+static BS5FormCheck");
 
 ///
 unittest { {

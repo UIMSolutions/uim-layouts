@@ -10,7 +10,7 @@ mixin(showmodule!());
 class BS5CardOverlay : BS5Obj {
 	mixin(H5This!("Div", ["card-img-overlay"]));
 }
-mixin(H5Calls!"BS5CardOverlay");
+static BS5CardOverlay");
 
 ///
 unittest { {

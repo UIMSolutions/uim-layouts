@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5FormColorInputColor : BS5Obj {
 	mixin(H5This!("span", ["form-colorinput-color"]));
 }
-mixin(H5Calls!"BS5FormColorInputColor");
+static BS5FormColorInputColor");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5FormColorInputColor, `<span class="form-colorinput-color"></span>`);

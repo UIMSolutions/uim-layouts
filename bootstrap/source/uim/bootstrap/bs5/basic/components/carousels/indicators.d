@@ -20,7 +20,7 @@ unittest { {
 		assert(BS5CarouselIndicators.indicator.toString == `<div class="carousel-indicators"><button></button></div>`);
 	}}
 }
-mixin(H5Calls!"BS5CarouselIndicators");
+static BS5CarouselIndicators");
 ///
 unittest { {
 	assert(BS5CarouselIndicators.toString == `<div class="carousel-indicators"></div>`);
@@ -29,4 +29,4 @@ unittest { {
 class BS5CarouselIndicator : BS5Obj {
 	mixin(H5This!("button", ["carousel-indicator"]));
 }
-mixin(H5Calls!"BS5CarouselIndicator");
+static BS5CarouselIndicator");

@@ -49,7 +49,7 @@ class BS5FormGroup : BS5Obj {
 	mixin(MyContent!("url", "BS5InputUrl"));
 	mixin(MyContent!("week", "BS5InputWeek"));
 }
-mixin(H5Calls!"BS5FormGroup");
+static BS5FormGroup");
 
 ///
 unittest { {

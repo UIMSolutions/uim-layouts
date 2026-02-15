@@ -18,7 +18,7 @@ unittest { {
 	
 	O fade(this O)(bool value = true) { if (value) this.addClasses("fade"); return cast(O)this; }
 }
-mixin(H5Calls!"BS5TabPane");
+static BS5TabPane");
 
 ///
 unittest { {

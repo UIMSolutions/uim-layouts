@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5DropdownToggle : BS5Button {
 	mixin(H5This!("Button", ["btn", "dropdown-toggle"], `["aria-haspopup":"true", "aria-expanded":"false"]`));
 }
-mixin(H5Calls!"BS5DropdownToggle");
+static BS5DropdownToggle");
 
 ///
 unittest { {

@@ -8,7 +8,7 @@ import layouts.tabler;
 
 	mixin(MyContent!("body_", "BS5AccordionsBody"));
 }
-mixin(H5Calls!"BS5AccordionCollapse");
+static BS5AccordionCollapse");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5AccordionCollapse, `<div class="accordion-collapse collapse"></div>`);

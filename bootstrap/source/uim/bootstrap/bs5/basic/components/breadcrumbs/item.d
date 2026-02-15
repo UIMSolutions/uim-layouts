@@ -27,7 +27,7 @@ unittest { {
 		assert(BS5BreadcrumbItem.link == `<li class="breadcrumb-item"><a></a></li>`);
 	}}
 }
-mixin(H5Calls!"BS5BreadcrumbItem");
+static BS5BreadcrumbItem");
 
 ///
 unittest { {

@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5ImageCheckFigure : BS5Obj {
 	mixin(H5This!("span", ["form-imagecheck-figure"]));
 }
-mixin(H5Calls!"BS5ImageCheckFigure");
+static BS5ImageCheckFigure");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5ImageCheckFigure, `<span class="form-imagecheck-figure"></span>`);

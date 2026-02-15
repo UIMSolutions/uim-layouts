@@ -16,7 +16,7 @@ class BS5ProgressBar : BS5Obj {
 	O striped(this O)(bool mode = true) { return this.addClasses("progress-bar-striped"); }
 	O animated(this O)(bool mode = true) { return this.addClasses("progress-bar-animated"); }
 }
-mixin(H5Calls!"BS5ProgressBar");
+static BS5ProgressBar");
 
 ///
 unittest { {

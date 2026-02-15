@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5BreadcrumbLink : BS5Obj {	
 	mixin(H5This!("A", null, null));
 }
-mixin(H5Calls!"BS5BreadcrumbLink");
+static BS5BreadcrumbLink");
 
 ///
 unittest { {

@@ -13,7 +13,7 @@ class BS5ListGroup : BS5Obj {
 	mixin(MyContent!("link", "BS5ListLink"));
 	mixin(MyContent!("button", "BS5ListButton"));
 }
-mixin(H5Calls!"BS5ListGroup");
+static BS5ListGroup");
 
 ///
 unittest { {

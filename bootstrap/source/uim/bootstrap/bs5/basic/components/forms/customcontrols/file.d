@@ -13,7 +13,7 @@ class BS5CustomFile : BS5Obj {
 	mixin(MyContent!("label", "BS5CustomFileLabel"));
 }
 
-mixin(H5Calls!"BS5CustomFile");
+static BS5CustomFile");
 
 unittest
 {

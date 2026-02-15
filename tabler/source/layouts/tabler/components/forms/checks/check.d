@@ -9,7 +9,7 @@ class DTABFormCheck : BS5Obj {
     mixin(MyContent!("input", "TABFormCheckInput"));
 	mixin(MyContent!("label", "TABFormCheckLabel"));
 }
-mixin(H5Calls!"TABFormCheck");
+static TABFormCheck");
 
 version(test_layout_tabler) { unittest {
 	assert(TABFormCheck, `<label class="form-check"></label>`);

@@ -8,7 +8,7 @@ class BS5AvatarList : BS5Obj {
 
 	mixin(MyContent!("avatar", "BS5Avatar"));
 }
-mixin(H5Calls!"BS5AvatarList");
+static BS5AvatarList");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5AvatarList, `<div class="avatar-list"></div>`);

@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5PageHeader : BS5Obj {
 	mixin(H5This!("div", ["page-header"]));
 }
-mixin(H5Calls!"BS5PageHeader");
+static BS5PageHeader");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5PageHeader, `<div class="page-header"></div>`);

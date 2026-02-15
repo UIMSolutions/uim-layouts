@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5SelectgroupInput : BS5Obj {
 	mixin(H5This!("input", ["form-selectgroup-input"], null, true));
 }
-mixin(H5Calls!"BS5SelectgroupInput");
+static BS5SelectgroupInput");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5SelectgroupInput, `<input class="form-selectgroup-input">`);

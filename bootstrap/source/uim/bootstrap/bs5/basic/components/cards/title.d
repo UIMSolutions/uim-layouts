@@ -16,7 +16,7 @@ unittest { {
 		assert(BS5CardTitle.level(2) == `<h2 class="card-title"></h2>`);
 	}}
 }
-mixin(H5Calls!"BS5CardTitle");
+static BS5CardTitle");
 
 ///
 unittest { {

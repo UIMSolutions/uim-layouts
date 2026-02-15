@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5ModalFooter : BS5Obj {
 	mixin(H5This!("DIV", ["modal-footer"]));
 }
-mixin(H5Calls!"BS5ModalFooter");
+static BS5ModalFooter");
 
 ///
 unittest { {

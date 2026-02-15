@@ -18,7 +18,7 @@ class BS5Empty : BS5Obj {
 
 	mixin(MyContent!("title", "BS5EmptyTitle"));
 }
-mixin(H5Calls!"BS5Empty");
+static BS5Empty");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5Empty == `<div class="empty"></div>`);

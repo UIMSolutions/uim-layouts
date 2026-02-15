@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5FormFileButton : BS5Obj {
 	mixin(H5This!("span", ["form-file-button"]));
 }
-mixin(H5Calls!"BS5FormFileButton");
+static BS5FormFileButton");
 
 ///
 unittest { {

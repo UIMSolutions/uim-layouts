@@ -11,7 +11,7 @@ class BS5ListItem : BS5Obj {
 
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
 }
-mixin(H5Calls!"BS5ListItem");
+static BS5ListItem");
 
 ///
 unittest { {

@@ -16,7 +16,7 @@ unittest { {
 		assert(BS5CardImage.position("bottom") == `<img class="card-img-bottom">`);
 	}}
 }
-mixin(H5Calls!"BS5CardImage");
+static BS5CardImage");
 
 ///
 unittest { {

@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5Jumbotron : BS5Obj {
 	mixin(H5This!("Div", ["jumbotron"]));
 }
-mixin(H5Calls!"BS5Jumbotron");
+static BS5Jumbotron");
 
 ///
 unittest { {

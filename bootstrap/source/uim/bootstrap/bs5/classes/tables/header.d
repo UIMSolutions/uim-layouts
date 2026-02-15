@@ -18,7 +18,7 @@ unittest { {
 		assert(BS5TableHeader.tr == `<thead><tr></tr></thead>`);
 	}}
 }
-mixin(H5Calls!"BS5TableHeader");
+static BS5TableHeader");
 
 ///
 unittest { {

@@ -19,7 +19,7 @@ class BS5CarouselControlNext : BS5Obj {
 	}
 }
 
-mixin(H5Calls!"BS5CarouselControlNext");
+static BS5CarouselControlNext");
 ///
 unittest { {
 	assert(BS5CarouselControlNext);

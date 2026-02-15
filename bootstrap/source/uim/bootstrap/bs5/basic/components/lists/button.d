@@ -26,7 +26,7 @@ unittest { {
 	/// Set button color
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
 }
-mixin(H5Calls!"BS5ListButton");
+static BS5ListButton");
 
 ///
 unittest { {

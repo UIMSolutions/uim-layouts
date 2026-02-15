@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5EmptyHeader : BS5Obj {
 	mixin(H5This!("div", ["empty-header"]));
 }
-mixin(H5Calls!"BS5EmptyHeader");
+static BS5EmptyHeader");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5EmptyHeader == `<div class="empty-header"></div>`);

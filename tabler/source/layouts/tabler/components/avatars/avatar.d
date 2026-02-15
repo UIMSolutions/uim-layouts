@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5Avatar : BS5Obj {
 	mixin(H5This!("span", ["avatar"]));
 }
-mixin(H5Calls!"BS5Avatar");
+static BS5Avatar");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5Avatar == `<span class="avatar"></span>`);

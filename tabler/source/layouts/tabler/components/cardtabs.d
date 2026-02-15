@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5CardTabs : BS5Obj {
 	mixin(H5This!("div", ["card-tabs"]));
 }
-mixin(H5Calls!"BS5CardTabs");
+static BS5CardTabs");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5CardTabs, `<div class="card-tabs"></div>`);

@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5EmptyImage : BS5Obj {
 	mixin(H5This!("div", ["empty-img"]));
 }
-mixin(H5Calls!"BS5EmptyImage");
+static BS5EmptyImage");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5EmptyImage == `<div class="empty-img"></div>`);

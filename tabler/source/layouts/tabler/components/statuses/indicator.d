@@ -20,7 +20,7 @@ class BS5StatusIndicator : BS5Obj {
 
   O color(this O)(string value){ this.addClasses("status-"~value); return cast(O)this; }
 }
-mixin(H5Calls!"BS5StatusIndicator");
+static BS5StatusIndicator");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5StatusIndicator == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);

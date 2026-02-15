@@ -11,7 +11,7 @@ class BS5ImageCheckInput : BS5Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!"BS5ImageCheckInput");
+static BS5ImageCheckInput");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5ImageCheckInput, `<input class="form-imagecheck-input">`);

@@ -10,7 +10,7 @@ class BS5CardBlock : BS5Obj {
 	mixin(H5This!("DIV", ["card-block"]));
 }
 
-mixin(H5Calls!"BS5CardBlock");
+static BS5CardBlock");
 ///
 unittest { {
 	assert(BS5CardBlock);

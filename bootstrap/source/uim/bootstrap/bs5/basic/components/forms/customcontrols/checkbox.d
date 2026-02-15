@@ -16,7 +16,7 @@ class BS5CustomCheckbox : BS5CustomControl {
       .addClasses("custom-control", "custom-checkbox");
   }
 }
-mixin(H5Calls!"BS5CustomCheckbox");
+static BS5CustomCheckbox");
 
 ///
 unittest { {

@@ -15,7 +15,7 @@ class BS5FormFloating : BS5Obj {
 
   mixin(MyContent!("label", "H5Label"));
 }
-mixin(H5Calls!"BS5FormFloating");
+static BS5FormFloating");
 
 	///
 unittest { {

@@ -14,7 +14,7 @@ class BS5CustomFileInput : BS5Obj {
 	}
 }
 
-mixin(H5Calls!"BS5CustomFileInput");
+static BS5CustomFileInput");
 
 ///
 unittest { {

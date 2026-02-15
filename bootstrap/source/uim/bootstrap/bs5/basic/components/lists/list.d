@@ -38,7 +38,7 @@ unittest { {
 		assert(BS5List.button == `<ul class="list-group"><button class="list-group-item list-group-item-action" type="button"></button></ul>`);
 	}}
 }
-mixin(H5Calls!"BS5List");
+static BS5List");
 
 ///
 unittest { {

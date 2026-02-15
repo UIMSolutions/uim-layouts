@@ -26,7 +26,7 @@ unittest { {
 			.addClasses("dropdown-toggle")
 			.addAttributes(["data-toggle":"dropdown", "role":"button", "aria-haspopup":"true", "aria-expanded":"false"]); }
 }
-mixin(H5Calls!"BS5NavLink");
+static BS5NavLink");
 
 ///
 unittest { {

@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5NavbarCollapse : BS5Obj {
 	mixin(H5This!("div", ["collapse", "navbar-collapse"]));
 }
-mixin(H5Calls!"BS5NavbarCollapse");
+static BS5NavbarCollapse");
 
 ///
 unittest { {

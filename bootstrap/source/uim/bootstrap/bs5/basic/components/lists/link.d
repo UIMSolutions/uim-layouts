@@ -23,7 +23,7 @@ unittest { {
 
 	O color(this O)(string aColor) { return this.addClasses("list-group-item-"~aColor); }
 }
-mixin(H5Calls!"BS5ListLink");
+static BS5ListLink");
 
 ///
 unittest { {

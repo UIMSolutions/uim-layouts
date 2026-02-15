@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5Ribbon : BS5Obj {
 	mixin(H5This!("div", ["ribbon"]));
 }
-mixin(H5Calls!"BS5Ribbon");
+static BS5Ribbon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5Ribbon == `<div class="ribbon"></div>`);

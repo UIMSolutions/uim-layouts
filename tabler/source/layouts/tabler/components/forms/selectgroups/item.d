@@ -9,7 +9,7 @@ class BS5SelectgroupItem : BS5Obj {
 	mixin(MyContent!("input", "BS5SelectgroupInput"));
 	mixin(MyContent!("label", "BS5SelectgroupLabel"));
 }
-mixin(H5Calls!"BS5SelectgroupItem");
+static BS5SelectgroupItem");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5SelectgroupItem, `<label class="form-selectgroup-item"></label>`);

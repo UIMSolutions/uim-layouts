@@ -33,7 +33,7 @@ unittest { {
 		assert(BS5Nav.pills == `<ul class="nav nav-pills"></ul>`);
 	}}
 }
-mixin(H5Calls!"BS5Nav");
+static BS5Nav");
 
 ///
 unittest { {

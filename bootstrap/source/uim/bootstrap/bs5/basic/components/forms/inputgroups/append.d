@@ -21,7 +21,7 @@ unittest { {
 		assert(BS5InputGroupAppend.text == `<div class="input-group-append"><div class="input-group-text"></div></div>`);
 	}}
 }
-mixin(H5Calls!"BS5InputGroupAppend");
+static BS5InputGroupAppend");
 
 ///
 unittest { {

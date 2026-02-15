@@ -13,7 +13,7 @@ class BS5PageLink : BS5Obj {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!"BS5PageLink");
+static BS5PageLink");
 
 ///
 unittest { {

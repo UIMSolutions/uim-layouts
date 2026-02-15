@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5TimelineContent : BS5Obj {
 	mixin(H5This!("div", ["list-timeline-content"]));
 }
-mixin(H5Calls!"BS5TimelineContent");
+static BS5TimelineContent");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5TimelineContent, `<div class="list-timeline-content"></div>`);

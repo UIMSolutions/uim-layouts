@@ -17,7 +17,7 @@ unittest { {
 		assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
 	}}
 }
-mixin(H5Calls!"BS5CardColumns");
+static BS5CardColumns");
 
 ///
 unittest { {

@@ -15,7 +15,7 @@ class BS5CarouselControlPrev : BS5Obj {
 				H5Span(["carousel-control-prev-icon"]), H5Span(["sr-only"], "Previous"));
 	}
 }
-mixin(H5Calls!"BS5CarouselControlPrev");
+static BS5CarouselControlPrev");
 
 ///
 unittest { {

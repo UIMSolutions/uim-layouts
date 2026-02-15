@@ -18,7 +18,7 @@ unittest { {
 		assert(BS5CardGroup.card == `<div class="card-group"><div class="card"></div></div>`);
 	}}
 }
-mixin(H5Calls!"BS5CardGroup");
+static BS5CardGroup");
 
 ///
 unittest { {

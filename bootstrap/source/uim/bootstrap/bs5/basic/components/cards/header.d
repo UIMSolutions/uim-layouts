@@ -11,7 +11,7 @@ mixin(showmodule!());
 class BS5CardHeader : BS5Obj {
 	mixin(H5This!("DIV", ["card-header"]));
 }
-mixin(H5Calls!"BS5CardHeader");
+static BS5CardHeader");
 
 ///
 unittest { {

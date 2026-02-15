@@ -27,7 +27,7 @@ unittest { {
 		assert(BS5ModalDialog.centered == `<div class="modal-dialog modal-dialog-centered" role="document"></div>`);
 	}}
 }
-mixin(H5Calls!"BS5ModalDialog");
+static BS5ModalDialog");
 
 ///
 unittest { {

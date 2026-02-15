@@ -11,7 +11,7 @@ class BS5CustomFileLabel : BS5Obj
 	mixin(H5This!("LABEL", ["custom-file-label"]));
 }
 
-mixin(H5Calls!"BS5CustomFileLabel");
+static BS5CustomFileLabel");
 
 unittest
 {

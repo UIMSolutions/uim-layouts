@@ -14,7 +14,7 @@ class BS5CarouselItem : BS5Obj {
 		return cast(O)this;
 	}
 }
-mixin(H5Calls!"BS5CarouselItem");
+static BS5CarouselItem");
 
 ///
 unittest { {

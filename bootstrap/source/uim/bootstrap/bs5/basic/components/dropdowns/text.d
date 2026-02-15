@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5DropdownText : BS5Obj {
 	mixin(H5This!("p", null, null));
 }
-mixin(H5Calls!"BS5DropdownText");
+static BS5DropdownText");
 
 ///
 unittest { {

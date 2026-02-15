@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5FormFooter : BS5Obj {
 	mixin(H5This!("div", ["form-footer"]));
 }
-mixin(H5Calls!"BS5FormFooter");
+static BS5FormFooter");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5FormFooter, `<div class="form-footer"></div>`);

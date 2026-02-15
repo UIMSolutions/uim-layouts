@@ -46,7 +46,7 @@ unittest { {
 	mixin(MyContent!("link", "BS5ButtonLink"));
 }
 
-mixin(H5Calls!"BS5ButtonGroup");
+static BS5ButtonGroup");
 
 ///
 unittest { {

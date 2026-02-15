@@ -11,7 +11,7 @@ class BS5ModalBody : BS5Obj
 	mixin(H5This!("Div", ["modal-body"]));
 }
 
-mixin(H5Calls!"BS5ModalBody");
+static BS5ModalBody");
 
 unittest
 {

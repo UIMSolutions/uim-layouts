@@ -6,7 +6,7 @@ import layouts.tabler;
 /* class BS5AccordionBody : BS5Obj {
 	mixin(H5This!("div", ["accordion-body"]));
 }
-mixin(H5Calls!"BS5AccordionBody");
+static BS5AccordionBody");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5AccordionBody, `<div class="accordion-body"></div>`);

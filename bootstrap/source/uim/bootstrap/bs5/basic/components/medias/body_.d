@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5MediaBody : BS5Obj {
 	mixin(H5This!("DIV", ["media-body"]));
 }
-mixin(H5Calls!"BS5MediaBody");
+static BS5MediaBody");
 
 ///
 unittest { {

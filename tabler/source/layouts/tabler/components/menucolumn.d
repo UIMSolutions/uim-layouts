@@ -20,7 +20,7 @@ class BS5DropdownMenuColumn : BS5Obj {
 
 	mixin(MyContent!("text", "BS5DropdownText"));
 }
-mixin(H5Calls!"BS5DropdownMenuColumn");
+static BS5DropdownMenuColumn");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5DropdownMenuColumn, `<div class="dropdown-menu-column"></div>`);

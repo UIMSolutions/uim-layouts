@@ -13,7 +13,7 @@ class BS5FormLabel : BS5Obj {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!"BS5FormLabel");
+static BS5FormLabel");
 
 ///
 unittest { {

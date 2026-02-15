@@ -48,7 +48,7 @@ unittest { {
 		return super.renderHTML;
 	}*/
 } 
-mixin(H5Calls!"BS5TableRow");
+static BS5TableRow");
 
 ///
 unittest { {

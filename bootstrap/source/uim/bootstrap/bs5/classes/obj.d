@@ -185,7 +185,7 @@ unittest { {
 	}
  */
 }
-mixin(H5Calls!"BS5Obj");
+static BS5Obj");
 
 ///
 unittest { {

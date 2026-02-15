@@ -20,7 +20,7 @@ class BS5Pagination : BS5Obj {
 	mixin(MyContent!("item", "BS5PageItem"));
 	mixin(MyContent!("link", "this.item", "BS5PageLink"));
 }
-mixin(H5Calls!"BS5Pagination");
+static BS5Pagination");
 
 ///
 unittest { {

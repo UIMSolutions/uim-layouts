@@ -13,7 +13,7 @@ class BS5CustomInput : BS5Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!"BS5CustomInput");
+static BS5CustomInput");
 
 ///
 unittest { {

@@ -12,7 +12,7 @@ class BS5ListDivItem : BS5Obj { // I know, it's a ugly name
 
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
 }
-mixin(H5Calls!"BS5ListDivItem");
+static BS5ListDivItem");
 
 ///
 unittest { {

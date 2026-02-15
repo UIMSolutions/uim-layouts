@@ -10,7 +10,7 @@ class BS5Status : BS5Obj {
 
   O lite(this O)(bool value = true){ if (value) this.addClasses("status-lite"); return cast(O)this; }
 }
-mixin(H5Calls!"BS5Status");
+static BS5Status");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5Status == `<span class="status"></span>`);

@@ -10,7 +10,7 @@ class BS5NavPills : BS5Obj {
 	mixin(H5This!("UL", ["nav", "nav-pills"], `["role":"tablist"]`));
 	mixin(MyContent!("item", "BS5NavItem"));
 }
-mixin(H5Calls!"BS5NavPills");
+static BS5NavPills");
 
 ///
 unittest { {

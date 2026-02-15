@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5FormColorInputRadio : BS5FormColorInput {
 	mixin(H5This!("input", ["form-colorinput-input"], null, true));
 }
-mixin(H5Calls!"BS5FormColorInputRadio");
+static BS5FormColorInputRadio");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5FormColorInputRadio, `<input class="form-colorinput-input">`);

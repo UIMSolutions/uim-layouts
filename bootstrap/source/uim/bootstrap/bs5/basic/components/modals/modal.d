@@ -24,7 +24,7 @@ unittest { {
 				BS5Modal.fade == `<div class="fade modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 	}}
 }
-mixin(H5Calls!"BS5Modal");
+static BS5Modal");
 
 ///
 unittest { {

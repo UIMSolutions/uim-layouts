@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5FormFile : BS5Obj {
 	mixin(H5This!("div", ["form-file"]));
 }
-mixin(H5Calls!"BS5FormFile");
+static BS5FormFile");
 
 ///
 unittest { {

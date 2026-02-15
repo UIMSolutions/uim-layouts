@@ -6,7 +6,7 @@ import layouts.tabler;
 class DTABFormCheckInput : BS5Obj {
 	mixin(H5This!("input", ["form-check-input"], null, true));
 }
-mixin(H5Calls!"TABFormCheckInput");
+static TABFormCheckInput");
 
 version(test_layout_tabler) { unittest {
 	assert(TABFormCheckInput, `<input class="form-check-input">`);

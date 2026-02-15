@@ -33,7 +33,7 @@ class BS5ButtonObj : BS5Obj {
 		return super.renderHTML;
 	}
 }
-mixin(H5Calls!"BS5ButtonObj");
+static BS5ButtonObj");
 
 ///
 unittest { {

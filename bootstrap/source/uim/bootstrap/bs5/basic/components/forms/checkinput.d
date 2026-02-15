@@ -13,7 +13,7 @@ class BS5FormCheckInput : BS5Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!"BS5FormCheckInput");
+static BS5FormCheckInput");
 
 ///
 unittest { {

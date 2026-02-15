@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5TimelineTitle : BS5Obj {
 	mixin(H5This!("p", ["list-timeline-title"]));
 }
-mixin(H5Calls!"BS5TimelineTitle");
+static BS5TimelineTitle");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5TimelineTitle == `<p class="list-timeline-title"></p>`);

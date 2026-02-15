@@ -57,7 +57,7 @@ unittest { {
 	}*/
 }
 
-mixin(H5Calls!"BS5Navbar");
+static BS5Navbar");
 
 ///
 unittest { {

@@ -11,7 +11,7 @@ class BS5Progress : BS5Obj {
 
 	mixin(MyContent!("bar", "BS5ProgressBar"));
 }
-mixin(H5Calls!"BS5Progress");
+static BS5Progress");
 
 ///
 unittest { {

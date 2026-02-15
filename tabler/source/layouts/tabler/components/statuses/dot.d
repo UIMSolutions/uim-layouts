@@ -10,7 +10,7 @@ class BS5StatusDot : BS5Obj {
 
   O color(this O)(string value){ this.classes("status-"~value); return cast(O)this; }
 }
-mixin(H5Calls!"BS5StatusDot");
+static BS5StatusDot");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5StatusDot, `<span class="status-dot"></span>`);

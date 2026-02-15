@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5Collapse : BS5Obj {
 	mixin(H5This!("Div", ["collapse"]));
 }
-mixin(H5Calls!"BS5Collapse");
+static BS5Collapse");
 
 ///
 unittest { {

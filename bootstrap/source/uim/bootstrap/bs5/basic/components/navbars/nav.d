@@ -21,7 +21,7 @@ unittest { {
 		assert(BS5NavbarNav.link == `<ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="#"></a></li></ul>`);
 	}}
 }
-mixin(H5Calls!"BS5NavbarNav");
+static BS5NavbarNav");
 
 ///
 unittest { {

@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5NavLinkIcon : BS5Obj {
 	mixin(H5This!("span", ["nav-link-icon"]));
 }
-mixin(H5Calls!"BS5NavLinkIcon");
+static BS5NavLinkIcon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);

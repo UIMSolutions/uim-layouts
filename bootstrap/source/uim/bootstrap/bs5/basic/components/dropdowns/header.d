@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5DropdownHeader : BS5Obj {
 	mixin(H5This!("H6", ["dropdown-header"]));
 }
-mixin(H5Calls!"BS5DropdownHeader");
+static BS5DropdownHeader");
 
 ///
 unittest { {

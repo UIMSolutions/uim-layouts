@@ -21,7 +21,7 @@ unittest { {
 		assert(BS5CardBody.text("Hallo") == `<div class="card-body"><p class="card-text">Hallo</p></div>`);
 	}}
 }
-mixin(H5Calls!"BS5CardBody");
+static BS5CardBody");
 
 ///
 unittest { {

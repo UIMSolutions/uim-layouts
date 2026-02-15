@@ -15,7 +15,7 @@ class BS5ModalContent : BS5Obj {
 	mixin(MyContent!("body_", "BS5ModalBody"));
 	mixin(MyContent!("footer", "BS5ModalFooter"));
 }
-mixin(H5Calls!"BS5ModalContent");
+static BS5ModalContent");
 
 ///
 unittest { {

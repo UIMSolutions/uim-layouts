@@ -8,7 +8,7 @@ class BS5DatagridItem : BS5Obj {
 
   O color(this O)(string value){ this.addClasses("bg-"~value); return cast(O)this; }
 }
-mixin(H5Calls!"BS5DatagridItem");
+static BS5DatagridItem");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5DatagridItem, `<div class="datagrid-item"></div>`);

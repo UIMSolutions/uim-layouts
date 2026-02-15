@@ -8,7 +8,7 @@ class BS5DatagridTitle : BS5Obj {
 
   O color(this O)(string newColor){ this.addClasses("bg-"~newColor); return cast(O)this; }
 }
-mixin(H5Calls!"BS5DatagridTitle");
+static BS5DatagridTitle");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5DatagridTitle, `<div class="datagrid-title"></div>`);

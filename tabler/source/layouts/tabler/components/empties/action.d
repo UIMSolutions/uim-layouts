@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5EmptyAction : BS5Obj {
 	mixin(H5This!("div", ["empty-action"]));
 }
-mixin(H5Calls!"BS5EmptyAction");
+static BS5EmptyAction");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5EmptyAction, `<div class="empty-action"></div>`);

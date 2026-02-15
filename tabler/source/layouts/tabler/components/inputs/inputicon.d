@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5InputIcon : BS5Obj {
 	mixin(H5This!("div", ["input-icon"]));
 }
-mixin(H5Calls!"BS5InputIcon");
+static BS5InputIcon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5InputIcon, `<div class="input-icon"></div>`);

@@ -15,7 +15,7 @@ unittest { {
 		assert(BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
 	}}
 }
-mixin(H5Calls!"BS5Breadcrumb");
+static BS5Breadcrumb");
 
 ///
 unittest { {

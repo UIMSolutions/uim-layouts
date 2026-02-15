@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5FormFileText : BS5Obj {
 	mixin(H5This!("span", ["form-file-text"]));
 }
-mixin(H5Calls!"BS5FormFileText");
+static BS5FormFileText");
 
 ///
 unittest { {

@@ -48,7 +48,7 @@ unittest { {
 		assert(BS5Button.size("lg") == `<button class="btn btn-lg" type="button"></button>`);
 	}}
 }
-mixin(H5Calls!"BS5Button");
+static BS5Button");
 
 ///
 unittest { {

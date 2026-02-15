@@ -11,7 +11,7 @@ class BS5ImageCheckImage : BS5Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!"BS5ImageCheckImage");
+static BS5ImageCheckImage");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5ImageCheckImage, `<img class="form-imagecheck-image">`);

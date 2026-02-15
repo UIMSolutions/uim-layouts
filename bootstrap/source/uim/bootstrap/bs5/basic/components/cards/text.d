@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5CardText : BS5Obj {
 	mixin(H5This!("P", ["card-text"]));
 }
-mixin(H5Calls!"BS5CardText");
+static BS5CardText");
 
 ///
 unittest { {

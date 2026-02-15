@@ -19,7 +19,7 @@ unittest { {
 	}}
 }
 
-mixin(H5Calls!"BS5CardDeck");
+static BS5CardDeck");
 ///
 unittest { {
 	assert(BS5CardDeck == `<div class="card-deck"></div>`);

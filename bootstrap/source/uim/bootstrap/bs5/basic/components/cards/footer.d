@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5CardFooter : BS5Obj {
 	mixin(H5This!("Div", ["card-footer"]));
 }
-mixin(H5Calls!"BS5CardFooter");
+static BS5CardFooter");
 
 ///
 unittest { {

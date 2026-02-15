@@ -14,7 +14,7 @@ class BS5Dropdown : BS5Obj {
 	mixin(MyContent!("menu", "BS5DropdownMenu"));
 	mixin(MyContent!("toggleLink", "BS5DropdownToggleLink"));
 }
-mixin(H5Calls!"BS5Dropdown");
+static BS5Dropdown");
 
 ///
 unittest { {

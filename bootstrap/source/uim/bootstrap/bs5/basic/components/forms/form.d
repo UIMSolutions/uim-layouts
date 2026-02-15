@@ -16,7 +16,7 @@ class BS5Form : BS5Obj {
 		mixin(MyContent!("submit", "BS5ButtonSubmit"));
 		mixin(MyContent!("reset", "BS5ButtonReset"));
 }
-mixin(H5Calls!"BS5Form");
+static BS5Form");
 
 ///
 unittest { {

@@ -13,7 +13,7 @@ class BS5CardSubtitle : BS5Obj {
 		_tag = "h6";
 	}
 }
-mixin(H5Calls!"BS5CardSubtitle");
+static BS5CardSubtitle");
 
 ///
 unittest { {

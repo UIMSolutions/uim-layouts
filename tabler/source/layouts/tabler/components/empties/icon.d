@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5EmptyIcon : BS5Obj {
 	mixin(H5This!("div", ["empty-icon"]));
 }
-mixin(H5Calls!"BS5EmptyIcon");
+static BS5EmptyIcon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5EmptyIcon, `<div class="empty-icon"></div>`);

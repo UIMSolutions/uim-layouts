@@ -18,7 +18,7 @@ unittest { {
 		// TODO
 	}}
 }
-mixin(H5Calls!"BS5ButtonLink");
+static BS5ButtonLink");
 
 ///
 unittest { {

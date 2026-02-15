@@ -52,7 +52,7 @@ unittest { {
 		assert(BS5ButtonSubmit.size("lg") == `<button class="btn btn-lg" type="submit"></button>`);
 	}}
 }
-mixin(H5Calls!"BS5ButtonSubmit");
+static BS5ButtonSubmit");
 
 ///
 unittest { {

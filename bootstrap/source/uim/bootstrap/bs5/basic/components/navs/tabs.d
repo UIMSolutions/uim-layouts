@@ -17,7 +17,7 @@ unittest { {
 
 	mixin(MyContent!("link", "BS5NavLink"));
 }
-mixin(H5Calls!"BS5NavTabs");
+static BS5NavTabs");
 
 ///
 unittest { {

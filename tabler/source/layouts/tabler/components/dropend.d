@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5Dropend : BS5Obj {
 	mixin(H5This!("div", ["dropend"]));
 }
-mixin(H5Calls!"BS5Dropend");
+static BS5Dropend");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5Dropend, `<div class="dropend"></div>`);

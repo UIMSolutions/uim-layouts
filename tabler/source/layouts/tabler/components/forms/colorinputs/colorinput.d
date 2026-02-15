@@ -9,7 +9,7 @@ class BS5FormColorinput : BS5Obj {
   mixin(MyContent!("input", "BS5FormColorinputInput"));
 	mixin(MyContent!("color", "BS5FormColorinputColor"));
 }
-mixin(H5Calls!"BS5FormColorinput");
+static BS5FormColorinput");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5FormColorinput, `<label class="form-colorinput"></label>`);
