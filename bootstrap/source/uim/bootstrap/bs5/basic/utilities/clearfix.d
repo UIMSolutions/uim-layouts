@@ -13,4 +13,4 @@ T clearfix(T)(T h5) {
 ///
 unittest {
 	assert(H5Div.clearfix == `<div class="clearfix"></div>`);
-}}
+}

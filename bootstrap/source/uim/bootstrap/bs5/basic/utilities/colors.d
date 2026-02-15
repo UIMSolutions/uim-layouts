@@ -20,4 +20,4 @@ T backgroundColor(T)(T h5, string colorName) {
 unittest {
 	assert(H5Div.textColor("white") == `<div class="text-white"></div>`);
 	assert(H5Div.bgColor("white") == `<div class="bg-white"></div>`);
-}}
+}

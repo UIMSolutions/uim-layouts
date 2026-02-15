@@ -43,4 +43,4 @@ unittest {
 	assert(H5Div.rounded("0") == `<div class="rounded-0"></div>`);
 	assert(H5Div.roundedPosition("top") == `<div class="rounded-top"></div>`);
 	assert(H5Div.roundedPosition("bottom", "top") == `<div class="rounded-bottom rounded-top"></div>`);
-}}
+}

@@ -23,7 +23,7 @@ unittest {
 unittest {
 		assert(BS5TableRow.cell == `<tr><td></td></tr>`);
 		assert(BS5TableRow.td == `<tr><td></td></tr>`);
-	}}
+	}
 
 /*
 	mixin(TProperty!("STRINGAA", "keyPairs"));

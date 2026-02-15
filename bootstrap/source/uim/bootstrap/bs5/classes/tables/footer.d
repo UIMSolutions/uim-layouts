@@ -14,11 +14,13 @@ class BS5TableFooter : BS5Obj {
 	///
 unittest {
 		assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
-	}}	
+	}
+static BS5TableFooter opCall() {
+	return new BS5TableFooter;
 }
-static BS5TableFooter");
+}
 
 ///
 unittest {
 		assert(BS5TableFooter == `<tfoot></tfoot>`);
-}}
+}

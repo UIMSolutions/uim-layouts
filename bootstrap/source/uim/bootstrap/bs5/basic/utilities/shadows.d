@@ -19,4 +19,4 @@ unittest {
 	assert(H5Div.shadow == `<div class="shadow"></div>`);
 	assert(H5Div.shadow("sm") == `<div class="shadow-sm"></div>`);
 	assert(H5Div.shadow("lg") == `<div class="shadow-lg"></div>`);
-}}
+}

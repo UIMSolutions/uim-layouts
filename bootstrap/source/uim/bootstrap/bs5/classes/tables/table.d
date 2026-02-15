@@ -4,49 +4,52 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5Table : BS5Obj {
 	mixin(H5This!("TABLE", ["table"]));
 
 	mixin(MyContent!("caption", "H5Caption"));
 	///
-unittest {
+	unittest {
 		assert(BS5Table.caption("test") == `<table class="table"><caption>test</caption></table>`);
-	}}	
+	}
 
 	mixin(MyContent!("head", "H5Thead"));
 	mixin(MyContent!("header", "H5Thead"));
 	///
-unittest {
+	unittest {
 		assert(BS5Table.head == `<table class="table"><thead></thead></table>`);
 		assert(BS5Table.header == `<table class="table"><thead></thead></table>`);
-	}}	
+	}
 
 	mixin(MyContent!("body_", "H5Tbody"));
 	///
-unittest {
+	unittest {
 		assert(BS5Table.body_ == `<table class="table"><tbody></tbody></table>`);
-	}}	
+	}
 
 	mixin(MyContent!("foot", "H5Tfoot"));
 	mixin(MyContent!("footer", "H5Tfoot"));
 	///
-unittest {
+	unittest {
 		assert(BS5Table.foot == `<table class="table"><tfoot></tfoot></table>`);
 		assert(BS5Table.footer == `<table class="table"><tfoot></tfoot></table>`);
-	}}	
+	}
 
 	mixin(MyContent!("row", "BS5TableRow"));
 	mixin(MyContent!("tr", "BS5TableRow"));
 	///
-unittest {
+	unittest {
 		assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
-	}}	
+	}
+
+	static BS5Table opCall() {
+		return new BS5Table;
+	}
 }
-static BS5Table");
 
 ///
 unittest {
 	assert(BS5Table == `<table class="table"></table>`);
-}}
+}

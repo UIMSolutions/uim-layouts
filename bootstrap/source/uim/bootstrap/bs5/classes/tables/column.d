@@ -21,11 +21,14 @@ class BS5TableColumn : BS5Obj {
 		this.content(_title);
 		return super.renderHTML;
 	}
+
+static BS5TableColumn opCall() {
+	return new BS5TableColumn;
 }
-static BS5TableColumn");
+}
 
 ///
 unittest {
 	assert(BS5TableColumn == `<th scope="col"></th>`);
 	assert(BS5TableColumn.title("xyz") == `<th scope="col">xyz</th>`);
-}}
+}
