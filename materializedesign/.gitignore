@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/layout-materializedesign
+layout-materializedesign.so
+layout-materializedesign.dylib
+layout-materializedesign.dll
+layout-materializedesign.a
+layout-materializedesign.lib
+layout-materializedesign-test-*
+*.exe
+*.o
+*.obj
+*.lst

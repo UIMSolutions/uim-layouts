@@ -1,0 +1,59 @@
+{
+	"name": "uim-layouts",
+	"description": "D library for layouts projects.",
+	"authors": [
+		"Sicherheitsschmiede",
+		"Ozan Nurettin Süel"
+	],
+	"copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+	"license": "Apache-2.0",
+	"configurations": [
+		{
+			"name": "offline",
+			"targetType": "library"
+		},
+		{
+			"name": "testLib",
+			"targetType": "library",
+			"versions": [
+				"test_layouts"
+			]
+		},
+		{
+			"name": "testAll",
+			"targetType": "library",
+			"versions": [
+				"test_uim_core",
+				"test_uim_oop",
+				"test_uim_css",
+				"test_uim_javascript",
+				"test_uim_json",
+				"test_uim_bootstrap",
+				"test_uim_layouts"
+			]
+		}
+	],
+	"dependencies": {
+		"colored": "~>0.0.29",
+		"vibe-d": "~>0.9.6"
+	},
+	"targetType": "library",
+	"importPaths": [
+		"../uim-core",
+		"../uim-oop",
+		"../uim-css",
+		"../uim-html",
+		"../uim-bootstrap",
+		"../../LANGS/lang-javascript",
+		"./"
+	],
+	"sourcePaths": [
+		"../uim-core",
+		"../uim-oop",
+		"../uim-css",
+		"../uim-html",
+		"../uim-bootstrap",
+		"../../LANGS/lang-javascript",
+		"./"
+	]
+}

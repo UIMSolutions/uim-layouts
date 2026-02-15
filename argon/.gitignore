@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/layout-argon
+layout-argon.so
+layout-argon.dylib
+layout-argon.dll
+layout-argon.a
+layout-argon.lib
+layout-argon-test-*
+*.exe
+*.o
+*.obj
+*.lst

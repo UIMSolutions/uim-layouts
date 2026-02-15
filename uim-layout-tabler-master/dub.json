@@ -1,0 +1,59 @@
+{
+	"authors": [
+		"UI Manufaktur Team", "sicherheitsschmiede", "Ozan NUrettin Süel"
+	],
+	"copyright": "Copyright © 2017-2022, UI Manufaktur UG",
+	"dependencies": {
+		"colored": "~>0.0.27",
+		"vibe-d": "~>0.9.5"
+	},
+	"description": "Documentation for the uim-bootstrap library",
+	"importPaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-javascript",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"./"
+	],
+	"license": "UIM",
+	"name": "layout-tabler",
+	"sourcePaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-javascript",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"./"
+	],
+	"targetType": "library",
+	"configurations": [
+		{
+			"name": "default",
+			"targetType": "library"
+		},
+		{
+			"name": "testUnit",
+			"targetType": "library",
+			"versions": [
+				"test_layout_tabler"
+			]
+		},
+		{
+			"name": "testAll",
+			"targetType": "library",
+			"versions": [
+				"test_uim_core",
+				"test_uim_oop",
+				"test_uim_css",
+				"test_uim_javascript",
+				"test_uim_json",
+				"test_uim_html",
+				"test_uim_bootstrap",
+				"test_layout_tabler"
+			]
+		}
+	]
+}
