@@ -7,12 +7,12 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CardBlockquote : BS5Obj {
-	mixin(H5This!("BLOCKQUOTE", ["card-blockquote"]));
+  mixin(H5This!("BLOCKQUOTE", ["card-blockquote"]));
 }
 static BS5CardBlockquote");
 
 ///
 unittest {
-	assert(BS5CardBlockquote == `<blockquote class="card-blockquote"></blockquote>`);
+  assert(BS5CardBlockquote == `<blockquote class="card-blockquote"></blockquote>`);
 }}
 

@@ -7,19 +7,19 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ProgressBar : BS5Obj {
-	mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));
+  mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));
 
-	BS5ProgressBar valueNow(string value) { return this.attributes(["aria-valuenow":value]); }
-	BS5ProgressBar valueMin(string value) { return this.attributes(["aria-valuemin":value]); }
-	BS5ProgressBar valueMax(string value) { return this.attributes(["aria-valuemax":value]); }
-	BS5ProgressBar color(string colorName) { return this.addClasses("bg-"~colorName); }
-	BS5ProgressBar striped(bool mode = true) { return this.addClasses("progress-bar-striped"); }
-	BS5ProgressBar animated(bool mode = true) { return this.addClasses("progress-bar-animated"); }
+  BS5ProgressBar valueNow(string value) { return this.attributes(["aria-valuenow":value]); }
+  BS5ProgressBar valueMin(string value) { return this.attributes(["aria-valuemin":value]); }
+  BS5ProgressBar valueMax(string value) { return this.attributes(["aria-valuemax":value]); }
+  BS5ProgressBar color(string colorName) { return this.addClasses("bg-"~colorName); }
+  BS5ProgressBar striped(bool mode = true) { return this.addClasses("progress-bar-striped"); }
+  BS5ProgressBar animated(bool mode = true) { return this.addClasses("progress-bar-animated"); }
 
 static BS5ProgressBar opCall() {
-	return new BS5ProgressBar;
+  return new BS5ProgressBar;
 }}
 ///
 unittest { 
-	assert(BS5ProgressBar() == `<div class="progress-bar" role="progressbar"></div>`);
+  assert(BS5ProgressBar() == `<div class="progress-bar" role="progressbar"></div>`);
 }

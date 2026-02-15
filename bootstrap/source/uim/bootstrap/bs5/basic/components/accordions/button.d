@@ -7,12 +7,12 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5AccordionButton : BS5Obj {
-	mixin(H5This!("Button", ["accordion-button"], `["type":"button"]`));
+  mixin(H5This!("Button", ["accordion-button"], `["type":"button"]`));
 }
 static BS5AccordionButton"));
 
 ///
 unittest {
-	assert(BS5AccordionButton);
-	assert(BS5AccordionButton == `<button class="accordion-button" type="button"></button>`);
+  assert(BS5AccordionButton);
+  assert(BS5AccordionButton == `<button class="accordion-button" type="button"></button>`);
 }}

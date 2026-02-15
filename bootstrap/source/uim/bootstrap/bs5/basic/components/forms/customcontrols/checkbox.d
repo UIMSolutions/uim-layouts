@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CustomCheckbox : BS5CustomControl {
-	mixin(H5This!("DIV", ["custom-checkbox"]));
+  mixin(H5This!("DIV", ["custom-checkbox"]));
 
   override void initialize () {
     super.initialize();

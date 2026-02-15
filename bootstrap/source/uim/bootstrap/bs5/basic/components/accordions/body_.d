@@ -8,12 +8,12 @@ mixin(ShowModule!());
 
 /// 
 class BS5AccordionBody : BS5Obj {
-	mixin(H5This!("Div", ["accordion-body"]));
-	static BS5AccordionBody opCall() {
-		return new BS5AccordionBody;
-	}
+  mixin(H5This!("Div", ["accordion-body"]));
+  static BS5AccordionBody opCall() {
+    return new BS5AccordionBody;
+  }
 }
 ///
 unittest {
-	assert(BS5AccordionBody() == `<div class="accordion-body"></div>`);
+  assert(BS5AccordionBody() == `<div class="accordion-body"></div>`);
 }

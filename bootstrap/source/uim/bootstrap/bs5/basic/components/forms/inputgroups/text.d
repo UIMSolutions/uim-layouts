@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5InputGroupText : BS5Obj {
-	mixin(H5This!("DIV", ["input-group-text"]));
+  mixin(H5This!("DIV", ["input-group-text"]));
 }
 static BS5InputGroupText");
 
 ///
 unittest {
-	assert(BS5InputGroupText == `<div class="input-group-text"></div>`);
+  assert(BS5InputGroupText == `<div class="input-group-text"></div>`);
 }}

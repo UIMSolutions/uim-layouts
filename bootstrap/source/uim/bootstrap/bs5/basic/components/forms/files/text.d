@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormFileText : BS5Obj {
-	mixin(H5This!("span", ["form-file-text"]));
+  mixin(H5This!("span", ["form-file-text"]));
 }
 static BS5FormFileText");
 
 ///
 unittest {
-	assert(BS5FormFileText == `<span class="form-file-text"></span>`);
+  assert(BS5FormFileText == `<span class="form-file-text"></span>`);
 }}

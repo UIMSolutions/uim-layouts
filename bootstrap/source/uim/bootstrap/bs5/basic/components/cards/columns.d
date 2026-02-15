@@ -8,18 +8,18 @@ mixin(ShowModule!());
 
 /// The .BS5CardColumns creates a masonry-like grid of cards (like pinterest)
 class BS5CardColumns : BS5Obj {
-	mixin(H5This!("DIV", ["card-columns"]));
+  mixin(H5This!("DIV", ["card-columns"]));
 
-	/// Add card 
-	mixin(MyContent!("card", "BS5Card"));
-	///
+  /// Add card 
+  mixin(MyContent!("card", "BS5Card"));
+  ///
 unittest {
-		assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
-	}}
+    assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
+  }}
 }
 static BS5CardColumns");
 
 ///
 unittest {
-	assert(BS5CardColumns == `<div class="card-columns"></div>`);
+  assert(BS5CardColumns == `<div class="card-columns"></div>`);
 }}

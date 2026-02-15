@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputPassword : BS5Input {
-	mixin(H5This!(null, ["form-control"], `["type":"password"]`));
+  mixin(H5This!(null, ["form-control"], `["type":"password"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CustomControl : BS5Obj {
-	mixin(H5This!("DIV"));
+  mixin(H5This!("DIV"));
 
   override void initialize () {
     super.initialize();
@@ -16,10 +16,10 @@ class BS5CustomControl : BS5Obj {
       .addClasses("custom-control");
   }
 
-	mixin(MyContent!("checkbox", "BS5CustomCheckbox"));
-	mixin(MyContent!("input", "BS5CustomInput"));
-	mixin(MyContent!("radio", "BS5CustomRadio"));
-	mixin(MyContent!("label", "H5Label"));	
+  mixin(MyContent!("checkbox", "BS5CustomCheckbox"));
+  mixin(MyContent!("input", "BS5CustomInput"));
+  mixin(MyContent!("radio", "BS5CustomRadio"));
+  mixin(MyContent!("label", "H5Label"));  
 }
 static BS5CustomControl");
 

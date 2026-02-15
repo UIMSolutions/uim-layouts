@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputSubmit : BS5Input {
-	mixin(H5This!("Input", ["form-control"], `["type":"submit"]`));
-	override void initialize() {
-		super.initialize;
-		_single = true;
-	}
+  mixin(H5This!("Input", ["form-control"], `["type":"submit"]`));
+  override void initialize() {
+    super.initialize;
+    _single = true;
+  }
 }
 static BS5InputSubmit"));
 

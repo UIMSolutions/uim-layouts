@@ -7,13 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5TabContent : BS5Obj {
-	mixin(H5This!("DIV", ["tab-content"]));
+  mixin(H5This!("DIV", ["tab-content"]));
 
-	mixin(MyContent!("pane", "BS5TabPane"));
+  mixin(MyContent!("pane", "BS5TabPane"));
 }
 static BS5TabContent");
 
 ///
 unittest {
-	assert(BS5TabContent == `<div class="tab-content"></div>`);
+  assert(BS5TabContent == `<div class="tab-content"></div>`);
 }}

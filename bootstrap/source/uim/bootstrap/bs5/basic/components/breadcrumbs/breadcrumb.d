@@ -7,17 +7,17 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Breadcrumb : BS5Obj {
-	mixin(H5This!("Nav", null, `["aria-label":"breadcrumb"]`));
+  mixin(H5This!("Nav", null, `["aria-label":"breadcrumb"]`));
 
-	mixin(MyContent!("list", "BS5BreadcrumbList"));
-	///
+  mixin(MyContent!("list", "BS5BreadcrumbList"));
+  ///
 unittest {
-		assert(BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
-	}}
+    assert(BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
+  }}
 }
 static BS5Breadcrumb");
 
 ///
 unittest {
-	assert(BS5Breadcrumb == `<nav aria-label="breadcrumb"></nav>`);
+  assert(BS5Breadcrumb == `<nav aria-label="breadcrumb"></nav>`);
 }}

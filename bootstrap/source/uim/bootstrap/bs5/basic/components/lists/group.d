@@ -7,16 +7,16 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ListGroup : BS5Obj {
-	mixin(H5This!("Div", ["list-group"]));
+  mixin(H5This!("Div", ["list-group"]));
 
-	mixin(MyContent!("item", "BS5ListGroupItem"));
-	mixin(MyContent!("link", "BS5ListLink"));
-	mixin(MyContent!("button", "BS5ListButton"));
+  mixin(MyContent!("item", "BS5ListGroupItem"));
+  mixin(MyContent!("link", "BS5ListLink"));
+  mixin(MyContent!("button", "BS5ListButton"));
 }
 static BS5ListGroup");
 
 ///
 unittest {
-	assert(BS5ListGroup == `<div class="list-group"></div>`);
-	assert(BS5ListGroup.item == `<div class="list-group"><div class="list-group-item"></div></div>`);
+  assert(BS5ListGroup == `<div class="list-group"></div>`);
+  assert(BS5ListGroup.item == `<div class="list-group"><div class="list-group-item"></div></div>`);
 }}

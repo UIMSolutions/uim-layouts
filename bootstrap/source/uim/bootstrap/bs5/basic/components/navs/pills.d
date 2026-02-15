@@ -7,12 +7,12 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavPills : BS5Obj {
-	mixin(H5This!("UL", ["nav", "nav-pills"], `["role":"tablist"]`));
-	mixin(MyContent!("item", "BS5NavItem"));
+  mixin(H5This!("UL", ["nav", "nav-pills"], `["role":"tablist"]`));
+  mixin(MyContent!("item", "BS5NavItem"));
 }
 static BS5NavPills");
 
 ///
 unittest {
-	assert(BS5NavPills == `<ul class="nav nav-pills" role="tablist"></ul>`);
+  assert(BS5NavPills == `<ul class="nav nav-pills" role="tablist"></ul>`);
 }}

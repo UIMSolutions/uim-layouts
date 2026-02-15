@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ListInlineItem : BS5Obj {
-	mixin(H5This!("LI", ["list-inline-item"]));
+  mixin(H5This!("LI", ["list-inline-item"]));
 }
 static BS5ListInlineItem");
 
 ///
 unittest {
-	assert(BS5ListInlineItem == `<li class="list-inline-item"></li>`);
+  assert(BS5ListInlineItem == `<li class="list-inline-item"></li>`);
 }}

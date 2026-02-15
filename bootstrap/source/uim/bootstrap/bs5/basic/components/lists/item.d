@@ -7,13 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ListItem : BS5Obj {
-	mixin(H5This!("LI", ["list-group-item"]));
+  mixin(H5This!("LI", ["list-group-item"]));
 
-	auto color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
+  auto color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
 }
 static BS5ListItem");
 
 ///
 unittest {
-	assert(BS5ListItem == `<li class="list-group-item"></li>`);
+  assert(BS5ListItem == `<li class="list-group-item"></li>`);
 }}

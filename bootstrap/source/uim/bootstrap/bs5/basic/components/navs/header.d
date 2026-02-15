@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavHeader : BS5Obj {
-	mixin(H5This!("li", ["nav-header"]));
+  mixin(H5This!("li", ["nav-header"]));
 }
 static BS5NavHeader");
 
 ///
 unittest {
-	assert(BS5NavHeader == `<li class="nav-header"></li>`);
+  assert(BS5NavHeader == `<li class="nav-header"></li>`);
 }}

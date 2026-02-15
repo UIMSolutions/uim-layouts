@@ -7,26 +7,26 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CarouselIndicators : BS5Obj {
-	mixin(H5This!("DIV", ["carousel-indicators"]));
+  mixin(H5This!("DIV", ["carousel-indicators"]));
 
-	O active(bool mode = true) {
-		if (mode) addClasses("active");
-		return this;
-	}
-	
-	mixin(MyContent!("indicator", "H5Button"));
-	///
+  O active(bool mode = true) {
+    if (mode) addClasses("active");
+    return this;
+  }
+  
+  mixin(MyContent!("indicator", "H5Button"));
+  ///
 unittest {
-		assert(BS5CarouselIndicators.indicator.toString == `<div class="carousel-indicators"><button></button></div>`);
-	}}
+    assert(BS5CarouselIndicators.indicator.toString == `<div class="carousel-indicators"><button></button></div>`);
+  }}
 }
 static BS5CarouselIndicators");
 ///
 unittest {
-	assert(BS5CarouselIndicators.toString == `<div class="carousel-indicators"></div>`);
+  assert(BS5CarouselIndicators.toString == `<div class="carousel-indicators"></div>`);
 }}
 
 class BS5CarouselIndicator : BS5Obj {
-	mixin(H5This!("button", ["carousel-indicator"]));
+  mixin(H5This!("button", ["carousel-indicator"]));
 }
 static BS5CarouselIndicator");

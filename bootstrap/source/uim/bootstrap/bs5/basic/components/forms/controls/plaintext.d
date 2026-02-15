@@ -21,6 +21,6 @@ static BS5InputPlaintext"));
 
 ///
 unittest {
-	assert(BS5InputPlaintext);
-	assert(BS5InputPlaintext == `<input class="form-control-plaintext" type="text">`);
+  assert(BS5InputPlaintext);
+  assert(BS5InputPlaintext == `<input class="form-control-plaintext" type="text">`);
 }}

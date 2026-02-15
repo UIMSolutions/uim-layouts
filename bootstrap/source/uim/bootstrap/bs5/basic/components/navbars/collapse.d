@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavbarCollapse : BS5Obj {
-	mixin(H5This!("div", ["collapse", "navbar-collapse"]));
+  mixin(H5This!("div", ["collapse", "navbar-collapse"]));
 }
 static BS5NavbarCollapse");
 
 ///
 unittest {
-	assert(BS5NavbarCollapse == `<div class="collapse navbar-collapse"></div>`);
+  assert(BS5NavbarCollapse == `<div class="collapse navbar-collapse"></div>`);
 }}

@@ -7,12 +7,12 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CardBlock : BS5Obj {
-	mixin(H5This!("DIV", ["card-block"]));
+  mixin(H5This!("DIV", ["card-block"]));
 }
 
 static BS5CardBlock");
 ///
 unittest {
-	assert(BS5CardBlock);
-	assert(BS5CardBlock == `<div class="card-block"></div>`);
+  assert(BS5CardBlock);
+  assert(BS5CardBlock == `<div class="card-block"></div>`);
 }}

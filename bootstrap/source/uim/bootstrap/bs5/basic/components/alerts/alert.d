@@ -9,48 +9,48 @@ mixin(ShowModule!());
 
 ///Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
 class BS5Alert : BS5Obj {
-	mixin(H5This!("Div", ["alert"], `["role":"alert"]`));
+  mixin(H5This!("Div", ["alert"], `["role":"alert"]`));
 
-	auto color(string name) {
-		return this.addClasses("alert-" ~ name);
-	}
-	///
+  auto color(string name) {
+    return this.addClasses("alert-" ~ name);
+  }
+  ///
 unittest {
-		assert(BS5Alert.color("success") == `<div class="alert alert-success" role="alert"></div>`);
-	}}
+    assert(BS5Alert.color("success") == `<div class="alert alert-success" role="alert"></div>`);
+  }}
 
-	O link(string content, string url = "#") {
-		this.content(`<a href="` ~ url ~ `" class="alert-link">` ~ content ~ `</a>`);
-		return cast(O) this;
-	}
+  O link(string content, string url = "#") {
+    this.content(`<a href="` ~ url ~ `" class="alert-link">` ~ content ~ `</a>`);
+    return cast(O) this;
+  }
 
-	O dismissible(bool show = true, string icon = "&times;") {
-		if (show) 		{
-			this.content(`<button type="button" class="close" data-dismiss="alert">` ~ icon ~ `</button>`);
-			this.addClasses("alert-dismissible");
-		}
-		return cast(O) this;
-	}
-	///
+  O dismissible(bool show = true, string icon = "&times;") {
+    if (show)     {
+      this.content(`<button type="button" class="close" data-dismiss="alert">` ~ icon ~ `</button>`);
+      this.addClasses("alert-dismissible");
+    }
+    return cast(O) this;
+  }
+  ///
 unittest {
-		assert(BS5Alert.color("success").dismissible == `<div class="alert alert-dismissible alert-success" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button></div>`);
-	}}
+    assert(BS5Alert.color("success").dismissible == `<div class="alert alert-dismissible alert-success" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button></div>`);
+  }}
 
-	mixin(MyContent!("heading", "BS5AlertHeading"));
+  mixin(MyContent!("heading", "BS5AlertHeading"));
 }
 
 static BS5Alert"));
 
 class BS5AlertLink : BS5Obj {
-	mixin(H5This!("A", ["alert-link"], `["href":"#"]`));
+  mixin(H5This!("A", ["alert-link"], `["href":"#"]`));
 }
 
 static BS5AlertLink"));
 
 ///
 unittest {
-	assert(BS5Alert);
-	assert(BS5Alert == `<div class="alert" role="alert"></div>`);
+  assert(BS5Alert);
+  assert(BS5Alert == `<div class="alert" role="alert"></div>`);
 
-	assert(BS5Alert("anAlert") == `<div class="alert" role="alert">anAlert</div>`);
+  assert(BS5Alert("anAlert") == `<div class="alert" role="alert">anAlert</div>`);
 }}

@@ -7,13 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Media : BS5Obj {
-	mixin(H5This!("DIV", ["media"]));
+  mixin(H5This!("DIV", ["media"]));
 
-	mixin(MyContent!("body_", "BS5MediaBody"));
+  mixin(MyContent!("body_", "BS5MediaBody"));
 }
 static BS5Media");
 
 ///
 unittest {
-	assert(BS5Media == `<div class="media"></div>`);
+  assert(BS5Media == `<div class="media"></div>`);
 }}

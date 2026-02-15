@@ -7,28 +7,28 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5Input : BS5Obj {
-	mixin(H5This!("Input", null, null, true));	
+  mixin(H5This!("Input", null, null, true));  
 
-	mixin(MyAttribute!"value");
-	mixin(MyAttribute!"placeholder");
+  mixin(MyAttribute!"value");
+  mixin(MyAttribute!"placeholder");
 
-	auto color(string newColor) {
-		this.addClasses("bg-"~newColor);
-		return this;
-	}
+  auto color(string newColor) {
+    this.addClasses("bg-"~newColor);
+    return this;
+  }
 
   override void initialize () {
     super.initialize();
 
-		this
-			.tag("input")
-			.single(true)
-			.classes("form-control");
+    this
+      .tag("input")
+      .single(true)
+      .classes("form-control");
   }
 }
 static BS5Input"));
 
 ///
 unittest {
-	assert(BS5Input);
+  assert(BS5Input);
 }}

@@ -17,5 +17,5 @@ static BS5InputSearch"));
 
 ///
 unittest {
-  assert(BS5InputSearch == `<input class="form-control" type="search">`);	
+  assert(BS5InputSearch == `<input class="form-control" type="search">`);  
 }}

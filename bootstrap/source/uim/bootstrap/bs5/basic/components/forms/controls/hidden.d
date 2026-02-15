@@ -7,17 +7,17 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputHidden : BS5Input {
-	mixin(H5This!("", null, `["type":"hidden"]`));
+  mixin(H5This!("", null, `["type":"hidden"]`));
 
-	O value(UUID id) {
-		this.value(id.toString);
-		return this;
-	}
+  O value(UUID id) {
+    this.value(id.toString);
+    return this;
+  }
 
-	O value(string txt) {
-		_attributes["value"] = txt;
-		return this;
-	}
+  O value(string txt) {
+    _attributes["value"] = txt;
+    return this;
+  }
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

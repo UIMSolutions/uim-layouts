@@ -7,18 +7,18 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormCheck : BS5Obj {
-	mixin(H5This!("Div", ["form-check"]));
-	mixin(TProperty!("string", "forId"));
+  mixin(H5This!("Div", ["form-check"]));
+  mixin(TProperty!("string", "forId"));
 
-	O inline(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return this; }
-	
-	mixin(MyContent!("label", "BS5FormCheckLabel"));
+  O inline(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return this; }
+  
+  mixin(MyContent!("label", "BS5FormCheckLabel"));
 }
 static BS5FormCheck");
 
 ///
 unittest {
-	assert(BS5FormCheck);
-	assert(BS5FormCheck == `<div class="form-check"></div>`);
-  assert(BS5FormCheck.inline == `<div class="form-check form-check-inline"></div>`);	
+  assert(BS5FormCheck);
+  assert(BS5FormCheck == `<div class="form-check"></div>`);
+  assert(BS5FormCheck.inline == `<div class="form-check form-check-inline"></div>`);  
 }}

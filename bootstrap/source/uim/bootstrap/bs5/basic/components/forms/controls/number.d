@@ -7,35 +7,35 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputNumber : BS5Obj {
-	mixin(H5This!("Input", ["form-control"], `["type":"number"]`));
-	override public void initialize() {
-		super.initialize; _single = true;
-	}
+  mixin(H5This!("Input", ["form-control"], `["type":"number"]`));
+  override public void initialize() {
+    super.initialize; _single = true;
+  }
 
-	O value(string aValue) {
-		_attributes["value"] = to!string(aValue);
-		return this;
-	}
+  O value(string aValue) {
+    _attributes["value"] = to!string(aValue);
+    return this;
+  }
 
-	O value(int aValue) {
-		_attributes["value"] = to!string(aValue);
-		return this;
-	}
+  O value(int aValue) {
+    _attributes["value"] = to!string(aValue);
+    return this;
+  }
 
-	O value(long aValue) {
-		_attributes["value"] = to!string(aValue);
-		return this;
-	}
+  O value(long aValue) {
+    _attributes["value"] = to!string(aValue);
+    return this;
+  }
 
-	O value(size_t aValue) {
-		_attributes["value"] = to!string(aValue);
-		_attributes["min"] = "0";
-		return this;
-	}
+  O value(size_t aValue) {
+    _attributes["value"] = to!string(aValue);
+    _attributes["min"] = "0";
+    return this;
+  }
 }
 static BS5InputNumber"));
 
 ///
 unittest {
-	assert(BS5InputNumber == `<input class="form-control" type="number">`);
+  assert(BS5InputNumber == `<input class="form-control" type="number">`);
 }}

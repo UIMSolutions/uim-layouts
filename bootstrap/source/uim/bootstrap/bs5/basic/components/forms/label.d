@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormLabel : BS5Obj {
-	mixin(H5This!("label", ["form-label"]));
+  mixin(H5This!("label", ["form-label"]));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);
