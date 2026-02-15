@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.forms.files.file;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5FormFile : BS5Obj {
 	mixin(H5This!("div", ["form-file"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.carousels.indicators;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CarouselIndicators : BS5Obj {
 	mixin(H5This!("DIV", ["carousel-indicators"]));

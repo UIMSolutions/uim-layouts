@@ -1,7 +1,10 @@
 module uim.bootstrap.bs5.classes.apps.app;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /* class BS5App : DH5App {
 	this() { super(); }

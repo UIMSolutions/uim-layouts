@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.utilities.floats;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 T floatNone(T)(T h5) {
 	return h5.addClasses("float-none");

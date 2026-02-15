@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.carousels.controlnext;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CarouselControlNext : BS5Obj {
 	mixin(H5This!("a", ["carousel-control-next"], `["data-bs-slide":"next"]`));

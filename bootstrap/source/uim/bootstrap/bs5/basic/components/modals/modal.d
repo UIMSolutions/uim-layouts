@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.modals.modal;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5Modal : BS5Obj {
 	mixin(H5This!("DIV", ["modal"], `["tabindex":"-1", "role":"dialog", "aria-hidden":"true"]`));

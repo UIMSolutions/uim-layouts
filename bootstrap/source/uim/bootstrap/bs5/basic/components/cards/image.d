@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.image;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardImage : BS5Obj { // default top
 	mixin(H5This!("IMG", ["card-img-top"], null, true));

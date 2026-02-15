@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.forms.customcontrols.radio;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CustomRadio : BS5CustomControl {
 	mixin(H5This!("DIV", ["custom-control", "custom-radio"]));

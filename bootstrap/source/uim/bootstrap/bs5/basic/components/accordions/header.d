@@ -1,7 +1,10 @@
 module uim.bootstrap.bs5.basic.components.accordions.header;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5AccordionHeader : BS5Obj {
 	mixin(H5This!("H2", ["accordion-header"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.buttons.close;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ButtonClose : BS5Button {
 	mixin(H5This!("button", ["close"], `["aria-label":"Close"]`));

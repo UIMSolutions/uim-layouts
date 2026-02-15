@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.collapses.collapse;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5Collapse : BS5Obj {
 	mixin(H5This!("Div", ["collapse"]));

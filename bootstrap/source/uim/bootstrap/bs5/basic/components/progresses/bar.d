@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.progresses.bar;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ProgressBar : BS5Obj {
 	mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));

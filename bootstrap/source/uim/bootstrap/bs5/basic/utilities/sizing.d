@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.utilities.sizing;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 ///
 unittest { {

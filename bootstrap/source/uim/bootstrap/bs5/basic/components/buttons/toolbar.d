@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.buttons.toolbar;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ButtonToolbar : BS5Obj {
 	mixin(H5This!("DIV", ["btn-toolbar"], `["role":"toolbar"]`));

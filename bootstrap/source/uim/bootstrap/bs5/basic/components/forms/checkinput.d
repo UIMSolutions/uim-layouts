@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.forms.checkinput;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5FormCheckInput : BS5Obj {
 	mixin(H5This!("input", ["form-check-input"]));

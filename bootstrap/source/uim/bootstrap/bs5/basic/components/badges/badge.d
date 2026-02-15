@@ -1,7 +1,10 @@
 module uim.bootstrap.bs5.basic.components.badges.badge;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 // Badges in Bootstrap are little additional information to highlight text or numbers.
 class BS5Badge : BS5Obj {

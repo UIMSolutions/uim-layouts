@@ -1,7 +1,10 @@
 module uim.bootstrap.bs5.basic.components.accordions.collapse;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5AccordionCollapse : BS5Obj {
 	mixin(H5This!("Div", ["accordion-collapse"]));

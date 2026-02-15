@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.dropdowns.togglelink;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5DropdownToggleLink : BS5ButtonLink {
 	mixin(H5This!("A", ["btn", "dropdown-toggle"], `["href":"#", "aria-expanded":"false", "role":"button", "data-bs-toggle":"dropdown"]`));

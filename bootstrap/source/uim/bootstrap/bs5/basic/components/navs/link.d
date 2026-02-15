@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.navs.link;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5NavLink : BS5Obj {
 	mixin(H5This!("A", ["nav-link"], `["href":"#"]`));

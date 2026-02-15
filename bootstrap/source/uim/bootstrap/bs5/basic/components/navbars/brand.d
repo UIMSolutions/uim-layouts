@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.navbars.brand;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5NavbarBrand : BS5Obj {
 	mixin(H5This!("a", ["navbar-brand"]));

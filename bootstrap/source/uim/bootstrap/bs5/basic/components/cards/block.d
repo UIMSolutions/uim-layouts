@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.block;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardBlock : BS5Obj {
 	mixin(H5This!("DIV", ["card-block"]));

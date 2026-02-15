@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.link;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardLink : BS5Obj {
 	mixin(H5This!("A", ["card-link"], `["href":"#"]`));

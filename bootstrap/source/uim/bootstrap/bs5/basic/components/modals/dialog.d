@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.modals.dialog;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ModalDialog : BS5Obj {
 	mixin(H5This!("div", ["modal-dialog"], `["role":"document"]`));

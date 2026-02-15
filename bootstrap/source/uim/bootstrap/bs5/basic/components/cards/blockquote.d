@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.blockquote;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardBlockquote : BS5Obj {
 	mixin(H5This!("BLOCKQUOTE", ["card-blockquote"]));

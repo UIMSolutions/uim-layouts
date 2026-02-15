@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.collapses.link;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CollapseLink : BS5Obj {
 	mixin(H5This!("a", ["btn"], `["data-toggle":"collapse", "role":"button"]`));

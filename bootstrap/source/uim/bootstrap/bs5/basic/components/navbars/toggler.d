@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.navbars.toggler;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /* BS5NavbarToggler - for use with collapse plugin and other navigation toggling behaviors */
 class BS5NavbarToggler : BS5ButtonObj {

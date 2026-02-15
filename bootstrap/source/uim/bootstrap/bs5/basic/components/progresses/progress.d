@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.progresses.progress;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5Progress : BS5Obj {
 	mixin(H5This!("Div", ["progress"]));

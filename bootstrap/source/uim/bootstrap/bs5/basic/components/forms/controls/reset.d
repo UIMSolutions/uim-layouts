@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.forms.controls.reset;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS5InputReset : BS5Input {
   mixin(H5This!("", null, `["type":"reset"]`));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.forms.controls.file;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS5InputFile : BS5Input {
 	mixin(H5This!(null, ["form-control"], `["type":"file"]`));

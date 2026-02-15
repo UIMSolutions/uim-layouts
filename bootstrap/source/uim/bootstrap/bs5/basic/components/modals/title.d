@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.modals.title;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ModalTitle : BS5Obj {
 	mixin(H5This!("H5", ["modal-title"]));

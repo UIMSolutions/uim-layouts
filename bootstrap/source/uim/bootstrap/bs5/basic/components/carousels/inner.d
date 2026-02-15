@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.carousels.inner;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CarouselInner : BS5Obj {
 	mixin(H5This!("div", ["carousel-inner"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.navs.nav;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5Nav : BS5Obj {
 	mixin(H5This!("Ul", ["nav"]));

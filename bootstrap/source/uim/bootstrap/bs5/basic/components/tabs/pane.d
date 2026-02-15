@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.tabs.pane;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5TabPane : BS5Obj {
 	mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));

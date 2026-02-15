@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.modals.button;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ModalButton : BS5Obj {
 	mixin(H5This!("Button", ["btn"], `["data-toggle":"modal"]`));

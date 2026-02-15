@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.classes.tables.column;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5TableColumn : BS5Obj {
 	mixin(H5This!"th");

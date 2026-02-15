@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.forms.controls.textarea;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 class BS5InputTextarea : BS5Obj {
 	mixin(H5This!("textarea", ["form-control"]));

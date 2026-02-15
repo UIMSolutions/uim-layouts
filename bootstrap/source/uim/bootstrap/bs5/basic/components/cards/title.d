@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.title;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardTitle : BS5Obj {
 	mixin(H5This!("H4", ["card-title"]));

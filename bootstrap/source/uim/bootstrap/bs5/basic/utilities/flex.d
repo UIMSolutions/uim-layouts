@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.utilities.flex;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 T flex(T)(T h5) {
 	return h5.addClasses("d-flex");

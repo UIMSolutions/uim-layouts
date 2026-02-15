@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.header;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 
 /// CardHeader adds a header to a card

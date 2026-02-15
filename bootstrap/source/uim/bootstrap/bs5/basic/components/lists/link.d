@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.lists.link;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ListLink : BS5Obj {
 	mixin(H5This!("A", ["list-group-item", "list-group-item-action"], null));

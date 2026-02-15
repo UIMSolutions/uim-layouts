@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.layout.container;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /*
 BS5Container / BS5Container

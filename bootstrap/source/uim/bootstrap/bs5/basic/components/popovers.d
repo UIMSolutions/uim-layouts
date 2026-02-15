@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.popovers;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 T popContent(T)(T h5, string content) {
 	return h5.attributes(["data-toggle":"popover", "data-content":content]);

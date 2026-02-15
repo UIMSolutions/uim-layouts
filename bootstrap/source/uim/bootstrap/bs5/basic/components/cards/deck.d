@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.deck;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /// The BS5CardDeck creates a grid of cards that are of equal height and width
 class BS5CardDeck : BS5Obj {

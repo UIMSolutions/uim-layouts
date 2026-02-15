@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.utilities.positions;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 T positionStatic(T)(T h5) {
 	return h5.addClasses("position-static");

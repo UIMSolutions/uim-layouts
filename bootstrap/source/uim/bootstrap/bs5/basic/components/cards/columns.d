@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.columns;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 /// The .BS5CardColumns creates a masonry-like grid of cards (like pinterest)
 class BS5CardColumns : BS5Obj {

@@ -1,7 +1,10 @@
 ﻿module source.uim.bootstrap.bs5.basic.components.dropdowns.list;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5DropdownList : BS5Obj {
 	mixin(H5This!("ul", ["dropdown-menu"]));

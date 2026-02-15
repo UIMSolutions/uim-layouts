@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.buttons.group;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ButtonGroup : BS5Obj {
 	mixin(H5This!("DIV", ["btn-group"], `["role":"group"]`));

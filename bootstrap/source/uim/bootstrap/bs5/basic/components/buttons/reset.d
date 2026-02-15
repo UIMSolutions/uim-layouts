@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.buttons.reset;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ButtonReset : BS5ButtonObj {
 	mixin(H5This!("button", ["btn"], `["type":"reset"]`));

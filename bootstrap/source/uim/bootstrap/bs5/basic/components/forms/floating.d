@@ -1,7 +1,10 @@
 module uim.bootstrap.bs5.basic.components.forms.floating;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5FormFloating : BS5Obj {
   mixin(H5This!("Div", ["form-floating"]));

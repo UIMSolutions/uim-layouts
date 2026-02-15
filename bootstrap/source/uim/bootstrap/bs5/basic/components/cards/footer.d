@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.footer;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardFooter : BS5Obj {
 	mixin(H5This!("Div", ["card-footer"]));

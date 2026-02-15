@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.paginations.pagination;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5Pagination : BS5Obj {
 	mixin(H5This!("UL", ["pagination"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.tooltips;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 T tipTitle(T)(T h5, string title) {
 	return h5.attributes(["data-toggle":"tooltip", "title":title]);

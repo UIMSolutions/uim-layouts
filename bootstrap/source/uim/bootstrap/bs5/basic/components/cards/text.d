@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.cards.text;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5CardText : BS5Obj {
 	mixin(H5This!("P", ["card-text"]));

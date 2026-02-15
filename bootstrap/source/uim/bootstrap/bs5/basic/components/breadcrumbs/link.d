@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.breadcrumbs.link;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5BreadcrumbLink : BS5Obj {	
 	mixin(H5This!("A", null, null));

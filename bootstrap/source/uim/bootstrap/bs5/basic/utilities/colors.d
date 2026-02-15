@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.utilities.colors;
 
-@safe: 
-import uim.bootstrap; 
+import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe:  
 
 T textColor(T)(T h5, string colorName) {
 	return h5.addClasses("text-"~colorName);

@@ -1,7 +1,10 @@
 module uim.bootstrap.bs5.basic.components.accordions.item;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5AccordionItem : BS5Obj {
 	mixin(H5This!("Div", ["accordion-item"]));

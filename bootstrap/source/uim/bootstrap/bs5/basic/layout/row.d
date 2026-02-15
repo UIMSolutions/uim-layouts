@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.layout.row;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5Row : BS5Obj {
 	mixin(H5This!("Div", ["row"]));

@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.breadcrumbs.list;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5BreadcrumbList : BS5Obj {
 	mixin(H5This!("Ol", ["breadcrumb"], `["aria-label":"breadcrumbs"]`));

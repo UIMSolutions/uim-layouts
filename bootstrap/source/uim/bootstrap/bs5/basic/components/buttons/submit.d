@@ -1,7 +1,10 @@
 ﻿module uim.bootstrap.bs5.basic.components.buttons.submit;
 
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ButtonSubmit : BS5ButtonObj {
 	mixin(H5This!("button", ["btn"], `["type":"submit"]`));

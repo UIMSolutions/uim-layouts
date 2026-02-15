@@ -1,8 +1,11 @@
 ﻿module uim.bootstrap.bs5.basic.components.lists.divitem;
 
 @safe:
-@safe: 
 import uim.bootstrap;
+
+mixin(showmodule!());
+
+@safe: 
 
 class BS5ListDivItem : BS5Obj { // I know, it's a ugly name
 	mixin(H5This!("Div", ["list-group-item"]));
