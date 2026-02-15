@@ -5,10 +5,12 @@ import layouts.tabler;
 
 class BS5NavLinkTitle : BS5Obj {
 	mixin(H5This!("span", ["nav-link-title"]));
-}
-static BS5NavLinkTitle");
+
+static BS5NavLinkTitle opCall() {
+	return new BS5NavLinkTitle;
+}}
 
 ///
 unittest {
-	assert(BS5NavLinkTitle, `<span class="nav-link-title"></span>`);
-}}
+	assert(BS5NavLinkTitle == `<span class="nav-link-title"></span>`);
+}

@@ -9,12 +9,14 @@ class BS5StatusDot : BS5Obj {
   O animated(bool value = true){ if (value) this.classes("status-dot-animated"); return this; }
 
   O color(string value){ this.classes("status-"~value); return this; }
-}
-static BS5StatusDot");
+
+static BS5StatusDot opCall() {
+	return new BS5StatusDot;
+}}
 
 ///
 unittest {
 	assert(BS5StatusDot, `<span class="status-dot"></span>`);
   assert(BS5StatusDot.animated,`<span class="status-dot status-dot-animated"></span>`);
   assert(BS5Status.color("blue"),`<span class="status-dot status-blue"></span>`);
-}}
+}

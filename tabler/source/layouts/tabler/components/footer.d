@@ -1,14 +1,17 @@
 ﻿module layouts.tabler.components.footer;
 
 import layouts.tabler;
+
 @safe:
 
 class BS5Footer : BS5Obj {
-	mixin(H5This!("footer", ["footer"]));
-}
-static BS5Footer");
+  mixin(H5This!("footer", ["footer"]));
 
+  static BS5Footer opCall() {
+    return new BS5Footer;
+  }
+}
 ///
 unittest {
-	assert(BS5Footer, `<footer class="footer"></footer>`);
-}}
+  assert(BS5Footer == `<footer class="footer"></footer>`);
+}

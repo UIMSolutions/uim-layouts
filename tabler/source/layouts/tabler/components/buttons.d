@@ -17,7 +17,6 @@ class BS5ButtonIcon : BS5Button {
 static BS5ButtonIcon opCall() {
 	return new BS5ButtonIcon;
 }}
-
 ///
 unittest { 
 		assert(BS5ButtonIcon == `<button class="btn btn-icon" type="button"></button>`);
@@ -47,12 +46,14 @@ unittest {
 class BS5ButtonSquare : BS5Button {
 	mixin(H5This!("Button", ["btn-square"]));
 }
-static BS5ButtonSquare");
+static BS5ButtonSquare opCall() {
+	return new BS5ButtonSquare;
+}}
 
 ///
 unittest {
 	assert(BS5ButtonSquare == `<button class="btn btn-square" type="button"></button>`);
-}}
+}
 
 class BS5ButtonSquareLink : BS5ButtonLink {
 	mixin(H5This!("A", ["btn-square"]));

@@ -1,14 +1,18 @@
 ﻿module layouts.tabler.components.navs.navlinkicon;
 
 import layouts.tabler;
+
 @safe:
 
 class BS5NavLinkIcon : BS5Obj {
-	mixin(H5This!("span", ["nav-link-icon"]));
+  mixin(H5This!("span", ["nav-link-icon"]));
+
+  static BS5NavLinkIcon opCall() {
+    return new BS5NavLinkIcon;
+  }
 }
-static BS5NavLinkIcon");
 
 ///
 unittest {
-	assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);
-}}
+  assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);
+}
