@@ -6,9 +6,9 @@ import layouts.tabler;
 class BS5StatusDot : BS5Obj {
 	mixin(H5This!("span", ["status-dot"]));
 
-  O animated(this O)(bool value = true){ if (value) this.classes("status-dot-animated"); return cast(O)this; }
+  O animated(this O)(bool value = true){ if (value) this.classes("status-dot-animated"); return this; }
 
-  O color(this O)(string value){ this.classes("status-"~value); return cast(O)this; }
+  O color(this O)(string value){ this.classes("status-"~value); return this; }
 }
 static BS5StatusDot");
 

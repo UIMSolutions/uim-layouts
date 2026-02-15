@@ -11,7 +11,7 @@ class BS5CarouselIndicators : BS5Obj {
 
 	O active(this O)(bool mode = true) {
 		if (mode) addClasses("active");
-		return cast(O)this;
+		return this;
 	}
 	
 	mixin(MyContent!("indicator", "H5Button"));

@@ -11,7 +11,7 @@ class BS5CarouselItem : BS5Obj {
 
 	O active(this O)(bool mode = true) {
 		if (mode) this.addClasses("active");
-		return cast(O)this;
+		return this;
 	}
 }
 static BS5CarouselItem");

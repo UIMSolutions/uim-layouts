@@ -20,7 +20,7 @@ class BS5CustomSelect : DH5Select {
 			else if (value == disabled) this.option(["disabled":"disabled"], value);
 			else this.option(value);
 		}
-		return cast(O)this;	
+		return this;	
 	}
 	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		foreach(k; values.keys.sort) {
@@ -32,7 +32,7 @@ class BS5CustomSelect : DH5Select {
 			else if (k == disabledKey) this.option(["disabled":"disabled"], k);
 			else this.option(["value":k], values[k]);
 		}
-		return cast(O)this;	
+		return this;	
 	}
 	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
 		foreach(value; values) {
@@ -44,7 +44,7 @@ class BS5CustomSelect : DH5Select {
 			else if (disabled.has(value)) this.option(["disabled":"disabled"], value);
 			else this.option(value);
 		}
-		return cast(O)this;	
+		return this;	
 	}
 	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		foreach(k; values.keys.sort) {
@@ -56,7 +56,7 @@ class BS5CustomSelect : DH5Select {
 			else if (disabledKeys.has(k)) this.option(["disabled":"disabled"], k);
 			else this.option(["value":k], values[k]);
 		}
-		return cast(O)this;	
+		return this;	
 	}
 }
 static BS5CustomSelect"));

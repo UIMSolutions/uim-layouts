@@ -4,21 +4,23 @@ import uim.bootstrap;
 
 mixin(showmodule!());
 
-@safe: 
+@safe:
 
 class BS5CarouselControlPrev : BS5Obj {
-	mixin(H5This!("a", ["carousel-control-prev"], `["data-bs-slide":"prev"]`));
-	override public void initialize() {
-		super.initialize;
-		this
-			.addContent(
-				H5Span(["carousel-control-prev-icon"]), H5Span(["sr-only"], "Previous"));
-	}
-}
-static BS5CarouselControlPrev");
+  mixin(H5This!("a", ["carousel-control-prev"], `["data-bs-slide":"prev"]`));
+  override public void initialize() {
+    super.initialize;
+    this
+      .addContent(
+        H5Span(["carousel-control-prev-icon"]), H5Span(["sr-only"], "Previous"));
+  }
 
+  static BS5CarouselControlPrev opCall() {
+    return new BS5CarouselControlPrev;
+  }
+}
 ///
-unittest { {
-	assert(BS5CarouselControlPrev ==  
-	`<a class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>`);
-}}
+unittest {
+  assert(BS5CarouselControlPrev ==
+      `<a class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>`);
+}

@@ -14,7 +14,7 @@ class BS5Input : BS5Obj {
 
 	O color(this O)(string newColor) {
 		this.addClasses("bg-"~newColor);
-		return cast(O)this;
+		return this;
 	}
 
   override void initialize () {

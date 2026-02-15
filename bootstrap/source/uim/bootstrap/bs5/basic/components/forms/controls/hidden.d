@@ -11,12 +11,12 @@ class BS5InputHidden : BS5Input {
 
 	O value(this O)(UUID id) {
 		this.value(id.toString);
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(string txt) {
 		_attributes["value"] = txt;
-		return cast(O)this;
+		return this;
 	}
 
   override void initialize (Json aConfig = Json(null)) {

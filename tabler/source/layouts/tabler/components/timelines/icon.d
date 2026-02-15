@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5TimelineIcon : BS5Obj {
 	mixin(H5This!("div", ["list-timeline-icon"]));
 
-  O color(this O)(string value){ this.classes("bg-"~value); return cast(O)this; }
+  O color(this O)(string value){ this.classes("bg-"~value); return this; }
 }
 static BS5TimelineIcon");
 

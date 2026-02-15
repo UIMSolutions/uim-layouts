@@ -9,14 +9,16 @@ mixin(showmodule!());
 class BS5ModalButton : BS5Obj {
 	mixin(H5This!("Button", ["btn"], `["data-toggle":"modal"]`));
 
-	O target(this O)(string targetId) { _attributes["data-target"] = "#"~targetId;  return cast(O)this; }
-	O backdrop(this O)(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return cast(O)this; }
-	O keyboard(this O)(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
-		return cast(O)this;
+	BS5ModalButton target(this O)(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
+	BS5ModalButton backdrop(this O)(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }
+	BS5ModalButton keyboard(this O)(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
+		return this;
 	}
 }
-static BS5ModalButton");
+static BS5ModalButton opCall() {
+	return new BS5ModalButton;
+}
 ///
-unittest { {
+unittest { 
 	// assert(BS5ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
-}}
+}

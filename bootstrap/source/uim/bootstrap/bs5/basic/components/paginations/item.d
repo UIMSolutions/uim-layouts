@@ -11,8 +11,8 @@ class BS5PageItem : BS5Obj {
 
 	mixin(MyContent!("link", "BS5PageLink"));
 
-	O active(this O)(bool value = true) { if (value) this.addClasses("active"); return cast(O)this; }
-	O disabled(this O)(bool value = true) { if (value) this.addClasses("disabled").attributes("tabindex", "-1"); return cast(O)this; }
+	O active(this O)(bool value = true) { if (value) this.addClasses("active"); return this; }
+	O disabled(this O)(bool value = true) { if (value) this.addClasses("disabled").attributes("tabindex", "-1"); return this; }
 }
 static BS5PageItem");
 

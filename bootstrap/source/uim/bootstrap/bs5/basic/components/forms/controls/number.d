@@ -14,23 +14,23 @@ class BS5InputNumber : BS5Obj {
 
 	O value(this O)(string aValue) {
 		_attributes["value"] = to!string(aValue);
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(int aValue) {
 		_attributes["value"] = to!string(aValue);
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(long aValue) {
 		_attributes["value"] = to!string(aValue);
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(size_t aValue) {
 		_attributes["value"] = to!string(aValue);
 		_attributes["min"] = "0";
-		return cast(O)this;
+		return this;
 	}
 }
 static BS5InputNumber"));

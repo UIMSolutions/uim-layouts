@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5ListGroupItem : BS5Obj {
 	mixin(H5This!("DIV", ["list-group-item"]));
 
-	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
+	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
 }
 static BS5ListGroupItem");
 

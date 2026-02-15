@@ -13,7 +13,7 @@ class BS5List : BS5Obj {
 	// Removes some borders and rounded corners to render group in a parent container
 	O flush(this O)() {
 		this.addClasses("list-group-flush");
-		return cast(O)this;
+		return this;
 	}
 
 	// Add a list item

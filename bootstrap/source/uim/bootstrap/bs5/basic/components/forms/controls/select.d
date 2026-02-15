@@ -17,7 +17,7 @@ class BS5InputSelect : BS5Obj {
 	O options(this O)(string[] values, string selected = "", string disabled = "") {
 		values.each!(value => setOptionByValue(value, selected, disabled)); 
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOptionByValue(string optionValue, string selected = "", string disabled = "") {
@@ -32,7 +32,7 @@ class BS5InputSelect : BS5Obj {
 	O options(this O)(STRINGAA[] keyValues, string selectedKey = "", string disabledKey = "") {
 		keyValues.each!(keyvalues => setOptionByKeyValues(keyvalues, selectedKey, disabledKey));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOptionByKey(STRINGAA optionKey,  keyValues, string selectedKey = "", string disabledKey = "") {
@@ -48,7 +48,7 @@ class BS5InputSelect : BS5Obj {
 	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected setOptionByKey(string optionKey, string selectedKey = "", string disabledKey = "") {
@@ -64,7 +64,7 @@ class BS5InputSelect : BS5Obj {
 	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
 		values.each!(value => setOptionByValue(value, selected, disabled)); 
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOptionByValue(string optionValue, string[] selected, string[] disabled = null) {
@@ -87,7 +87,7 @@ class BS5InputSelect : BS5Obj {
 			else if (disabledKeys.has(k)) this.option(["disabled":"disabled"], k);
 			else this.option(["value":k], values[k]);
 		}
-		return cast(O)this;	
+		return this;	
 	}
 	O option(this O)(string value, string key = null, bool selected = false, string disabled = false) {
 		auto result = H5Option;
@@ -96,7 +96,7 @@ class BS5InputSelect : BS5Obj {
 		if (key.length == 0) result(["value":k]);
 		this(result(value));
 		
-		return cast(O)this;	
+		return this;	
 	}
 }
 static BS5InputSelect"));

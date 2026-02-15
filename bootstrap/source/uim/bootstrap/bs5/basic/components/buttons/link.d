@@ -11,7 +11,7 @@ class BS5ButtonLink : BS5Obj {
 
 	O disabled(this O)() {
 		this.addClasses(["disabled"]).attributes(["tabindex":"-1", "aria-disabled":"true"]);
-		return cast(O)this;
+		return this;
 	}
 	///
 unittest { {

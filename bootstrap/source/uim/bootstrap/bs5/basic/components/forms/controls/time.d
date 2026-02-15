@@ -15,22 +15,22 @@ class BS5InputTime : BS5Input {
 
 	O value(this O)(long timestamp) {
 		_attributes["value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString.split("T")[1];
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(string timeValue) {
 		_attributes["value"] = timeValue;
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(SysTime systime) {
 		_attributes["value"] = (cast(DateTime)systime).toISOExtString.split("T")[1];
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(DateTime datetime) {
 		_attributes["value"] = datetime.toISOExtString.split("T")[1];
-		return cast(O)this;
+		return this;
 	}
 
 }

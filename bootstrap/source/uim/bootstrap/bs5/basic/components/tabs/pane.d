@@ -14,9 +14,9 @@ unittest { {
 		assert(BS5TabPane == `<div class="tab-pane" aria-expanded="false" role="tabpanel"></div>`);
 	}}	
 
-	O active(this O)(bool value = true) { if (value) { this.addClasses("active").attributes("aria-expanded", "true"); } return cast(O)this; }
+	O active(this O)(bool value = true) { if (value) { this.addClasses("active").attributes("aria-expanded", "true"); } return this; }
 	
-	O fade(this O)(bool value = true) { if (value) this.addClasses("fade"); return cast(O)this; }
+	O fade(this O)(bool value = true) { if (value) this.addClasses("fade"); return this; }
 }
 static BS5TabPane");
 

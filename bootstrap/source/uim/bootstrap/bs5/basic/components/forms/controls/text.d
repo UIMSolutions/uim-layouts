@@ -15,17 +15,17 @@ class BS5InputText : BS5Input {
 	
 	O value(this O)(UUID id) {
 		this.value(id.toString);
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(bool aValue) {
 		value(aValue ? "true" : "false");
-		return cast(O)this;
+		return this;
 	}
 
 	O value(this O)(string txt) {
 		_attributes["value"] = txt;
-		return cast(O)this;
+		return this;
 	}
 }
 static BS5InputText"));

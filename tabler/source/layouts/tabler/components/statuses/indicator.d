@@ -16,9 +16,9 @@ class BS5StatusIndicator : BS5Obj {
     );
   }
 
-  O animated(this O)(bool value = true){ if (value) this.addClasses("status-indicator-animated"); return cast(O)this; }
+  O animated(this O)(bool value = true){ if (value) this.addClasses("status-indicator-animated"); return this; }
 
-  O color(this O)(string value){ this.addClasses("status-"~value); return cast(O)this; }
+  O color(this O)(string value){ this.addClasses("status-"~value); return this; }
 }
 static BS5StatusIndicator");
 

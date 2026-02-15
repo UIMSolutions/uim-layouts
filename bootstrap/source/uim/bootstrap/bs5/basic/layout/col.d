@@ -11,7 +11,7 @@ class BS5Col : BS5Obj {
 
 	O sizes(this O)(string[] someSizes...) { 
 		foreach(size; someSizes) this.addClasses("col-"~size); 
-		return cast(O)this; 
+		return this; 
 	}
 }
 static BS5Col"));

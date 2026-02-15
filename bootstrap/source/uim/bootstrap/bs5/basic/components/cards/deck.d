@@ -12,7 +12,7 @@ class BS5CardDeck : BS5Obj {
 
 	/// Add card 
 	mixin(MyContent!("card", "BS5Card"));
-	O card(this O)(BS5Card[] cards) { foreach(c; cards) this.card(c); return cast(O)this; }
+	O card(this O)(BS5Card[] cards) { foreach(c; cards) this.card(c); return this; }
 	///
 unittest { {
 		assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);

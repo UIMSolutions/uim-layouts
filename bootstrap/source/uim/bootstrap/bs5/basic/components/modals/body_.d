@@ -4,16 +4,16 @@ import uim.bootstrap;
 
 mixin(showmodule!());
 
-@safe: 
+@safe:
 
-class BS5ModalBody : BS5Obj
-{
+class BS5ModalBody : BS5Obj {
 	mixin(H5This!("Div", ["modal-body"]));
+
+	static BS5ModalBody opCall() {
+		return new BS5ModalBody;
+	}
 }
 
-static BS5ModalBody");
-
-unittest
-{
+unittest {
 	assert(BS5ModalBody == `<div class="modal-body"></div>`);
 }
