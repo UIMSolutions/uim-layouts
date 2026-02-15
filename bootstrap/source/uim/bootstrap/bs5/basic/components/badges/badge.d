@@ -2,7 +2,7 @@ module uim.bootstrap.bs5.basic.components.badges.badge;
 
 import uim.bootstrap;
 
-mixin(showmodule!());
+mixin(ShowModule!());
 
 @safe: 
 

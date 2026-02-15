@@ -3,7 +3,7 @@ module uim.bootstrap.bs5.basic.components.alerts.alert;
 @safe:
 import uim.bootstrap;
 
-mixin(showmodule!());
+mixin(ShowModule!());
 
 @safe: 
 

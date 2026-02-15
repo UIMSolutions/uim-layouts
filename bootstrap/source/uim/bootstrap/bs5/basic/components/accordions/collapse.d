@@ -2,7 +2,7 @@ module uim.bootstrap.bs5.basic.components.accordions.collapse;
 
 import uim.bootstrap;
 
-mixin(showmodule!());
+mixin(ShowModule!());
 
 @safe:
 

@@ -2,18 +2,23 @@
 
 import uim.bootstrap;
 
-mixin(showmodule!());
+mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5Progress : BS5Obj {
 	mixin(H5This!("Div", ["progress"]));
 
-	mixin(MyContent!("bar", "BS5ProgressBar"));
+	auto addBar() {
+		addContent(BS5ProgressBar());
+	}
+
+	static BS5Progress opCall() {
+		return new BS5Progress;
+	}
 }
-static BS5Progress");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Progress == `<div class="progress"></div>`);
-}}
+}

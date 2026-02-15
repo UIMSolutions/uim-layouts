@@ -2,7 +2,7 @@ module uim.bootstrap.bs5.classes.apps.app;
 
 import uim.bootstrap;
 
-mixin(showmodule!());
+mixin(ShowModule!());
 
 @safe: 
 

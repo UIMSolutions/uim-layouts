@@ -3,7 +3,7 @@
 @safe:
 import uim.bootstrap;
 
-mixin(showmodule!());
+mixin(ShowModule!());
 
 @safe: 
 
