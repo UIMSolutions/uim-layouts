@@ -15,7 +15,7 @@ class BS5Badge : BS5Obj {
 		return this.addClasses("badge-" ~ name);
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5Badge.color("secondary") == `<span class="badge badge-secondary"></span>`);
 	}}
 
@@ -26,7 +26,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5Badge.pill(true) == `<span class="badge badge-pill"></span>`);
 	}}
 }
@@ -34,6 +34,6 @@ unittest { {
 static BS5Badge"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5Badge == `<span class="badge"></span>`);
 }}

@@ -7,6 +7,6 @@ mixin(ShowModule!());
 @safe:  
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

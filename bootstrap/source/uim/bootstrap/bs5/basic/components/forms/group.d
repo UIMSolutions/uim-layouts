@@ -52,6 +52,6 @@ class BS5FormGroup : BS5Obj {
 static BS5FormGroup");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormGroup == `<div class="form-group"></div>`);
 }}

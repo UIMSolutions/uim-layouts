@@ -21,6 +21,6 @@ class BS5NavbarToggler : BS5ButtonObj {
 static BS5NavbarToggler");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavbarToggler == `<button class="navbar-toggler" aria-controls="navbar" data-bs-toggle="collapse" type="button"></button>`);
 }}

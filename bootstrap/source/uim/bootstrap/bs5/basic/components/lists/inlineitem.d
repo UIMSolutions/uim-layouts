@@ -12,6 +12,6 @@ class BS5ListInlineItem : BS5Obj {
 static BS5ListInlineItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ListInlineItem == `<li class="list-inline-item"></li>`);
 }}

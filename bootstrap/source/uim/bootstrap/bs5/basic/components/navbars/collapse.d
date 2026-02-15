@@ -12,6 +12,6 @@ class BS5NavbarCollapse : BS5Obj {
 static BS5NavbarCollapse");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavbarCollapse == `<div class="collapse navbar-collapse"></div>`);
 }}

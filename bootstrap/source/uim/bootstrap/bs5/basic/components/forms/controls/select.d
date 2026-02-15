@@ -102,6 +102,6 @@ class BS5InputSelect : BS5Obj {
 static BS5InputSelect"));
 
 ///
-unittest { {
+unittest {
 	// TODO assert 
 }}

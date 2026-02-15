@@ -16,7 +16,7 @@ class BS5CardSubtitle : BS5Obj {
 static BS5CardSubtitle");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardSubtitle == `<h6 class="card-subtitle"></h6>`);
 	assert(BS5CardSubtitle.content("SomeThing") == `<h6 class="card-subtitle">SomeThing</h6>`);
 }}

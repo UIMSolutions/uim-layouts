@@ -20,7 +20,7 @@ class BS5InputPlaintext : BS5Input {
 static BS5InputPlaintext"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputPlaintext);
 	assert(BS5InputPlaintext == `<input class="form-control-plaintext" type="text">`);
 }}

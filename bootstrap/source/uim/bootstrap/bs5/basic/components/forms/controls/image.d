@@ -16,7 +16,7 @@ class BS5InputImage : BS5Obj {
 static BS5InputImage"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputImage);
 	assert(BS5InputImage == `<input class="form-control" type="image">`);
 }}

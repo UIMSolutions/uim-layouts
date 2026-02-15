@@ -13,6 +13,6 @@ class BS5CardOverlay : BS5Obj {
 static BS5CardOverlay");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardOverlay == `<div class="card-img-overlay"></div>`);
 }}

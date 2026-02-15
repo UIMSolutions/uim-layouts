@@ -10,7 +10,7 @@ class BS5TabPane : BS5Obj {
 	mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
 
 	///
-unittest { {
+unittest {
 		assert(BS5TabPane == `<div class="tab-pane" aria-expanded="false" role="tabpanel"></div>`);
 	}}	
 
@@ -21,7 +21,7 @@ unittest { {
 static BS5TabPane");
 
 ///
-unittest { {
+unittest {
 	assert(BS5TabPane.active == `<div class="active tab-pane" aria-expanded="true" role="tabpanel"></div>`);
 	assert(BS5TabPane.fade == `<div class="fade tab-pane" aria-expanded="false" role="tabpanel"></div>`);
 }}

@@ -12,6 +12,6 @@ class BS5FormFile : BS5Obj {
 static BS5FormFile");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormFile == `<div class="form-file"></div>`);
 }}

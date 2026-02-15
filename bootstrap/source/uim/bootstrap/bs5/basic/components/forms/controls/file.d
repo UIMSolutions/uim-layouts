@@ -16,6 +16,6 @@ class BS5InputFile : BS5Input {
 static BS5InputFile"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputFile == `<input class="form-control" type="file">`);
 }}

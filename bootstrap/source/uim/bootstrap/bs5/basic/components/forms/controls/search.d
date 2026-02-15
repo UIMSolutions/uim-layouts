@@ -16,6 +16,6 @@ class BS5InputSearch : BS5Input {
 static BS5InputSearch"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputSearch == `<input class="form-control" type="search">`);	
 }}

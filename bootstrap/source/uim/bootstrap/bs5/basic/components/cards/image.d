@@ -11,7 +11,7 @@ class BS5CardImage : BS5Obj { // default top
 
 	O position(string value) { _classes = _classes.sub("card-img-top").add("card-img-"~value); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5CardImage.position("top") == `<img class="card-img-top">`);
 		assert(BS5CardImage.position("bottom") == `<img class="card-img-bottom">`);
 	}}
@@ -19,7 +19,7 @@ unittest { {
 static BS5CardImage");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardImage == `<img class="card-img-top">`);
 	assert(BS5CardImage.position("top") == `<img class="card-img-top">`);
 	assert(BS5CardImage.position("bottom") == `<img class="card-img-bottom">`);

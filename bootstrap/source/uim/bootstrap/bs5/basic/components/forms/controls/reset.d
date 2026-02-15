@@ -16,6 +16,6 @@ class BS5InputReset : BS5Input {
 static BS5InputReset"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputReset == `<input class="form-control" type="reset">`);
 }}

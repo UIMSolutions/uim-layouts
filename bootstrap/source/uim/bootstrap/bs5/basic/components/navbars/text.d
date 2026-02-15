@@ -12,7 +12,7 @@ class BS5NavbarText : BS5Obj {
 static BS5NavbarText");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavbarText == `<span class="navbar-text"></span>`);
 	assert(BS5NavbarText("some text") == `<span class="navbar-text">some text</span>`);
 }}

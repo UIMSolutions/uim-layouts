@@ -12,6 +12,6 @@ class BS5FormText : BS5Obj {
 static BS5FormText");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormText == `<small class="form-text"></small>`);
 }}

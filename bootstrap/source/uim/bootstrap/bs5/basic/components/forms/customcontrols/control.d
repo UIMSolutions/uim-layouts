@@ -24,7 +24,7 @@ class BS5CustomControl : BS5Obj {
 static BS5CustomControl");
 
 ///
-unittest { {
+unittest {
   assert(BS5CustomControl);
   assert(BS5CustomControl == `<div class="custom-control"></div>`);
 }}

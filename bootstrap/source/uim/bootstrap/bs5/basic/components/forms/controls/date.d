@@ -18,7 +18,7 @@ class BS5InputDate : BS5Input {
 		return this;
 	}
 	///
-unittest { {					
+unittest {					
     /// TODO
 	}}
 
@@ -27,7 +27,7 @@ unittest { {
 		return this;
 	}
 	///
-unittest { {		
+unittest {		
     /// TODO
 	}}
 
@@ -36,7 +36,7 @@ unittest { {
 		return this;
 	}
 	///
-unittest { {			
+unittest {			
     /// TODO
 	}}
 
@@ -45,7 +45,7 @@ unittest { {
 		return this;
 	}
 	///
-unittest { {		
+unittest {		
     /// TODO	
 	}}
 
@@ -53,6 +53,6 @@ unittest { {
 static BS5InputDate"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputDate == `<input class="form-control" type="date">`);
 }}

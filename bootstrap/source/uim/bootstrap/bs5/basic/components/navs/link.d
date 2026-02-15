@@ -11,13 +11,13 @@ class BS5NavLink : BS5Obj {
 
 	O active(bool value = true) { if (value) this.addClasses("active"); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5NavLink.active == `<a class="active nav-link" href="#"></a>`);
 	}}
 
 	O disabled(bool value = true) { if (value) this.addClasses("disabled"); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5NavLink.disabled == `<a class="disabled nav-link" href="#"></a>`);
 	}}
 
@@ -29,6 +29,6 @@ unittest { {
 static BS5NavLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavLink == `<a class="nav-link" href="#"></a>`);
 }}

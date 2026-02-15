@@ -12,6 +12,6 @@ class BS5NavbarTogglerIcon : BS5Obj {
 static BS5NavbarTogglerIcon");
 
 ///
-unittest { {
+unittest {
 //	assert(BS5NavbarTogglerIcon == `<div class="btn-group" role="group"></div>`);
 }}

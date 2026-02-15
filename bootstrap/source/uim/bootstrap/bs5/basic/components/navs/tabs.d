@@ -11,7 +11,7 @@ class BS5NavTabs : BS5Obj {
 
 	mixin(MyContent!("item", "BS5NavItem"));
 	///
-unittest { {
+unittest {
 		assert(BS5NavTabs.item == `<ul class="nav nav-tabs" role="tablist"><li class="nav-item"></li></ul>`);
 	}}
 
@@ -20,6 +20,6 @@ unittest { {
 static BS5NavTabs");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavTabs == `<ul class="nav nav-tabs" role="tablist"></ul>`);
 }}

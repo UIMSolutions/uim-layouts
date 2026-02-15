@@ -25,7 +25,7 @@ class BS5TableColumn : BS5Obj {
 static BS5TableColumn");
 
 ///
-unittest { {
+unittest {
 	assert(BS5TableColumn == `<th scope="col"></th>`);
 	assert(BS5TableColumn.title("xyz") == `<th scope="col">xyz</th>`);
 }}

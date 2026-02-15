@@ -12,7 +12,7 @@ class BS5CardBlockquote : BS5Obj {
 static BS5CardBlockquote");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardBlockquote == `<blockquote class="card-blockquote"></blockquote>`);
 }}
 

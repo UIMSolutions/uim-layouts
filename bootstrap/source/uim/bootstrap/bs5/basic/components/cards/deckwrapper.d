@@ -12,6 +12,6 @@ class BS5CardDeckwrapper : BS5Obj {
 static BS5CardDeckwrapper");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardDeckwrapper == `<div class="card-deck-wrapper"></div>`);
 }}

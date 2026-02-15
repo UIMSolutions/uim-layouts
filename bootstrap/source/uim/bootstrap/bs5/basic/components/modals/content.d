@@ -18,6 +18,6 @@ class BS5ModalContent : BS5Obj {
 static BS5ModalContent");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ModalContent == `<div class="modal-content"></div>`);
 }}

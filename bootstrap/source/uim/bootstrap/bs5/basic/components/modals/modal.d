@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5Modal : BS5Obj {
 	mixin(H5This!("DIV", ["modal"], `["tabindex":"-1", "role":"dialog", "aria-hidden":"true"]`));
 	///
-unittest { {
+unittest {
 		assert(BS5Modal == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 	}}
 
@@ -19,7 +19,7 @@ unittest { {
 	}
 
 	///
-unittest { {
+unittest {
 		assert(
 				BS5Modal.fade == `<div class="fade modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 	}}
@@ -27,6 +27,6 @@ unittest { {
 static BS5Modal");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Modal == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 }}

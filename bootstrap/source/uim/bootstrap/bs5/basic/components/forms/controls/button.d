@@ -16,7 +16,7 @@ class BS5InputButton : BS5Input {
 static BS5InputButton"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputButton);
   assert(BS5InputButton == `<input class="form-control" type="button">`);
 }}

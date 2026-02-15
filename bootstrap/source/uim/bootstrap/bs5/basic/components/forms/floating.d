@@ -18,7 +18,7 @@ class BS5FormFloating : BS5Obj {
 static BS5FormFloating");
 
 	///
-unittest { {
+unittest {
 		assert(BS5FormFloating);
 		assert(BS5FormFloating == `<div class="form-floating"></div>`);
 		assert(BS5FormFloating.label == `<div class="form-floating"><label></label></div>`);

@@ -29,6 +29,6 @@ class BS5Input : BS5Obj {
 static BS5Input"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5Input);
 }}

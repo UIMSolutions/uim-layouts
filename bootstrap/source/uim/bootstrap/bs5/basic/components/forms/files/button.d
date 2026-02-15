@@ -12,6 +12,6 @@ class BS5FormFileButton : BS5Obj {
 static BS5FormFileButton");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormFileButton == `<span class="form-file-button"></span>`);
 }}

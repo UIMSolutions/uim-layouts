@@ -12,13 +12,14 @@ class BS5TableBody : BS5Obj {
 	mixin(MyContent!("row", "BS5TableRow"));
 	mixin(MyContent!("tr", "BS5TableRow"));
 	///
-unittest { {
+unittest {
 		assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
 	}}
 }
-static BS5TableBody");
-
+static BS5TableBody opCall() {
+	return new BS5TableBody;
+}
 ///
-unittest { {
+unittest { 
 	assert(BS5TableBody == `<tbody></tbody>`);
-}}
+}

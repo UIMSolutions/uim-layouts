@@ -16,7 +16,7 @@ class BS5PageLink : BS5Obj {
 static BS5PageLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS5PageLink);
 	assert(BS5PageLink == `<a class="page-link" href="#"></a>`);
 }}

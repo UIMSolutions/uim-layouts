@@ -12,7 +12,7 @@ class BS5AccordionButton : BS5Obj {
 static BS5AccordionButton"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5AccordionButton);
 	assert(BS5AccordionButton == `<button class="accordion-button" type="button"></button>`);
 }}

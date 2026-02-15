@@ -11,19 +11,19 @@ class BS5CardBody : BS5Obj {
 
 	mixin(MyContent!("title", "BS5CardTitle"));
 	///
-unittest { {
+unittest {
 		assert(BS5CardBody.title("Hallo") == `<div class="card-body"><h4 class="card-title">Hallo</h4></div>`);
 	}}
 
 	mixin(MyContent!("text", "BS5CardText"));
 	///
-unittest { {
+unittest {
 		assert(BS5CardBody.text("Hallo") == `<div class="card-body"><p class="card-text">Hallo</p></div>`);
 	}}
 }
 static BS5CardBody");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardBody == `<div class="card-body"></div>`);
 }}

@@ -15,7 +15,7 @@ Default: A fixed container is a (responsive) fixed width container.
 class BS5Container : BS5Obj {
 	mixin(H5This!("div", ["container"]));
 	///
-unittest { {
+unittest {
 		assert(BS5Container == `<div class="container"></div>`);
 	}}
 
@@ -28,7 +28,7 @@ unittest { {
 static BS5Container"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5Container == `<div class="container"></div>`);
 	assert(BS5Container.fluid(true) == `<div class="container-fluid"></div>`);
 	assert(BS5Container.mode("fluid") == `<div class="container-fluid"></div>`); // Alternative

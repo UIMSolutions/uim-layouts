@@ -12,6 +12,6 @@ class BS5DropdownButton : BS5Obj {
 static BS5DropdownButton");
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

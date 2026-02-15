@@ -11,13 +11,13 @@ class BS5CarouselInner : BS5Obj {
 
 	mixin(MyContent!("item", "BS5CarouselItem"));
 	///
-unittest { {
+unittest {
 		assert(BS5CarouselInner.item == `<div class="carousel-inner"><div class="carousel-item"></div></div>`);
 	}}
 }
 
 static BS5CarouselInner");
 ///
-unittest { {
+unittest {
 	assert(BS5CarouselInner == `<div class="carousel-inner"></div>`);
 }}

@@ -16,6 +16,6 @@ class BS5InputWeek : BS5Input {
 static BS5InputWeek"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputWeek == `<input class="form-control" type="week">`);
 }}

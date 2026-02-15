@@ -14,6 +14,6 @@ class BS5Row : BS5Obj {
 static BS5Row"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5Row == `<div class="row"></div>`);
 }}

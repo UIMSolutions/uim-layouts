@@ -12,6 +12,6 @@ class BS5SpinnerGrow : BS5Obj {
 static BS5SpinnerGrow"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5SpinnerGrow == `<div class="spinner-grow"></div>`);
 }}

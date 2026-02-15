@@ -11,13 +11,13 @@ class BS5ListLink : BS5Obj {
 
 	O active(bool value = true) { return this.addClasses("active"); }
 	///
-unittest { {
+unittest {
 		assert(BS5ListLink.active == `<a class="active list-group-item list-group-item-action"></a>`);
 	}}
 
 	O disabled(bool value = true) { return this.addClasses("disabled"); }
 	///
-unittest { {
+unittest {
 		assert(BS5ListLink.disabled == `<a class="disabled list-group-item list-group-item-action"></a>`);
 	}}
 
@@ -26,7 +26,7 @@ unittest { {
 static BS5ListLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ListLink == `<a class="list-group-item list-group-item-action"></a>`);
 	assert(BS5ListLink.active == `<a class="active list-group-item list-group-item-action"></a>`);
 	assert(BS5ListLink.disabled == `<a class="disabled list-group-item list-group-item-action"></a>`);

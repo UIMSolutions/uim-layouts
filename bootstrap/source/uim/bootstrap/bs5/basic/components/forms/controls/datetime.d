@@ -32,6 +32,6 @@ class BS5InputDateTime : BS5Input {
 static BS5InputDateTime"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputDateTime == `<input class="form-control" type="datetime-local">`);
 }}

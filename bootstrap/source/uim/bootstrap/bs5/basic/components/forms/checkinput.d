@@ -16,7 +16,7 @@ class BS5FormCheckInput : BS5Obj {
 static BS5FormCheckInput");
 
 ///
-unittest { {
+unittest {
 // TODO assert(BS5FormCheckInput == );
 	assert(BS5FormCheckInput == `<input class="form-check-input">`);
 }}

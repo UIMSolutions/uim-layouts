@@ -11,13 +11,13 @@ class BS5Breadcrumb : BS5Obj {
 
 	mixin(MyContent!("list", "BS5BreadcrumbList"));
 	///
-unittest { {
+unittest {
 		assert(BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
 	}}
 }
 static BS5Breadcrumb");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Breadcrumb == `<nav aria-label="breadcrumb"></nav>`);
 }}

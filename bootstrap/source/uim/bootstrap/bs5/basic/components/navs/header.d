@@ -12,6 +12,6 @@ class BS5NavHeader : BS5Obj {
 static BS5NavHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavHeader == `<li class="nav-header"></li>`);
 }}

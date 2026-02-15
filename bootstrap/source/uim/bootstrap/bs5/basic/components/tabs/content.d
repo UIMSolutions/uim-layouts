@@ -14,6 +14,6 @@ class BS5TabContent : BS5Obj {
 static BS5TabContent");
 
 ///
-unittest { {
+unittest {
 	assert(BS5TabContent == `<div class="tab-content"></div>`);
 }}

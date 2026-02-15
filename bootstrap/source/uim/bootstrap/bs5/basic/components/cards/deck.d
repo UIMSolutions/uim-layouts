@@ -14,13 +14,13 @@ class BS5CardDeck : BS5Obj {
 	mixin(MyContent!("card", "BS5Card"));
 	O card(BS5Card[] cards) { foreach(c; cards) this.card(c); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
 	}}
 }
 
 static BS5CardDeck");
 ///
-unittest { {
+unittest {
 	assert(BS5CardDeck == `<div class="card-deck"></div>`);
 }}

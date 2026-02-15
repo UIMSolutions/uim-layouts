@@ -17,6 +17,6 @@ class BS5CustomFileInput : BS5Obj {
 static BS5CustomFileInput");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CustomFileInput == `<input class="custom-file-input">`);
 }}

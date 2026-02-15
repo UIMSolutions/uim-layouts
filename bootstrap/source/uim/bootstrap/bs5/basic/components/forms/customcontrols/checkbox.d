@@ -19,7 +19,7 @@ class BS5CustomCheckbox : BS5CustomControl {
 static BS5CustomCheckbox");
 
 ///
-unittest { {
+unittest {
   // TODO Exists in 5?
 /*   assert(BS5CustomCheckbox);
   writeln(BS5CustomCheckbox);

@@ -12,6 +12,6 @@ class BS5FormCheckLabel : BS5Obj {
 static BS5FormCheckLabel");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormCheckLabel == `<label class="form-check-label"></label>`);
 }}

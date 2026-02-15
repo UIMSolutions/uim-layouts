@@ -12,7 +12,7 @@ class BS5CardBlock : BS5Obj {
 
 static BS5CardBlock");
 ///
-unittest { {
+unittest {
 	assert(BS5CardBlock);
 	assert(BS5CardBlock == `<div class="card-block"></div>`);
 }}

@@ -13,13 +13,13 @@ class BS5NavItem : BS5Obj {
 
 	O dropdown(bool mode = true) { return this.addClasses("dropdown"); }
 	///
-unittest { {
+unittest {
 		assert(BS5NavItem.dropdown ==`<li class="dropdown nav-item"></li>`);
 	}}
 }
 static BS5NavItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS5NavItem == `<li class="nav-item"></li>`);
 }}

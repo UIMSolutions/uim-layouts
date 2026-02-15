@@ -12,7 +12,7 @@ class BS5CardFooter : BS5Obj {
 static BS5CardFooter");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardFooter);
 	assert(BS5CardFooter == `<div class="card-footer"></div>`);
 }}

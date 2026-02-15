@@ -12,7 +12,7 @@ class BS5DropdownDivider : BS5Obj {
 static BS5DropdownDivider");
 
 ///
-unittest { {
+unittest {
 	assert(BS5DropdownDivider);
 	assert(BS5DropdownDivider == `<div class="dropdown-divider"></div>`);
 }}

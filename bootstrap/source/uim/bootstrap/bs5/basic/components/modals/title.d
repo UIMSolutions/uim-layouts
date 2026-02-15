@@ -12,6 +12,6 @@ class BS5ModalTitle : BS5Obj {
 static BS5ModalTitle");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ModalTitle == `<h5 class="modal-title"></h5>`);
 }}

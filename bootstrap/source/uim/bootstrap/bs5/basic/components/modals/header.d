@@ -12,6 +12,6 @@ class BS5ModalHeader : BS5Obj {
 static BS5ModalHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ModalHeader == `<div class="modal-header"></div>`);
 }}

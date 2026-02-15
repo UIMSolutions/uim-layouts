@@ -12,7 +12,7 @@ class BS5CollapseButton : BS5Obj {
 static BS5CollapseButton");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CollapseButton);
 	assert(BS5CollapseButton == `<button class="btn" data-toggle="collapse" role="button"></button>`);
 }}

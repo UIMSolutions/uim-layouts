@@ -19,7 +19,7 @@ class BS5Form : BS5Obj {
 static BS5Form");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Form == `<form></form>`);
 	assert(BS5Form.inline == `<form class="form-inline"></form>`);
 }}

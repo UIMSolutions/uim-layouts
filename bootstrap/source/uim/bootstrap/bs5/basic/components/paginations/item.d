@@ -17,7 +17,7 @@ class BS5PageItem : BS5Obj {
 static BS5PageItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS5PageItem == `<li class="page-item"></li>`);
 	assert(BS5PageItem.active == `<li class="active page-item"></li>`);
 	assert(BS5PageItem.disabled == `<li class="disabled page-item" tabindex="-1"></li>`);

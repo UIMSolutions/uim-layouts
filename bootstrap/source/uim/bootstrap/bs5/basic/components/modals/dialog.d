@@ -11,25 +11,25 @@ class BS5ModalDialog : BS5Obj {
 
 	O fade(bool mode = true) { return this.addClasses("fade"); }
 	///
-unittest { {
+unittest {
 		assert(BS5ModalDialog.fade == `<div class="fade modal-dialog" role="document"></div>`);
 	}}
 
 	O size(string aSize) { return this.addClasses("modal-"~aSize); }
 	///
-unittest { {
+unittest {
 		assert(BS5ModalDialog.size("sm") == `<div class="modal-dialog modal-sm" role="document"></div>`);
 	}}
 
 	O centered(bool mode = true) { return this.addClasses("modal-dialog-centered"); }
 	///
-unittest { {
+unittest {
 		assert(BS5ModalDialog.centered == `<div class="modal-dialog modal-dialog-centered" role="document"></div>`);
 	}}
 }
 static BS5ModalDialog");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ModalDialog == `<div class="modal-dialog" role="document"></div>`);
 }}

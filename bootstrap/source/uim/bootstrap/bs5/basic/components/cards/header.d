@@ -14,6 +14,6 @@ class BS5CardHeader : BS5Obj {
 static BS5CardHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardHeader == `<div class="card-header"></div>`);
 }}

@@ -17,6 +17,6 @@ class BS5Col : BS5Obj {
 static BS5Col"));
 
 ///
-unittest { {	
+unittest {	
 	assert(BS5Col.sizes("12") == `<div class="col-12"></div>`);
 }}

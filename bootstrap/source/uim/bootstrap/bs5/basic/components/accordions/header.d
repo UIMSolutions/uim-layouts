@@ -14,7 +14,7 @@ class BS5AccordionHeader : BS5Obj {
 static BS5AccordionHeader"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5AccordionHeader);
 	assert(BS5AccordionHeader == `<h2 class="accordion-header"></h2>`);
 }}

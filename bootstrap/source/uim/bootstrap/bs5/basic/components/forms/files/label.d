@@ -12,6 +12,6 @@ class BS5FormFileLabel : BS5Obj {
 static BS5FormFileLabel");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormFileLabel == `<label class="form-file-label"></label>`);
 }}

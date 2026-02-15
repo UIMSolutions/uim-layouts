@@ -16,6 +16,6 @@ class BS5InputDatalist : BS5Input {
 static BS5InputDatalist"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputDatalist == `<input class="form-control">`);
 }}

@@ -16,6 +16,6 @@ class BS5InputUrl : BS5Input {
 static BS5InputUrl"));
  
 ///
-unittest { {
+unittest {
    assert(BS5InputUrl == `<input class="form-control" type="url">`);
 }}

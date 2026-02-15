@@ -12,6 +12,6 @@ class BS5Collapse : BS5Obj {
 static BS5Collapse");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Collapse == `<div class="collapse"></div>`);
 }}

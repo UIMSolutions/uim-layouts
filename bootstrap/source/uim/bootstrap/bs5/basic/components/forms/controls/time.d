@@ -37,6 +37,6 @@ class BS5InputTime : BS5Input {
 static BS5InputTime"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputTime ==`<input class="form-control" type="time">`);
 }}

@@ -12,7 +12,7 @@ class BS5TableRow : BS5Obj {
 	/// Adding a header cell
 	mixin(MyContent!("th", "H5Th"));
 	///
-unittest { {
+unittest {
 		assert(BS5TableRow.th == `<tr><th></th></tr>`);
 	}}
 
@@ -20,7 +20,7 @@ unittest { {
 	mixin(MyContent!("cell", "H5Td"));
 	mixin(MyContent!("td", "H5Td"));
 	///
-unittest { {
+unittest {
 		assert(BS5TableRow.cell == `<tr><td></td></tr>`);
 		assert(BS5TableRow.td == `<tr><td></td></tr>`);
 	}}
@@ -51,7 +51,7 @@ unittest { {
 static BS5TableRow");
 
 ///
-unittest { {
+unittest {
 	assert(BS5TableRow == "<tr></tr>");
 	//assert(BS5TableRow.values(["a","b"]) == `<tr><td>a</td><td>b</td></tr>`);
 }}

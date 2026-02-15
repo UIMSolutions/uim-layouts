@@ -19,7 +19,7 @@ class BS5BadgeLink : BS5Obj {
 		return this.addClasses("badge-"~name);
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5BadgeLink.color("secondary") == `<a class="badge badge-secondary"></a>`);
 	}}
 
@@ -29,7 +29,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5BadgeLink.pill(true) == `<a class="badge badge-pill"></a>`);
 	}}
 }
@@ -37,7 +37,7 @@ unittest { {
 static BS5BadgeLink"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5BadgeLink);
 	assert(BS5BadgeLink == `<a class="badge"></a>`);
 }}

@@ -12,7 +12,7 @@ class BS5CardText : BS5Obj {
 static BS5CardText");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardText == `<p class="card-text"></p>`);
 	assert(BS5CardText.content("SomeThing") == `<p class="card-text">SomeThing</p>`);
 }}

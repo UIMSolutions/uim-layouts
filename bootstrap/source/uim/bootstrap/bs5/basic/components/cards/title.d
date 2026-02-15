@@ -12,14 +12,14 @@ class BS5CardTitle : BS5Obj {
 	O level(uint value) { if (value > 0) _tag = "h"~to!string(value); return this; }
 	O level(string value) { if (value.length > 0) _tag = "h"~value; return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5CardTitle.level(2) == `<h2 class="card-title"></h2>`);
 	}}
 }
 static BS5CardTitle");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardTitle == `<h4 class="card-title"></h4>`);
 	assert(BS5CardTitle.content("SomeThing") == `<h4 class="card-title">SomeThing</h4>`);
 }}

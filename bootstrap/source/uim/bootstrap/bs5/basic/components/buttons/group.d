@@ -15,7 +15,7 @@ class BS5ButtonGroup : BS5Obj {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5ButtonGroup.size("lg") == `<div class="btn-group btn-group-lg" role="group"></div>`);
 	}}
 
@@ -31,7 +31,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5ButtonGroup.vertical == `<div class="btn-group-vertical" role="group"></div>`);
 	}}
 
@@ -39,7 +39,7 @@ unittest { {
 
 	mixin(MyContent!("button", "BS5Button"));
 	///
-unittest { {
+unittest {
 		assert(BS5ButtonGroup.button == `<div class="btn-group" role="group"><button class="btn" type="button"></button></div>`);
 	}}
 
@@ -49,6 +49,6 @@ unittest { {
 static BS5ButtonGroup");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ButtonGroup == `<div class="btn-group" role="group"></div>`);
 }}

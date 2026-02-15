@@ -17,6 +17,6 @@ class BS5ButtonClose : BS5Button {
 static BS5ButtonClose");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ButtonClose == `<button class="btn close" aria-label="Close" type="button"><span aria-hidden="true">&times;</span></button>`);
 }}

@@ -14,7 +14,7 @@ class BS5TableCell : BS5Obj {
 		this.attributes("colspan", span);
 		return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5TableCell.colspan(2) == `<td colspan="2"></td>`);
 	}}
 
@@ -23,13 +23,13 @@ unittest { {
 		this.attributes("rowspan", span);
 		return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5TableCell.rowspan(2) == `<td rowspan="2"></td>`);
 	}}
 }
 static BS5TableCell");
 
 ///
-unittest { {
+unittest {
 	assert(BS5TableCell == `<td></td>`);
 }}

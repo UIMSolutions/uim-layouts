@@ -14,14 +14,14 @@ class BS5ButtonLink : BS5Obj {
 		return this;
 	}
 	///
-unittest { {
+unittest {
 		// TODO
 	}}
 }
 static BS5ButtonLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS5ButtonLink == `<a class="btn" role="button"></a>`);
 }}
 	

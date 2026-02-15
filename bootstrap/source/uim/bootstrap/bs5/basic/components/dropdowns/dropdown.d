@@ -17,7 +17,7 @@ class BS5Dropdown : BS5Obj {
 static BS5Dropdown");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Dropdown == `<div class="dropdown"></div>`);
 	assert(BS5Dropdown.id("abc") == `<div id="abc" class="dropdown"></div>`);
 }}

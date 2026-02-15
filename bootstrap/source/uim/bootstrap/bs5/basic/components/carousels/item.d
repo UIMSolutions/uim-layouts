@@ -17,7 +17,7 @@ class BS5CarouselItem : BS5Obj {
 static BS5CarouselItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CarouselItem == `<div class="carousel-item"></div>`);
 	assert(BS5CarouselItem.active == `<div class="active carousel-item"></div>`);
 }}

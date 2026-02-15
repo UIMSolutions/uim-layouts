@@ -12,6 +12,6 @@ class BS5DropdownText : BS5Obj {
 static BS5DropdownText");
 
 ///
-unittest { {
+unittest {
 	assert(BS5DropdownText("Hallo") == `<p>Hallo</p>`);
 }}

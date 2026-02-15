@@ -14,13 +14,13 @@ class BS5CardGroup : BS5Obj {
 	mixin(MyContent!("card", "BS5Card"));
 	O card(BS5Card[] cards) { foreach(c; cards) this.card(c); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS5CardGroup.card == `<div class="card-group"><div class="card"></div></div>`);
 	}}
 }
 static BS5CardGroup");
 
 ///
-unittest { {
+unittest {
 	assert(BS5CardGroup == `<div class="card-group"></div>`);
 }}

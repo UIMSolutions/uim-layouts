@@ -36,6 +36,6 @@ class BS5InputNumber : BS5Obj {
 static BS5InputNumber"));
 
 ///
-unittest { {
+unittest {
 	assert(BS5InputNumber == `<input class="form-control" type="number">`);
 }}

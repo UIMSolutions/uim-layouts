@@ -14,6 +14,6 @@ class BS5Media : BS5Obj {
 static BS5Media");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Media == `<div class="media"></div>`);
 }}

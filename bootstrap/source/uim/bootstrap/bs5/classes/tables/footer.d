@@ -12,13 +12,13 @@ class BS5TableFooter : BS5Obj {
 	mixin(MyContent!("row", "BS5TableRow"));
 	mixin(MyContent!("tr", "BS5TableRow"));
 	///
-unittest { {
+unittest {
 		assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
 	}}	
 }
 static BS5TableFooter");
 
 ///
-unittest { {
+unittest {
 		assert(BS5TableFooter == `<tfoot></tfoot>`);
 }}

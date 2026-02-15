@@ -16,6 +16,6 @@ class BS5InputSubmit : BS5Input {
 static BS5InputSubmit"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputSubmit == `<input class="form-control" type="submit">`);
 }}

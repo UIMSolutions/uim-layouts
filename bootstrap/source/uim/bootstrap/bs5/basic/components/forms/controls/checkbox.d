@@ -16,6 +16,6 @@ class BS5Checkbox : BS5Input {
 static BS5Checkbox"));
 
 ///
-unittest { {
+unittest {
   assert(BS5Checkbox == `<input class="form-control" type="checkbox">`);
 }}

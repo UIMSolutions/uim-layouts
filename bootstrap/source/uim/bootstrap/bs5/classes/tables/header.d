@@ -12,7 +12,7 @@ class BS5TableHeader : BS5Obj {
 	mixin(MyContent!("row", "BS5TableRow"));
 	mixin(MyContent!("tr", "BS5TableRow"));
 	///
-unittest { {
+unittest {
 		assert(BS5TableHeader.row == `<thead><tr></tr></thead>`);
 		assert(BS5TableHeader.row.row == `<thead><tr></tr><tr></tr></thead>`);
 		assert(BS5TableHeader.tr == `<thead><tr></tr></thead>`);
@@ -21,6 +21,6 @@ unittest { {
 static BS5TableHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS5TableHeader == `<thead></thead>`);
 }}

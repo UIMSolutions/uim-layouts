@@ -14,7 +14,7 @@ class BS5Navbar : BS5Obj {
 		return this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5Navbar.center == `<nav class="justify-content-center navbar"></nav>`);
 		assert(BS5Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
 	}}
@@ -24,7 +24,7 @@ unittest { {
 		return this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS5Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);
 	}}
 
@@ -34,7 +34,7 @@ unittest { {
 	}
 	///
 	///
-unittest { {
+unittest {
 		assert(BS5Navbar.expand("lg") == `<nav class="navbar navbar-expand-lg"></nav>`);
 	}}
 
@@ -44,7 +44,7 @@ unittest { {
 	}
 	///
 	///
-unittest { {
+unittest {
 		assert(BS5Navbar.light == `<nav class="navbar navbar-light"></nav>`);
 	}}
 
@@ -60,6 +60,6 @@ unittest { {
 static BS5Navbar");
 
 ///
-unittest { {
+unittest {
 	assert(BS5Navbar == `<nav class="navbar"></nav>`);
 }}

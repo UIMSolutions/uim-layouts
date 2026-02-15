@@ -36,6 +36,6 @@ class BS5ButtonObj : BS5Obj {
 static BS5ButtonObj");
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

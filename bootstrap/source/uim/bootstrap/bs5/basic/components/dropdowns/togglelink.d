@@ -12,7 +12,7 @@ class BS5DropdownToggleLink : BS5ButtonLink {
 static BS5DropdownToggleLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS5DropdownToggleLink == `<a class="btn dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button"></a>`);
 }}
 

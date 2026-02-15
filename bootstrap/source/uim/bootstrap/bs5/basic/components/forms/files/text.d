@@ -12,6 +12,6 @@ class BS5FormFileText : BS5Obj {
 static BS5FormFileText");
 
 ///
-unittest { {
+unittest {
 	assert(BS5FormFileText == `<span class="form-file-text"></span>`);
 }}

@@ -16,13 +16,13 @@ class BS5CarouselIndicators : BS5Obj {
 	
 	mixin(MyContent!("indicator", "H5Button"));
 	///
-unittest { {
+unittest {
 		assert(BS5CarouselIndicators.indicator.toString == `<div class="carousel-indicators"><button></button></div>`);
 	}}
 }
 static BS5CarouselIndicators");
 ///
-unittest { {
+unittest {
 	assert(BS5CarouselIndicators.toString == `<div class="carousel-indicators"></div>`);
 }}
 

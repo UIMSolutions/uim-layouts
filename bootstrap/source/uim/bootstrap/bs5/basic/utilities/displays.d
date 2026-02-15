@@ -35,6 +35,6 @@ T displayPrint(T)(T h5, string mode) {
 }
 
 ///
-unittest { {
+unittest {
 	// TODOs
 }}

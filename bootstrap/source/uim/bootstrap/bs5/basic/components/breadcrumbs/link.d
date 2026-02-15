@@ -12,6 +12,6 @@ class BS5BreadcrumbLink : BS5Obj {
 static BS5BreadcrumbLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS5BreadcrumbLink == `<a></a>`);
 }}

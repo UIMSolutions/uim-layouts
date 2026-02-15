@@ -16,6 +16,6 @@ class BS5InputEmail : BS5Input {
 static BS5InputEmail"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputEmail == `<input class="form-control" type="email">`);
 }}

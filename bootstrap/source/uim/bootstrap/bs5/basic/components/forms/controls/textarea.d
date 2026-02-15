@@ -19,6 +19,6 @@ class BS5InputTextarea : BS5Obj {
 static BS5InputTextarea"));
 
 ///
-unittest { {
+unittest {
   assert(BS5InputTextarea == `<textarea class="form-control"></textarea>`);
 }}
