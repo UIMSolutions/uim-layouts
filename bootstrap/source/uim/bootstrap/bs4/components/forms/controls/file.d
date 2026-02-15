@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputFile : BS4Input {
 	mixin(H5This!(null, null, `["type":"file"]`));
 }
-mixin(H5Calls!("BS4InputFile"));
+static BS4InputFile"));
 
 ///
 unittest { {

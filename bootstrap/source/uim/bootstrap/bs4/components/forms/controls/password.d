@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4Password : BS4Input {
 	mixin(H5This!(null, ["form-control"], `["type":"password"]`));
 }
-mixin(H5Calls!("BS4Password"));
+static BS4Password"));
 
 ///
 unittest { {

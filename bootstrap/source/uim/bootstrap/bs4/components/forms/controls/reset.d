@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputReset : BS4Input {
 	mixin(H5This!("", null, `["type":"reset"]`));
 }
-mixin(H5Calls!("BS4InputReset"));
+static BS4InputReset"));
 ///
 ///
 unittest { {

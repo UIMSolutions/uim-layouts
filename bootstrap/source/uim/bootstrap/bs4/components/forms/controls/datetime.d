@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputDateTime : BS4Input {
 	mixin(H5This!("", null, `["type":"datetime-local"]`));
 }
-mixin(H5Calls!("BS4InputDateTime"));
+static BS4InputDateTime"));
 
 ///
 unittest { {

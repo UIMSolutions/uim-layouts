@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputHidden : BS4Input {
 	mixin(H5This!("", null, `["type":"hidden"]`));
 }
-mixin(H5Calls!("BS4InputHidden"));
+static BS4InputHidden"));
 
 ///
 unittest { {

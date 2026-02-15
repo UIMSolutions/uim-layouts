@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputSearch : BS4Input {
 	mixin(H5This!("", null, `["type":"search"]`));
 }
-mixin(H5Calls!("BS4InputSearch"));
+static BS4InputSearch"));
 
 ///
 unittest { {

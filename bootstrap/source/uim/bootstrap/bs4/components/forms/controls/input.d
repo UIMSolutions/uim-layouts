@@ -10,7 +10,7 @@ class BS4Input : BS4Obj {
 	mixin(H5This!("Input", ["form-control"], null, true));	
 
 }
-mixin(H5Calls!("BS4Input"));
+static BS4Input"));
 
 ///
 unittest { {

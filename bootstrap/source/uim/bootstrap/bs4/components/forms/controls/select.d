@@ -65,4 +65,4 @@ class BS4InputSelect : BS4Obj {
 	}
 
 }
-mixin(H5Calls!("BS4InputSelect"));
+static BS4InputSelect"));

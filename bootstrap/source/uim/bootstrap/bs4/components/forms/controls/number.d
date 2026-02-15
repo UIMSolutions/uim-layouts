@@ -13,7 +13,7 @@ class BS4InputNumber : BS4Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!("BS4InputNumber"));
+static BS4InputNumber"));
 
 ///
 unittest { {

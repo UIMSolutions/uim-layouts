@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputColor : BS4Input {
 	mixin(H5This!("", null, `["type":"color"]`));
 }
-mixin(H5Calls!("BS4InputColor"));
+static BS4InputColor"));
 
 ///
 unittest { {

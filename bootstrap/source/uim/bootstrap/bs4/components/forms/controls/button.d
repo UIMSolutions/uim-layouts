@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputButton : BS4Input {
 	mixin(H5This!(null, null, `["type":"button"]`));
 }
-mixin(H5Calls!("BS4InputButton"));
+static BS4InputButton"));
 ///
 unittest { {
 	assert(BS4InputButton == `<input class="form-control" type="button">`);

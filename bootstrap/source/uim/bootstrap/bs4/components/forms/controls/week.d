@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputWeek : BS4Input {
 	mixin(H5This!("", null, `["type":"week"]`));
 }
-mixin(H5Calls!("BS4InputWeek"));
+static BS4InputWeek"));
 
 ///
 unittest { {

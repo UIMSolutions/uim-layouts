@@ -13,7 +13,7 @@ class BS4InputDate : BS4Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!("BS4InputDate"));
+static BS4InputDate"));
 
 ///
 unittest { {

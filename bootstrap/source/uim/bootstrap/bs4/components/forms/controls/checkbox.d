@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4Checkbox : BS4Input {
 	mixin(H5This!(null, null, `["type":"checkbox"]`));
 }
-mixin(H5Calls!("BS4Checkbox"));
+static BS4Checkbox"));
 ///
 ///
 unittest { {

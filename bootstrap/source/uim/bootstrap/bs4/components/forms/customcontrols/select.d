@@ -66,4 +66,4 @@ class BS4CustomSelect : DH5Select {
 		else this.option(["value":optionKey], values[optionKey]);
 	}
 }
-mixin(H5Calls!("BS4CustomSelect"));
+static BS4CustomSelect"));

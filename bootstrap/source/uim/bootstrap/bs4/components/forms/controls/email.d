@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputEmail : BS4Input {
 	mixin(H5This!(null, null, `["type":"email"]`));
 }
-mixin(H5Calls!("BS4InputEmail"));
+static BS4InputEmail"));
 
 ///
 unittest { {

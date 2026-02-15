@@ -12,7 +12,7 @@ class BS4InputTextarea : BS4Obj {
 	mixin(MyAttribute!"rows");
 	mixin(MyAttribute!"cols");
 }
-mixin(H5Calls!("BS4InputTextarea"));
+static BS4InputTextarea"));
 
 ///
 unittest { {

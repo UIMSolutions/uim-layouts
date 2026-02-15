@@ -31,4 +31,4 @@ unittest { {
 		assert(BS4Container.row == `<div class="container"><div class="row"></div></div>`);
 	}}
 }
-mixin(H5Calls!("BS4Container"));
+static BS4Container"));

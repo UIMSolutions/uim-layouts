@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4ImageFluid : BS4Image {
 	mixin(H5This!("Img", ["img-fluid"]));
 }
-mixin(H5Calls!("BS4ImageFluid"));
+static BS4ImageFluid"));
 
 ///
 unittest { {

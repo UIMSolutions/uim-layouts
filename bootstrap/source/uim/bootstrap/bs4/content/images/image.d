@@ -18,7 +18,7 @@ class BS4Image : BS4Obj {
 	O rounded(this O)(string side) { this.addClasses("rounded-"~side); return cast(O)this; }
 	O roundedNo(this O)() { this.addClasses("rounded-0"); return cast(O)this; }
 }
-mixin(H5Calls!("BS4Image"));
+static BS4Image"));
 
 ///
 unittest { {

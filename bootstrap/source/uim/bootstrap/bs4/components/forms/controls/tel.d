@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputTel : BS4Input {
 	mixin(H5This!("", null, `["type":"tel"]`));
 }
-mixin(H5Calls!("BS4InputTel"));
+static BS4InputTel"));
 
 ///
 unittest { {

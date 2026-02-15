@@ -21,4 +21,4 @@ class BS4Col : BS4Obj {
 		return cast(O)this; 
 	}
 }
-mixin(H5Calls!("BS4Col"));
+static BS4Col"));

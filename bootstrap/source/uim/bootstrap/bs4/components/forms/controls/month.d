@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputMonth : BS4Input {
 	mixin(H5This!("", ["form-control"], `["type":"month"]`));
 }
-mixin(H5Calls!("BS4InputMonth"));
+static BS4InputMonth"));
 
 ///
 unittest { {

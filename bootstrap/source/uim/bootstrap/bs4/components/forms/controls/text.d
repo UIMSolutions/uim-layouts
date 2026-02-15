@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputText : BS4Input {
 	mixin(H5This!("", null, `["type":"text"]`));
 }
-mixin(H5Calls!("BS4InputText"));
+static BS4InputText"));
 
 ///
 unittest { {

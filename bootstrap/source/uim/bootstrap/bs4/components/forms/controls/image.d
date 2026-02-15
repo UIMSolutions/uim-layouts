@@ -13,7 +13,7 @@ class BS4InputImage : BS4Obj {
 		_single = true;
 	}
 }
-mixin(H5Calls!("BS4InputImage"));
+static BS4InputImage"));
 
 ///
 unittest { {

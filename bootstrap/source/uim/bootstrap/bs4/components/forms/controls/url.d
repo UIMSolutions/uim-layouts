@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4InputUrl : BS4Input {
 	mixin(H5This!("", null, `["type":"url"]`));
 }
-mixin(H5Calls!("BS4InputUrl"));
+static BS4InputUrl"));
 
 ///
 unittest { {

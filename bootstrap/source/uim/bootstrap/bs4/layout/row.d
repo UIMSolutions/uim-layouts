@@ -11,7 +11,7 @@ class BS4Row : BS4Obj {
 
 	mixin(MyContent!("col", "BS4Col"));
 }
-mixin(H5Calls!("BS4Row"));
+static BS4Row"));
 
 ///
 unittest { {
