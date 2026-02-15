@@ -17,7 +17,8 @@ class BS4Pagination : BS4Obj {
 }
 mixin(H5Calls!"BS4Pagination");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Pagination == `<ul class="pagination"></ul>`);
 	assert(BS4Pagination.link == `<ul class="pagination"><li class="page-item"><a class="page-link" href="#"></a></li></ul>`);
 }}

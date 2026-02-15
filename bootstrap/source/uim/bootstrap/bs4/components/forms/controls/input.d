@@ -9,6 +9,7 @@ class BS4Input : BS4Obj {
 }
 mixin(H5Calls!("BS4Input"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// TODO
 }}

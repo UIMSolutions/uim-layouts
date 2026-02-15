@@ -16,7 +16,8 @@ class BS4TabList : BS4Obj {
 }
 mixin(H5Calls!"BS4TabList");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4TabList == `<ul class="nav" role="tablist"></ul>`);
 	assert(BS4TabList.vertical == `<ul class="flex-column nav" role="tablist"></ul>`);
 }}

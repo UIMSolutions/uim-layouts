@@ -8,6 +8,7 @@ class BS4ButtonLink : BS4ButtonObj {
 }
 mixin(H5Calls!"BS4ButtonLink");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ButtonLink == `<a class="btn" type="button"></a>`);
 }}

@@ -8,6 +8,7 @@ class BS4InputUrl : BS4Input {
 }
 mixin(H5Calls!("BS4InputUrl"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputUrl == `<input class="form-control" type="url">`);
 }}

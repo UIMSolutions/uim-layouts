@@ -14,12 +14,14 @@ class BS4DropdownMenu : BS4Obj {
 	mixin(MyContent!("link", "BS4DropdownLink"));
 	mixin(MyContent!("form", "BS4DropdownForm"));
 	mixin(MyContent!("text", "BS4DropdownText"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
 	}}
 }
 mixin(H5Calls!"BS4DropdownMenu");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4DropdownMenu == `<div class="dropdown-menu"></div>`);
 }}

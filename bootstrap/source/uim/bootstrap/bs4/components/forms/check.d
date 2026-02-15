@@ -8,7 +8,8 @@ class BS4FormCheck : BS4Obj {
 	mixin(TProperty!("string", "forId"));
 
 	O inline(this O)(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return cast(O)this; }
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4FormCheck.inline == `<div class="form-check form-check-inline"></div>`);
 	}}
 
@@ -16,6 +17,7 @@ class BS4FormCheck : BS4Obj {
 }
 mixin(H5Calls!"BS4FormCheck");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4FormCheck == `<div class="form-check"></div>`);
 }}

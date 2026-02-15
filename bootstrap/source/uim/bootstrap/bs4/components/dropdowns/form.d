@@ -8,6 +8,7 @@ class BS4DropdownForm : BS4Obj {
 }
 mixin(H5Calls!"BS4DropdownForm");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4DropdownForm == `<form></form>`);
 }}

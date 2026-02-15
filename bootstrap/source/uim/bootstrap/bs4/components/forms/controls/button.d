@@ -7,6 +7,7 @@ class BS4InputButton : BS4Input {
 	mixin(H5This!(null, null, `["type":"button"]`));
 }
 mixin(H5Calls!("BS4InputButton"));
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputButton == `<input class="form-control" type="button">`);
 }}

@@ -10,6 +10,7 @@ class BS4ModalContent : BS4Obj {
 }
 mixin(H5Calls!"BS4ModalContent");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ModalContent == `<div class="modal-content"></div>`);
 }}

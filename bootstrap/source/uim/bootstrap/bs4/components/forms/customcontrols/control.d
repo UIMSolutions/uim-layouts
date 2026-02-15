@@ -11,7 +11,8 @@ class BS4CustomControl : BS4Obj {
 	mixin(MyContent!("radio", "BS4CustomRadio"));
 	mixin(MyContent!("label", "H5Label"));
 	
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4CustomControl == `<div class="custom-control"></div>`);
 	}}
 }

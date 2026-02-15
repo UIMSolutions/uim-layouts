@@ -13,7 +13,8 @@ class BS4CarouselControlPrev : BS4Obj {
 }
 
 mixin(H5Calls!"BS4CarouselControlPrev");
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CarouselControlPrev, 
 	`<a class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>`);
 }}

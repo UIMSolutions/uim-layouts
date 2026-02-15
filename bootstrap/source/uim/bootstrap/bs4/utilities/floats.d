@@ -13,6 +13,7 @@ T floatPosition(T)(T h5, string position, string breakPoint) {
 	return h5.addClasses("float-"~breakPoint~"-"~position);
 }
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// TODO
 }}

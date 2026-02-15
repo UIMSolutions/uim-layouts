@@ -8,6 +8,7 @@ class BS4InputSearch : BS4Input {
 }
 mixin(H5Calls!("BS4InputSearch"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputSearch == `<input class="form-control" type="search">`);	
 }}

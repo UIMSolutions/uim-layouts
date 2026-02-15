@@ -12,6 +12,7 @@ class BS4InputImage : BS4Obj {
 }
 mixin(H5Calls!("BS4InputImage"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputImage == `<input class="form-control" type="image">`);
 }}

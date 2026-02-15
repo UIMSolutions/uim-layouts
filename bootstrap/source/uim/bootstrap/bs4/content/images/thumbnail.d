@@ -8,6 +8,7 @@ class BS4ImageFluid : BS4Image {
 }
 mixin(H5Calls!("BS4ImageFluid"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ImageFluid == `<img class="img-thumbnail">`);
 }}

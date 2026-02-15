@@ -8,6 +8,7 @@ class BS4ModalHeader : BS4Obj {
 }
 mixin(H5Calls!"BS4ModalHeader");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ModalHeader == `<div class="modal-header"></div>`);
 }}

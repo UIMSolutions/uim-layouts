@@ -12,6 +12,7 @@ class BS4InputSubmit : BS4Obj {
 }
 mixin(H5Calls!("BS4InputSubmit"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputSubmit == `<input class="form-control" type="submit">`);
 }}

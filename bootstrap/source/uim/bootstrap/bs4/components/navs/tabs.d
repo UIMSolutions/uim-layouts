@@ -10,7 +10,8 @@ class BS4NavTabs : BS4Obj {
 }
 mixin(H5Calls!"BS4NavTabs");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4NavTabs == `<ul class="nav nav-tabs" role="tablist"></ul>`);
 		assert(BS4NavTabs.item == `<ul class="nav nav-tabs" role="tablist"><li class="nav-item"></li></ul>`);
 }}

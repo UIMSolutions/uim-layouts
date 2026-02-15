@@ -9,6 +9,7 @@ class BS4NavbarCollapse : BS4Obj {
 }
 mixin(H5Calls!"BS4NavbarCollapse");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4NavbarCollapse == `<div class="collapse navbar-collapse"></div>`);
 }}

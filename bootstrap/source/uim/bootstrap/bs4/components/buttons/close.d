@@ -13,6 +13,7 @@ class BS4ButtonClose : BS4Button {
 }
 mixin(H5Calls!"BS4ButtonClose");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ButtonClose == `<button class="btn close" aria-label="Close" type="button"><span aria-hidden="true">&times;</span></button>`);
 }}

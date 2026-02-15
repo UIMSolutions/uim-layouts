@@ -10,7 +10,8 @@ class BS4Alert : BS4Obj {
 	O color(this O)(string name) {
 		return this.addClasses("alert-" ~ name);
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4Alert.color("success") == `<div class="alert alert-success" role="alert"></div>`);
 	}}
 
@@ -26,7 +27,8 @@ class BS4Alert : BS4Obj {
 		}
 		return cast(O) this;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4Alert.color("success").dismissible == `<div class="alert alert-dismissible alert-success" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button></div>`);
 	}}
 
@@ -41,7 +43,8 @@ class BS4AlertLink : BS4Obj {
 
 mixin(H5Calls!("BS4AlertLink"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Alert == `<div class="alert" role="alert"></div>`);
 	assert(BS4Alert("anAlert") == `<div class="alert" role="alert">anAlert</div>`);
 }}

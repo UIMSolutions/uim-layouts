@@ -12,6 +12,7 @@ class BS4InputDate : BS4Obj {
 }
 mixin(H5Calls!("BS4InputDate"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputDate == `<input class="form-control" type="date">`);
 }}

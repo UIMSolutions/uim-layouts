@@ -8,6 +8,7 @@ class BS4CollapseButton : BS4Obj {
 }
 mixin(H5Calls!"BS4CollapseButton");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CollapseButton == `<button class="btn" data-toggle="collapse" role="button"></button>`);
 }}

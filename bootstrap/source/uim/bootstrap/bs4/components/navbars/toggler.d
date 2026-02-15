@@ -17,6 +17,7 @@ class BS4NavbarToggler : BS4ButtonObj {
 }
 mixin(H5Calls!"BS4NavbarToggler");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4NavbarToggler == `<button class="navbar-toggler" aria-controls="navbar" type="button"></button>`);
 }}

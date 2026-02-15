@@ -8,6 +8,7 @@ class BS4InputFile : BS4Input {
 }
 mixin(H5Calls!("BS4InputFile"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputFile == `<input class="form-control" type="file">`);
 }}

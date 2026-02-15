@@ -9,6 +9,7 @@ class BS4CardOverlay : BS4Obj {
 }
 /// Shortcuts
 mixin(H5Calls!"BS4CardOverlay");
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CardOverlay == `<div class="card-img-overlay"></div>`);
 }}

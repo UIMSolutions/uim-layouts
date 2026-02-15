@@ -8,6 +8,7 @@ class BS4InputRange : BS4Input {
 }
 mixin(H5Calls!("BS4InputRange"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputRange == `<input class="form-control" type="range">`);	
 }}

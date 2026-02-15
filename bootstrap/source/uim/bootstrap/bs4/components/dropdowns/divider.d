@@ -8,6 +8,7 @@ class BS4DropdownDivider : BS4Obj {
 }
 mixin(H5Calls!"BS4DropdownDivider");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4DropdownDivider == `<div class="dropdown-divider"></div>`);
 }}

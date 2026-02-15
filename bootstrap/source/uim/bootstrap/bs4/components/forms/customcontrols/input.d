@@ -12,7 +12,8 @@ class BS4CustomInput : BS4Obj {
 }
 mixin(H5Calls!"BS4CustomInput");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CustomInput);
 	assert(BS4CustomInput == `<input class="custom-control-input">`);
 }}

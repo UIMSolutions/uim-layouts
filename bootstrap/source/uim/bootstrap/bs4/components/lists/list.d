@@ -15,19 +15,22 @@ class BS4List : BS4Obj {
 
 	// Add a list item
 	mixin(MyContent!("item", "BS4ListItem"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4List.item == `<ul class="list-group"><li class="list-group-item"></li></ul>`);
 		assert(BS4List.item("test") == `<ul class="list-group"><li class="list-group-item">test</li></ul>`);
 	}}
 
 	mixin(MyContent!("link", "this.item", "BS4ListLink"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4List.link == `<ul class="list-group"><li class="list-group-item"><a class="list-group-item list-group-item-action"></a></li></ul>`);
 	}}
 }
 mixin(H5Calls!"BS4List");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4List == `<ul class="list-group"></ul>`);
 	assert(BS4List(BS4ListItem) == `<ul class="list-group"><li class="list-group-item"></li></ul>`);
 	assert(BS4List(H5.li) == `<ul class="list-group"><li></li></ul>`);

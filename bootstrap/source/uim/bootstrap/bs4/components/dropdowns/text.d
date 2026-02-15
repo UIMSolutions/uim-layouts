@@ -8,6 +8,7 @@ class BS4DropdownText : BS4Obj {
 }
 mixin(H5Calls!"BS4DropdownText");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4DropdownText("Hallo") == `<p>Hallo</p>`);
 }}

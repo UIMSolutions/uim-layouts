@@ -8,6 +8,7 @@ class BS4NavHeader : BS4Obj {
 }
 mixin(H5Calls!"BS4NavHeader");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4NavHeader == `<li class="nav-header"></li>`);
 }}

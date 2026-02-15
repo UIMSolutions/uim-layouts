@@ -9,12 +9,14 @@ class BS4FormCheckInput : BS4Obj {
 		super.initialize;
 		_single = true;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4FormCheckInput == `<input class="form-check-input">`);
 	}}
 }
 mixin(H5Calls!"BS4FormCheckInput");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// TODO
 }}

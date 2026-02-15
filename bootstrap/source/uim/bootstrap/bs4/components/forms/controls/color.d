@@ -8,6 +8,7 @@ class BS4InputColor : BS4Input {
 }
 mixin(H5Calls!("BS4InputColor"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputColor == `<input class="form-control" type="color">`);
 }}

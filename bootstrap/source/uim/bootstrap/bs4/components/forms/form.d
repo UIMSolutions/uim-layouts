@@ -13,7 +13,8 @@ class BS4Form : BS4Obj {
 }
 mixin(H5Calls!"BS4Form");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Form == `<form></form>`);
 	assert(BS4Form.inline == `<form class="form-inline"></form>`);
 }}

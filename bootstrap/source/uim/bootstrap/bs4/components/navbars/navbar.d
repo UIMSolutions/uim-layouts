@@ -10,7 +10,8 @@ class BS4Navbar : BS4Obj {
 		if (value) this.addClasses("justify-content-center");
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4Navbar.center == `<nav class="justify-content-center navbar"></nav>`);
 		assert(BS4Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
 	}}
@@ -40,7 +41,8 @@ class BS4Navbar : BS4Obj {
 }
 mixin(H5Calls!"BS4Navbar");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Navbar == `<nav class="navbar"></nav>`);
 	assert(BS4Navbar.light == `<nav class="navbar navbar-light"></nav>`);
 	assert(BS4Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);

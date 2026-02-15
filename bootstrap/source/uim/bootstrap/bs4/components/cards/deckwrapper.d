@@ -8,6 +8,7 @@ class BS4CardDeckwrapper : BS4Obj {
 }
 mixin(H5Calls!"BS4CardDeckwrapper");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CardDeckwrapper == `<div class="card-deck-wrapper"></div>`);
 }}

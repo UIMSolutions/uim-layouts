@@ -11,6 +11,7 @@ class BS4NavbarBrand : BS4Obj {
 
 mixin(H5Calls!"BS4NavbarBrand");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4NavbarBrand == `<a class="navbar-brand"></a>`);
 }}

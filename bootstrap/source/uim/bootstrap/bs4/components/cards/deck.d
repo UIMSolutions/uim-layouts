@@ -13,7 +13,8 @@ class BS4CardDeck : BS4Obj {
 }
 mixin(H5Calls!"BS4CardDeck");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CardDeck == `<div class="card-deck"></div>`);
 	assert(BS4CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
 }}

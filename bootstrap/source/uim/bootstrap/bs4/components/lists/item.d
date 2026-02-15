@@ -10,6 +10,7 @@ class BS4ListItem : BS4Obj {
 }
 mixin(H5Calls!"BS4ListItem");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ListItem == `<li class="list-group-item"></li>`);
 }}

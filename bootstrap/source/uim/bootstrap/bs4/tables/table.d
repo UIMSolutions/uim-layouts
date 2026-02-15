@@ -7,7 +7,8 @@ class BS4Table : BS4Obj {
 	mixin(H5This!("TABLE", ["table"]));
 
 	mixin(MyContent!("caption", "H5Caption"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS4Table.caption("test") == `<table class="table"><caption>test</caption></table>`);
 	}}	
 
@@ -24,7 +25,8 @@ class BS4Table : BS4Obj {
 }
 mixin(H5Calls!"BS4Table");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Table.head == `<table class="table"><thead></thead></table>`);
 	assert(BS4Table.header == `<table class="table"><thead></thead></table>`);
 	assert(BS4Table.body_ == `<table class="table"><tbody></tbody></table>`);

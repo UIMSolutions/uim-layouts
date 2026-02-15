@@ -32,6 +32,7 @@ class BS4ButtonObj : BS4Obj {
 }
 mixin(H5Calls!"BS4ButtonObj");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// TODO
 }}

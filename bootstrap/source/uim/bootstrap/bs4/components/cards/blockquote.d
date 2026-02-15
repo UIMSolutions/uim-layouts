@@ -8,7 +8,8 @@ class BS4CardBlockquote : BS4Obj {
 }
 mixin(H5Calls!"BS4CardBlockquote");
 ///
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CardBlockquote == `<blockquote class="card-blockquote"></blockquote>`);
 }}
 

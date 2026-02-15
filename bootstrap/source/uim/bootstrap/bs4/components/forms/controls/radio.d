@@ -8,6 +8,7 @@ class BS4Radio : BS4Input {
 }
 mixin(H5Calls!("BS4Radio"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Radio == `<input class="form-control" type="radio">`);
 }}

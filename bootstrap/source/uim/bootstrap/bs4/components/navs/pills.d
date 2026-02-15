@@ -9,6 +9,7 @@ class BS4NavPills : BS4Obj {
 }
 mixin(H5Calls!"BS4NavPills");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4NavPills == `<ul class="nav nav-pills" role="tablist"></ul>`);
 }}

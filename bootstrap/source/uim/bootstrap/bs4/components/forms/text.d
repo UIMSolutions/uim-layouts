@@ -8,6 +8,7 @@ class BS4FormText : BS4Obj {
 }
 mixin(H5Calls!"BS4FormText");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4FormText == `<small class="form-text"></small>`);
 }}

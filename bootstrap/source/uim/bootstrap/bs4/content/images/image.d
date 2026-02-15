@@ -17,6 +17,7 @@ class BS4Image : BS4Obj {
 }
 mixin(H5Calls!("BS4Image"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4Image == `<img>`);
 }}

@@ -12,7 +12,8 @@ class BS4CardGroup : BS4Obj {
 	O card(this O)(BS4Card[] cards) { foreach(c; cards) this.card(c); return cast(O)this; }
 }
 mixin(H5Calls!"BS4CardGroup");
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CardGroup == `<div class="card-group"></div>`);
 	assert(BS4CardGroup.card == `<div class="card-group"><div class="card"></div></div>`);
 }}

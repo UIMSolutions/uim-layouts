@@ -8,6 +8,7 @@ class BS4Password : BS4Input {
 }
 mixin(H5Calls!("BS4Password"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 		assert(BS4Password == `<input class="form-control" type="password">`);
 }}

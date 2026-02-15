@@ -8,6 +8,7 @@ class BS4ModalFooter : BS4Obj {
 }
 mixin(H5Calls!"BS4ModalFooter");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4ModalFooter == `<div class="modal-footer"></div>`);
 }}

@@ -8,6 +8,7 @@ class BS4InputHidden : BS4Input {
 }
 mixin(H5Calls!("BS4InputHidden"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4InputHidden == `<input class="form-control" type="hidden">`);
 }}

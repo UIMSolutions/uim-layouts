@@ -12,7 +12,8 @@ class BS4CardSubtitle : BS4Obj {
 }
 mixin(H5Calls!"BS4CardSubtitle");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS4CardSubtitle == `<h6 class="card-subtitle"></h6>`);
 	assert(BS4CardSubtitle.addContent("SomeThing") == `<h6 class="card-subtitle">SomeThing</h6>`);
 }}
