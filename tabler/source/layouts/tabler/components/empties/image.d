@@ -4,11 +4,11 @@ import layouts.tabler;
 @safe:
 
 class BS5EmptyImage : BS5Obj {
-	mixin(H5This!("div", ["empty-img"]));
+  mixin(H5This!("div", ["empty-img"]));
 }
 static BS5EmptyImage");
 
 ///
 unittest {
-	assert(BS5EmptyImage == `<div class="empty-img"></div>`);
+  assert(BS5EmptyImage == `<div class="empty-img"></div>`);
 }}

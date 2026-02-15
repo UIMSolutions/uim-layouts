@@ -4,16 +4,16 @@ import layouts.tabler;
 @safe:
 
 class BS5FormColorinput : BS5Obj {
-	mixin(H5This!("label", ["form-colorinput"]));
+  mixin(H5This!("label", ["form-colorinput"]));
 
   mixin(MyContent!("input", "BS5FormColorinputInput"));
-	mixin(MyContent!("color", "BS5FormColorinputColor"));
+  mixin(MyContent!("color", "BS5FormColorinputColor"));
 }
 static BS5FormColorinput");
 
 ///
 unittest {
-	assert(BS5FormColorinput, `<label class="form-colorinput"></label>`);
+  assert(BS5FormColorinput, `<label class="form-colorinput"></label>`);
 }}
 
 

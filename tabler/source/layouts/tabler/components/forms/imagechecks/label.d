@@ -4,11 +4,11 @@ import layouts.tabler;
 @safe:
 
 class BS5ImageCheckLabel : BS5Obj {
-	mixin(H5This!("label", ["form-imagecheck"]));
+  mixin(H5This!("label", ["form-imagecheck"]));
 }
 static BS5ImageCheckLabel");
 
 ///
 unittest {
-	assert(BS5ImageCheckLabel, `<label class="form-imagecheck"></label>`);
+  assert(BS5ImageCheckLabel, `<label class="form-imagecheck"></label>`);
 }}

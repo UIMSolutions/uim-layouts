@@ -4,7 +4,7 @@ import layouts.tabler;
 @safe:
 
 class BS5StatusIndicator : BS5Obj {
-	mixin(H5This!("span", ["status-indicator"]));
+  mixin(H5This!("span", ["status-indicator"]));
 
   override void initialize() {
     super.initialize;
@@ -26,7 +26,7 @@ static BS5StatusIndicator opCall() {
 
 ///
 unittest {
-	assert(BS5StatusIndicator == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
-	assert(BS5StatusIndicator.animated == `<span class="status-indicator status-indicator-animated"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
-	assert(BS5StatusIndicator.color("blue") == `<span class="status-blue status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(BS5StatusIndicator == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(BS5StatusIndicator.animated == `<span class="status-indicator status-indicator-animated"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(BS5StatusIndicator.color("blue") == `<span class="status-blue status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
 }

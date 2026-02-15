@@ -4,11 +4,11 @@ import layouts.tabler;
 @safe:
 
 class BS5SelectgroupInput : BS5Obj {
-	mixin(H5This!("input", ["form-selectgroup-input"], null, true));
+  mixin(H5This!("input", ["form-selectgroup-input"], null, true));
 }
 static BS5SelectgroupInput");
 
 ///
 unittest {
-	assert(BS5SelectgroupInput, `<input class="form-selectgroup-input">`);
+  assert(BS5SelectgroupInput, `<input class="form-selectgroup-input">`);
 }}

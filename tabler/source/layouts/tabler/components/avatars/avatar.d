@@ -4,13 +4,13 @@ import layouts.tabler;
 @safe:
 
 class BS5Avatar : BS5Obj {
-	mixin(H5This!("span", ["avatar"]));
+  mixin(H5This!("span", ["avatar"]));
 
 static BS5Avatar opCall() {
-	return new BS5Avatar;
+  return new BS5Avatar;
 }}
 
 ///
 unittest {
-	assert(BS5Avatar == `<span class="avatar"></span>`);
-}}
+  assert(BS5Avatar == `<span class="avatar"></span>`);
+}

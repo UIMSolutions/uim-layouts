@@ -4,7 +4,7 @@ import layouts.tabler;
 @safe:
 
 class BS5DatagridTitle : BS5Obj {
-	mixin(H5This!("div", ["datagrid-title"]));
+  mixin(H5This!("div", ["datagrid-title"]));
 
   auto color(string newColor){ this.addClasses("bg-"~newColor); return this; }
 }
@@ -12,6 +12,6 @@ static BS5DatagridTitle");
 
 ///
 unittest {
-	assert(BS5DatagridTitle, `<div class="datagrid-title"></div>`);
-	assert(BS5DatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
+  assert(BS5DatagridTitle, `<div class="datagrid-title"></div>`);
+  assert(BS5DatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
 }}

@@ -4,25 +4,25 @@ import layouts.tabler;
 @safe:
 
 class BS5Empty : BS5Obj {
-	mixin(H5This!("div", ["empty"]));
+  mixin(H5This!("div", ["empty"]));
 
-	mixin(MyContent!("action", "BS5EmptyAction"));
+  mixin(MyContent!("action", "BS5EmptyAction"));
 
-	mixin(MyContent!("icon", "BS5EmptyIcon"));
+  mixin(MyContent!("icon", "BS5EmptyIcon"));
 
-	mixin(MyContent!("image", "BS5EmptyImage"));
+  mixin(MyContent!("image", "BS5EmptyImage"));
 
-	mixin(MyContent!("header", "BS5EmptyHeader"));
+  mixin(MyContent!("header", "BS5EmptyHeader"));
 
-	mixin(MyContent!("subtitle", "BS5EmptySubtitle"));
+  mixin(MyContent!("subtitle", "BS5EmptySubtitle"));
 
-	mixin(MyContent!("title", "BS5EmptyTitle"));
+  mixin(MyContent!("title", "BS5EmptyTitle"));
 }
 static BS5Empty");
 
 ///
 unittest {
-	assert(BS5Empty == `<div class="empty"></div>`);
-	assert(BS5Empty.image == `<div class="empty"><div class="empty-img"></div></div>`);
-	assert(BS5Empty.image.image == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
+  assert(BS5Empty == `<div class="empty"></div>`);
+  assert(BS5Empty.image == `<div class="empty"><div class="empty-img"></div></div>`);
+  assert(BS5Empty.image.image == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
 }}

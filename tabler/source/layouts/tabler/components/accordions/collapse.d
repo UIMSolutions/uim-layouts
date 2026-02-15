@@ -4,14 +4,14 @@ import layouts.tabler;
 @safe:
 
 /* class BS5AccordionCollapse : BS5Obj {
-	mixin(H5This!("div", ["accordion-collapse collapse"]));
+  mixin(H5This!("div", ["accordion-collapse collapse"]));
 
-	mixin(MyContent!("body_", "BS5AccordionsBody"));
+  mixin(MyContent!("body_", "BS5AccordionsBody"));
 }
 static BS5AccordionCollapse");
 
 ///
 unittest {
-	assert(BS5AccordionCollapse, `<div class="accordion-collapse collapse"></div>`);
+  assert(BS5AccordionCollapse, `<div class="accordion-collapse collapse"></div>`);
 }
  */

@@ -4,13 +4,13 @@ import layouts.tabler;
 @safe:
 
 class DTABFormCheckLabel : BS5Obj {
-	mixin(H5This!("span", ["form-check-label"]));
+  mixin(H5This!("span", ["form-check-label"]));
 }
 static TABFormCheckLabel");
 
 ///
 unittest {
-	assert(TABFormCheckLabel, `<span class="form-check-label"></span>`);
+  assert(TABFormCheckLabel, `<span class="form-check-label"></span>`);
 }}
 
 
