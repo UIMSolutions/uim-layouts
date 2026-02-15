@@ -10,13 +10,13 @@ class BS4ListButton : BS4Obj {
 	mixin(H5This!("button", ["list-group-item", "list-group-item-action"], null));
 
 	/// Set button to active
-	O active(this O)(bool value = true) { this.addClasses("active"); return cast(O)this; }
+	O active(this O)(bool value = true) { this.addClasses("active"); return this; }
 
 	/// Set button to disabled
-	O disabled(this O)(bool value = true) { _attributes["disabled"] = "disabled"; return cast(O)this; }
+	O disabled(this O)(bool value = true) { _attributes["disabled"] = "disabled"; return this; }
 
 	/// Set button color
-	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }
+	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
 }
 static BS4ListButton");
 

@@ -13,19 +13,19 @@ class BS4InputSelect : BS4Obj {
 	O options(this O)(string[] values, string selectedValue = "", string disabledValue = "") {
 		values.each!(value => setOption(value, selectedValue, disabledValue));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		values.keys.sort.each!(value => setOption(value, selectedKey, disabledKey));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
 		values.each!(value => setOptionByValue(value, selected, disabled));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOptionByValue(string value, string[] selected, string[] disabled = null) {
@@ -41,7 +41,7 @@ class BS4InputSelect : BS4Obj {
 	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		values.keys.sort.each!(key => setOption(k, selectedKeys, disabledKeys));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOption(string optionValue, string selectedValue = null, string disabledValue = null) {

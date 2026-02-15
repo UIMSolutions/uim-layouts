@@ -12,7 +12,7 @@ class BS4CardGroup : BS4Obj {
 
 	/// Add card 
 	mixin(MyContent!("card", "BS4Card"));
-	O card(this O)(BS4Card[] cards) { foreach(c; cards) this.card(c); return cast(O)this; }
+	O card(this O)(BS4Card[] cards) { foreach(c; cards) this.card(c); return this; }
 }
 static BS4CardGroup");
 ///

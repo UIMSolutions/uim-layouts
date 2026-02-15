@@ -11,7 +11,7 @@ class BS4Navbar : BS4Obj {
 
 	O center(this O)(bool value = true) {
 		if (value) this.addClasses("justify-content-center");
-		return cast(O)this;
+		return this;
 	}
 	///
 unittest { {
@@ -21,17 +21,17 @@ unittest { {
 
 	O dark(this O)(bool value = true) {
 		if (value) this.addClasses("navbar-dark");
-		return cast(O)this;
+		return this;
 	}
 
 	O expand(this O)(string screenSize) {
 		this.addClasses("navbar-expand-" ~ screenSize);
-		return cast(O)this;
+		return this;
 	}
 
 	O light(this O)(bool value = true) {
 		this.addClasses("navbar-light");
-		return cast(O)this;
+		return this;
 	}
 
 /*

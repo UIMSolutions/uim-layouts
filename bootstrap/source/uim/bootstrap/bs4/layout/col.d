@@ -12,13 +12,13 @@ class BS4Col : BS4Obj {
 	O sizes(this O)(string[] someSizes...) { 
 		sizes(someSizes.dup); 
 		
-		return cast(O)this; 
+		return this; 
 	}
 
 	O sizes(this O)(string[] someSizes) { 
 		someSizes.each!(s => this.addClasses("col-"~s));
 
-		return cast(O)this; 
+		return this; 
 	}
 }
 static BS4Col"));

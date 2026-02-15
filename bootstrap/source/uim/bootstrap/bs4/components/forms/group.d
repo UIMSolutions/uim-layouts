@@ -17,7 +17,7 @@ class BS4FormGroup : BS4Obj {
 	O label(this O)(string forId, string title, string[] someClasses = null, STRINGAA someAttributes = null) {
 		someAttributes["for"] = forId;
 		this.addContent(H5Label(someClasses, someAttributes, title));
-		return cast(O)this;
+		return this;
 	}
 	mixin(MyContent!("div", "H5Div"));
 	

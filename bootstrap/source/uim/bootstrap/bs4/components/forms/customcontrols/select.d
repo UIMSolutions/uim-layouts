@@ -13,7 +13,7 @@ class BS4CustomSelect : DH5Select {
 	O options(this O)(string[] values, string selected = "", string disabled = "") {
 		values.each!(value => setOptionByValue(value, selected, disabled));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOptionByValue(string optionValue, string selected = "", string disabled = "") {
@@ -29,7 +29,7 @@ class BS4CustomSelect : DH5Select {
 	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected void setOptionByKey(string optionKey, string selectedKey = "", string disabledKey = "") {
@@ -45,12 +45,12 @@ class BS4CustomSelect : DH5Select {
 	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
 		values.each!(value => setOption(valie, selected, disabled)); 
 
-		return cast(O)this;	
+		return this;	
 	}
 	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		values.keys.sort,each(key => setOption(key, selectedKeys, disabledKeys));
 		
-		return cast(O)this;	
+		return this;	
 	}
 
 	protected setOption(string optionKey, string[] selectedKeys, string[] disabledKeys = null) {
