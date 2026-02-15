@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ModalContent : DBS5Obj {
+class BS5ModalContent : BS5Obj {
 	mixin(H5This!("DIV", ["modal-content"]));
 
 	O fade(this O)(bool mode = true) { return this.addClasses("fade"); }

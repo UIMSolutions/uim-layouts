@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5FormFileText : DBS5Obj {
+class BS5FormFileText : BS5Obj {
 	mixin(H5This!("span", ["form-file-text"]));
 }
 mixin(H5Calls!"BS5FormFileText");

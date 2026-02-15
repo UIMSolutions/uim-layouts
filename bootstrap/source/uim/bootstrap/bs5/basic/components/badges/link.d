@@ -8,7 +8,7 @@ import uim.bootstrap;
  * Badges in Bootstrap are little additional information to highlight text or numbers.
  * Authors: UI Manufaktur UG, https://ui-manufaktur.com 
  */
-class DBS5BadgeLink : DBS5Obj {
+class BS5BadgeLink : BS5Obj {
 	mixin(H5This!("A", ["badge"]));
 
 	// Color of badge
@@ -28,7 +28,7 @@ class DBS5BadgeLink : DBS5Obj {
 		assert(BS5BadgeLink.pill(true) == `<a class="badge badge-pill"></a>`);
 	}}
 }
-// Shortcut to class DBS5Badge
+// Shortcut to class BS5Badge
 mixin(H5Calls!("BS5BadgeLink"));
 
 version(test_uim_bootstrap) { unittest {

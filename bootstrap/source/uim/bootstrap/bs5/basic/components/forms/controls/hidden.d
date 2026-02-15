@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputHidden : DBS5Input {
+class BS5InputHidden : BS5Input {
 	mixin(H5This!("", null, `["type":"hidden"]`));
 
 	O value(this O)(UUID id) {

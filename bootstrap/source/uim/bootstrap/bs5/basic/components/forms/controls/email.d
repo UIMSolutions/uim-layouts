@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputEmail : DBS5Input {
+class BS5InputEmail : BS5Input {
 	mixin(H5This!(null, null, `["type":"email"]`));
 
   override void initialize (Json aConfig = Json(null)) {

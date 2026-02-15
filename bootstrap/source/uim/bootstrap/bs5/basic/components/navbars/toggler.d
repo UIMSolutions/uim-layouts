@@ -3,8 +3,8 @@
 @safe: 
 import uim.bootstrap;
 
-/* DBS5NavbarToggler - for use with collapse plugin and other navigation toggling behaviors */
-class DBS5NavbarToggler : DBS5ButtonObj {
+/* BS5NavbarToggler - for use with collapse plugin and other navigation toggling behaviors */
+class BS5NavbarToggler : BS5ButtonObj {
 	mixin(H5This!("button", ["navbar-toggler"], `["data-bs-toggle":"collapse", "aria-controls":"navbar"]`));
 
 	O position(this O)(string value) {

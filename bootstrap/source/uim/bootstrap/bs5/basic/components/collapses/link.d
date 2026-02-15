@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CollapseLink : DBS5Obj {
+class BS5CollapseLink : BS5Obj {
 	mixin(H5This!("a", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
 }
 mixin(H5Calls!"BS5CollapseLink");

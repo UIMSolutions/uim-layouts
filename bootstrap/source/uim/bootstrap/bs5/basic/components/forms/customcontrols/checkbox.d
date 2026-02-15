@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CustomCheckbox : DBS5CustomControl {
+class BS5CustomCheckbox : BS5CustomControl {
 	mixin(H5This!("DIV", ["custom-checkbox"]));
 
   override void initialize () {

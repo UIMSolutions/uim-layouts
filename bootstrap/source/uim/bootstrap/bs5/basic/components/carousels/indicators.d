@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CarouselIndicators : DBS5Obj {
+class BS5CarouselIndicators : BS5Obj {
 	mixin(H5This!("DIV", ["carousel-indicators"]));
 
 	O active(this O)(bool mode = true) {
@@ -21,7 +21,7 @@ version(test_uim_bootstrap) { unittest {
 	assert(BS5CarouselIndicators.toString == `<div class="carousel-indicators"></div>`);
 }}
 
-class DBS5CarouselIndicator : DBS5Obj {
+class BS5CarouselIndicator : BS5Obj {
 	mixin(H5This!("button", ["carousel-indicator"]));
 }
 mixin(H5Calls!"BS5CarouselIndicator");

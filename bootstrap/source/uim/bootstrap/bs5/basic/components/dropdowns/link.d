@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5DropdownLink : DBS5Obj {
+class BS5DropdownLink : BS5Obj {
 	mixin(H5This!("A", ["dropdown-item"]));
 }
 mixin(H5Calls!"BS5DropdownLink");

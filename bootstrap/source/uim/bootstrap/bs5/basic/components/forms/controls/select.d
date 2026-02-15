@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputSelect : DBS5Obj {
+class BS5InputSelect : BS5Obj {
   mixin(H5This!("Select", ["form-control"]));	
 
   override void initialize (Json aConfig = Json(null)) {

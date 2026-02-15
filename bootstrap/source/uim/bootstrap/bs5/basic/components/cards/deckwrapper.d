@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CardDeckwrapper : DBS5Obj {
+class BS5CardDeckwrapper : BS5Obj {
 	mixin(H5This!("DIV", ["card-deck-wrapper"]));
 }
 mixin(H5Calls!"BS5CardDeckwrapper");

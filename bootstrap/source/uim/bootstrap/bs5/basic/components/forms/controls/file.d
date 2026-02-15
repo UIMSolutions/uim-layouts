@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputFile : DBS5Input {
+class BS5InputFile : BS5Input {
 	mixin(H5This!(null, ["form-control"], `["type":"file"]`));
 
   override void initialize (Json aConfig = Json(null)) {

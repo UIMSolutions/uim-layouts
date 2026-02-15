@@ -3,7 +3,7 @@ module uim.bootstrap.bs5.basic.components.accordions.button;
 @safe: 
 import uim.bootstrap;
 
-class DBS5AccordionButton : DBS5Obj {
+class BS5AccordionButton : BS5Obj {
 	mixin(H5This!("Button", ["accordion-button"], `["type":"button"]`));
 }
 mixin(H5Calls!("BS5AccordionButton"));

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ListItem : DBS5Obj {
+class BS5ListItem : BS5Obj {
 	mixin(H5This!("LI", ["list-group-item"]));
 
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }

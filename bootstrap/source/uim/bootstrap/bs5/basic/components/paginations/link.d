@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5PageLink : DBS5Obj {
+class BS5PageLink : BS5Obj {
 	mixin(H5This!("A", ["page-link"], `["href":"#"]`));
 
   override void initialize (Json aConfig = Json(null)) {

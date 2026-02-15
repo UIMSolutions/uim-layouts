@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5Checkbox : DBS5Input {
+class BS5Checkbox : BS5Input {
   mixin(H5This!(null, null, `["type":"checkbox"]`));
 
   override void initialize (Json aConfig = Json(null)) {

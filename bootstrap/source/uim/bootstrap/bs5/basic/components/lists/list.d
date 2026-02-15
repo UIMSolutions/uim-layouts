@@ -4,7 +4,7 @@
 import uim.bootstrap;
 
 /// An unordered list with list items
-class DBS5List : DBS5Obj {
+class BS5List : BS5Obj {
 	mixin(H5This!("UL", ["list-group"]));
 
 	// Removes some borders and rounded corners to render group in a parent container

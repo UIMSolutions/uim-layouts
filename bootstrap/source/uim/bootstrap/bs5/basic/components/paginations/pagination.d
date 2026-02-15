@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5Pagination : DBS5Obj {
+class BS5Pagination : BS5Obj {
 	mixin(H5This!("UL", ["pagination"]));
 
   override void initialize (Json aConfig = Json(null)) {

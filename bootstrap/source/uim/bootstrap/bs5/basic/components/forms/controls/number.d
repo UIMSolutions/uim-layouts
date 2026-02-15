@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputNumber : DBS5Obj {
+class BS5InputNumber : BS5Obj {
 	mixin(H5This!("Input", ["form-control"], `["type":"number"]`));
 	override public void initialize() {
 		super.initialize; _single = true;

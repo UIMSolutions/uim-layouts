@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputMonth : DBS5Input {
+class BS5InputMonth : BS5Input {
 	mixin(H5This!("", ["form-control"], `["type":"month"]`));
 
   override void initialize (Json aConfig = Json(null)) {

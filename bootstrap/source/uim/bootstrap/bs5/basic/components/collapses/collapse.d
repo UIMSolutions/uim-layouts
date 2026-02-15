@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5Collapse : DBS5Obj {
+class BS5Collapse : BS5Obj {
 	mixin(H5This!("Div", ["collapse"]));
 }
 mixin(H5Calls!"BS5Collapse");

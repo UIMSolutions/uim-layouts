@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5NavHeader : DBS5Obj {
+class BS5NavHeader : BS5Obj {
 	mixin(H5This!("li", ["nav-header"]));
 }
 mixin(H5Calls!"BS5NavHeader");

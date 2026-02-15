@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputColor : DBS5Input {
+class BS5InputColor : BS5Input {
   mixin(H5This!("", ["form-control", "form-control-color"], `["type":"color"]`));
 
   override void initialize (Json aConfig = Json(null)) {

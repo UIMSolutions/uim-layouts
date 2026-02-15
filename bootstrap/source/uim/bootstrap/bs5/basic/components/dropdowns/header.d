@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5DropdownHeader : DBS5Obj {
+class BS5DropdownHeader : BS5Obj {
 	mixin(H5This!("H6", ["dropdown-header"]));
 }
 mixin(H5Calls!"BS5DropdownHeader");

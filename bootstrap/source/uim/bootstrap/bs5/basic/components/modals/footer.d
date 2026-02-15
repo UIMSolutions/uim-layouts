@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ModalFooter : DBS5Obj {
+class BS5ModalFooter : BS5Obj {
 	mixin(H5This!("DIV", ["modal-footer"]));
 }
 mixin(H5Calls!"BS5ModalFooter");

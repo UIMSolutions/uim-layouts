@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ButtonClose : DBS5Button {
+class BS5ButtonClose : BS5Button {
 	mixin(H5This!("button", ["close"], `["aria-label":"Close"]`));
 	
 	override string renderHTML(STRINGAA bindings = null) {

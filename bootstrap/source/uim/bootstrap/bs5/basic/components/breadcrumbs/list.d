@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5BreadcrumbList : DBS5Obj {
+class BS5BreadcrumbList : BS5Obj {
 	mixin(H5This!("Ol", ["breadcrumb"], `["aria-label":"breadcrumbs"]`));
 
 	mixin(MyContent!("item", "BS5BreadcrumbItem"));

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputRange : DBS5Input {
+class BS5InputRange : BS5Input {
   mixin(H5This!(null, null, `["type":"range"]`));
 
   override void initialize (Json aConfig = Json(null)) {

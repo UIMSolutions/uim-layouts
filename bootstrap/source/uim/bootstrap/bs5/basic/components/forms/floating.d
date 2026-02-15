@@ -3,7 +3,7 @@ module uim.bootstrap.bs5.basic.components.forms.floating;
 @safe: 
 import uim.bootstrap;
 
-class DBS5FormFloating : DBS5Obj {
+class BS5FormFloating : BS5Obj {
   mixin(H5This!("Div", ["form-floating"]));
 
   override void initialize (Json aConfig = Json(null)) {

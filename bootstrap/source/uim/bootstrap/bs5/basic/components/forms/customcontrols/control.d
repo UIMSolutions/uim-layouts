@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CustomControl : DBS5Obj {
+class BS5CustomControl : BS5Obj {
 	mixin(H5This!("DIV"));
 
   override void initialize () {

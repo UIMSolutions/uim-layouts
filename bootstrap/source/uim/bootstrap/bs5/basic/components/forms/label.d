@@ -3,7 +3,7 @@ module uim.bootstrap.bs5.basic.components.forms.label;
 @safe: 
 import uim.bootstrap;
 
-class DBS5FormLabel : DBS5Obj {
+class BS5FormLabel : BS5Obj {
 	mixin(H5This!("label", ["form-label"]));
 
   override void initialize (Json aConfig = Json(null)) {

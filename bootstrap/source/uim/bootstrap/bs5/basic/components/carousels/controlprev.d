@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CarouselControlPrev : DBS5Obj {
+class BS5CarouselControlPrev : BS5Obj {
 	mixin(H5This!("a", ["carousel-control-prev"], `["data-bs-slide":"prev"]`));
 	override public void initialize() {
 		super.initialize;

@@ -5,7 +5,7 @@ module uim.bootstrap.bs5.basic.components.alerts.alert;
 import uim.bootstrap;
 
 ///Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
-class DBS5Alert : DBS5Obj {
+class BS5Alert : BS5Obj {
 	mixin(H5This!("Div", ["alert"], `["role":"alert"]`));
 
 	O color(this O)(string name) {
@@ -36,7 +36,7 @@ class DBS5Alert : DBS5Obj {
 
 mixin(H5Calls!("BS5Alert"));
 
-class DBS5AlertLink : DBS5Obj {
+class BS5AlertLink : BS5Obj {
 	mixin(H5This!("A", ["alert-link"], `["href":"#"]`));
 }
 

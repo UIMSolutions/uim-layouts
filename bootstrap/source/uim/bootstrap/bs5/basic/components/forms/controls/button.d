@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputButton : DBS5Input {
+class BS5InputButton : BS5Input {
   mixin(H5This!(null, null, `["type":"button"]`));
 
   override void initialize (Json aConfig = Json(null)) {

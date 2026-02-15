@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5Radio : DBS5Input {
+class BS5Radio : BS5Input {
   mixin(H5This!("", null, `["type":"radio"]`));
 
   override void initialize (Json aConfig = Json(null)) {

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ButtonSubmit : DBS5ButtonObj {
+class BS5ButtonSubmit : BS5ButtonObj {
 	mixin(H5This!("button", ["btn"], `["type":"submit"]`));
 
 	override void initialize() {

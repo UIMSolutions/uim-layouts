@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputSubmit : DBS5Input {
+class BS5InputSubmit : BS5Input {
 	mixin(H5This!("Input", ["form-control"], `["type":"submit"]`));
 	override void initialize() {
 		super.initialize;

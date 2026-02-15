@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5Input : DBS5Obj {
+class BS5Input : BS5Obj {
 	mixin(H5This!("Input", null, null, true));	
 
 	mixin(MyAttribute!"value");

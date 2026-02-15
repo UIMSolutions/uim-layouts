@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5FormFile : DBS5Obj {
+class BS5FormFile : BS5Obj {
 	mixin(H5This!("div", ["form-file"]));
 }
 mixin(H5Calls!"BS5FormFile");

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5TabContent : DBS5Obj {
+class BS5TabContent : BS5Obj {
 	mixin(H5This!("DIV", ["tab-content"]));
 
 	mixin(MyContent!("pane", "BS5TabPane"));

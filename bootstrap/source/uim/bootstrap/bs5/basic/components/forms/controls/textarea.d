@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputTextarea : DBS5Obj {
+class BS5InputTextarea : BS5Obj {
 	mixin(H5This!("textarea", ["form-control"]));
 
   override void initialize (Json aConfig = Json(null)) {

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5NavPills : DBS5Obj {
+class BS5NavPills : BS5Obj {
 	mixin(H5This!("UL", ["nav", "nav-pills"], `["role":"tablist"]`));
 	mixin(MyContent!("item", "BS5NavItem"));
 }

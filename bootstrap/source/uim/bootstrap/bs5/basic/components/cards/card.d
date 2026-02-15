@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5Card : DBS5Obj {
+class BS5Card : BS5Obj {
 	mixin(H5This!("DIV", ["card"]));
 
 	O block(this O)()	{

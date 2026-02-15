@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CustomFileInput : DBS5Obj {
+class BS5CustomFileInput : BS5Obj {
 	mixin(H5This!("INPUT", ["custom-file-input"]));
 	override public void initialize() {
 		super.initialize;

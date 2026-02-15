@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5FormFileButton : DBS5Obj {
+class BS5FormFileButton : BS5Obj {
 	mixin(H5This!("span", ["form-file-button"]));
 }
 mixin(H5Calls!"BS5FormFileButton");

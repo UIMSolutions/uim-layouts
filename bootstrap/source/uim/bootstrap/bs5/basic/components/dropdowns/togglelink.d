@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5DropdownToggleLink : DBS5ButtonLink {
+class BS5DropdownToggleLink : BS5ButtonLink {
 	mixin(H5This!("A", ["btn", "dropdown-toggle"], `["href":"#", "aria-expanded":"false", "role":"button", "data-bs-toggle":"dropdown"]`));
 }
 mixin(H5Calls!"BS5DropdownToggleLink");

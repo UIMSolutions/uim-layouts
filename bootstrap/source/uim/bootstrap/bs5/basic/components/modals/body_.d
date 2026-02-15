@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ModalBody : DBS5Obj
+class BS5ModalBody : BS5Obj
 {
 	mixin(H5This!("Div", ["modal-body"]));
 }

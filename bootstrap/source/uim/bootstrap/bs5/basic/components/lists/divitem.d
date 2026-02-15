@@ -4,7 +4,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ListDivItem : DBS5Obj { // I know, it's a ugly name
+class BS5ListDivItem : BS5Obj { // I know, it's a ugly name
 	mixin(H5This!("Div", ["list-group-item"]));
 
 	O color(this O)(string aColor) { this.addClasses("list-group-item-"~aColor); return cast(O)this; }

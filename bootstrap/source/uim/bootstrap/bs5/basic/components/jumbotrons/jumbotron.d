@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5Jumbotron : DBS5Obj {
+class BS5Jumbotron : BS5Obj {
 	mixin(H5This!("Div", ["jumbotron"]));
 }
 mixin(H5Calls!"BS5Jumbotron");

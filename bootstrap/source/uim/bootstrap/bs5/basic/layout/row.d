@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5Row : DBS5Obj {
+class BS5Row : BS5Obj {
 	mixin(H5This!("Div", ["row"]));
 
 	mixin(MyContent!("col", "BS5Col"));

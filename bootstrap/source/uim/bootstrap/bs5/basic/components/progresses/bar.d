@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ProgressBar : DBS5Obj {
+class BS5ProgressBar : BS5Obj {
 	mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));
 
 	O valueNow(this O)(string value) { return this.attributes(["aria-valuenow":value]); }

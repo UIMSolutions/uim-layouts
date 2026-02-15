@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputWeek : DBS5Input {
+class BS5InputWeek : BS5Input {
   mixin(H5This!("", null, `["type":"week"]`));
 
   override void initialize (Json aConfig = Json(null)) {

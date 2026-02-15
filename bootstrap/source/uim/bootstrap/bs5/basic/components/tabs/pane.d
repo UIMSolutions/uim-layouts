@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5TabPane : DBS5Obj {
+class BS5TabPane : BS5Obj {
 	mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
 
 	version(test_uim_bootstrap) { unittest {

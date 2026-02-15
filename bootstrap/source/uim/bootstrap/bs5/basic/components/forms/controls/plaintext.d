@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputPlaintext : DBS5Input {
+class BS5InputPlaintext : BS5Input {
   mixin(H5This!(""));
 
   override void initialize () {

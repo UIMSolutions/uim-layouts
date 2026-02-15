@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ButtonLink : DBS5Obj {
+class BS5ButtonLink : BS5Obj {
 	mixin(H5This!("A", ["btn"], `["role":"button"]`));
 
 	O disabled(this O)() {

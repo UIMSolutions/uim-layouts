@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5NavbarText : DBS5Obj {
+class BS5NavbarText : BS5Obj {
 	mixin(H5This!("SPAN", ["navbar-text"]));
 }
 mixin(H5Calls!"BS5NavbarText");

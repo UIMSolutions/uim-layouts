@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputSearch : DBS5Input {
+class BS5InputSearch : BS5Input {
   mixin(H5This!("", null, `["type":"search"]`));
 
   override void initialize (Json aConfig = Json(null)) {

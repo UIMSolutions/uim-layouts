@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5FormCheckLabel : DBS5Obj {
+class BS5FormCheckLabel : BS5Obj {
 	mixin(H5This!("LABEL", ["form-check-label"]));
 }
 mixin(H5Calls!"BS5FormCheckLabel");

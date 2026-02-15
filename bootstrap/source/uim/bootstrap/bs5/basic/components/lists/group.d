@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5ListGroup : DBS5Obj {
+class BS5ListGroup : BS5Obj {
 	mixin(H5This!("Div", ["list-group"]));
 
 	mixin(MyContent!("item", "BS5ListGroupItem"));

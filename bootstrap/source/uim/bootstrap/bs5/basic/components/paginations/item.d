@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5PageItem : DBS5Obj {
+class BS5PageItem : BS5Obj {
 	mixin(H5This!("LI", ["page-item"]));
 
 	mixin(MyContent!("link", "BS5PageLink"));

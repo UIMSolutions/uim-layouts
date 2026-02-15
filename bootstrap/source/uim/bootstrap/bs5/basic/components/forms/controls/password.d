@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS5InputPassword : DBS5Input {
+class BS5InputPassword : BS5Input {
 	mixin(H5This!(null, ["form-control"], `["type":"password"]`));
 
   override void initialize (Json aConfig = Json(null)) {

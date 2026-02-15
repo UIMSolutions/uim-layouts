@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS5CardText : DBS5Obj {
+class BS5CardText : BS5Obj {
 	mixin(H5This!("P", ["card-text"]));
 }
 mixin(H5Calls!"BS5CardText");
