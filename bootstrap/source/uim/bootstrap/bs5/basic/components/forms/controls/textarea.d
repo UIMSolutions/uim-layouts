@@ -16,7 +16,7 @@ class BS5InputTextarea : BS5Obj {
   mixin(MyAttribute!"rows");
   mixin(MyAttribute!"cols");
 }
-mixin(H5Calls!("BS5InputTextarea"));
+static BS5InputTextarea"));
 
 ///
 unittest { {

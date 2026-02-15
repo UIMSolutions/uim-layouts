@@ -13,7 +13,7 @@ class BS5InputFile : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputFile"));
+static BS5InputFile"));
 
 ///
 unittest { {

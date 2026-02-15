@@ -11,7 +11,7 @@ class BS5AccordionHeader : BS5Obj {
 
 	mixin(MyContent!("button", "BS5AccordionButton"));
 }
-mixin(H5Calls!("BS5AccordionHeader"));
+static BS5AccordionHeader"));
 
 ///
 unittest { {

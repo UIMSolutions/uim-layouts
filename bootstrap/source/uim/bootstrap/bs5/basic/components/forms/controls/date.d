@@ -50,7 +50,7 @@ unittest { {
 	}}
 
 }
-mixin(H5Calls!("BS5InputDate"));
+static BS5InputDate"));
 
 ///
 unittest { {

@@ -15,7 +15,7 @@ class BS5AlertHeading : BS5Obj {
 		return cast(O) this;
 	}
 }
-mixin(H5Calls!("BS5AlertHeading"));
+static BS5AlertHeading"));
 
 ///
 unittest { {

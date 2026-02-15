@@ -13,7 +13,7 @@ class BS5InputPassword : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputPassword"));
+static BS5InputPassword"));
 
 ///
 unittest { {

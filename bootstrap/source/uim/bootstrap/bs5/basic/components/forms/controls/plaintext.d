@@ -17,7 +17,7 @@ class BS5InputPlaintext : BS5Input {
       .addAttributes(["type":"text"]);
   }
 }
-mixin(H5Calls!("BS5InputPlaintext"));
+static BS5InputPlaintext"));
 
 ///
 unittest { {

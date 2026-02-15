@@ -13,7 +13,7 @@ class BS5InputWeek : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputWeek"));
+static BS5InputWeek"));
 
 ///
 unittest { {

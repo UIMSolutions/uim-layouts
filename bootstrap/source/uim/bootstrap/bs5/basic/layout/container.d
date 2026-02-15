@@ -25,7 +25,7 @@ unittest { {
 
 	mixin(MyContent!("row", "BS5Row"));
 }
-mixin(H5Calls!("BS5Container"));
+static BS5Container"));
 
 ///
 unittest { {

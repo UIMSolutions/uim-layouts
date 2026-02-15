@@ -13,7 +13,7 @@ class BS5InputReset : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputReset"));
+static BS5InputReset"));
 
 ///
 unittest { {

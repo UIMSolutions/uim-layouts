@@ -14,7 +14,7 @@ class BS5Col : BS5Obj {
 		return cast(O)this; 
 	}
 }
-mixin(H5Calls!("BS5Col"));
+static BS5Col"));
 
 ///
 unittest { {	

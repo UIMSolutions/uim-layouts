@@ -34,7 +34,7 @@ class BS5InputTime : BS5Input {
 	}
 
 }
-mixin(H5Calls!("BS5InputTime"));
+static BS5InputTime"));
 
 ///
 unittest { {

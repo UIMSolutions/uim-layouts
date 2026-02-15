@@ -13,7 +13,7 @@ class BS5InputSubmit : BS5Input {
 		_single = true;
 	}
 }
-mixin(H5Calls!("BS5InputSubmit"));
+static BS5InputSubmit"));
 
 ///
 unittest { {

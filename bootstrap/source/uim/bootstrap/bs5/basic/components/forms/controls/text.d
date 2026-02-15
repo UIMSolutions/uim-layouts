@@ -28,7 +28,7 @@ class BS5InputText : BS5Input {
 		return cast(O)this;
 	}
 }
-mixin(H5Calls!("BS5InputText"));
+static BS5InputText"));
 
 ///
 unittest { {

@@ -13,7 +13,7 @@ class BS5Checkbox : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5Checkbox"));
+static BS5Checkbox"));
 
 ///
 unittest { {

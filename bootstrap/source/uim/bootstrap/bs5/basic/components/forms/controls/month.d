@@ -13,7 +13,7 @@ class BS5InputMonth : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputMonth"));
+static BS5InputMonth"));
 
 ///
 unittest { {

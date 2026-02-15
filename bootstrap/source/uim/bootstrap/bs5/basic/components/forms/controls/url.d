@@ -13,7 +13,7 @@ class BS5InputUrl : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputUrl"));
+static BS5InputUrl"));
  
 ///
 unittest { {

@@ -10,7 +10,7 @@ class BS5AccordionCollapse : BS5Obj {
 	mixin(H5This!("Div", ["accordion-collapse"]));
 	mixin(MyContent!("body_", "BS5AccordionBody"));
 }
-mixin(H5Calls!("BS5AccordionCollapse"));
+static BS5AccordionCollapse"));
 
 ///
 unittest { {

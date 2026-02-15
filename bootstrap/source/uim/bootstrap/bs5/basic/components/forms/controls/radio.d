@@ -13,7 +13,7 @@ class BS5Radio : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5Radio"));
+static BS5Radio"));
 
 ///
 unittest { {

@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5SpinnerGrow : BS5Obj {
 	mixin(H5This!("Div", ["spinner-grow"]));
 }
-mixin(H5Calls!("BS5SpinnerGrow"));
+static BS5SpinnerGrow"));
 
 ///
 unittest { {

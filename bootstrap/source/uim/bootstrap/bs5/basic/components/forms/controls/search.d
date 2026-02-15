@@ -13,7 +13,7 @@ class BS5InputSearch : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputSearch"));
+static BS5InputSearch"));
 
 ///
 unittest { {

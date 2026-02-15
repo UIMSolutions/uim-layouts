@@ -99,7 +99,7 @@ class BS5InputSelect : BS5Obj {
 		return cast(O)this;	
 	}
 }
-mixin(H5Calls!("BS5InputSelect"));
+static BS5InputSelect"));
 
 ///
 unittest { {

@@ -26,7 +26,7 @@ class BS5Input : BS5Obj {
 			.classes("form-control");
   }
 }
-mixin(H5Calls!("BS5Input"));
+static BS5Input"));
 
 ///
 unittest { {

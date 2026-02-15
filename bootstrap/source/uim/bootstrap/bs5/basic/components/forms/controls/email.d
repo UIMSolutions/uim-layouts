@@ -13,7 +13,7 @@ class BS5InputEmail : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputEmail"));
+static BS5InputEmail"));
 
 ///
 unittest { {

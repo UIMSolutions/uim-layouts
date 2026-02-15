@@ -13,7 +13,7 @@ class BS5InputDatalist : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputDatalist"));
+static BS5InputDatalist"));
 
 ///
 unittest { {

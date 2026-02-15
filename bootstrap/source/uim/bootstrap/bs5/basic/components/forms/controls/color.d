@@ -13,7 +13,7 @@ class BS5InputColor : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputColor"));
+static BS5InputColor"));
 
 ///
 unittest { {

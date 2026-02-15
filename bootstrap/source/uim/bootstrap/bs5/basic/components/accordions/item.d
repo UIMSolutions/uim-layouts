@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5AccordionItem : BS5Obj {
 	mixin(H5This!("Div", ["accordion-item"]));
 }
-mixin(H5Calls!("BS5AccordionItem"));
+static BS5AccordionItem"));
 
 ///
 unittest { {

@@ -13,7 +13,7 @@ class BS5InputButton : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputButton"));
+static BS5InputButton"));
 
 ///
 unittest { {

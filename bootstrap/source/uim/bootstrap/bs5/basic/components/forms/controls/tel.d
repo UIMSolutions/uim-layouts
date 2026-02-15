@@ -13,7 +13,7 @@ class BS5InputTel : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputTel"));
+static BS5InputTel"));
 
 ///
 unittest { {

@@ -31,7 +31,7 @@ unittest { {
 	}}
 }
 // Shortcut to class BS5Badge
-mixin(H5Calls!("BS5Badge"));
+static BS5Badge"));
 
 ///
 unittest { {

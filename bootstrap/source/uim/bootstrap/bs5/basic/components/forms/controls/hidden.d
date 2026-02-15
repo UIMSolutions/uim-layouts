@@ -23,7 +23,7 @@ class BS5InputHidden : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputHidden"));
+static BS5InputHidden"));
 ///
 unittest { {
   assert(BS5InputHidden == `<input class="form-control" type="hidden">`);

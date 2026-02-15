@@ -33,7 +33,7 @@ class BS5InputNumber : BS5Obj {
 		return cast(O)this;
 	}
 }
-mixin(H5Calls!("BS5InputNumber"));
+static BS5InputNumber"));
 
 ///
 unittest { {

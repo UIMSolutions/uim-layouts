@@ -4,16 +4,16 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
+/// 
 class BS5AccordionBody : BS5Obj {
 	mixin(H5This!("Div", ["accordion-body"]));
-mixin(H5Calls!("BS5AccordionBody"));
+	static BS5AccordionBody opCall() {
+		return new BS5AccordionBody;
+	}
 }
-
 ///
 unittest {
-	assert(BS5AccordionBody);
-	assert(BS5AccordionBody == `<div class="accordion-body"></div>`);
-}}
-
+	assert(BS5AccordionBody() == `<div class="accordion-body"></div>`);
+}

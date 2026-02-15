@@ -59,4 +59,4 @@ class BS5CustomSelect : DH5Select {
 		return cast(O)this;	
 	}
 }
-mixin(H5Calls!("BS5CustomSelect"));
+static BS5CustomSelect"));

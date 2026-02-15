@@ -13,7 +13,7 @@ class BS5InputRange : BS5Input {
     super.initialize(aConfig);
   }
 }
-mixin(H5Calls!("BS5InputRange"));
+static BS5InputRange"));
 
 ///
 unittest { {

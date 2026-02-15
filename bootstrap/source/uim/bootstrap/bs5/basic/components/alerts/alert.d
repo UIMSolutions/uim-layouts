@@ -39,13 +39,13 @@ unittest { {
 	mixin(MyContent!("heading", "BS5AlertHeading"));
 }
 
-mixin(H5Calls!("BS5Alert"));
+static BS5Alert"));
 
 class BS5AlertLink : BS5Obj {
 	mixin(H5This!("A", ["alert-link"], `["href":"#"]`));
 }
 
-mixin(H5Calls!("BS5AlertLink"));
+static BS5AlertLink"));
 
 ///
 unittest { {
