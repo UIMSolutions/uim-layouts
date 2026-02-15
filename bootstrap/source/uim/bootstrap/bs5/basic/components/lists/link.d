@@ -9,19 +9,19 @@ mixin(showmodule!());
 class BS5ListLink : BS5Obj {
 	mixin(H5This!("A", ["list-group-item", "list-group-item-action"], null));
 
-	O active(this O)(bool value = true) { return this.addClasses("active"); }
+	O active(bool value = true) { return this.addClasses("active"); }
 	///
 unittest { {
 		assert(BS5ListLink.active == `<a class="active list-group-item list-group-item-action"></a>`);
 	}}
 
-	O disabled(this O)(bool value = true) { return this.addClasses("disabled"); }
+	O disabled(bool value = true) { return this.addClasses("disabled"); }
 	///
 unittest { {
 		assert(BS5ListLink.disabled == `<a class="disabled list-group-item list-group-item-action"></a>`);
 	}}
 
-	O color(this O)(string aColor) { return this.addClasses("list-group-item-"~aColor); }
+	O color(string aColor) { return this.addClasses("list-group-item-"~aColor); }
 }
 static BS5ListLink");
 

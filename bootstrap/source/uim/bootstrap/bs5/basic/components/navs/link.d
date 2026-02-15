@@ -9,19 +9,19 @@ mixin(showmodule!());
 class BS5NavLink : BS5Obj {
 	mixin(H5This!("A", ["nav-link"], `["href":"#"]`));
 
-	O active(this O)(bool value = true) { if (value) this.addClasses("active"); return this; }
+	O active(bool value = true) { if (value) this.addClasses("active"); return this; }
 	///
 unittest { {
 		assert(BS5NavLink.active == `<a class="active nav-link" href="#"></a>`);
 	}}
 
-	O disabled(this O)(bool value = true) { if (value) this.addClasses("disabled"); return this; }
+	O disabled(bool value = true) { if (value) this.addClasses("disabled"); return this; }
 	///
 unittest { {
 		assert(BS5NavLink.disabled == `<a class="disabled nav-link" href="#"></a>`);
 	}}
 
-	O dropdownToggle(this O)(bool mode = true) { 
+	O dropdownToggle(bool mode = true) { 
 		return this
 			.addClasses("dropdown-toggle")
 			.addAttributes(["data-toggle":"dropdown", "role":"button", "aria-haspopup":"true", "aria-expanded":"false"]); }

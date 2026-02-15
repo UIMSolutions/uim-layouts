@@ -12,22 +12,22 @@ class BS5InputNumber : BS5Obj {
 		super.initialize; _single = true;
 	}
 
-	O value(this O)(string aValue) {
+	O value(string aValue) {
 		_attributes["value"] = to!string(aValue);
 		return this;
 	}
 
-	O value(this O)(int aValue) {
+	O value(int aValue) {
 		_attributes["value"] = to!string(aValue);
 		return this;
 	}
 
-	O value(this O)(long aValue) {
+	O value(long aValue) {
 		_attributes["value"] = to!string(aValue);
 		return this;
 	}
 
-	O value(this O)(size_t aValue) {
+	O value(size_t aValue) {
 		_attributes["value"] = to!string(aValue);
 		_attributes["min"] = "0";
 		return this;

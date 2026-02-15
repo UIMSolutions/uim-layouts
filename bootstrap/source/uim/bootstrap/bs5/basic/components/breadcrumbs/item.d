@@ -9,13 +9,13 @@ mixin(showmodule!());
 class BS5BreadcrumbItem : BS5Obj {
 	mixin(H5This!("LI", ["breadcrumb-item"]));
 
-	O active(this O)(bool mode = true) { if (mode) this.addClasses("active"); return this; }
+	O active(bool mode = true) { if (mode) this.addClasses("active"); return this; }
 	///
 unittest { {
 		assert(BS5BreadcrumbItem.active == `<li class="active breadcrumb-item"></li>`);
 	}}
 
-	O disabled(this O)(bool mode = true) { if (mode) this.addClasses("disabled"); return this; }
+	O disabled(bool mode = true) { if (mode) this.addClasses("disabled"); return this; }
 	///
 unittest { {
 		assert(BS5BreadcrumbItem.disabled == `<li class="breadcrumb-item disabled"></li>`);

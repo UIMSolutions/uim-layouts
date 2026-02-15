@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5Col : BS5Obj {
 	mixin(H5This!("Div"));
 
-	O sizes(this O)(string[] someSizes...) { 
+	O sizes(string[] someSizes...) { 
 		foreach(size; someSizes) this.addClasses("col-"~size); 
 		return this; 
 	}

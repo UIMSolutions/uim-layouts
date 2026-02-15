@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5Navbar : BS5Obj {
 	mixin(H5This!("Nav", ["navbar"]));
 
-	O center(this O)(bool value = true) {
+	O center(bool value = true) {
 		if (value) this.addClasses("justify-content-center");
 		return this;
 	}
@@ -19,7 +19,7 @@ unittest { {
 		assert(BS5Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
 	}}
 
-	O dark(this O)(bool value = true) {
+	O dark(bool value = true) {
 		if (value) this.addClasses("navbar-dark");
 		return this;
 	}
@@ -28,7 +28,7 @@ unittest { {
 		assert(BS5Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);
 	}}
 
-	O expand(this O)(string screenSize) {
+	O expand(string screenSize) {
 		this.addClasses("navbar-expand-" ~ screenSize);
 		return this;
 	}
@@ -38,7 +38,7 @@ unittest { {
 		assert(BS5Navbar.expand("lg") == `<nav class="navbar navbar-expand-lg"></nav>`);
 	}}
 
-	O light(this O)(bool value = true) {
+	O light(bool value = true) {
 		this.addClasses("navbar-light");
 		return this;
 	}

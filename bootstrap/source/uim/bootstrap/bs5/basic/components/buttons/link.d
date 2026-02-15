@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5ButtonLink : BS5Obj {
 	mixin(H5This!("A", ["btn"], `["role":"button"]`));
 
-	O disabled(this O)() {
+	O disabled() {
 		this.addClasses(["disabled"]).attributes(["tabindex":"-1", "aria-disabled":"true"]);
 		return this;
 	}

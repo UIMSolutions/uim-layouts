@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5CarouselIndicators : BS5Obj {
 	mixin(H5This!("DIV", ["carousel-indicators"]));
 
-	O active(this O)(bool mode = true) {
+	O active(bool mode = true) {
 		if (mode) addClasses("active");
 		return this;
 	}

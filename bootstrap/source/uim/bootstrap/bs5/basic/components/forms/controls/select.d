@@ -14,7 +14,7 @@ class BS5InputSelect : BS5Obj {
   }
 
 	mixin(MyContent!("option", "H5Option"));
-	O options(this O)(string[] values, string selected = "", string disabled = "") {
+	O options(string[] values, string selected = "", string disabled = "") {
 		values.each!(value => setOptionByValue(value, selected, disabled)); 
 
 		return this;	
@@ -29,7 +29,7 @@ class BS5InputSelect : BS5Obj {
 		else this.option(optionValue);
 	}
 
-	O options(this O)(STRINGAA[] keyValues, string selectedKey = "", string disabledKey = "") {
+	O options(STRINGAA[] keyValues, string selectedKey = "", string disabledKey = "") {
 		keyValues.each!(keyvalues => setOptionByKeyValues(keyvalues, selectedKey, disabledKey));
 
 		return this;	
@@ -45,7 +45,7 @@ class BS5InputSelect : BS5Obj {
 		else this.option(["value":k], kv[optionKey]);
 	}
 
-	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+	O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
 		return this;	
@@ -61,7 +61,7 @@ class BS5InputSelect : BS5Obj {
 		else this.option(["value":optionKey], values[optionKey]);
 	}
 
-	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
+	O options(string[] values, string[] selected, string[] disabled = null) {
 		values.each!(value => setOptionByValue(value, selected, disabled)); 
 
 		return this;	
@@ -77,7 +77,7 @@ class BS5InputSelect : BS5Obj {
 		else this.option(optionValue);
 	}
 
-	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+	O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		foreach(k; values.keys.sort) {
 			if (selectedKeys.has(k)) {
 				this.option(disabledKeys.has(k) 
@@ -89,7 +89,7 @@ class BS5InputSelect : BS5Obj {
 		}
 		return this;	
 	}
-	O option(this O)(string value, string key = null, bool selected = false, string disabled = false) {
+	O option(string value, string key = null, bool selected = false, string disabled = false) {
 		auto result = H5Option;
 		if (selected) result(["selected":"selected"]); 
 		if (disabled) result(["disabled":"disabled"]);

@@ -10,7 +10,7 @@ class BS5FormCheck : BS5Obj {
 	mixin(H5This!("Div", ["form-check"]));
 	mixin(TProperty!("string", "forId"));
 
-	O inline(this O)(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return this; }
+	O inline(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return this; }
 	
 	mixin(MyContent!("label", "BS5FormCheckLabel"));
 }

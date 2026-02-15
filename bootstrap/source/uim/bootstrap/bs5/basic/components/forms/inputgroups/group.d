@@ -22,9 +22,9 @@ unittest { {
 	}}
 	
 	// Setting size of group
-	O size(this O)(string sizeName) { return this.addClasses("input-group-"~sizeName); }
-	O small(this O)() { return this.addClasses("input-group-sm"); }
-	O large(this O)() { return this.addClasses("input-group-lg"); }
+	O size(string sizeName) { return this.addClasses("input-group-"~sizeName); }
+	O small() { return this.addClasses("input-group-sm"); }
+	O large() { return this.addClasses("input-group-lg"); }
 	///
 unittest { {
 		assert(BS5InputGroup.size("sm") == `<div class="input-group input-group-sm"></div>`);

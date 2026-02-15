@@ -10,7 +10,7 @@ class BS5CustomSelect : DH5Select {
 	mixin(H5This!("Select", ["custom-select"]));
 
 	mixin(MyContent!("option", "H5Option"));
-	O options(this O)(string[] values, string selected = "", string disabled = "") {
+	O options(string[] values, string selected = "", string disabled = "") {
 		foreach(value; values) {
 			if (value == selected) {
 				this.option(value == disabled
@@ -22,7 +22,7 @@ class BS5CustomSelect : DH5Select {
 		}
 		return this;	
 	}
-	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+	O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		foreach(k; values.keys.sort) {
 			if (k == selectedKey) {
 				this.option(k == disabledKey 
@@ -34,7 +34,7 @@ class BS5CustomSelect : DH5Select {
 		}
 		return this;	
 	}
-	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
+	O options(string[] values, string[] selected, string[] disabled = null) {
 		foreach(value; values) {
 			if (selected.has(value)) {
 				this.option(disabled.has(value) 
@@ -46,7 +46,7 @@ class BS5CustomSelect : DH5Select {
 		}
 		return this;	
 	}
-	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+	O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		foreach(k; values.keys.sort) {
 			if (selectedKeys.has(k)) {
 				this.option(disabledKeys.has(k) 

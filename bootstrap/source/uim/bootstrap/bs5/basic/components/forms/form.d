@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS5Form : BS5Obj {
 	mixin(H5This!("Form"));
 
-	O inline(this O)(bool value = true) { return this.addClasses("form-inline"); }
+	O inline(bool value = true) { return this.addClasses("form-inline"); }
 
 		mixin(MyContent!("group", "BS5FormGroup"));
 		mixin(MyContent!("label", "H5Label"));

@@ -13,9 +13,9 @@ class BS5Pagination : BS5Obj {
     super.initialize(aConfig);
   }
 
-	O center(this O)(string aSize) { return this.addClasses("justify-content-centers"); }
-	O right(this O)(string aSize) { return this.addClasses("justify-content-end"); }
-	O size(this O)(string aSize) { return this.addClasses("pagination-"~aSize); }
+	O center(string aSize) { return this.addClasses("justify-content-centers"); }
+	O right(string aSize) { return this.addClasses("justify-content-end"); }
+	O size(string aSize) { return this.addClasses("pagination-"~aSize); }
 
 	mixin(MyContent!("item", "BS5PageItem"));
 	mixin(MyContent!("link", "this.item", "BS5PageLink"));

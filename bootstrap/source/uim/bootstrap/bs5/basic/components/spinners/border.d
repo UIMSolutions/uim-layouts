@@ -8,10 +8,11 @@ mixin(showmodule!());
 
 class BS5SpinnerBorder : BS5Obj {
 	mixin(H5This!("Div", ["spinner-border"]));
-}
-static BS5SpinnerBorder"));
 
-///
-unittest { {
-	assert(BS5SpinnerBorder == `<div class="spinner-border"></div>`);
+static BS5SpinnerBorder opCall() {
+	return new BS5SpinnerBorder;
 }}
+///
+unittest { 
+	assert(BS5SpinnerBorder() == `<div class="spinner-border"></div>`);
+}

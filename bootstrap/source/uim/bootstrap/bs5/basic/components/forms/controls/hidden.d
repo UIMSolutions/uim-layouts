@@ -9,12 +9,12 @@ mixin(showmodule!());
 class BS5InputHidden : BS5Input {
 	mixin(H5This!("", null, `["type":"hidden"]`));
 
-	O value(this O)(UUID id) {
+	O value(UUID id) {
 		this.value(id.toString);
 		return this;
 	}
 
-	O value(this O)(string txt) {
+	O value(string txt) {
 		_attributes["value"] = txt;
 		return this;
 	}

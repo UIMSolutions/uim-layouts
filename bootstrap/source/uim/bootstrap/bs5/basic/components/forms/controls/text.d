@@ -13,17 +13,17 @@ class BS5InputText : BS5Input {
     super.initialize(aConfig);
   }
 	
-	O value(this O)(UUID id) {
+	O value(UUID id) {
 		this.value(id.toString);
 		return this;
 	}
 
-	O value(this O)(bool aValue) {
+	O value(bool aValue) {
 		value(aValue ? "true" : "false");
 		return this;
 	}
 
-	O value(this O)(string txt) {
+	O value(string txt) {
 		_attributes["value"] = txt;
 		return this;
 	}
