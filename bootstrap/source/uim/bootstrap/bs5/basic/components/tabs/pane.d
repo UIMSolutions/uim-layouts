@@ -6,7 +6,8 @@ import uim.bootstrap;
 class BS5TabPane : BS5Obj {
 	mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
 
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5TabPane == `<div class="tab-pane" aria-expanded="false" role="tabpanel"></div>`);
 	}}	
 
@@ -16,7 +17,8 @@ class BS5TabPane : BS5Obj {
 }
 mixin(H5Calls!"BS5TabPane");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5TabPane.active == `<div class="active tab-pane" aria-expanded="true" role="tabpanel"></div>`);
 	assert(BS5TabPane.fade == `<div class="fade tab-pane" aria-expanded="false" role="tabpanel"></div>`);
 }}

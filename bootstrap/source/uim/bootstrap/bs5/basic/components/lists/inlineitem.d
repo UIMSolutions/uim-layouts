@@ -8,6 +8,7 @@ class BS5ListInlineItem : BS5Obj {
 }
 mixin(H5Calls!"BS5ListInlineItem");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ListInlineItem == `<li class="list-inline-item"></li>`);
 }}

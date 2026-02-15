@@ -7,17 +7,20 @@ class BS5InputGroupAppend : BS5Obj {
 	mixin(H5This!("DIV", ["input-group-append"]));
 
 	mixin(MyContent!("button", "BS5Button"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5InputGroupAppend.button == `<div class="input-group-append"><button class="btn" type="button"></button></div>`);
 	}}
 
 	mixin(MyContent!("text", "BS5InputGroupText"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5InputGroupAppend.text == `<div class="input-group-append"><div class="input-group-text"></div></div>`);
 	}}
 }
 mixin(H5Calls!"BS5InputGroupAppend");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5InputGroupAppend == `<div class="input-group-append"></div>`);
 }}

@@ -13,7 +13,8 @@ class BS5FormCheck : BS5Obj {
 }
 mixin(H5Calls!"BS5FormCheck");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5FormCheck);
 	assert(BS5FormCheck == `<div class="form-check"></div>`);
   assert(BS5FormCheck.inline == `<div class="form-check form-check-inline"></div>`);	

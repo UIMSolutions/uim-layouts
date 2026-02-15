@@ -12,7 +12,8 @@ class BS5ListGroup : BS5Obj {
 }
 mixin(H5Calls!"BS5ListGroup");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ListGroup == `<div class="list-group"></div>`);
 	assert(BS5ListGroup.item == `<div class="list-group"><div class="list-group-item"></div></div>`);
 }}

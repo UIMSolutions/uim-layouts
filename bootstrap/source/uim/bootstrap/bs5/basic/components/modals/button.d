@@ -13,6 +13,7 @@ class BS5ModalButton : BS5Obj {
 	}
 }
 mixin(H5Calls!"BS5ModalButton");
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// assert(BS5ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 }}

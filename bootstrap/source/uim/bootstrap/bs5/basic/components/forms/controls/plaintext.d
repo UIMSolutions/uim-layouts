@@ -16,7 +16,8 @@ class BS5InputPlaintext : BS5Input {
 }
 mixin(H5Calls!("BS5InputPlaintext"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5InputPlaintext);
 	assert(BS5InputPlaintext == `<input class="form-control-plaintext" type="text">`);
 }}

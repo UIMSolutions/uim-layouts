@@ -48,6 +48,7 @@ class BS5FormGroup : BS5Obj {
 }
 mixin(H5Calls!"BS5FormGroup");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5FormGroup == `<div class="form-group"></div>`);
 }}

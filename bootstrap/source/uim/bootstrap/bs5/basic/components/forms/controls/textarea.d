@@ -15,6 +15,7 @@ class BS5InputTextarea : BS5Obj {
 }
 mixin(H5Calls!("BS5InputTextarea"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
   assert(BS5InputTextarea == `<textarea class="form-control"></textarea>`);
 }}

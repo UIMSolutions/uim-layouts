@@ -10,6 +10,7 @@ class BS5CardHeader : BS5Obj {
 }
 mixin(H5Calls!"BS5CardHeader");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5CardHeader == `<div class="card-header"></div>`);
 }}

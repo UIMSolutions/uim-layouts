@@ -12,6 +12,7 @@ class BS5InputEmail : BS5Input {
 }
 mixin(H5Calls!("BS5InputEmail"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
   assert(BS5InputEmail == `<input class="form-control" type="email">`);
 }}

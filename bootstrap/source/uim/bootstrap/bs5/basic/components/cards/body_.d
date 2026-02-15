@@ -7,17 +7,20 @@ class BS5CardBody : BS5Obj {
 	mixin(H5This!("DIV", ["card-body"]));
 
 	mixin(MyContent!("title", "BS5CardTitle"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5CardBody.title("Hallo") == `<div class="card-body"><h4 class="card-title">Hallo</h4></div>`);
 	}}
 
 	mixin(MyContent!("text", "BS5CardText"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5CardBody.text("Hallo") == `<div class="card-body"><p class="card-text">Hallo</p></div>`);
 	}}
 }
 mixin(H5Calls!"BS5CardBody");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5CardBody == `<div class="card-body"></div>`);
 }}

@@ -11,6 +11,7 @@ class BS5ListDivItem : BS5Obj { // I know, it's a ugly name
 }
 mixin(H5Calls!"BS5ListDivItem");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ListDivItem == `<div class="list-group-item"></div>`);
 }}

@@ -10,13 +10,15 @@ class BS5ButtonLink : BS5Obj {
 		this.addClasses(["disabled"]).attributes(["tabindex":"-1", "aria-disabled":"true"]);
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		// TODO
 	}}
 }
 mixin(H5Calls!"BS5ButtonLink");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ButtonLink == `<a class="btn" role="button"></a>`);
 }}
 	

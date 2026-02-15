@@ -8,6 +8,7 @@ class BS5NavbarTogglerIcon : BS5Obj {
 }
 mixin(H5Calls!"BS5NavbarTogglerIcon");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 //	assert(BS5NavbarTogglerIcon == `<div class="btn-group" role="group"></div>`);
 }}

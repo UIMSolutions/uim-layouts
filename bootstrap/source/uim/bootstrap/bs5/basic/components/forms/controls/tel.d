@@ -12,6 +12,7 @@ class BS5InputTel : BS5Input {
 }
 mixin(H5Calls!("BS5InputTel"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5InputTel == `<input class="form-control" type="tel">`);
 }}

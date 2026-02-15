@@ -7,12 +7,14 @@ class BS5Breadcrumb : BS5Obj {
 	mixin(H5This!("Nav", null, `["aria-label":"breadcrumb"]`));
 
 	mixin(MyContent!("list", "BS5BreadcrumbList"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
 	}}
 }
 mixin(H5Calls!"BS5Breadcrumb");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5Breadcrumb == `<nav aria-label="breadcrumb"></nav>`);
 }}

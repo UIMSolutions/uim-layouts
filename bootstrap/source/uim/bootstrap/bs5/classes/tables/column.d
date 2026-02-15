@@ -21,7 +21,8 @@ class BS5TableColumn : BS5Obj {
 }
 mixin(H5Calls!"BS5TableColumn");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5TableColumn == `<th scope="col"></th>`);
 	assert(BS5TableColumn.title("xyz") == `<th scope="col">xyz</th>`);
 }}

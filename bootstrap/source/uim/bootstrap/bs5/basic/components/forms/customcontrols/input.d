@@ -12,6 +12,7 @@ class BS5CustomInput : BS5Obj {
 }
 mixin(H5Calls!"BS5CustomInput");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 		assert(BS5CustomInput == `<input class="custom-control-input">`);
 }}

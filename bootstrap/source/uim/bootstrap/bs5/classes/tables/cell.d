@@ -10,7 +10,8 @@ class BS5TableCell : BS5Obj {
 	O colspan(this O)(string span) { 
 		this.attributes("colspan", span);
 		return cast(O)this; }
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5TableCell.colspan(2) == `<td colspan="2"></td>`);
 	}}
 
@@ -18,12 +19,14 @@ class BS5TableCell : BS5Obj {
 	O rowspan(this O)(string span) { 
 		this.attributes("rowspan", span);
 		return cast(O)this; }
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5TableCell.rowspan(2) == `<td rowspan="2"></td>`);
 	}}
 }
 mixin(H5Calls!"BS5TableCell");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5TableCell == `<td></td>`);
 }}

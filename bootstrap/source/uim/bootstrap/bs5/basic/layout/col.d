@@ -13,6 +13,7 @@ class BS5Col : BS5Obj {
 }
 mixin(H5Calls!("BS5Col"));
 
-version(test_uim_bootstrap) { unittest {	
+///
+unittest { {	
 	assert(BS5Col.sizes("12") == `<div class="col-12"></div>`);
 }}

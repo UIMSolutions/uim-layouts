@@ -8,13 +8,15 @@ class BS5ListButton : BS5Obj {
 
 	/// Set button to active
 	O active(this O)(bool value = true) { this.addClasses("active"); return cast(O)this; }
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5ListButton.active == `<button class="active list-group-item list-group-item-action" type="button"></button>`);
 	}}
 
 	/// Set button to disabled
 	O disabled(this O)(bool value = true) { _attributes["disabled"] = "true"; return cast(O)this; }
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5ListButton.disabled == `<button class="list-group-item list-group-item-action" disabled type="button"></button>`);
 	}}
 
@@ -23,7 +25,8 @@ class BS5ListButton : BS5Obj {
 }
 mixin(H5Calls!"BS5ListButton");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ListButton == `<button class="list-group-item list-group-item-action" type="button"></button>`);
 	assert(BS5ListButton.active == `<button class="active list-group-item list-group-item-action" type="button"></button>`);
 	assert(BS5ListButton.disabled == `<button class="list-group-item list-group-item-action" disabled type="button"></button>`);

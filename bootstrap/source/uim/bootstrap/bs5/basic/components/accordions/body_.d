@@ -5,10 +5,11 @@ import uim.bootstrap;
 
 class BS5AccordionBody : BS5Obj {
 	mixin(H5This!("Div", ["accordion-body"]));
-}
 mixin(H5Calls!("BS5AccordionBody"));
+}
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest {
 	assert(BS5AccordionBody);
 	assert(BS5AccordionBody == `<div class="accordion-body"></div>`);
 }}

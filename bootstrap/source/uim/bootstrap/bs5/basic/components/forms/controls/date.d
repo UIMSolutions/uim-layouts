@@ -14,7 +14,8 @@ class BS5InputDate : BS5Input {
 		_attributes["value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString.split("T")[0];
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {					
+	///
+unittest { {					
     /// TODO
 	}}
 
@@ -22,7 +23,8 @@ class BS5InputDate : BS5Input {
 		_attributes["value"] = dateValue;
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {		
+	///
+unittest { {		
     /// TODO
 	}}
 
@@ -30,7 +32,8 @@ class BS5InputDate : BS5Input {
 		_attributes["value"] = (cast(DateTime)systime).toISOExtString.split("T")[0];
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {			
+	///
+unittest { {			
     /// TODO
 	}}
 
@@ -38,13 +41,15 @@ class BS5InputDate : BS5Input {
 		_attributes["value"] = datetime.toISOExtString.split("T")[0];
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {		
+	///
+unittest { {		
     /// TODO	
 	}}
 
 }
 mixin(H5Calls!("BS5InputDate"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5InputDate == `<input class="form-control" type="date">`);
 }}

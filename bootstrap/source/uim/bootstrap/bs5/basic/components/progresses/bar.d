@@ -15,6 +15,7 @@ class BS5ProgressBar : BS5Obj {
 }
 mixin(H5Calls!"BS5ProgressBar");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ProgressBar == `<div class="progress-bar" role="progressbar"></div>`);
 }}

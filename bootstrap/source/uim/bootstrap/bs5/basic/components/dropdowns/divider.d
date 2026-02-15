@@ -8,7 +8,8 @@ class BS5DropdownDivider : BS5Obj {
 }
 mixin(H5Calls!"BS5DropdownDivider");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5DropdownDivider);
 	assert(BS5DropdownDivider == `<div class="dropdown-divider"></div>`);
 }}

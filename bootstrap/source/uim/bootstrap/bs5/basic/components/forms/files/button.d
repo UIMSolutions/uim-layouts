@@ -8,6 +8,7 @@ class BS5FormFileButton : BS5Obj {
 }
 mixin(H5Calls!"BS5FormFileButton");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5FormFileButton == `<span class="form-file-button"></span>`);
 }}

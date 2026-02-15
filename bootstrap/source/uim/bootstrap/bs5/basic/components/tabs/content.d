@@ -10,6 +10,7 @@ class BS5TabContent : BS5Obj {
 }
 mixin(H5Calls!"BS5TabContent");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5TabContent == `<div class="tab-content"></div>`);
 }}

@@ -8,6 +8,7 @@ class BS5ModalTitle : BS5Obj {
 }
 mixin(H5Calls!"BS5ModalTitle");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ModalTitle == `<h5 class="modal-title"></h5>`);
 }}

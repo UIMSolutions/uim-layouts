@@ -9,6 +9,7 @@ class BS5CardOverlay : BS5Obj {
 }
 mixin(H5Calls!"BS5CardOverlay");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5CardOverlay == `<div class="card-img-overlay"></div>`);
 }}

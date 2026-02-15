@@ -8,7 +8,8 @@ class BS5CardFooter : BS5Obj {
 }
 mixin(H5Calls!"BS5CardFooter");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5CardFooter);
 	assert(BS5CardFooter == `<div class="card-footer"></div>`);
 }}

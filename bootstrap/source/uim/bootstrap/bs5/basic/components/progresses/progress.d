@@ -10,6 +10,7 @@ class BS5Progress : BS5Obj {
 }
 mixin(H5Calls!"BS5Progress");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5Progress == `<div class="progress"></div>`);
 }}

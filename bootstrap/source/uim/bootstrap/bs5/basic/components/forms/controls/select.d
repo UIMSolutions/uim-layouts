@@ -98,6 +98,7 @@ class BS5InputSelect : BS5Obj {
 }
 mixin(H5Calls!("BS5InputSelect"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// TODO assert 
 }}

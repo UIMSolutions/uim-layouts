@@ -8,6 +8,7 @@ class BS5FormFileLabel : BS5Obj {
 }
 mixin(H5Calls!"BS5FormFileLabel");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5FormFileLabel == `<label class="form-file-label"></label>`);
 }}

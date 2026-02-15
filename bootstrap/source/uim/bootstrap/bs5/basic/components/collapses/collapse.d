@@ -8,6 +8,7 @@ class BS5Collapse : BS5Obj {
 }
 mixin(H5Calls!"BS5Collapse");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5Collapse == `<div class="collapse"></div>`);
 }}

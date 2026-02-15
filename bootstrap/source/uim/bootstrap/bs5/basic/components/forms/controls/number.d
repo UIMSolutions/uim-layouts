@@ -32,6 +32,7 @@ class BS5InputNumber : BS5Obj {
 }
 mixin(H5Calls!("BS5InputNumber"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5InputNumber == `<input class="form-control" type="number">`);
 }}

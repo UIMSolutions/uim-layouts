@@ -13,6 +13,7 @@ class BS5CustomFileInput : BS5Obj {
 
 mixin(H5Calls!"BS5CustomFileInput");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5CustomFileInput == `<input class="custom-file-input">`);
 }}

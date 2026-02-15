@@ -14,6 +14,7 @@ class BS5ModalContent : BS5Obj {
 }
 mixin(H5Calls!"BS5ModalContent");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5ModalContent == `<div class="modal-content"></div>`);
 }}

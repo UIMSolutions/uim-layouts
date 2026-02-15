@@ -10,7 +10,8 @@ class BS5Navbar : BS5Obj {
 		if (value) this.addClasses("justify-content-center");
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5Navbar.center == `<nav class="justify-content-center navbar"></nav>`);
 		assert(BS5Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
 	}}
@@ -19,7 +20,8 @@ class BS5Navbar : BS5Obj {
 		if (value) this.addClasses("navbar-dark");
 		return cast(O)this;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);
 	}}
 
@@ -28,7 +30,8 @@ class BS5Navbar : BS5Obj {
 		return cast(O)this;
 	}
 	///
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5Navbar.expand("lg") == `<nav class="navbar navbar-expand-lg"></nav>`);
 	}}
 
@@ -37,7 +40,8 @@ class BS5Navbar : BS5Obj {
 		return cast(O)this;
 	}
 	///
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5Navbar.light == `<nav class="navbar navbar-light"></nav>`);
 	}}
 
@@ -52,6 +56,7 @@ class BS5Navbar : BS5Obj {
 
 mixin(H5Calls!"BS5Navbar");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5Navbar == `<nav class="navbar"></nav>`);
 }}

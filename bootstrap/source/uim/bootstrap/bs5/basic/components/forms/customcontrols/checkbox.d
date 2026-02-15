@@ -15,7 +15,8 @@ class BS5CustomCheckbox : BS5CustomControl {
 }
 mixin(H5Calls!"BS5CustomCheckbox");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
   // TODO Exists in 5?
 /*   assert(BS5CustomCheckbox);
   writeln(BS5CustomCheckbox);

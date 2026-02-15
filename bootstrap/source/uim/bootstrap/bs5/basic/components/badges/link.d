@@ -15,7 +15,8 @@ class BS5BadgeLink : BS5Obj {
 	O color(this O)(string name) {
 		return this.addClasses("badge-"~name);
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5BadgeLink.color("secondary") == `<a class="badge badge-secondary"></a>`);
 	}}
 
@@ -24,14 +25,16 @@ class BS5BadgeLink : BS5Obj {
 		if (mode) this.addClasses("badge-pill");
 		return cast(O) this;
 	}
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5BadgeLink.pill(true) == `<a class="badge badge-pill"></a>`);
 	}}
 }
 // Shortcut to class BS5Badge
 mixin(H5Calls!("BS5BadgeLink"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5BadgeLink);
 	assert(BS5BadgeLink == `<a class="badge"></a>`);
 }}

@@ -8,6 +8,7 @@ class BS5FormFile : BS5Obj {
 }
 mixin(H5Calls!"BS5FormFile");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5FormFile == `<div class="form-file"></div>`);
 }}

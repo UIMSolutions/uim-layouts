@@ -8,12 +8,14 @@ class BS5TableFooter : BS5Obj {
 
 	mixin(MyContent!("row", "BS5TableRow"));
 	mixin(MyContent!("tr", "BS5TableRow"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
 	}}	
 }
 mixin(H5Calls!"BS5TableFooter");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 		assert(BS5TableFooter == `<tfoot></tfoot>`);
 }}

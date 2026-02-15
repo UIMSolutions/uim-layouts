@@ -9,12 +9,14 @@ class BS5CardColumns : BS5Obj {
 
 	/// Add card 
 	mixin(MyContent!("card", "BS5Card"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
 	}}
 }
 mixin(H5Calls!"BS5CardColumns");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5CardColumns == `<div class="card-columns"></div>`);
 }}

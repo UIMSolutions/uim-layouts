@@ -12,6 +12,7 @@ class BS5InputPassword : BS5Input {
 }
 mixin(H5Calls!("BS5InputPassword"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
   assert(BS5InputPassword == `<input class="form-control" type="password">`);
 }}

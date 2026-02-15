@@ -10,6 +10,7 @@ class BS5Row : BS5Obj {
 }
 mixin(H5Calls!("BS5Row"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5Row == `<div class="row"></div>`);
 }}

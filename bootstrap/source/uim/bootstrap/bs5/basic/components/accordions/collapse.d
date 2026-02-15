@@ -9,7 +9,8 @@ class BS5AccordionCollapse : BS5Obj {
 }
 mixin(H5Calls!("BS5AccordionCollapse"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5AccordionCollapse);
 	assert(BS5AccordionCollapse == `<div class="accordion-collapse"></div>`);
 }}

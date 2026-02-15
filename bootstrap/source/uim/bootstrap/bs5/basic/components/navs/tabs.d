@@ -7,7 +7,8 @@ class BS5NavTabs : BS5Obj {
 	mixin(H5This!("UL", ["nav", "nav-tabs"], `["role":"tablist"]`));
 
 	mixin(MyContent!("item", "BS5NavItem"));
-	version(test_uim_bootstrap) { unittest {
+	///
+unittest { {
 		assert(BS5NavTabs.item == `<ul class="nav nav-tabs" role="tablist"><li class="nav-item"></li></ul>`);
 	}}
 
@@ -15,6 +16,7 @@ class BS5NavTabs : BS5Obj {
 }
 mixin(H5Calls!"BS5NavTabs");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5NavTabs == `<ul class="nav nav-tabs" role="tablist"></ul>`);
 }}

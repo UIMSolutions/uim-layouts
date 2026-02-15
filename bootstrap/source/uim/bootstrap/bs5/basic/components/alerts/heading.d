@@ -14,6 +14,7 @@ class BS5AlertHeading : BS5Obj {
 }
 mixin(H5Calls!("BS5AlertHeading"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	// TODO
 }}

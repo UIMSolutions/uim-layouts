@@ -25,6 +25,7 @@ class BS5Input : BS5Obj {
 }
 mixin(H5Calls!("BS5Input"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5Input);
 }}

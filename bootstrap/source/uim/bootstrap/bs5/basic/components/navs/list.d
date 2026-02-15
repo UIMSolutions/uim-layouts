@@ -15,7 +15,8 @@ class BS5NavList : BS5Obj {
 }
 mixin(H5Calls!"BS5NavList");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5NavList == `<ul class="nav"></ul>`);
 	assert(BS5NavList.vertical == `<ul class="flex-column nav"></ul>`);
 }}

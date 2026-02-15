@@ -12,6 +12,7 @@ class BS5InputDatalist : BS5Input {
 }
 mixin(H5Calls!("BS5InputDatalist"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
   assert(BS5InputDatalist == `<input class="form-control">`);
 }}

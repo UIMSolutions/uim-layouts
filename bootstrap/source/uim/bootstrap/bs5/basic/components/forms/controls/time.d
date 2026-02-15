@@ -33,6 +33,7 @@ class BS5InputTime : BS5Input {
 }
 mixin(H5Calls!("BS5InputTime"));
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5InputTime ==`<input class="form-control" type="time">`);
 }}

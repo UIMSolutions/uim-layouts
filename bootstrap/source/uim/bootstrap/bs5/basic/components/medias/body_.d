@@ -8,6 +8,7 @@ class BS5MediaBody : BS5Obj {
 }
 mixin(H5Calls!"BS5MediaBody");
 
-version(test_uim_bootstrap) { unittest {
+///
+unittest { {
 	assert(BS5MediaBody == `<div class="media-body"></div>`);
 }}
