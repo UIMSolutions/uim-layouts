@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4Radio : BS4Input {
-	mixin(H5This!("", null, `["type":"radio"]`));
+  mixin(H5This!("", null, `["type":"radio"]`));
 }
 static BS4Radio"));
 
 ///
 unittest {
-	assert(BS4Radio == `<input class="form-control" type="radio">`);
+  assert(BS4Radio == `<input class="form-control" type="radio">`);
 }}

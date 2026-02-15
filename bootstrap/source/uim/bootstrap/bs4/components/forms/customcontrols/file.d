@@ -7,15 +7,15 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4CustomFile : BS4Obj {
-	mixin(H5This!("DIV", ["custom-file"]));
+  mixin(H5This!("DIV", ["custom-file"]));
 
-	mixin(MyContent!("input", "BS4CustomFileInput"));
-	mixin(MyContent!("label", "BS4CustomFileLabel"));
+  mixin(MyContent!("input", "BS4CustomFileInput"));
+  mixin(MyContent!("label", "BS4CustomFileLabel"));
 }
 
 static BS4CustomFile");
 
 unittest
 {
-	assert(BS4CustomFile == `<div class="custom-file"></div>`);
+  assert(BS4CustomFile == `<div class="custom-file"></div>`);
 }

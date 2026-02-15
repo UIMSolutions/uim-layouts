@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4Password : BS4Input {
-	mixin(H5This!(null, ["form-control"], `["type":"password"]`));
+  mixin(H5This!(null, ["form-control"], `["type":"password"]`));
 }
 static BS4Password"));
 
 ///
 unittest {
-		assert(BS4Password == `<input class="form-control" type="password">`);
+    assert(BS4Password == `<input class="form-control" type="password">`);
 }}

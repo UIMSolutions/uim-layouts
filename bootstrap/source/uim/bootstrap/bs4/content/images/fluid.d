@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4ImageFluid : BS4Image {
-	mixin(H5This!("Img", ["img-fluid"]));
+  mixin(H5This!("Img", ["img-fluid"]));
 }
 static BS4ImageFluid"));
 
 ///
 unittest {
-	assert(BS4ImageFluid == `<img class="img-fluid">`);
+  assert(BS4ImageFluid == `<img class="img-fluid">`);
 }}

@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4InputHidden : BS4Input {
-	mixin(H5This!("", null, `["type":"hidden"]`));
+  mixin(H5This!("", null, `["type":"hidden"]`));
 }
 static BS4InputHidden"));
 
 ///
 unittest {
-	assert(BS4InputHidden == `<input class="form-control" type="hidden">`);
+  assert(BS4InputHidden == `<input class="form-control" type="hidden">`);
 }}

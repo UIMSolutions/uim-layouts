@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4ModalFooter : BS4Obj {
-	mixin(H5This!("DIV", ["modal-footer"]));
+  mixin(H5This!("DIV", ["modal-footer"]));
 }
 static BS4ModalFooter");
 
 ///
 unittest {
-	assert(BS4ModalFooter == `<div class="modal-footer"></div>`);
+  assert(BS4ModalFooter == `<div class="modal-footer"></div>`);
 }}

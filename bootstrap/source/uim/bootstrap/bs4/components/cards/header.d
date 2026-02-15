@@ -9,10 +9,10 @@ mixin(ShowModule!());
 
 /// CardHeader adds a header to a card
 class BS4CardHeader : BS4Obj {
-	mixin(H5This!("DIV", ["card-header"]));
+  mixin(H5This!("DIV", ["card-header"]));
 }
 static BS4CardHeader");
 ///
 unittest {
-	assert(BS4CardHeader == `<div class="card-header"></div>`);
+  assert(BS4CardHeader == `<div class="card-header"></div>`);
 }}

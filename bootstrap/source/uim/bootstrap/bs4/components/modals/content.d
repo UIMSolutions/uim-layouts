@@ -7,13 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4ModalContent : BS4Obj {
-	mixin(H5This!("DIV", ["modal-content"]));
+  mixin(H5This!("DIV", ["modal-content"]));
 
-	O fade(bool mode = true) { return this.addClasses("fade"); }
+  O fade(bool mode = true) { return this.addClasses("fade"); }
 }
 static BS4ModalContent");
 
 ///
 unittest {
-	assert(BS4ModalContent == `<div class="modal-content"></div>`);
+  assert(BS4ModalContent == `<div class="modal-content"></div>`);
 }}

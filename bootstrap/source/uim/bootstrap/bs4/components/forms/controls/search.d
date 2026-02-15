@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4InputSearch : BS4Input {
-	mixin(H5This!("", null, `["type":"search"]`));
+  mixin(H5This!("", null, `["type":"search"]`));
 }
 static BS4InputSearch"));
 
 ///
 unittest {
-	assert(BS4InputSearch == `<input class="form-control" type="search">`);	
+  assert(BS4InputSearch == `<input class="form-control" type="search">`);  
 }}

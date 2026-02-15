@@ -7,23 +7,23 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4InputGroupAppend : BS4Obj {
-	mixin(H5This!("DIV", ["input-group-append"]));
+  mixin(H5This!("DIV", ["input-group-append"]));
 
-	mixin(MyContent!("button", "BS4Button"));
-	///
+  mixin(MyContent!("button", "BS4Button"));
+  ///
 unittest {
-		assert(BS4InputGroupAppend.button == `<div class="input-group-append"><button class="btn" type="button"></button></div>`);
-	}}
+    assert(BS4InputGroupAppend.button == `<div class="input-group-append"><button class="btn" type="button"></button></div>`);
+  }}
 
-	mixin(MyContent!("text", "BS4InputGroupText"));
-	///
+  mixin(MyContent!("text", "BS4InputGroupText"));
+  ///
 unittest {
-		assert(BS4InputGroupAppend.text == `<div class="input-group-append"><div class="input-group-text"></div></div>`);
-	}}
+    assert(BS4InputGroupAppend.text == `<div class="input-group-append"><div class="input-group-text"></div></div>`);
+  }}
 }
 static BS4InputGroupAppend");
 
 ///
 unittest {
-	assert(BS4InputGroupAppend == `<div class="input-group-append"></div>`);
+  assert(BS4InputGroupAppend == `<div class="input-group-append"></div>`);
 }}

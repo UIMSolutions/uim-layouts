@@ -7,17 +7,17 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4Form : BS4Obj {
-	mixin(H5This!("Form"));
+  mixin(H5This!("Form"));
 
-	O inline(bool value = true) { return this.addClasses("form-inline"); }
+  O inline(bool value = true) { return this.addClasses("form-inline"); }
 
-	mixin(MyContent!("label", "H5Label"));
-	mixin(MyContent!("formGroup", "BS4FormGroup"));
+  mixin(MyContent!("label", "H5Label"));
+  mixin(MyContent!("formGroup", "BS4FormGroup"));
 }
 static BS4Form");
 
 ///
 unittest {
-	assert(BS4Form == `<form></form>`);
-	assert(BS4Form.inline == `<form class="form-inline"></form>`);
+  assert(BS4Form == `<form></form>`);
+  assert(BS4Form.inline == `<form class="form-inline"></form>`);
 }}

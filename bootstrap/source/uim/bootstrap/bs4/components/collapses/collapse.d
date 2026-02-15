@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4Collapse : BS4Obj {
-	mixin(H5This!("Div", ["collapse"]));
+  mixin(H5This!("Div", ["collapse"]));
 }
 static BS4Collapse");
 
 ///
 unittest {
-	assert(BS4Collapse == `<div class="collapse"></div>`);
+  assert(BS4Collapse == `<div class="collapse"></div>`);
 }}

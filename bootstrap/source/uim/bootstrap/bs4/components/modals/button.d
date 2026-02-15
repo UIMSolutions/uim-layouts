@@ -7,16 +7,16 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4ModalButton : BS4Obj {
-	mixin(H5This!("Button", ["btn"], `["data-toggle":"modal"]`));
+  mixin(H5This!("Button", ["btn"], `["data-toggle":"modal"]`));
 
-	O target(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
-	O backdrop(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }
-	O keyboard(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
-		return this;
-	}
+  O target(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
+  O backdrop(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }
+  O keyboard(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
+    return this;
+  }
 }
 static BS4ModalButton");
 ///
 unittest {
-	// assert(BS4ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
+  // assert(BS4ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 }}

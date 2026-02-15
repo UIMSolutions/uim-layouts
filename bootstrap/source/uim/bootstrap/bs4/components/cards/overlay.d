@@ -8,11 +8,11 @@ mixin(ShowModule!());
 
 /// Turns an image into a card background and adds text on top of the image
 class BS4CardOverlay : BS4Obj {
-	mixin(H5This!("Div", ["card-img-overlay"]));
+  mixin(H5This!("Div", ["card-img-overlay"]));
 }
 /// Shortcuts
 static BS4CardOverlay");
 ///
 unittest {
-	assert(BS4CardOverlay == `<div class="card-img-overlay"></div>`);
+  assert(BS4CardOverlay == `<div class="card-img-overlay"></div>`);
 }}

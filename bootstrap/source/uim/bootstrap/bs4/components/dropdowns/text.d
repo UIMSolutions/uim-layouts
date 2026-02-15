@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4DropdownText : BS4Obj {
-	mixin(H5This!("p", null, null));
+  mixin(H5This!("p", null, null));
 }
 static BS4DropdownText");
 
 ///
 unittest {
-	assert(BS4DropdownText("Hallo") == `<p>Hallo</p>`);
+  assert(BS4DropdownText("Hallo") == `<p>Hallo</p>`);
 }}

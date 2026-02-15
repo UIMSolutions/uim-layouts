@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4InputReset : BS4Input {
-	mixin(H5This!("", null, `["type":"reset"]`));
+  mixin(H5This!("", null, `["type":"reset"]`));
 }
 static BS4InputReset"));
 ///
 ///
 unittest {
-	assert(BS4InputReset == `<input class="form-control" type="reset">`);
+  assert(BS4InputReset == `<input class="form-control" type="reset">`);
 }}

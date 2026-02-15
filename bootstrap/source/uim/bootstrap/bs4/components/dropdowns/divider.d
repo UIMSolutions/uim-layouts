@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4DropdownDivider : BS4Obj {
-	mixin(H5This!("div", ["dropdown-divider"]));
+  mixin(H5This!("div", ["dropdown-divider"]));
 }
 static BS4DropdownDivider");
 
 ///
 unittest {
-	assert(BS4DropdownDivider == `<div class="dropdown-divider"></div>`);
+  assert(BS4DropdownDivider == `<div class="dropdown-divider"></div>`);
 }}

@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4CollapseButton : BS4Obj {
-	mixin(H5This!("button", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
+  mixin(H5This!("button", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
 }
 static BS4CollapseButton");
 
 ///
 unittest {
-	assert(BS4CollapseButton == `<button class="btn" data-toggle="collapse" role="button"></button>`);
+  assert(BS4CollapseButton == `<button class="btn" data-toggle="collapse" role="button"></button>`);
 }}

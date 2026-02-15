@@ -7,12 +7,12 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4ModalBody : BS4Obj {
-	mixin(H5This!("Div", ["modal-body"]));
+  mixin(H5This!("Div", ["modal-body"]));
 }
 
 static BS4ModalBody");
 
 ///
 unittest {
-	assert(BS4ModalBody == `<div class="modal-body"></div>`);
+  assert(BS4ModalBody == `<div class="modal-body"></div>`);
 }}

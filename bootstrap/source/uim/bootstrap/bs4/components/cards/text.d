@@ -7,12 +7,12 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4CardText : BS4Obj {
-	mixin(H5This!("P", ["card-text"]));
+  mixin(H5This!("P", ["card-text"]));
 }
 static BS4CardText");
 
 ///
 unittest {
-	assert(BS4CardText == `<p class="card-text"></p>`);
-	assert(BS4CardText.addContent("SomeThing") == `<p class="card-text">SomeThing</p>`);
+  assert(BS4CardText == `<p class="card-text"></p>`);
+  assert(BS4CardText.addContent("SomeThing") == `<p class="card-text">SomeThing</p>`);
 }}

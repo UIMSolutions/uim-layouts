@@ -8,12 +8,12 @@ mixin(ShowModule!());
 
 class BS4CustomFileLabel : BS4Obj
 {
-	mixin(H5This!("LABEL", ["custom-file-label"]));
+  mixin(H5This!("LABEL", ["custom-file-label"]));
 }
 
 static BS4CustomFileLabel");
 
 unittest
 {
-	assert(BS4CustomFileLabel == `<label class="custom-file-label"></label>`);
+  assert(BS4CustomFileLabel == `<label class="custom-file-label"></label>`);
 }

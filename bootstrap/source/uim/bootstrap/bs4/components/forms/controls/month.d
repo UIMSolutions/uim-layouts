@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4InputMonth : BS4Input {
-	mixin(H5This!("", ["form-control"], `["type":"month"]`));
+  mixin(H5This!("", ["form-control"], `["type":"month"]`));
 }
 static BS4InputMonth"));
 
 ///
 unittest {
-	assert(BS4InputMonth == `<input class="form-control" type="month">`);
+  assert(BS4InputMonth == `<input class="form-control" type="month">`);
 }}

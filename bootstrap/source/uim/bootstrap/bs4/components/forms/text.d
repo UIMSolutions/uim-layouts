@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4FormText : BS4Obj {
-	mixin(H5This!("SMALL", ["form-text"]));
+  mixin(H5This!("SMALL", ["form-text"]));
 }
 static BS4FormText");
 
 ///
 unittest {
-	assert(BS4FormText == `<small class="form-text"></small>`);
+  assert(BS4FormText == `<small class="form-text"></small>`);
 }}

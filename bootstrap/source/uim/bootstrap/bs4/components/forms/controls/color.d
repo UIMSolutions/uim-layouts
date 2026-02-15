@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS4InputColor : BS4Input {
-	mixin(H5This!("", null, `["type":"color"]`));
+  mixin(H5This!("", null, `["type":"color"]`));
 }
 static BS4InputColor"));
 
 ///
 unittest {
-	assert(BS4InputColor == `<input class="form-control" type="color">`);
+  assert(BS4InputColor == `<input class="form-control" type="color">`);
 }}
