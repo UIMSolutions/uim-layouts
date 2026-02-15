@@ -5,8 +5,10 @@ import layouts.tabler;
 
 class BS5Avatar : BS5Obj {
 	mixin(H5This!("span", ["avatar"]));
-}
-static BS5Avatar");
+
+static BS5Avatar opCall() {
+	return new BS5Avatar;
+}}
 
 ///
 unittest {
