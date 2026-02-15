@@ -4,14 +4,17 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5ModalFooter : BS5Obj {
-	mixin(H5This!("DIV", ["modal-footer"]));
+  mixin(H5This!("DIV", ["modal-footer"]));
+
+  static BS5ModalFooter opCall() {
+    return new BS5ModalFooter;
+  }
 }
-static BS5ModalFooter");
 
 ///
 unittest {
-	assert(BS5ModalFooter == `<div class="modal-footer"></div>`);
-}}
+  assert(BS5ModalFooter == `<div class="modal-footer"></div>`);
+}

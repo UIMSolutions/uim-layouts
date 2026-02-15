@@ -4,14 +4,17 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5DropdownList : BS5Obj {
-	mixin(H5This!("ul", ["dropdown-menu"]));
+  mixin(H5This!("ul", ["dropdown-menu"]));
+
+  static BS5DropdownList opCall() {
+    return new BS5DropdownList;
+  }
 }
-static BS5DropdownList");
 
 ///
 unittest {
-	assert(BS5DropdownList == `<ul class="dropdown-menu"></ul>`);
-}}
+  assert(BS5DropdownList == `<ul class="dropdown-menu"></ul>`);
+}

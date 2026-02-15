@@ -8,10 +8,12 @@ mixin(ShowModule!());
 
 class BS5DropdownItem : BS5Obj {
 	mixin(H5This!("div", ["dropdown-item"]));
-}
-static BS5DropdownItem");
+
+static BS5DropdownItem opCall() {
+	return new BS5DropdownItem;
+}	}	
 
 ///
 unittest {
 	// TODO
-}}
+}

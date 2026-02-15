@@ -4,27 +4,45 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5DropdownMenu : BS5Obj {
-	mixin(H5This!("div", ["dropdown-menu"]));
+  mixin(H5This!("div", ["dropdown-menu"]));
 
-	mixin(MyAttribute!("labelledBy", "aria-labelledby"));
+  mixin(MyAttribute!("labelledBy", "aria-labelledby"));
 
-	mixin(MyContent!("divider", "BS5DropdownDivider"));
-	mixin(MyContent!("header", "BS5DropdownHeader"));
-	mixin(MyContent!("item", "BS5DropdownItem"));
-	mixin(MyContent!("link", "BS5DropdownLink"));
+  auto addDivider() {
+    return new BS5DropdownDivider;
+  }
 
-	mixin(MyContent!("form", "BS5DropdownForm"));
-	
-	mixin(MyContent!("text", "BS5DropdownText"));
+  auto addHeader() {
+    return new BS5DropdownHeader;
+  }
+
+  auto addItem() {
+    return new BS5DropdownItem;
+  }
+
+  auto addLink() {
+    return new BS5DropdownLink;
+  }
+
+  auto addForm() {
+    return new BS5DropdownForm;
+  }
+
+  auto addText() {
+    return new BS5DropdownText;
+  }
+
+  static BS5DropdownMenu opCall() {
+    return new BS5DropdownMenu;
+  }
 }
-static BS5DropdownMenu");
 
 ///
 unittest {
-	assert(BS5DropdownMenu == `<div class="dropdown-menu"></div>`);
-	assert(BS5DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
-	assert(BS5DropdownMenu.form == `<div class="dropdown-menu"><form></form></div>`);
-}}
+  assert(BS5DropdownMenu == `<div class="dropdown-menu"></div>`);
+  assert(BS5DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
+  assert(BS5DropdownMenu.form == `<div class="dropdown-menu"><form></form></div>`);
+}

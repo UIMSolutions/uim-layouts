@@ -4,15 +4,16 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5Jumbotron : BS5Obj {
-	mixin(H5This!("Div", ["jumbotron"]));
+  mixin(H5This!("Div", ["jumbotron"]));
 
-static BS5Jumbotron opCall() {
-	return new BS5Jumbotron;
-}}
+  static BS5Jumbotron opCall() {
+    return new BS5Jumbotron;
+  }
+}
 ///
-unittest { 
-		assert(BS5Jumbotron == `<div class="jumbotron"></div>`);
+unittest {
+  assert(BS5Jumbotron == `<div class="jumbotron"></div>`);
 }
