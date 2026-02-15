@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5CardButton : DBS5Obj {
+class BS5CardButton : BS5Obj {
 	mixin(H5This!("A", ["card-btn"]));
 }
 mixin(H5Calls!"BS5CardButton");

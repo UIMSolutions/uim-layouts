@@ -3,7 +3,7 @@ module layouts.tabler.components.timelines.icon;
 import layouts.tabler;
 @safe:
 
-class DBS5TimelineIcon : DBS5Obj {
+class BS5TimelineIcon : BS5Obj {
 	mixin(H5This!("div", ["list-timeline-icon"]));
 
   O color(this O)(string value){ this.classes("bg-"~value); return cast(O)this; }

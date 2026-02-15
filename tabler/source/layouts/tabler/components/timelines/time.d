@@ -3,7 +3,7 @@ module layouts.tabler.components.timelines.time;
 import layouts.tabler;
 @safe:
 
-class DBS5TimelineTime : DBS5Obj {
+class BS5TimelineTime : BS5Obj {
 	mixin(H5This!("div", ["list-timeline-time"]));
 }
 mixin(H5Calls!"BS5TimelineTime");

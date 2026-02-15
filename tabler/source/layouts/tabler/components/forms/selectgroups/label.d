@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5SelectgroupLabel : DBS5Obj {
+class BS5SelectgroupLabel : BS5Obj {
 	mixin(H5This!("span", ["form-selectgroup-label"]));
 }
 mixin(H5Calls!"BS5SelectgroupLabel");

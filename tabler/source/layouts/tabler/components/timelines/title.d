@@ -3,7 +3,7 @@ module layouts.tabler.components.timelines.title;
 import layouts.tabler;
 @safe:
 
-class DBS5TimelineTitle : DBS5Obj {
+class BS5TimelineTitle : BS5Obj {
 	mixin(H5This!("p", ["list-timeline-title"]));
 }
 mixin(H5Calls!"BS5TimelineTitle");

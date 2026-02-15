@@ -29,19 +29,19 @@ public import layouts.tabler.components.pageheader;
 public import layouts.tabler.components.pagetitle;
 public import layouts.tabler.components.ribbons;
 
-auto label(DBS5DropdownMenu menu, string content) {
+auto label(BS5DropdownMenu menu, string content) {
   return menu(H5Label(["dropdown-item"], content));
 }
 
-auto label(DBS5DropdownMenu menu, string[] classes, string content) {
+auto label(BS5DropdownMenu menu, string[] classes, string content) {
   return menu(H5Label(["dropdown-item"]~classes, content));
 }
 
-auto label(DBS5DropdownMenu menu, DH5Obj content) {
+auto label(BS5DropdownMenu menu, DH5Obj content) {
   return menu(H5Label(["dropdown-item"], content));
 }
 
-auto label(DBS5DropdownMenu menu, string[] classes, DH5Obj content) {
+auto label(BS5DropdownMenu menu, string[] classes, DH5Obj content) {
   return menu(H5Label(["dropdown-item"]~classes, content));
 }
 

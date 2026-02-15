@@ -3,7 +3,7 @@ module layouts.tabler.components.forms.imagechecks.image;
 import layouts.tabler;
 @safe:
 
-class DBS5ImageCheckImage : DBS5Obj {
+class BS5ImageCheckImage : BS5Obj {
 	mixin(H5This!("img", ["form-imagecheck-image"]));
 
 	override public void initialize() {

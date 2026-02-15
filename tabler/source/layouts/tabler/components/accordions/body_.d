@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-/* class DBS5AccordionBody : DBS5Obj {
+/* class BS5AccordionBody : BS5Obj {
 	mixin(H5This!("div", ["accordion-body"]));
 }
 mixin(H5Calls!"BS5AccordionBody");

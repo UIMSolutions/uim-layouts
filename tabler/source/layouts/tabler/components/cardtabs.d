@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5CardTabs : DBS5Obj {
+class BS5CardTabs : BS5Obj {
 	mixin(H5This!("div", ["card-tabs"]));
 }
 mixin(H5Calls!"BS5CardTabs");

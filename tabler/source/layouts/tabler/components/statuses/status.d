@@ -3,7 +3,7 @@ module layouts.tabler.components.statuses.status;
 import layouts.tabler;
 @safe:
 
-class DBS5Status : DBS5Obj {
+class BS5Status : BS5Obj {
 	mixin(H5This!("span", ["status"]));
 
   O color(this O)(string value){ this.addClasses("status-"~value); return cast(O)this; }

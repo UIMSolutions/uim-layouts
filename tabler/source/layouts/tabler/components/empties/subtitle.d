@@ -3,7 +3,7 @@ module layouts.tabler.components.empties.subtitle;
 import layouts.tabler;
 @safe:
 
-class DBS5EmptySubtitle : DBS5Obj {
+class BS5EmptySubtitle : BS5Obj {
 	mixin(H5This!("p", ["empty-subtitle"]));
 }
 mixin(H5Calls!"BS5EmptySubtitle");

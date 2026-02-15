@@ -3,7 +3,7 @@ module layouts.tabler.components.empties.empty;
 import layouts.tabler;
 @safe:
 
-class DBS5Empty : DBS5Obj {
+class BS5Empty : BS5Obj {
 	mixin(H5This!("div", ["empty"]));
 
 	mixin(MyContent!("action", "BS5EmptyAction"));

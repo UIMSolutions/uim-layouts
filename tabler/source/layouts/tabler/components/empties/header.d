@@ -3,7 +3,7 @@ module layouts.tabler.components.empties.header;
 import layouts.tabler;
 @safe:
 
-class DBS5EmptyHeader : DBS5Obj {
+class BS5EmptyHeader : BS5Obj {
 	mixin(H5This!("div", ["empty-header"]));
 }
 mixin(H5Calls!"BS5EmptyHeader");

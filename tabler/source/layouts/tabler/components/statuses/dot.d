@@ -3,7 +3,7 @@ module layouts.tabler.components.statuses.dot;
 import layouts.tabler;
 @safe:
 
-class DBS5StatusDot : DBS5Obj {
+class BS5StatusDot : BS5Obj {
 	mixin(H5This!("span", ["status-dot"]));
 
   O animated(this O)(bool value = true){ if (value) this.classes("status-dot-animated"); return cast(O)this; }

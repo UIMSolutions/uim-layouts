@@ -3,7 +3,7 @@ module layouts.tabler.components.forms.imagechecks.input;
 import layouts.tabler;
 @safe:
 
-class DBS5ImageCheckInput : DBS5Obj {
+class BS5ImageCheckInput : BS5Obj {
 	mixin(H5This!("input", ["form-imagecheck-input"]));
 
 	override public void initialize() {

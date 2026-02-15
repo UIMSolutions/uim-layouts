@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5Footer : DBS5Obj {
+class BS5Footer : BS5Obj {
 	mixin(H5This!("footer", ["footer"]));
 }
 mixin(H5Calls!"BS5Footer");

@@ -3,7 +3,7 @@ module layouts.tabler.components.datagrids.item;
 import layouts.tabler;
 @safe:
 
-class DBS5DatagridItem : DBS5Obj {
+class BS5DatagridItem : BS5Obj {
 	mixin(H5This!("div", ["datagrid-item"]));
 
   O color(this O)(string value){ this.addClasses("bg-"~value); return cast(O)this; }

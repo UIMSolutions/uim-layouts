@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5NavLinkIcon : DBS5Obj {
+class BS5NavLinkIcon : BS5Obj {
 	mixin(H5This!("span", ["nav-link-icon"]));
 }
 mixin(H5Calls!"BS5NavLinkIcon");

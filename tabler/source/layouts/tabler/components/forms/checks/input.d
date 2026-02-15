@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DTABFormCheckInput : DBS5Obj {
+class DTABFormCheckInput : BS5Obj {
 	mixin(H5This!("input", ["form-check-input"], null, true));
 }
 mixin(H5Calls!"TABFormCheckInput");

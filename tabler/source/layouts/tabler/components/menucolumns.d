@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5DropdownMenuColumns : DBS5Obj {
+class BS5DropdownMenuColumns : BS5Obj {
 	mixin(H5This!("div", ["dropdown-menu-columns"]));
 
 	mixin(MyContent!("column", "BS5DropdownMenuColumn"));

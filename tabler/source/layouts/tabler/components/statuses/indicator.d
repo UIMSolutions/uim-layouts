@@ -3,7 +3,7 @@ module layouts.tabler.components.statuses.indicator;
 import layouts.tabler;
 @safe:
 
-class DBS5StatusIndicator : DBS5Obj {
+class BS5StatusIndicator : BS5Obj {
 	mixin(H5This!("span", ["status-indicator"]));
 
   override void initialize() {

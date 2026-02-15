@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-/* class DBS5AccordionHeader : DBS5Obj {
+/* class BS5AccordionHeader : BS5Obj {
 	mixin(H5This!("h2", ["accordion-header"]));
 }
 mixin(H5Calls!"BS5AccordionHeader");

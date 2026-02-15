@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5DropdownMenuColumn : DBS5Obj {
+class BS5DropdownMenuColumn : BS5Obj {
 	mixin(H5This!("div", ["dropdown-menu-column"]));
 
 	mixin(MyAttribute!("label", "aria-labelledby"));

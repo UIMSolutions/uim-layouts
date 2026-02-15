@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5Dropend : DBS5Obj {
+class BS5Dropend : BS5Obj {
 	mixin(H5This!("div", ["dropend"]));
 }
 mixin(H5Calls!"BS5Dropend");

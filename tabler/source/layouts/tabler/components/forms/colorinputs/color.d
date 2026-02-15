@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5FormColorInputColor : DBS5Obj {
+class BS5FormColorInputColor : BS5Obj {
 	mixin(H5This!("span", ["form-colorinput-color"]));
 }
 mixin(H5Calls!"BS5FormColorInputColor");

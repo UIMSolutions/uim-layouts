@@ -3,7 +3,7 @@
 import layouts.tabler;
 @safe:
 
-class DBS5PageHeader : DBS5Obj {
+class BS5PageHeader : BS5Obj {
 	mixin(H5This!("div", ["page-header"]));
 }
 mixin(H5Calls!"BS5PageHeader");
