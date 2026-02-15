@@ -9,13 +9,13 @@ mixin(showmodule!());
 class BS4Col : BS4Obj {
 	mixin(H5This!("Div"));
 
-	O sizes(this O)(string[] someSizes...) { 
+	O sizes(string[] someSizes...) { 
 		sizes(someSizes.dup); 
 		
 		return this; 
 	}
 
-	O sizes(this O)(string[] someSizes) { 
+	O sizes(string[] someSizes) { 
 		someSizes.each!(s => this.addClasses("col-"~s));
 
 		return this; 

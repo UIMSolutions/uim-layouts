@@ -13,7 +13,7 @@ class BS4Badge : BS4Obj {
 	mixin(H5This!("Span", ["badge"]));
 
 	// Color of badge
-	O color(this O)(string name) {
+	O color(string name) {
 		return this.addClasses("badge-" ~ name);
 	}
 	///
@@ -22,7 +22,7 @@ unittest { {
 	}}
 
 	//Rounded badges
-	O pill(this O)(bool mode = true) {
+	O pill(bool mode = true) {
 		if (mode)
 			this.addClasses("badge-pill");
 		return cast(O) this;

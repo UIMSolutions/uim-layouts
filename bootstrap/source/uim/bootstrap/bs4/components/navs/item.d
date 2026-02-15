@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4NavItem : BS4Obj {
 	mixin(H5This!("li", ["nav-item"], null));
 
-	O dropdown(this O)(bool mode = true) { return this.addClasses("dropdown"); }
+	O dropdown(bool mode = true) { return this.addClasses("dropdown"); }
 	mixin(MyContent!("link", "BS4NavLink"));
 	///
 unittest { {

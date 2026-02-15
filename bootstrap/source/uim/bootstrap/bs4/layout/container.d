@@ -19,7 +19,7 @@ unittest { {
 		assert(BS4Container == `<div class="container"></div>`);
 	}}
 
-	O fluid(this O)(bool mode = true) { if (mode) _classes = _classes.sub("container").add("container-fluid");  return this; }
+	O fluid(bool mode = true) { if (mode) _classes = _classes.sub("container").add("container-fluid");  return this; }
 	///
 unittest { {
 		assert(BS4Container.fluid(true) == `<div class="container-fluid"></div>`);

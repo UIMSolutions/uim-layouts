@@ -13,7 +13,7 @@ unittest { {
 		assert(BS4Modal == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 	}}
 
-	O fade(this O)(bool mode = true) {
+	O fade(bool mode = true) {
 		if (mode) _classes ~= "fade";
 		return cast(O) this;
 	}

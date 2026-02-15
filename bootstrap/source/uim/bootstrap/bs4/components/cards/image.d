@@ -13,7 +13,7 @@ class BS4CardImage : BS4Obj { // default top
 		_tag = "img";
 	}
 
-	O position(this O)(string value) { _classes = _classes.sub("card-img-top").add("card-img-"~value); return this; }
+	O position(string value) { _classes = _classes.sub("card-img-top").add("card-img-"~value); return this; }
 	///
 unittest { {
 		assert(BS4CardImage.position("top") == `<img class="card-img-top">`);

@@ -10,7 +10,7 @@ class BS4ButtonGroup : BS4Obj {
 	mixin(H5This!("DIV", ["btn-group"], `["role":"group"]`));
 
 	// Set size of button group
-	O size(this O)(string value) {
+	O size(string value) {
 		this.addClasses("btn-group-" ~ value);
 		return cast(O) this;
 	}
@@ -19,7 +19,7 @@ unittest { {
 		assert(BS4ButtonGroup.size("lg") == `<div class="btn-group btn-group-lg" role="group"></div>`);
 	}}
 
-	O vertical(this O)(bool mode) {
+	O vertical(bool mode) {
 		if (mode) {
 			_classes = _classes.sub("btn-group");
 			_classes ~= "btn-group-vertical";

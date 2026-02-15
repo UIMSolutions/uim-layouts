@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4ModalContent : BS4Obj {
 	mixin(H5This!("DIV", ["modal-content"]));
 
-	O fade(this O)(bool mode = true) { return this.addClasses("fade"); }
+	O fade(bool mode = true) { return this.addClasses("fade"); }
 }
 static BS4ModalContent");
 

@@ -9,9 +9,9 @@ mixin(showmodule!());
 class BS4ModalButton : BS4Obj {
 	mixin(H5This!("Button", ["btn"], `["data-toggle":"modal"]`));
 
-	O target(this O)(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
-	O backdrop(this O)(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }
-	O keyboard(this O)(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
+	O target(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
+	O backdrop(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }
+	O keyboard(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
 		return this;
 	}
 }

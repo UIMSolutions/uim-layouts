@@ -10,19 +10,19 @@ class BS4InputSelect : BS4Obj {
 	mixin(H5This!("Select", ["form-control"]));	
 
 	mixin(MyContent!("option", "H5Option"));
-	O options(this O)(string[] values, string selectedValue = "", string disabledValue = "") {
+	O options(string[] values, string selectedValue = "", string disabledValue = "") {
 		values.each!(value => setOption(value, selectedValue, disabledValue));
 
 		return this;	
 	}
 
-	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+	O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		values.keys.sort.each!(value => setOption(value, selectedKey, disabledKey));
 
 		return this;	
 	}
 
-	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
+	O options(string[] values, string[] selected, string[] disabled = null) {
 		values.each!(value => setOptionByValue(value, selected, disabled));
 
 		return this;	
@@ -38,7 +38,7 @@ class BS4InputSelect : BS4Obj {
 		else this.option(value);
 	}
 
-	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+	O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		values.keys.sort.each!(key => setOption(k, selectedKeys, disabledKeys));
 
 		return this;	

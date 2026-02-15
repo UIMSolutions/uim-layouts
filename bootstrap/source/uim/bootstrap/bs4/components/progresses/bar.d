@@ -9,12 +9,12 @@ mixin(showmodule!());
 class BS4ProgressBar : BS4Obj {
 	mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));
 
-	O valueNow(this O)(string value) { return this.attributes(["aria-valuenow":value]); }
-	O valueMin(this O)(string value) { return this.attributes(["aria-valuemin":value]); }
-	O valueMax(this O)(string value) { return this.attributes(["aria-valuemax":value]); }
-	O color(this O)(string colorName) { return this.addClasses("bg-"~colorName); }
-	O striped(this O)(bool mode = true) { return this.addClasses("progress-bar-striped"); }
-	O animated(this O)(bool mode = true) { return this.addClasses("progress-bar-animated"); }
+	O valueNow(string value) { return this.attributes(["aria-valuenow":value]); }
+	O valueMin(string value) { return this.attributes(["aria-valuemin":value]); }
+	O valueMax(string value) { return this.attributes(["aria-valuemax":value]); }
+	O color(string colorName) { return this.addClasses("bg-"~colorName); }
+	O striped(bool mode = true) { return this.addClasses("progress-bar-striped"); }
+	O animated(bool mode = true) { return this.addClasses("progress-bar-animated"); }
 }
 static BS4ProgressBar");
 

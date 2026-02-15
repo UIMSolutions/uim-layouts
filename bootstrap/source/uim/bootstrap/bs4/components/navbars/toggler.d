@@ -10,11 +10,11 @@ mixin(showmodule!());
 class BS4NavbarToggler : BS4ButtonObj {
 	mixin(H5This!("button", ["navbar-toggler"], `["data-toggle":"collapse", "aria-controls":"navbar"]`));
 
-	O position(this O)(string value) {
+	O position(string value) {
 		return this.addClasses("navbar-toggler-" ~ position);
 	}
 
-	O target(this O)(string targetId) {
+	O target(string targetId) {
 		return attributes(["data-target": "#" ~ targetId]);
 	}
 }

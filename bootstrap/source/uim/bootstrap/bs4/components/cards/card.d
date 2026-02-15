@@ -9,7 +9,7 @@ mixin(showmodule!());
 class BS4Card : BS4Obj {
 	mixin(H5This!("DIV", ["card"]));
 
-	O block(this O)()	{
+	O block()	{
 		return this.addClasses("card-block");
 	}
 	///
@@ -17,7 +17,7 @@ unittest { {
 		assert(BS4Card.block == `<div class="card card-block"></div>`);
 	}}
 
-	O inverse(this O)() {
+	O inverse() {
 		return this.addClasses("card-inverse");
 	}
 	///

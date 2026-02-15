@@ -10,9 +10,9 @@ class BS4Obj : DH5Obj {
 	mixin(H5This!("DIV"));
 
 	// Adding a margin  
-	O margin(this O)(int size) { return margin("-"~to!string(size)); }
-	O margin(this O)(string side, int size) { return margin(side~"-"~to!string(size)); }
-	O margin(this O)(string value) {
+	O margin(int size) { return margin("-"~to!string(size)); }
+	O margin(string side, int size) { return margin(side~"-"~to!string(size)); }
+	O margin(string value) {
 		if (value.length > 0) this.addClasses("m"~value);
 		return cast(O) this;
 	}
@@ -22,9 +22,9 @@ unittest { {
 	}}
 
 	/// Adding padding
-	O padding(this O)(int size) { return padding("-"~to!string(size)); }
-	O padding(this O)(string side, int size) { return padding(side~"-"~to!string(size)); }
-	O padding(this O)(string value)	{
+	O padding(int size) { return padding("-"~to!string(size)); }
+	O padding(string side, int size) { return padding(side~"-"~to!string(size)); }
+	O padding(string value)	{
 		if (value.length > 0) this.addClasses("p"~value);
 		return cast(O) this;
 	}
@@ -34,19 +34,19 @@ unittest { {
 	}}
 
 	/// Clear border 
-	O noPadding(this O)(string side = null) { 
+	O noPadding(string side = null) { 
 		this.addClasses("p-0");
 		return cast(O) this;
 	}
 
 	/// Adding border 
-	O border(this O)(int value) { 
+	O border(int value) { 
 		if (value > 0) this.addClasses("border-"~to!string(value));
 		else this.addClasses("border");
 		return cast(O) this;
 	 }
-	O border(this O)(string side, int value) { return border(side~"-"~to!string(value)); }
-	O border(this O)(string value = null) {
+	O border(string side, int value) { return border(side~"-"~to!string(value)); }
+	O border(string value = null) {
 		if (value.length > 0) this.addClasses("border-"~value);
 		else this.addClasses("border");
 		return cast(O) this;
@@ -59,7 +59,7 @@ unittest { {
 	}}
 
 	/// Clear border 
-	O noBorder(this O)(string side = null) { 
+	O noBorder(string side = null) { 
 		if (side.length > 0) this.addClasses("border-"~side~"-0");
 		else this.addClasses("border-0");
 		return cast(O) this;
@@ -70,7 +70,7 @@ unittest { {
 	}}
 
 	/// Set border color 
-	O borderColor(this O)(string color) { 
+	O borderColor(string color) { 
 		if (color.length > 0) this.addClasses("border-"~color);
 		return cast(O) this;
 	}
@@ -81,7 +81,7 @@ unittest { {
 	}}
 
 	/// Change rounded of corners 
-	O rounded(this O)(string value = "") {
+	O rounded(string value = "") {
 		if (value.length > 0) this.addClasses("rounded-"~value);
 		else this.addClasses("rounded");
 		return cast(O) this;
@@ -93,7 +93,7 @@ unittest { {
 	}}
 
 	/// Clear rounded
-	O noRounded(this O)() { 
+	O noRounded() { 
 		this.addClasses("rounded-0");
 		return cast(O) this;
 	}
@@ -103,7 +103,7 @@ unittest { {
 	}}
 
 	/// Set size of rounded
-	O roundedSize(this O)(string value) {
+	O roundedSize(string value) {
 		if (value.length > 0) this.addClasses("rounded-"~value);
 		return cast(O) this;
 	}
@@ -112,7 +112,7 @@ unittest { {
 		assert(BS4Obj.roundedSize("lg") == `<div class="rounded-lg"></div>`);
 	}}
 
-	O clearfix(this O)() { 
+	O clearfix() { 
 		this
 			.addClasses("clearfix");
 		return cast(O) this;
@@ -122,7 +122,7 @@ unittest { {
 		assert(BS4Obj.clearfix == `<div class="clearfix"></div>`);
 	}}
 
-	O closeButton(this O)(string icon = "&times;") { 
+	O closeButton(string icon = "&times;") { 
 		this
 			.addContent(BS4Button(["close"], ["aria-label":"Close"], H5Span(["aria-label":"true"], icon)));
 		return cast(O) this;
@@ -133,8 +133,8 @@ unittest { {
 	}}
 
 	/// Setting text color
-	O textColor(this O)(string color, int value) { return textColor(color, to!string(value)); }
-	O textColor(this O)(string color, string value = null) {
+	O textColor(string color, int value) { return textColor(color, to!string(value)); }
+	O textColor(string color, string value = null) {
 		if (value.length > 0) {
 			this
 				.addClasses("text-"~color~"-"~value); }
@@ -152,8 +152,8 @@ unittest { {
 	}}
 
 	/// Setting background color
-	O background(this O)(string color, int value) { return background(color, to!string(value)); }
-	O background(this O)(string color, string value = null) {
+	O background(string color, int value) { return background(color, to!string(value)); }
+	O background(string color, string value = null) {
 		if (value.length > 0) this.addClasses("bg-"~color~"-"~value);
 		else this.addClasses("bg-"~color);
 		return cast(O) this;
@@ -164,8 +164,8 @@ unittest { {
 	}}
 
 	/// Setting display
-	O display(this O)(string value) { return this.display(null, value); }
-	O display(this O)(string breakpoint, string value) {
+	O display(string value) { return this.display(null, value); }
+	O display(string breakpoint, string value) {
 		if (breakpoint.length > 0) this.addClasses("d-"~breakpoint~"-"~value);
 		else {
 			this
@@ -179,7 +179,7 @@ unittest { {
 	}}
 	
 	/// Setting print display
-	O print(this O)(string value) {
+	O print(string value) {
 		if (value.length > 0) this.addClasses("d-print-"~value);
 		return cast(O) this;
 	}

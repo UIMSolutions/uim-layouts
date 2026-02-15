@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5DatagridTitle : BS5Obj {
 	mixin(H5This!("div", ["datagrid-title"]));
 
-  O color(this O)(string newColor){ this.addClasses("bg-"~newColor); return this; }
+  O color(string newColor){ this.addClasses("bg-"~newColor); return this; }
 }
 static BS5DatagridTitle");
 

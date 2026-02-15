@@ -10,7 +10,7 @@ class BS4CustomSelect : DH5Select {
 	mixin(H5This!("Select", ["custom-select"]));
 
 	mixin(MyContent!("option", "H5Option"));
-	O options(this O)(string[] values, string selected = "", string disabled = "") {
+	O options(string[] values, string selected = "", string disabled = "") {
 		values.each!(value => setOptionByValue(value, selected, disabled));
 
 		return this;	
@@ -26,7 +26,7 @@ class BS4CustomSelect : DH5Select {
 		else this.option(optionValue);
 	}
 
-	O options(this O)(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+	O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
 		values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
 		return this;	
@@ -42,12 +42,12 @@ class BS4CustomSelect : DH5Select {
 		else this.option(["value":optionKey], values[optionKey]);
 	}
 
-	O options(this O)(string[] values, string[] selected, string[] disabled = null) {
+	O options(string[] values, string[] selected, string[] disabled = null) {
 		values.each!(value => setOption(valie, selected, disabled)); 
 
 		return this;	
 	}
-	O options(this O)(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+	O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
 		values.keys.sort,each(key => setOption(key, selectedKeys, disabledKeys));
 		
 		return this;	

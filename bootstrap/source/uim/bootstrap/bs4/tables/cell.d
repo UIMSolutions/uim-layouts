@@ -9,8 +9,8 @@ mixin(showmodule!());
 class BS4TableCell : BS4Obj {
 	mixin(H5This!"Td");
 	
-	O colspan(this O)(int span) { return this.colspan(to!string(span)); }
-	O colspan(this O)(string span) { 
+	O colspan(int span) { return this.colspan(to!string(span)); }
+	O colspan(string span) { 
 		this.attributes("colspan", span);
 		return this; }
 	///
@@ -18,8 +18,8 @@ unittest { {
 		assert(BS4TableCell.colspan(2) == `<td colspan="2"></td>`);
 	}}
 
-	O rowspan(this O)(int span) { return this.rowspan(to!string(span)); }
-	O rowspan(this O)(string span) { 
+	O rowspan(int span) { return this.rowspan(to!string(span)); }
+	O rowspan(string span) { 
 		this.attributes("rowspan", span);
 		return this; }
 	///

@@ -11,7 +11,7 @@ class BS4List : BS4Obj {
 	mixin(H5This!("UL", ["list-group"]));
 
 	// Removes some borders and rounded corners to render group in a parent container
-	O flush(this O)() {
+	O flush() {
 		this.addClasses("list-group-flush");
 		return this;
 	}
