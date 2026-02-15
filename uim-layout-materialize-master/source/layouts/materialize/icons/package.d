@@ -1,1 +1,0 @@
-module layouts.materialize.icons;
