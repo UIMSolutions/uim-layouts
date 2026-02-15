@@ -12,6 +12,6 @@ class BS4DropdownText : BS4Obj {
 static BS4DropdownText");
 
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownText("Hallo") == `<p>Hallo</p>`);
 }}

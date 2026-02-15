@@ -11,24 +11,24 @@ class BS4ModalDialog : BS4Obj {
 
 	O fade(bool mode = true) { return this.addClasses("fade"); }
 	///
-unittest { {
+unittest {
 		assert(BS4ModalDialog.fade == `<div class="fade modal-dialog" role="document"></div>`);
 	}}
 
 	O size(string aSize) { return this.addClasses("modal-"~aSize); }
 	///
-unittest { {
+unittest {
 		assert(BS4ModalDialog.size("sm") == `<div class="modal-dialog modal-sm" role="document"></div>`);
 	}}
 
 	O centered(bool mode = true) { return this.addClasses("modal-dialog-centered"); }
 	///
-unittest { {
+unittest {
 		assert(BS4ModalDialog.centered == `<div class="modal-dialog modal-dialog-centered" role="document"></div>`);
 	}}
 }
 static BS4ModalDialog");
 ///
-unittest { {
+unittest {
 	assert(BS4ModalDialog == `<div class="modal-dialog" role="document"></div>`);
 }}

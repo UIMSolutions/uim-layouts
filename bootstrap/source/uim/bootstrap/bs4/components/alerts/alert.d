@@ -14,7 +14,7 @@ class BS4Alert : BS4Obj {
 		return this.addClasses("alert-" ~ name);
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Alert.color("success") == `<div class="alert alert-success" role="alert"></div>`);
 	}}
 
@@ -31,7 +31,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Alert.color("success").dismissible == `<div class="alert alert-dismissible alert-success" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button></div>`);
 	}}
 
@@ -47,7 +47,7 @@ class BS4AlertLink : BS4Obj {
 static BS4AlertLink"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4Alert == `<div class="alert" role="alert"></div>`);
 	assert(BS4Alert("anAlert") == `<div class="alert" role="alert">anAlert</div>`);
 }}

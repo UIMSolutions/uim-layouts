@@ -12,6 +12,6 @@ class BS4InputDateTime : BS4Input {
 static BS4InputDateTime"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputDateTime == `<input class="form-control" type="datetime-local">`);
 }}

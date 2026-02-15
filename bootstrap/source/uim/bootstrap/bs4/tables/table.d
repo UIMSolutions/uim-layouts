@@ -11,7 +11,7 @@ class BS4Table : BS4Obj {
 
 	mixin(MyContent!("caption", "H5Caption"));
 	///
-unittest { {
+unittest {
 		assert(BS4Table.caption("test") == `<table class="table"><caption>test</caption></table>`);
 	}}	
 
@@ -29,7 +29,7 @@ unittest { {
 static BS4Table");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Table.head == `<table class="table"><thead></thead></table>`);
 	assert(BS4Table.header == `<table class="table"><thead></thead></table>`);
 	assert(BS4Table.body_ == `<table class="table"><tbody></tbody></table>`);

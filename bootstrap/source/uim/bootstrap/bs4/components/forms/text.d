@@ -12,6 +12,6 @@ class BS4FormText : BS4Obj {
 static BS4FormText");
 
 ///
-unittest { {
+unittest {
 	assert(BS4FormText == `<small class="form-text"></small>`);
 }}

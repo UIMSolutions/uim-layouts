@@ -13,6 +13,6 @@ class BS4Input : BS4Obj {
 static BS4Input"));
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

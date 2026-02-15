@@ -12,6 +12,6 @@ class BS4InputRange : BS4Input {
 static BS4InputRange"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputRange == `<input class="form-control" type="range">`);	
 }}

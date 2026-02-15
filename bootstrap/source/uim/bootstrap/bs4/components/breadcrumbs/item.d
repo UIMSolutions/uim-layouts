@@ -11,25 +11,25 @@ class BS4BreadcrumbItem : BS4Obj {
 
 	O active(bool mode = true) { if (mode) this.addClasses("active"); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS4BreadcrumbItem.active == `<li class="active breadcrumb-item"></li>`);
 	}}
 
 	O disabled(bool mode = true) { if (mode) this.addClasses("disabled"); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS4BreadcrumbItem.disabled == `<li class="breadcrumb-item disabled"></li>`);
 	}}
 
 	mixin(MyContent!("link", "BS4BreadcrumbLink"));
 	///
-unittest { {
+unittest {
 		assert(BS4BreadcrumbItem.link == `<li class="breadcrumb-item"><a></a></li>`);
 	}}
 }
 static BS4BreadcrumbItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS4BreadcrumbItem == `<li class="breadcrumb-item"></li>`);
 }}

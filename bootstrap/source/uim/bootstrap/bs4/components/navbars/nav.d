@@ -17,7 +17,7 @@ class BS4NavbarNav : BS4Obj {
 static BS4NavbarNav");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavbarNav == `<ul class="navbar-nav"></ul>`);
 	assert(BS4NavbarNav.item == `<ul class="navbar-nav"><li class="nav-item"></li></ul>`);
 	assert(BS4NavbarNav.link == `<ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="#"></a></li></ul>`);

@@ -19,7 +19,7 @@ class BS4CarouselControlNext : BS4Obj {
 static BS4CarouselControlNext");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CarouselControlNext ==
 		`<a class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>`);
 }}

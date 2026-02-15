@@ -12,6 +12,6 @@ class BS4InputTime : BS4Input {
 static BS4InputTime"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputTime == `<input class="form-control" type="time">`);
 }}

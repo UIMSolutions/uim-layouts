@@ -11,6 +11,6 @@ class BS4CarouselItem : BS4Obj {
 }
 static BS4CarouselItem");
 ///
-unittest { {
+unittest {
 	assert(BS4CarouselItem == `<div class="carousel-item"></div>`);
 }}

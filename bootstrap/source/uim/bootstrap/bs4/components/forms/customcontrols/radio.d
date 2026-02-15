@@ -13,6 +13,6 @@ class BS4CustomRadio : BS4CustomControl {
 static BS4CustomRadio");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CustomRadio == `<div class="custom-control custom-radio"></div>`);
 }}

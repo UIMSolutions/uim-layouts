@@ -19,7 +19,7 @@ class BS4NavList : BS4Obj {
 static BS4NavList");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavList == `<ul class="nav"></ul>`);
 	assert(BS4NavList.vertical == `<ul class="flex-column nav"></ul>`);
 }}

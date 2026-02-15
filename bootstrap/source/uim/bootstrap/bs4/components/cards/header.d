@@ -13,6 +13,6 @@ class BS4CardHeader : BS4Obj {
 }
 static BS4CardHeader");
 ///
-unittest { {
+unittest {
 	assert(BS4CardHeader == `<div class="card-header"></div>`);
 }}

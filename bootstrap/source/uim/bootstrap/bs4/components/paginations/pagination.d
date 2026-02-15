@@ -21,7 +21,7 @@ class BS4Pagination : BS4Obj {
 static BS4Pagination");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Pagination == `<ul class="pagination"></ul>`);
 	assert(BS4Pagination.link == `<ul class="pagination"><li class="page-item"><a class="page-link" href="#"></a></li></ul>`);
 }}

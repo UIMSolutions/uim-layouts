@@ -12,6 +12,6 @@ class BS4Collapse : BS4Obj {
 static BS4Collapse");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Collapse == `<div class="collapse"></div>`);
 }}

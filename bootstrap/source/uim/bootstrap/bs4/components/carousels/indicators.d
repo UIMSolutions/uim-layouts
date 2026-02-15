@@ -11,12 +11,12 @@ class BS4CarouselIndicators : BS4Obj {
 
 	mixin(MyContent!("indicator", "H5Li"));
 	///
-unittest { {
+unittest {
 		assert(BS4CarouselIndicators.indicator.toString == `<ol class="carousel-indicators"><li></li></ol>`);
 	}}
 }
 static BS4CarouselIndicators");
 ///
-unittest { {
+unittest {
 	assert(BS4CarouselIndicators.toString == `<ol class="carousel-indicators"></ol>`);
 }}

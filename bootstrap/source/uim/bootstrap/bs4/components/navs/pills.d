@@ -13,6 +13,6 @@ class BS4NavPills : BS4Obj {
 static BS4NavPills");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavPills == `<ul class="nav nav-pills" role="tablist"></ul>`);
 }}

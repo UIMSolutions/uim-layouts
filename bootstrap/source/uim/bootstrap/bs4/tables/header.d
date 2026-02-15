@@ -15,7 +15,7 @@ class BS4TableHeader : BS4Obj {
 static BS4TableHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Table.row == `<table class="table"><tr></tr></table>`);
 	assert(BS4TableHeader == `<thead></thead>`);
 }}

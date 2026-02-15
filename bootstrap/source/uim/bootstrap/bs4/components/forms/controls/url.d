@@ -12,6 +12,6 @@ class BS4InputUrl : BS4Input {
 static BS4InputUrl"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputUrl == `<input class="form-control" type="url">`);
 }}

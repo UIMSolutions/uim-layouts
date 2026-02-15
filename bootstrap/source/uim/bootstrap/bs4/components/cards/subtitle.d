@@ -16,7 +16,7 @@ class BS4CardSubtitle : BS4Obj {
 static BS4CardSubtitle");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CardSubtitle == `<h6 class="card-subtitle"></h6>`);
 	assert(BS4CardSubtitle.addContent("SomeThing") == `<h6 class="card-subtitle">SomeThing</h6>`);
 }}

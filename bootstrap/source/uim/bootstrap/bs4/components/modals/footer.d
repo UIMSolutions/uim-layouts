@@ -12,6 +12,6 @@ class BS4ModalFooter : BS4Obj {
 static BS4ModalFooter");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ModalFooter == `<div class="modal-footer"></div>`);
 }}

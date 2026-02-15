@@ -16,6 +16,6 @@ class BS4InputNumber : BS4Obj {
 static BS4InputNumber"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputNumber == `<input class="form-control" type="number">`);
 }}

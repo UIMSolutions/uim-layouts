@@ -19,6 +19,6 @@ class BS4ProgressBar : BS4Obj {
 static BS4ProgressBar");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ProgressBar == `<div class="progress-bar" role="progressbar"></div>`);
 }}

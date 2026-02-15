@@ -21,6 +21,6 @@ class BS4Image : BS4Obj {
 static BS4Image"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4Image == `<img>`);
 }}

@@ -17,7 +17,7 @@ class BS4CarouselControlPrev : BS4Obj {
 
 static BS4CarouselControlPrev");
 ///
-unittest { {
+unittest {
 	assert(BS4CarouselControlPrev, 
 	`<a class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>`);
 }}

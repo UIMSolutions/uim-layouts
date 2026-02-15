@@ -12,6 +12,6 @@ class BS4NavHeader : BS4Obj {
 static BS4NavHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavHeader == `<li class="nav-header"></li>`);
 }}

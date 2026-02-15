@@ -12,6 +12,6 @@ class BS4CardDeckwrapper : BS4Obj {
 static BS4CardDeckwrapper");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CardDeckwrapper == `<div class="card-deck-wrapper"></div>`);
 }}

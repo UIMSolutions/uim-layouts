@@ -15,7 +15,7 @@ class BS4ButtonGroup : BS4Obj {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4ButtonGroup.size("lg") == `<div class="btn-group btn-group-lg" role="group"></div>`);
 	}}
 
@@ -27,7 +27,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4ButtonGroup.vertical(true) == `<div class="btn-group-vertical" role="group"></div>`);
 	}}
 
@@ -35,7 +35,7 @@ unittest { {
 
 	mixin(MyContent!("button", "BS4Button"));
 	///
-unittest { {
+unittest {
 		assert(BS4ButtonGroup.button == `<div class="btn-group" role="group"><button class="btn" type="button"></button></div>`);
 	}}
 
@@ -45,6 +45,6 @@ unittest { {
 static BS4ButtonGroup");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ButtonGroup == `<div class="btn-group" role="group"></div>`);
 }}

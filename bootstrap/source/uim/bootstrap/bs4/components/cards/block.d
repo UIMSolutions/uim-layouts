@@ -12,6 +12,6 @@ class BS4CardBlock : BS4Obj {
 
 static BS4CardBlock");
 ///
-unittest { {
+unittest {
 	assert(BS4CardBlock == `<div class="card-block"></div>`);
 }}

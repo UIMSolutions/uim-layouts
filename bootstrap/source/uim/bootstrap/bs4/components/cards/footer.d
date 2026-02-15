@@ -12,6 +12,6 @@ class BS4CardFooter : BS4Obj {
 
 static BS4CardFooter");
 ///
-unittest { {
+unittest {
 	assert(BS4CardFooter == `<div class="card-footer"></div>`);
 }}

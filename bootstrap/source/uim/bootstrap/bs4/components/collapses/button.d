@@ -12,6 +12,6 @@ class BS4CollapseButton : BS4Obj {
 static BS4CollapseButton");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CollapseButton == `<button class="btn" data-toggle="collapse" role="button"></button>`);
 }}

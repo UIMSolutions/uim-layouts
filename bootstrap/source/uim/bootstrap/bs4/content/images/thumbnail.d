@@ -12,6 +12,6 @@ class BS4ImageFluid : BS4Image {
 static BS4ImageFluid"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4ImageFluid == `<img class="img-thumbnail">`);
 }}

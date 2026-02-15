@@ -18,13 +18,13 @@ class BS4DropdownMenu : BS4Obj {
 	mixin(MyContent!("form", "BS4DropdownForm"));
 	mixin(MyContent!("text", "BS4DropdownText"));
 	///
-unittest { {
+unittest {
 		assert(BS4DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
 	}}
 }
 static BS4DropdownMenu");
 
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownMenu == `<div class="dropdown-menu"></div>`);
 }}

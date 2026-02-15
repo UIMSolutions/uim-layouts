@@ -17,6 +17,6 @@ class BS4ModalButton : BS4Obj {
 }
 static BS4ModalButton");
 ///
-unittest { {
+unittest {
 	// assert(BS4ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 }}

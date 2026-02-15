@@ -12,7 +12,7 @@ class BS4CardText : BS4Obj {
 static BS4CardText");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CardText == `<p class="card-text"></p>`);
 	assert(BS4CardText.addContent("SomeThing") == `<p class="card-text">SomeThing</p>`);
 }}

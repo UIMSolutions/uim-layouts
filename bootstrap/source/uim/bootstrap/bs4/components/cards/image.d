@@ -15,7 +15,7 @@ class BS4CardImage : BS4Obj { // default top
 
 	O position(string value) { _classes = _classes.sub("card-img-top").add("card-img-"~value); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS4CardImage.position("top") == `<img class="card-img-top">`);
 		assert(BS4CardImage.position("bottom") == `<img class="card-img-bottom">`);
 	}}
@@ -23,7 +23,7 @@ unittest { {
 static BS4CardImage");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CardImage == `<img class="card-img-top">`);
 	assert(BS4CardImage.position("top") == `<img class="card-img-top">`);
 	assert(BS4CardImage.position("bottom") == `<img class="card-img-bottom">`);

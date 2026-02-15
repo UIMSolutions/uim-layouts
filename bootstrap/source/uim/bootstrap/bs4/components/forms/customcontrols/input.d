@@ -16,7 +16,7 @@ class BS4CustomInput : BS4Obj {
 static BS4CustomInput");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CustomInput);
 	assert(BS4CustomInput == `<input class="custom-control-input">`);
 }}

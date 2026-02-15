@@ -12,6 +12,6 @@ class BS4InputColor : BS4Input {
 static BS4InputColor"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputColor == `<input class="form-control" type="color">`);
 }}

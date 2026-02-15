@@ -14,6 +14,6 @@ class BS4TabContent : BS4Obj {
 static BS4TabContent");
 
 ///
-unittest { {
+unittest {
 	assert(BS4TabContent == `<div class="tab-content"></div>`);
 }}

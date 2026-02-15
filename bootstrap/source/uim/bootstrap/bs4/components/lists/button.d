@@ -21,7 +21,7 @@ class BS4ListButton : BS4Obj {
 static BS4ListButton");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ListButton == `<button class="list-group-item list-group-item-action"></button>`);
 	assert(BS4ListButton.active == `<button class="active list-group-item list-group-item-action"></button>`);
 	assert(BS4ListButton.disabled == `<button class="list-group-item list-group-item-action" disabled></button>`);

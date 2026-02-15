@@ -11,13 +11,13 @@ class BS4InputGroupPrepend : BS4Obj {
 
 	mixin(MyContent!("text", "BS4InputGroupText"));
 	///
-unittest { {
+unittest {
 		assert(BS4InputGroupPrepend.text == `<div class="input-group-prepend"><div class="input-group-text"></div></div>`);
 	}}
 }
 static BS4InputGroupPrepend");
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputGroupPrepend == `<div class="input-group-prepend"></div>`);
 }}

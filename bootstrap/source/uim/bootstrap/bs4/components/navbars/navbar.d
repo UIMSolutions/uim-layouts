@@ -14,7 +14,7 @@ class BS4Navbar : BS4Obj {
 		return this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Navbar.center == `<nav class="justify-content-center navbar"></nav>`);
 		assert(BS4Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
 	}}
@@ -45,7 +45,7 @@ unittest { {
 static BS4Navbar");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Navbar == `<nav class="navbar"></nav>`);
 	assert(BS4Navbar.light == `<nav class="navbar navbar-light"></nav>`);
 	assert(BS4Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);

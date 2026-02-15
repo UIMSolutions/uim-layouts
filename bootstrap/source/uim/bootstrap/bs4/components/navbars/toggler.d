@@ -21,6 +21,6 @@ class BS4NavbarToggler : BS4ButtonObj {
 static BS4NavbarToggler");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavbarToggler == `<button class="navbar-toggler" aria-controls="navbar" type="button"></button>`);
 }}

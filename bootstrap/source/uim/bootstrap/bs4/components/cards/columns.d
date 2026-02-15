@@ -13,12 +13,12 @@ class BS4CardColumns : BS4Obj {
 	/// Add card 
 	mixin(MyContent!("card", "BS4Card"));
 	///
-unittest { {
+unittest {
 		assert(BS4CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
 	}}
 }
 static BS4CardColumns");
 ///
-unittest { {
+unittest {
 	assert(BS4CardColumns == `<div class="card-columns"></div>`);
 }}

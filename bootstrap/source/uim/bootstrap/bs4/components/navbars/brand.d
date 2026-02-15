@@ -15,6 +15,6 @@ class BS4NavbarBrand : BS4Obj {
 static BS4NavbarBrand");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavbarBrand == `<a class="navbar-brand"></a>`);
 }}

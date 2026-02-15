@@ -12,7 +12,7 @@ class BS4ListInline : BS4Obj {
 
 	mixin(MyContent!("item", "BS4ListInlineItem"));
 	///
-unittest { {
+unittest {
 		assert(BS4ListInline.item == `<ul class="list-inline"><li class="list-inline-item"></li></ul>`);
 		assert(BS4ListInline.item("test") == `<ul class="list-inline"><li class="list-inline-item">test</li></ul>`);
 	}}
@@ -20,6 +20,6 @@ unittest { {
 static BS4ListInline");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ListInline,  `<ul class="list-inline"></ul>`);
 }}

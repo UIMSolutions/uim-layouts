@@ -14,7 +14,7 @@ class BS4NavTabs : BS4Obj {
 static BS4NavTabs");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavTabs == `<ul class="nav nav-tabs" role="tablist"></ul>`);
 		assert(BS4NavTabs.item == `<ul class="nav nav-tabs" role="tablist"><li class="nav-item"></li></ul>`);
 }}

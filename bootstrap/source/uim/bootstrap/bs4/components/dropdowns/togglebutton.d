@@ -11,7 +11,7 @@ class BS4DropdownTogglebutton : BS4Button {
 }
 static BS4DropdownTogglebutton");
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownTogglebutton == `<button class="btn dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button"></button>`);
 	assert(BS4DropdownTogglebutton.id("id") == `<button id="id" class="btn dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button"></button>`);
 }}

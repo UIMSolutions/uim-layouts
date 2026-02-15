@@ -10,13 +10,13 @@ class BS4Jumbotron : BS4Obj {
 	mixin(H5This!("Div", ["jumbotron"]));
 
 	///
-unittest { {
+unittest {
 		assert(BS4Jumbotron == `<div class="jumbotron"></div>`);
 	}}
 }
 static BS4Jumbotron");
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

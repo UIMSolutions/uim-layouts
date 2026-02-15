@@ -12,7 +12,7 @@ class BS4FormCheck : BS4Obj {
 
 	O inline(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS4FormCheck.inline == `<div class="form-check form-check-inline"></div>`);
 	}}
 
@@ -21,6 +21,6 @@ unittest { {
 static BS4FormCheck");
 
 ///
-unittest { {
+unittest {
 	assert(BS4FormCheck == `<div class="form-check"></div>`);
 }}

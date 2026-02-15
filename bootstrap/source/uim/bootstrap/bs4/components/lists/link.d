@@ -18,7 +18,7 @@ class BS4ListLink : BS4Obj {
 static BS4ListLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ListLink == `<a class="list-group-item list-group-item-action"></a>`);
 	assert(BS4ListLink.active == `<a class="active list-group-item list-group-item-action"></a>`);
 	assert(BS4ListLink.disabled == `<a class="disabled list-group-item list-group-item-action"></a>`);

@@ -12,6 +12,6 @@ class BS4PageLink : BS4Obj {
 static BS4PageLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS4PageLink == `<a class="page-link" href="#"></a>`);
 }}

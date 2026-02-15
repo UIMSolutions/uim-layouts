@@ -12,6 +12,6 @@ class BS4Password : BS4Input {
 static BS4Password"));
 
 ///
-unittest { {
+unittest {
 		assert(BS4Password == `<input class="form-control" type="password">`);
 }}

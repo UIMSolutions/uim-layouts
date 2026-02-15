@@ -12,6 +12,6 @@ class BS4ListInlineItem : BS4Obj {
 static BS4ListInlineItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ListInlineItem == `<li class="list-inline-item"></li>`);
 }}

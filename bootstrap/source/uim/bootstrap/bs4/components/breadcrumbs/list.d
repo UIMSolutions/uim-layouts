@@ -11,19 +11,19 @@ class BS4BreadcrumbList : BS4Obj {
 
 	mixin(MyContent!("item", "BS4BreadcrumbItem"));
 	///
-unittest { {
+unittest {
 		assert(BS4BreadcrumbList.item == `<ol class="breadcrumb"><li class="breadcrumb-item"></li></ol>`);
 	}}
 
 	mixin(MyContent!("link", "this.item", "BS4BreadcrumbLink"));
 	///
-unittest { {
+unittest {
 		assert(BS4BreadcrumbList.link == `<ol class="breadcrumb"><li class="breadcrumb-item"><a></a></li></ol>`);
 	}}
 }
 static BS4BreadcrumbList");
 
 ///
-unittest { {
+unittest {
 	assert(BS4BreadcrumbList == `<ol class="breadcrumb"></ol>`);
 }}

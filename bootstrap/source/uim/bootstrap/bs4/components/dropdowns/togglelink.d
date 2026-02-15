@@ -11,7 +11,7 @@ class BS4DropdownTogglelink : BS4ButtonLink {
 }
 static BS4DropdownTogglelink");
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownTogglelink == `<a class="btn dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button"></a>`);
 	assert(BS4DropdownTogglelink.id("id") == `<a id="id" class="btn dropdown-toggle" aria-expanded="false" aria-haspopup="true" type="button"></a>`);
 }}

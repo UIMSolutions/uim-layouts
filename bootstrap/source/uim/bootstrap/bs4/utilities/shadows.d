@@ -14,7 +14,7 @@ T shadow(T)(T h5, string screenSize = null) {
 }
 
 ///
-unittest { {
+unittest {
 	assert(H5Div.shadowNone == `<div class="shadow-none"></div>`);
 	assert(H5Div.shadow == `<div class="shadow"></div>`);
 	assert(H5Div.shadow("sm") == `<div class="shadow-sm"></div>`);

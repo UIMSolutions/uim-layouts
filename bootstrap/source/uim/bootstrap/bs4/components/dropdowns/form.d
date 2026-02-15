@@ -12,6 +12,6 @@ class BS4DropdownForm : BS4Obj {
 static BS4DropdownForm");
 
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownForm == `<form></form>`);
 }}

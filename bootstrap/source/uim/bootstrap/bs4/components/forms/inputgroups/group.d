@@ -11,13 +11,13 @@ class BS4InputGroup : BS4Obj {
 
 	mixin(MyContent!("prepend", "BS4InputGroupPrepend"));
 	///
-unittest { {
+unittest {
 		assert(BS4InputGroup.prepend == `<div class="input-group"><div class="input-group-prepend"></div></div>`);
 	}}
 
 	mixin(MyContent!("append", "BS4InputGroupAppend"));
 	///
-unittest { {
+unittest {
 		assert(BS4InputGroup.append == `<div class="input-group"><div class="input-group-append"></div></div>`);
 	}}
 	
@@ -26,7 +26,7 @@ unittest { {
 	O small() { return this.addClasses("input-group-sm"); }
 	O large() { return this.addClasses("input-group-lg"); }
 	///
-unittest { {
+unittest {
 		assert(BS4InputGroup.size("sm") == `<div class="input-group input-group-sm"></div>`);
 		assert(BS4InputGroup.small == `<div class="input-group input-group-sm"></div>`);
 		assert(BS4InputGroup.large == `<div class="input-group input-group-lg"></div>`);
@@ -61,6 +61,6 @@ unittest { {
 static BS4InputGroup");
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputGroup == `<div class="input-group"></div>`);
 }}

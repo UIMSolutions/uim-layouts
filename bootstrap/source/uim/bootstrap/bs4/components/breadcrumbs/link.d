@@ -13,6 +13,6 @@ class BS4BreadcrumbLink : BS4Obj {
 static BS4BreadcrumbLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS4BreadcrumbLink == `<a></a>`);
 }}

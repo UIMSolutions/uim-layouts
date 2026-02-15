@@ -12,6 +12,6 @@ class BS4InputHidden : BS4Input {
 static BS4InputHidden"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputHidden == `<input class="form-control" type="hidden">`);
 }}

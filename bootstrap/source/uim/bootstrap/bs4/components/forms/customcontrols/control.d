@@ -15,7 +15,7 @@ class BS4CustomControl : BS4Obj {
 	mixin(MyContent!("label", "H5Label"));
 	
 	///
-unittest { {
+unittest {
 		assert(BS4CustomControl == `<div class="custom-control"></div>`);
 	}}
 }

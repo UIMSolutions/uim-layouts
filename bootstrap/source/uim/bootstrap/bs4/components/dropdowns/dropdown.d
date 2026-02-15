@@ -15,7 +15,7 @@ class BS4Dropdown : BS4Obj {
 static BS4Dropdown");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Dropdown == `<div class="dropdown"></div>`);
 	assert(BS4Dropdown.id("id") == `<div id="id" class="dropdown"></div>`);
 }}

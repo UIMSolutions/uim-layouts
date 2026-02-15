@@ -12,7 +12,7 @@ class BS4CardBlockquote : BS4Obj {
 static BS4CardBlockquote");
 ///
 ///
-unittest { {
+unittest {
 	assert(BS4CardBlockquote == `<blockquote class="card-blockquote"></blockquote>`);
 }}
 

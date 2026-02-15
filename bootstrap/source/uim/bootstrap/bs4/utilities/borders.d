@@ -35,7 +35,7 @@ T circle(T)(T h5, string radius = null) {
 }
 
 ///
-unittest { {
+unittest {
 	assert(H5Div.border == `<div class="border"></div>`);
 	assert(H5Div.borderPosition("top") == `<div class="border-top"></div>`);
 	assert(H5Div.borderPosition("bottom", "top") == `<div class="border-bottom border-top"></div>`);

@@ -12,6 +12,6 @@ class BS4InputText : BS4Input {
 static BS4InputText"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputText == `<input class="form-control" type="text">`);
 }}

@@ -11,7 +11,7 @@ class BS4Breadcrumb : BS4Obj {
 
 	mixin(MyContent!("list", "BS4BreadcrumbList"));
 	///
-unittest { {
+unittest {
 		assert(BS4Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>`);
 	}}
 
@@ -19,6 +19,6 @@ unittest { {
 static BS4Breadcrumb");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Breadcrumb == `<nav aria-label="breadcrumb"></nav>`);
 }}

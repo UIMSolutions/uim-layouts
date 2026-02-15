@@ -12,6 +12,6 @@ class BS4Checkbox : BS4Input {
 static BS4Checkbox"));
 ///
 ///
-unittest { {
+unittest {
 	assert(BS4Checkbox == `<input class="form-control" type="checkbox">`);
 }}

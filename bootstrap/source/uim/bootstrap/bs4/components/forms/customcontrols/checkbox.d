@@ -12,6 +12,6 @@ class BS4CustomCheckbox : BS4CustomControl {
 static BS4CustomCheckbox");
 
 ///
-unittest { {
+unittest {
 	assert(BS4CustomCheckbox == `<div class="custom-checkbox custom-control"></div>`);
 }}

@@ -12,6 +12,6 @@ class BS4InputGroupText : BS4Obj {
 static BS4InputGroupText");
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputGroupText == `<div class="input-group-text"></div>`);
 }}

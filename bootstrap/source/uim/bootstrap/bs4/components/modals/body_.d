@@ -13,6 +13,6 @@ class BS4ModalBody : BS4Obj {
 static BS4ModalBody");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ModalBody == `<div class="modal-body"></div>`);
 }}

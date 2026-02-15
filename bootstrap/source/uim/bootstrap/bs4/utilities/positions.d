@@ -29,6 +29,6 @@ T stickyPosition(T)(T h5, string position) {
 }
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

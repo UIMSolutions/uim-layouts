@@ -13,6 +13,6 @@ class BS4CardOverlay : BS4Obj {
 /// Shortcuts
 static BS4CardOverlay");
 ///
-unittest { {
+unittest {
 	assert(BS4CardOverlay == `<div class="card-img-overlay"></div>`);
 }}

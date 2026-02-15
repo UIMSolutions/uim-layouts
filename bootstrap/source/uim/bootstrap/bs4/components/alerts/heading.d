@@ -18,6 +18,6 @@ class BS4AlertHeading : BS4Obj {
 static BS4AlertHeading"));
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

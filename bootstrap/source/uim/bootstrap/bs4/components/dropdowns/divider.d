@@ -12,6 +12,6 @@ class BS4DropdownDivider : BS4Obj {
 static BS4DropdownDivider");
 
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownDivider == `<div class="dropdown-divider"></div>`);
 }}

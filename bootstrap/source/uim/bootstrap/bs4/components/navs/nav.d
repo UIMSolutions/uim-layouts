@@ -11,31 +11,31 @@ class BS4Nav : BS4Obj {
 
 	mixin(MyContent!("item", "BS4NavItem"));
 	///
-unittest { {
+unittest {
 		assert(BS4Nav.item == `<ul class="nav"><li class="nav-item"></li></ul>`);
 	}}
 
 	mixin(MyContent!("header", "BS4NavHeader"));
 	///
-unittest { {
+unittest {
 		assert(BS4Nav.header == `<ul class="nav"><li class="nav-header"></li></ul>`);
 	}}
 
 	mixin(MyContent!("link", "this.item", "BS4NavLink"));
 	///
-unittest { {
+unittest {
 		assert(BS4Nav.link == `<ul class="nav"><li class="nav-item"><a class="nav-link" href="#"></a></li></ul>`);
 	}}
 
 	O pills(bool mode = true) { if (mode) this.addClasses("nav-pills"); return this; }
 	///
-unittest { {
+unittest {
 		assert(BS4Nav.pills == `<ul class="nav nav-pills"></ul>`);
 	}}
 }
 static BS4Nav");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Nav == `<ul class="nav"></ul>`);
 }}

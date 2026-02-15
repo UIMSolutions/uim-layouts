@@ -12,6 +12,6 @@ class BS4InputMonth : BS4Input {
 static BS4InputMonth"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputMonth == `<input class="form-control" type="month">`);
 }}

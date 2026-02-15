@@ -15,7 +15,7 @@ class BS4TabPane : BS4Obj {
 static BS4TabPane");
 
 ///
-unittest { {
+unittest {
 	assert(BS4TabPane == `<div class="tab-pane" aria-expanded="false" role="tabpanel"></div>`);
 	assert(BS4TabPane.active == `<div class="active tab-pane" aria-expanded="true" role="tabpanel"></div>`);
 	assert(BS4TabPane.fade == `<div class="fade tab-pane" aria-expanded="false" role="tabpanel"></div>`);

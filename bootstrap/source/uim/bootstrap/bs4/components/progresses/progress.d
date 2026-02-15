@@ -14,6 +14,6 @@ class BS4Progress : BS4Obj {
 static BS4Progress");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Progress == `<div class="progress"></div>`);
 }}

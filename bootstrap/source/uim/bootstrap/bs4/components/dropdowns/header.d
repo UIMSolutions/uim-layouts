@@ -12,6 +12,6 @@ class BS4DropdownHeader : BS4Obj {
 static BS4DropdownHeader");
 
 ///
-unittest { {
+unittest {
 	assert(BS4DropdownHeader == `<h6 class="dropdown-header"></h6>`);
 }}

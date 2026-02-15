@@ -12,6 +12,6 @@ class BS4MediaBody : BS4Obj {
 static BS4MediaBody");
 
 ///
-unittest { {
+unittest {
 	assert(BS4MediaBody == `<div class="media-body"></div>`);
 }}

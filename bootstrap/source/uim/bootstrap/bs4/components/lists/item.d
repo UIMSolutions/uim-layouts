@@ -14,6 +14,6 @@ class BS4ListItem : BS4Obj {
 static BS4ListItem");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ListItem == `<li class="list-group-item"></li>`);
 }}

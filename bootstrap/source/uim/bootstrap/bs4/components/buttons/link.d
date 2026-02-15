@@ -12,6 +12,6 @@ class BS4ButtonLink : BS4ButtonObj {
 static BS4ButtonLink");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ButtonLink == `<a class="btn" type="button"></a>`);
 }}

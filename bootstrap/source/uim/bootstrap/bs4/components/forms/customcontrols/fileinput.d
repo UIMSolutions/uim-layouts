@@ -16,6 +16,6 @@ class BS4CustomFileInput : BS4Obj {
 
 static BS4CustomFileInput");
 ///
-unittest { {
+unittest {
 	assert(BS4CustomFileInput == `<input class="custom-file-input">`);
 }}

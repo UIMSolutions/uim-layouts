@@ -12,6 +12,6 @@ class BS4Radio : BS4Input {
 static BS4Radio"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4Radio == `<input class="form-control" type="radio">`);
 }}

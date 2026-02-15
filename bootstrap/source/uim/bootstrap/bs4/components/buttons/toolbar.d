@@ -11,19 +11,19 @@ class BS4ButtonToolbar : BS4Obj {
 
 	mixin(MyAttribute!("label", "aria-label"));
 	///
-unittest { {
+unittest {
 		assert(BS4ButtonToolbar.label("hallo") == `<div class="btn-toolbar" aria-label="hallo" role="toolbar"></div>`);
 	}}
 	
 	mixin(MyContent!("group", "BS4ButtonGroup"));
 	///
-unittest { {
+unittest {
 		assert(BS4ButtonToolbar.group == `<div class="btn-toolbar" role="toolbar"><div class="btn-group" role="group"></div></div>`);
 	}}
 }
 static BS4ButtonToolbar");
 
 ///
-unittest { {
+unittest {
 	assert(BS4ButtonToolbar == `<div class="btn-toolbar" role="toolbar"></div>`);
 }}

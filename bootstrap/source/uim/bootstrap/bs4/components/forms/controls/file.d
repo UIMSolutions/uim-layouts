@@ -12,6 +12,6 @@ class BS4InputFile : BS4Input {
 static BS4InputFile"));
 
 ///
-unittest { {
+unittest {
 	assert(BS4InputFile == `<input class="form-control" type="file">`);
 }}

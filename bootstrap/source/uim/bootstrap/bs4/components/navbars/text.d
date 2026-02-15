@@ -12,7 +12,7 @@ class BS4NavbarText : BS4Obj {
 static BS4NavbarText");
 
 ///
-unittest { {
+unittest {
 	assert(BS4NavbarText == `<span class="navbar-text"></span>`);
 	assert(BS4NavbarText("some text") == `<span class="navbar-text">some text</span>`);
 }}

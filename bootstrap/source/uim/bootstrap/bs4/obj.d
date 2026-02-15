@@ -17,7 +17,7 @@ class BS4Obj : DH5Obj {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.margin("t-2") == `<div class="mt-2"></div>`);
 	}}
 
@@ -29,7 +29,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.padding("t-2") == `<div class="pt-2"></div>`);
 	}}
 
@@ -52,7 +52,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.border == `<div class="border"></div>`);
 		assert(BS4Obj.border(1) == `<div class="border-1"></div>`);
 		assert(BS4Obj.border("top") == `<div class="border-top"></div>`);
@@ -65,7 +65,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.noBorder == `<div class="border-0"></div>`);
 	}}
 
@@ -75,7 +75,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.borderColor("primary") == `<div class="border-primary"></div>`);
 		assert(BS4Obj.border.borderColor("primary") == `<div class="border border-primary"></div>`);
 	}}
@@ -87,7 +87,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.rounded == `<div class="rounded"></div>`);
 		assert(BS4Obj.rounded("top") == `<div class="rounded-top"></div>`);
 	}}
@@ -98,7 +98,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.noRounded == `<div class="rounded-0"></div>`);
 	}}
 
@@ -108,7 +108,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.roundedSize("lg") == `<div class="rounded-lg"></div>`);
 	}}
 
@@ -118,7 +118,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.clearfix == `<div class="clearfix"></div>`);
 	}}
 
@@ -128,7 +128,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.closeButton == `<div><button class="btn close" aria-label="Close" type="button"><span aria-label="true">&times;</span></button></div>`);
 	}}
 
@@ -146,7 +146,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.textColor("primary") == `<div class="text-primary"></div>`);
 		assert(BS4Obj.textColor("black", "50") == `<div class="text-black-50"></div>`);
 	}}
@@ -159,7 +159,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.background("primary") == `<div class="bg-primary"></div>`);
 	}}
 
@@ -173,7 +173,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.display("none") == `<div class="d-none"></div>`);
 		assert(BS4Obj.display("sm", "block") == `<div class="d-sm-block"></div>`);
 	}}
@@ -184,7 +184,7 @@ unittest { {
 		return cast(O) this;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4Obj.print("none") == `<div class="d-print-none"></div>`);
 	}}
 }
@@ -192,6 +192,6 @@ unittest { {
 static BS4Obj");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Obj == `<div></div>`);
 }}

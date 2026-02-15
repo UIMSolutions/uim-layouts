@@ -13,13 +13,13 @@ class BS4FormCheckInput : BS4Obj {
 		_single = true;
 	}
 	///
-unittest { {
+unittest {
 		assert(BS4FormCheckInput == `<input class="form-check-input">`);
 	}}
 }
 static BS4FormCheckInput");
 
 ///
-unittest { {
+unittest {
 	// TODO
 }}

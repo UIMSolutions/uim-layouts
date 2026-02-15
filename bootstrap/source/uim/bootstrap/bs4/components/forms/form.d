@@ -17,7 +17,7 @@ class BS4Form : BS4Obj {
 static BS4Form");
 
 ///
-unittest { {
+unittest {
 	assert(BS4Form == `<form></form>`);
 	assert(BS4Form.inline == `<form class="form-inline"></form>`);
 }}
