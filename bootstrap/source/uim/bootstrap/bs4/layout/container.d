@@ -4,12 +4,12 @@
 import uim.bootstrap;
 
 /*
-DBS4Container / BS4Container
+BS4Container / BS4Container
 Containers are containing elements to wrap other elements and contain its grid system. 
 
 Default: A fixed container is a (responsive) fixed width container. 
 */
-class DBS4Container : DBS4Obj {
+class BS4Container : BS4Obj {
 	mixin(H5This!("div", ["container"]));
 	version(test_uim_bootstrap) { unittest {
 		assert(BS4Container == `<div class="container"></div>`);

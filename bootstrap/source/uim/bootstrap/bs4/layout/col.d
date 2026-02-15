@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4Col : DBS4Obj {
+class BS4Col : BS4Obj {
 	mixin(H5This!("Div"));
 
 	O sizes(this O)(string[] someSizes...) { 

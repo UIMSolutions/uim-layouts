@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4Password : DBS4Input {
+class BS4Password : BS4Input {
 	mixin(H5This!(null, ["form-control"], `["type":"password"]`));
 }
 mixin(H5Calls!("BS4Password"));

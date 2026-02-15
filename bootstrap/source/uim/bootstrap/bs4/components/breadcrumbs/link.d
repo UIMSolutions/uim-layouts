@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4BreadcrumbLink : DBS4Obj {	
+class BS4BreadcrumbLink : BS4Obj {	
 	mixin(H5This!("A", null, null));
 
 }

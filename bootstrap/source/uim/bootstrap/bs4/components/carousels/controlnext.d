@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CarouselControlNext : DBS4Obj {
+class BS4CarouselControlNext : BS4Obj {
 	mixin(H5This!("a", ["carousel-control-next"], `["data-slide":"next"]`));
 	override public void initialize() {
 		super.initialize;

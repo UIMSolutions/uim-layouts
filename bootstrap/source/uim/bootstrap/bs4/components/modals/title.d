@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ModalTitle : DBS4Obj {
+class BS4ModalTitle : BS4Obj {
 	mixin(H5This!("H5", ["modal-title"]));
 }
 mixin(H5Calls!"BS4ModalTitle");

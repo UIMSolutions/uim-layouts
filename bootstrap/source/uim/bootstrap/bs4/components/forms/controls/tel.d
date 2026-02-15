@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4InputTel : DBS4Input {
+class BS4InputTel : BS4Input {
 	mixin(H5This!("", null, `["type":"tel"]`));
 }
 mixin(H5Calls!("BS4InputTel"));

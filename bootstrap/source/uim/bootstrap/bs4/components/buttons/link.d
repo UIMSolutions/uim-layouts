@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ButtonLink : DBS4ButtonObj {
+class BS4ButtonLink : BS4ButtonObj {
 	mixin(H5This!("A", ["btn"], `["type":"button"]`));
 }
 mixin(H5Calls!"BS4ButtonLink");

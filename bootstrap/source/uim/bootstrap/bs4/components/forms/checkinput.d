@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4FormCheckInput : DBS4Obj {
+class BS4FormCheckInput : BS4Obj {
 	mixin(H5This!("input", ["form-check-input"]));
 	override public void initialize() {
 		super.initialize;

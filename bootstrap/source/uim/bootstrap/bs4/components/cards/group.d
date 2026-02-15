@@ -4,12 +4,12 @@
 import uim.bootstrap;
 
 /// The BS4CardGroup creates a grid of cards that are of equal height and width, and no margin between cards
-class DBS4CardGroup : DBS4Obj {
+class BS4CardGroup : BS4Obj {
 	mixin(H5This!("DIV", ["card-group"]));
 
 	/// Add card 
 	mixin(MyContent!("card", "BS4Card"));
-	O card(this O)(DBS4Card[] cards) { foreach(c; cards) this.card(c); return cast(O)this; }
+	O card(this O)(BS4Card[] cards) { foreach(c; cards) this.card(c); return cast(O)this; }
 }
 mixin(H5Calls!"BS4CardGroup");
 version(test_uim_bootstrap) { unittest {

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4TabPane : DBS4Obj {
+class BS4TabPane : BS4Obj {
 	mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
 
 	O active(this O)(bool value = true) { if (value) { this.addClasses("active").attributes("aria-expanded", "true"); } return cast(O)this; }

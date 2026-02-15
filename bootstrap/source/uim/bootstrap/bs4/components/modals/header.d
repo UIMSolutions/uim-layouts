@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ModalHeader : DBS4Obj {
+class BS4ModalHeader : BS4Obj {
 	mixin(H5This!("DIV", ["modal-header"]));
 }
 mixin(H5Calls!"BS4ModalHeader");

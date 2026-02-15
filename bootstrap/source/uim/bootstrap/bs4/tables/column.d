@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4TableColumn : DBS4Obj {
+class BS4TableColumn : BS4Obj {
 	mixin(H5This!"th");
 
 	mixin(TProperty!("string", "key"));

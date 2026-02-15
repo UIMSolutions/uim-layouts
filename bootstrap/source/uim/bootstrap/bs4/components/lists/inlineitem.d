@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ListInlineItem : DBS4Obj {
+class BS4ListInlineItem : BS4Obj {
 	mixin(H5This!("LI", ["list-inline-item"]));
 }
 mixin(H5Calls!"BS4ListInlineItem");

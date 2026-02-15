@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4InputFile : DBS4Input {
+class BS4InputFile : BS4Input {
 	mixin(H5This!(null, null, `["type":"file"]`));
 }
 mixin(H5Calls!("BS4InputFile"));

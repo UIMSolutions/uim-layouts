@@ -13,7 +13,7 @@ public import uim.bootstrap.bs4.content;
 public import uim.bootstrap.bs4.css;
 public import uim.bootstrap.bs4.tables;
 
-class DBS4 : DH5 {
+class BS4 : DH5 {
   this() { super(); }
 
   /// Adding an alert component
@@ -191,7 +191,7 @@ class DBS4 : DH5 {
 }
 
 auto BS4() {
-    return new DBS4();
+    return new BS4();
 }
 
 template BS4Def(string name) {

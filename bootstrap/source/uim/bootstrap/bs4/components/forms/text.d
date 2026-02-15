@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4FormText : DBS4Obj {
+class BS4FormText : BS4Obj {
 	mixin(H5This!("SMALL", ["form-text"]));
 }
 mixin(H5Calls!"BS4FormText");

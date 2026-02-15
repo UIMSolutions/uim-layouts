@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4NavItem : DBS4Obj {
+class BS4NavItem : BS4Obj {
 	mixin(H5This!("li", ["nav-item"], null));
 
 	O dropdown(this O)(bool mode = true) { return this.addClasses("dropdown"); }

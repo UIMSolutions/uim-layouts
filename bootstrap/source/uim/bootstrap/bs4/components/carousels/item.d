@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CarouselItem : DBS4Obj {
+class BS4CarouselItem : BS4Obj {
 	mixin(H5This!("div", ["carousel-item"]));
 }
 mixin(H5Calls!"BS4CarouselItem");

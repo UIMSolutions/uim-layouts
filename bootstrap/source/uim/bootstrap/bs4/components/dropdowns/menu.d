@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4DropdownMenu : DBS4Obj {
+class BS4DropdownMenu : BS4Obj {
 	mixin(H5This!("div", ["dropdown-menu"]));
 
 	mixin(MyAttribute!("label", "aria-labelledby"));

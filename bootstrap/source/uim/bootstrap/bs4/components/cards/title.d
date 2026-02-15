@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CardTitle : DBS4Obj {
+class BS4CardTitle : BS4Obj {
 	mixin(H5This!("H4", ["card-title"]));
 
 	O level(this O)(uint value) { if (value > 0) _tag = "h"~to!string(value); return cast(O)this; }

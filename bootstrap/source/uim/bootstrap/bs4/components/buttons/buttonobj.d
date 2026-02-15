@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ButtonObj : DBS4Obj {
+class BS4ButtonObj : BS4Obj {
 	mixin(H5This!("BUTTON", null, `["type":"button"]`));
 
 	// mixin(MyAttribute!("buttonType", "type"));

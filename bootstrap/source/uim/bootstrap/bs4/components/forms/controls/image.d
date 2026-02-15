@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4InputImage : DBS4Obj {
+class BS4InputImage : BS4Obj {
 	mixin(H5This!("Input", ["form-control"], `["type":"image"]`));
 	override public void initialize() {
 		super.initialize;

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4NavbarCollapse : DBS4Obj {
+class BS4NavbarCollapse : BS4Obj {
 	mixin(H5This!("div", ["collapse", "navbar-collapse"]));
 
 }

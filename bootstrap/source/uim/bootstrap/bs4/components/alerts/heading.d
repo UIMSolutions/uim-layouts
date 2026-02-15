@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4AlertHeading : DBS4Obj {
+class BS4AlertHeading : BS4Obj {
 	mixin(H5This!("Div", ["alert-heading"]));
 
 	O size(this O)(int size) {

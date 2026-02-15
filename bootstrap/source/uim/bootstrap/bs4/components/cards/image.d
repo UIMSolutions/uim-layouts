@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CardImage : DBS4Obj { // default top
+class BS4CardImage : BS4Obj { // default top
 	mixin(H5This!("IMG", ["card-img-top"], null, true));
 	override void initialize() {
 		super.initialize;

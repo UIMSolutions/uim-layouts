@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4InputSearch : DBS4Input {
+class BS4InputSearch : BS4Input {
 	mixin(H5This!("", null, `["type":"search"]`));
 }
 mixin(H5Calls!("BS4InputSearch"));

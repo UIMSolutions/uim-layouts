@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4DropdownTogglelink : DBS4ButtonLink {
+class BS4DropdownTogglelink : BS4ButtonLink {
 	mixin(H5This!("A", ["btn", "dropdown-toggle"], `["aria-haspopup":"true", "aria-expanded":"false"]`));
 }
 mixin(H5Calls!"BS4DropdownTogglelink");

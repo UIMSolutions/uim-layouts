@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4TableRow : DBS4Obj {
+class BS4TableRow : BS4Obj {
 	mixin(H5This!"Tr");
 
 	/// Adding a header cell
@@ -24,7 +24,7 @@ class DBS4TableRow : DBS4Obj {
 	mixin(TProperty!("STRINGAA", "keyPairs"));
 	mixin(TProperty!("string[]", "values"));
 
-	string renderHTML(DBS4TableColumn[] columns) {
+	string renderHTML(BS4TableColumn[] columns) {
 		this.clearContent;
 		if (_keyPairs.empty) return renderHTML;
 		else {

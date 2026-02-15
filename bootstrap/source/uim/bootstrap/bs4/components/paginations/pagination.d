@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4Pagination : DBS4Obj {
+class BS4Pagination : BS4Obj {
 	mixin(H5This!("UL", ["pagination"]));
 
 	

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4InputTextarea : DBS4Obj {
+class BS4InputTextarea : BS4Obj {
 	mixin(H5This!("textarea", ["form-control"]));
 
 	mixin(MyAttribute!"rows");

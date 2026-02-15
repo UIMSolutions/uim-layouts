@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4PageLink : DBS4Obj {
+class BS4PageLink : BS4Obj {
 	mixin(H5This!("A", ["page-link"], `["href":"#"]`));
 }
 mixin(H5Calls!"BS4PageLink");

@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4Navbar : DBS4Obj {
+class BS4Navbar : BS4Obj {
 	mixin(H5This!("Nav", ["navbar"]));
 
 	O center(this O)(bool value = true) {
@@ -31,7 +31,7 @@ class DBS4Navbar : DBS4Obj {
 	}
 
 /*
-	mixin(MyContent!("nav", "DBS4NavbarNav"));
+	mixin(MyContent!("nav", "BS4NavbarNav"));
 	///
 	unittest
 	{

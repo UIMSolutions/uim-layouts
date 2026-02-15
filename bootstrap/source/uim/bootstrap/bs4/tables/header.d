@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4TableHeader : DBS4Obj {
+class BS4TableHeader : BS4Obj {
 	mixin(H5This!"Thead");
 
 	mixin(MyContent!("row", "BS4TableRow"));

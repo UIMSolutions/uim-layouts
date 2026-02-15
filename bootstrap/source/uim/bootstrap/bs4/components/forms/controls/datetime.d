@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap; 
 
-class DBS4InputDateTime : DBS4Input {
+class BS4InputDateTime : BS4Input {
 	mixin(H5This!("", null, `["type":"datetime-local"]`));
 }
 mixin(H5Calls!("BS4InputDateTime"));

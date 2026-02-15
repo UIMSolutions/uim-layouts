@@ -6,7 +6,7 @@ import uim.bootstrap;
 /**
  * Badges in Bootstrap are little additional information to highlight text or numbers.
  */
-class DBS4Badge : DBS4Obj {
+class BS4Badge : BS4Obj {
 	mixin(H5This!("Span", ["badge"]));
 
 	// Color of badge
@@ -27,7 +27,7 @@ class DBS4Badge : DBS4Obj {
 		assert(BS4Badge.pill(true) == `<span class="badge badge-pill"></span>`);
 	}}
 }
-// Shortcut to class DBS4Badge
+// Shortcut to class BS4Badge
 mixin(H5Calls!("BS4Badge"));
 
 version(test_uim_bootstrap) { unittest {

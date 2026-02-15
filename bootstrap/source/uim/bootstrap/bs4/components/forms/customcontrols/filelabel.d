@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CustomFileLabel : DBS4Obj
+class BS4CustomFileLabel : BS4Obj
 {
 	mixin(H5This!("LABEL", ["custom-file-label"]));
 }

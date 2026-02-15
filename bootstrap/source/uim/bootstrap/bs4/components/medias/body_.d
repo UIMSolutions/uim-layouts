@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4MediaBody : DBS4Obj {
+class BS4MediaBody : BS4Obj {
 	mixin(H5This!("DIV", ["media-body"]));
 }
 mixin(H5Calls!"BS4MediaBody");

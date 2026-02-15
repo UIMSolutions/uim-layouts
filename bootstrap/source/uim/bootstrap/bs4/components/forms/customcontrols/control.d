@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CustomControl : DBS4Obj {
+class BS4CustomControl : BS4Obj {
 	mixin(H5This!("DIV", ["custom-control"]));
 
 	mixin(MyContent!("checkbox", "BS4CustomCheckbox"));

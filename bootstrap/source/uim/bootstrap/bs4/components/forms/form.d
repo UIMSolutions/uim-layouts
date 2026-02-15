@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4Form : DBS4Obj {
+class BS4Form : BS4Obj {
 	mixin(H5This!("Form"));
 
 	O inline(this O)(bool value = true) { return this.addClasses("form-inline"); }

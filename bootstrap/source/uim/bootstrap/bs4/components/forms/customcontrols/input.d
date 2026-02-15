@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CustomInput : DBS4Obj {
+class BS4CustomInput : BS4Obj {
 	mixin(H5This!("INPUT", ["custom-control-input"], null, true));
 	override void initialize() {
 		super.initialize;

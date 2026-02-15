@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ListLinks : DBS4Obj {
+class BS4ListLinks : BS4Obj {
 	mixin(H5This!("Div", ["list-group"]));
 
 	mixin(MyContent!("link", "BS4ListLink"));

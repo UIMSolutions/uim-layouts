@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4CustomRadio : DBS4CustomControl {
+class BS4CustomRadio : BS4CustomControl {
 	mixin(H5This!("DIV", ["custom-control", "custom-radio"]));
 }
 

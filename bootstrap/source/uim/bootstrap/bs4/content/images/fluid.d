@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4ImageFluid : DBS4Image {
+class BS4ImageFluid : BS4Image {
 	mixin(H5This!("Img", ["img-fluid"]));
 }
 mixin(H5Calls!("BS4ImageFluid"));

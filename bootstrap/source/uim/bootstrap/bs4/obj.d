@@ -3,7 +3,7 @@
 @safe: 
 import uim.bootstrap;
 
-class DBS4Obj : DH5Obj {
+class BS4Obj : DH5Obj {
 	mixin(H5This!("DIV"));
 
 	// Adding a margin  
