@@ -21,7 +21,7 @@ unittest {
 		assert(BS5ListLink.disabled == `<a class="disabled list-group-item list-group-item-action"></a>`);
 	}}
 
-	O color(string aColor) { return this.addClasses("list-group-item-"~aColor); }
+	auto color(string aColor) { return this.addClasses("list-group-item-"~aColor); }
 }
 static BS5ListLink");
 

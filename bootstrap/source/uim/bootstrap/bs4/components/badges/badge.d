@@ -13,7 +13,7 @@ class BS4Badge : BS4Obj {
 	mixin(H5This!("Span", ["badge"]));
 
 	// Color of badge
-	O color(string name) {
+	auto color(string name) {
 		return this.addClasses("badge-" ~ name);
 	}
 	///

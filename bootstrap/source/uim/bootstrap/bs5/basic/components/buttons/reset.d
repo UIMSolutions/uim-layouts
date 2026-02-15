@@ -22,7 +22,7 @@ unittest {
 		assert(BS5ButtonReset.block(true) == `<button class="btn btn-block" type="reset"></button>`);
 	}}
 
-	O color(string value){ this.addClasses("btn-"~value); return this; }
+	auto color(string value){ this.addClasses("btn-"~value); return this; }
 	///
 unittest {
 		assert(BS5ButtonReset.color("primary") == `<button class="btn btn-primary" type="reset"></button>`);

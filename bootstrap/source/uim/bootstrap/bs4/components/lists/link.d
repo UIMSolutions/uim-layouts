@@ -13,7 +13,7 @@ class BS4ListLink : BS4Obj {
 
 	O disabled(bool value = true) { return this.addClasses("disabled"); }
 
-	O color(string aColor) { return this.addClasses("list-group-item-"~aColor); }
+	auto color(string aColor) { return this.addClasses("list-group-item-"~aColor); }
 }
 static BS4ListLink");
 

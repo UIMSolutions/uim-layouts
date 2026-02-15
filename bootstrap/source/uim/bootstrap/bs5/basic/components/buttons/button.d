@@ -22,7 +22,7 @@ unittest {
 		assert(BS5Button.block(true) == `<button class="btn btn-block" type="button"></button>`);
 	}}
 
-	O color(string value){ this.addClasses("btn-"~value); return this; }
+	auto color(string value){ this.addClasses("btn-"~value); return this; }
 	///
 unittest {
 		assert(BS5Button.color("primary") == `<button class="btn btn-primary" type="button"></button>`);

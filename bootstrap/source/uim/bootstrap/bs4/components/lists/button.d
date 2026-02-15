@@ -16,7 +16,7 @@ class BS4ListButton : BS4Obj {
 	O disabled(bool value = true) { _attributes["disabled"] = "disabled"; return this; }
 
 	/// Set button color
-	O color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
+	auto color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
 }
 static BS4ListButton");
 

@@ -10,7 +10,7 @@ mixin(ShowModule!());
 class BS4Alert : BS4Obj {
 	mixin(H5This!("Div", ["alert"], `["role":"alert"]`));
 
-	O color(string name) {
+	auto color(string name) {
 		return this.addClasses("alert-" ~ name);
 	}
 	///

@@ -12,7 +12,7 @@ class BS5Input : BS5Obj {
 	mixin(MyAttribute!"value");
 	mixin(MyAttribute!"placeholder");
 
-	O color(string newColor) {
+	auto color(string newColor) {
 		this.addClasses("bg-"~newColor);
 		return this;
 	}

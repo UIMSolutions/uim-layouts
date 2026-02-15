@@ -6,7 +6,7 @@ import layouts.tabler;
 class BS5Status : BS5Obj {
 	mixin(H5This!("span", ["status"]));
 
-  O color(string value){ this.addClasses("status-"~value); return this; }
+  auto color(string value){ this.addClasses("status-"~value); return this; }
 
   O lite(bool value = true){ if (value) this.addClasses("status-lite"); return this; }
 

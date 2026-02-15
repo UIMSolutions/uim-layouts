@@ -24,7 +24,7 @@ unittest {
 	}}
 
 	/// Set button color
-	O color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
+	auto color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
 }
 static BS5ListButton");
 

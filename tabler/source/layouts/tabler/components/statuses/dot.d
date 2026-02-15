@@ -8,7 +8,7 @@ class BS5StatusDot : BS5Obj {
 
   O animated(bool value = true){ if (value) this.classes("status-dot-animated"); return this; }
 
-  O color(string value){ this.classes("status-"~value); return this; }
+  auto color(string value){ this.classes("status-"~value); return this; }
 
 static BS5StatusDot opCall() {
 	return new BS5StatusDot;

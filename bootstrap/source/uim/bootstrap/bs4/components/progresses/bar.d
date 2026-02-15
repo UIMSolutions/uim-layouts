@@ -12,7 +12,7 @@ class BS4ProgressBar : BS4Obj {
 	O valueNow(string value) { return this.attributes(["aria-valuenow":value]); }
 	O valueMin(string value) { return this.attributes(["aria-valuemin":value]); }
 	O valueMax(string value) { return this.attributes(["aria-valuemax":value]); }
-	O color(string colorName) { return this.addClasses("bg-"~colorName); }
+	auto color(string colorName) { return this.addClasses("bg-"~colorName); }
 	O striped(bool mode = true) { return this.addClasses("progress-bar-striped"); }
 	O animated(bool mode = true) { return this.addClasses("progress-bar-animated"); }
 }

@@ -26,7 +26,7 @@ unittest {
 		assert(BS5ButtonSubmit.block(true) == `<button class="btn btn-block" type="submit"></button>`);
 	}}
 
-	O color(string value){ this.addClasses("btn-"~value); return this; }
+	auto color(string value){ this.addClasses("btn-"~value); return this; }
 	///
 unittest {
 		assert(BS5ButtonSubmit.color("primary") == `<button class="btn btn-primary" type="submit"></button>`);

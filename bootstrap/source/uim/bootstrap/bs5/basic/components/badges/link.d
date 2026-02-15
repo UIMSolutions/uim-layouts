@@ -15,7 +15,7 @@ class BS5BadgeLink : BS5Obj {
 	mixin(H5This!("A", ["badge"]));
 
 	// Color of badge
-	O color(string name) {
+	auto color(string name) {
 		return this.addClasses("badge-"~name);
 	}
 	///
