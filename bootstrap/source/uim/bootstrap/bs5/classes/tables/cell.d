@@ -16,7 +16,7 @@ class BS5TableCell : BS5Obj {
   ///
 unittest {
     assert(BS5TableCell.colspan(2) == `<td colspan="2"></td>`);
-  }}
+  }
 
   O rowspan(int span) { return this.rowspan(to!string(span)); }
   O rowspan(string span) { 
@@ -25,11 +25,12 @@ unittest {
   ///
 unittest {
     assert(BS5TableCell.rowspan(2) == `<td rowspan="2"></td>`);
-  }}
-}
-static BS5TableCell");
+  }
 
+static BS5TableCell opCall() {
+  return new BS5TableCell;
+}}
 ///
 unittest {
   assert(BS5TableCell == `<td></td>`);
-}}
+}

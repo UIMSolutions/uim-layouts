@@ -9,6 +9,7 @@ mixin(ShowModule!());
 /// 
 class BS5AccordionBody : BS5Obj {
   mixin(H5This!("Div", ["accordion-body"]));
+  
   static BS5AccordionBody opCall() {
     return new BS5AccordionBody;
   }

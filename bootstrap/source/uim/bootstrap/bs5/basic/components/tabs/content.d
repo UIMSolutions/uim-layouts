@@ -9,11 +9,12 @@ mixin(ShowModule!());
 class BS5TabContent : BS5Obj {
   mixin(H5This!("DIV", ["tab-content"]));
 
-  mixin(MyContent!("pane", "BS5TabPane"));
-}
-static BS5TabContent");
+  auto addPane(string id, string label) { return this.addContent(new BS5TabPane(id, label)); }
 
+static BS5TabContent opCall() {
+  return new BS5TabContent;
+}}
 ///
 unittest {
   assert(BS5TabContent == `<div class="tab-content"></div>`);
-}}
+}
