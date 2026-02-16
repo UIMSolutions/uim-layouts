@@ -7,7 +7,16 @@ mixin(ShowModule!());
 @safe:
 
 class BS5AccordionItem : BS5Obj {
-  mixin(H5This!("Div", ["accordion-item"]));
+  mixin(H5This!("Div"));
+
+  override bool initialize(Json[string] args = null) {
+    if (!super.initialize(args)) {
+      return false;
+    }
+
+    addClasses("accordion-item");
+    return true;
+  }
 
   static BS5AccordionItem opCall() {
     return new BS5AccordionItem;
@@ -15,7 +24,6 @@ class BS5AccordionItem : BS5Obj {
 }
 ///
 unittest {
-  {
     assert(BS5AccordionItem);
     assert(BS5AccordionItem == `<div class="accordion-item"></div>`);
   }

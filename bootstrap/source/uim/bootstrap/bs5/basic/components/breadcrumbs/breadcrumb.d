@@ -4,20 +4,27 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5Breadcrumb : BS5Obj {
   mixin(H5This!("Nav", null, `["aria-label":"breadcrumb"]`));
 
-  mixin(MyContent!("list", "BS5BreadcrumbList"));
+  auto addList() {
+    addContent(new BS5BreadcrumbList);
+    return this;
+  }
   ///
-unittest {
-    assert(BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
-  }}
+  unittest {
+    assert(
+      BS5Breadcrumb.list == `<nav aria-label="breadcrumb"><ol class="breadcrumb" aria-label="breadcrumbs"></ol></nav>`);
+  }
+
+  static BS5Breadcrumb opCall() {
+    return new BS5Breadcrumb;
+  }
 }
-static BS5Breadcrumb");
 
 ///
 unittest {
   assert(BS5Breadcrumb == `<nav aria-label="breadcrumb"></nav>`);
-}}
+}

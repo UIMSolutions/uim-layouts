@@ -8,8 +8,17 @@ mixin(ShowModule!());
 
 /// 
 class BS5AccordionBody : BS5Obj {
-  mixin(H5This!("Div", ["accordion-body"]));
-  
+  mixin(H5This!"BS5AccordionBody");
+
+  override bool initialize(Json[string] args = null) {
+    if (!super.initialize(args)) {
+      return false;
+    }
+
+    addClasses("accordion-body");
+    return true;
+  }
+
   static BS5AccordionBody opCall() {
     return new BS5AccordionBody;
   }

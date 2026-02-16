@@ -11,24 +11,29 @@ class BS5TabList : BS5Obj {
 
   mixin(MyContent!("item", "BS5NavItem"));
 
-  O vertical(bool mode = true) {
-    return this.addClasses("flex-column");
+  BS5TabList vertical(bool mode = true) {
+    addClasses("flex-column");
+    return this;
   }
 
-  O tabs(bool mode = true) {
-    return this.addClasses("nav-tabs");
+  BS5TabList tabs(bool mode = true) {
+    addClasses("nav-tabs");
+    return this;
   }
 
-  O pills(bool mode = true) {
-    return this.addClasses("nav-pills");
+  BS5TabList pills(bool mode = true) {
+    addClasses("nav-pills");
+    return this;
   }
 
-  O fill(bool mode = true) {
-    return this.addClasses("nav-fill");
+  BS5TabList fill(bool mode = true) {
+    addClasses("nav-fill");
+    return this;
   }
 
-  O justified(bool mode = true) {
-    return this.addClasses("nav-justified");
+  BS5TabList justified(bool mode = true) {
+    addClasses("nav-justified");
+    return this;
   }
 
   static BS5TabList opCall() {

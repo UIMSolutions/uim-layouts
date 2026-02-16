@@ -4,15 +4,27 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
+/// Button for accordion item header
 class BS5AccordionButton : BS5Obj {
-  mixin(H5This!("Button", ["accordion-button"], `["type":"button"]`));
-}
-static BS5AccordionButton"));
+  mixin(H5This!("BS5AccordionButton"));
 
+  override bool initialize(Json[string] args = null) {
+    if (!super.initialize(args)) {
+      return false;
+    }
+
+    addClasses("accordion-button");
+    attribute("type", "button");
+    return true;
+  }
+
+  static BS5AccordionButton opCall() {
+    return new BS5AccordionButton;
+  }
+}
 ///
 unittest {
-  assert(BS5AccordionButton);
   assert(BS5AccordionButton == `<button class="accordion-button" type="button"></button>`);
-}}
+}

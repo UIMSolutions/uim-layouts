@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5CustomControl : BS5Obj {
+class BS5CustomControl : H5Div {
   mixin(H5This!("DIV"));
 
   override void initialize () {
