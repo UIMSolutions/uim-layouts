@@ -6,14 +6,13 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5TableFooter : BS5Obj {
-  mixin BS5This!"Tfoot");
+class BS5TableFooter : H5Tfoot {
+  mixin BS5This!("TableFooter");
 
-  mixin(MyContent!("row", "BS5TableRow"));
-  mixin(MyContent!("tr", "BS5TableRow"));
+  mixin(AddContentCalls!("BSTableRow", "row"));
   ///
   unittest {
-    assert(BS5Table.row == `<table class="table"><tr></tr></table>`);
+    assert(BS5TableFooter.addRow() == `<tfoot><tr></tr></tfoot>`);
   }
 
   static BS5TableFooter opCall() {

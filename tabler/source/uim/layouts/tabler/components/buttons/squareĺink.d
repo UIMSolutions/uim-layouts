@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABButtonSquareLink : BS5ButtonLink {
+class TABButtonSquareLink : TABButtonLink {
   mixin TABThis!("A", ["btn-square"]);
 
   override void initialize() {

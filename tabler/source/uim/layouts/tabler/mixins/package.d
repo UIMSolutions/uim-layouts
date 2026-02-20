@@ -1,5 +1,5 @@
-module uim.bootstrap.bs5.mixins;
+module uim.layouts.tabler.mixins;
 
 public {
-  import uim.bootstrap.bs5.mixins.base;
+  import uim.layouts.tabler.mixins.element;
 }

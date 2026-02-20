@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABButtonSquare : BS5Button {
+class TABButtonSquare : TABButton {
   mixin TABThis!("Button", ["btn-square"]);
 
   mixin(TABCalls!("ButtonSquare"));

@@ -37,8 +37,8 @@ class BS5Table : BS5Obj {
     assert(BS5Table.footer == `<table class="table"><tfoot></tfoot></table>`);
   }
 
-  mixin(MyContent!("row", "BS5TableRow"));
-  mixin(MyContent!("tr", "BS5TableRow"));
+  auto addrow()", "BS5TableRow"));
+  auto addtr()", "BS5TableRow"));
   ///
   unittest {
     assert(BS5Table.row == `<table class="table"><tr></tr></table>`);

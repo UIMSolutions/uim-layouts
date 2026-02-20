@@ -16,7 +16,7 @@ mixin(ShowModule!());
   * <a class="btn btn-pill" role="button">Pill Link</a>
   * ``` 
   */
-class TABButtonPill : BS5Button {
+class TABButtonPill : TABButton {
   mixin TABThis!("Button", ["btn-pill"]);
 
   mixin(TABCalls!("ButtonPill"));
