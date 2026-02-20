@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABNavLinkTitle : BS5Obj {
-  mixin(TABThis!("span", ["nav-link-title"]));
+  mixin TABThis!("span", ["nav-link-title"]));
 
 static TABNavLinkTitle opCall() {
   return new TABNavLinkTitle;

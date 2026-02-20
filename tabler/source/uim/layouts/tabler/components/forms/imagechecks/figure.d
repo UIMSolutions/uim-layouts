@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABImageCheckFigure : BS5Obj {
-  mixin(TABThis!("span", ["form-imagecheck-figure"]));
+  mixin TABThis!("span", ["form-imagecheck-figure"]));
 }
 static TABImageCheckFigure");
 

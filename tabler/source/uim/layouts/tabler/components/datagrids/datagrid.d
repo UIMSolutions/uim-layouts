@@ -5,7 +5,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABDatagrid : H5Div {
-  mixin(TABThis!(["datagrid"]));
+  mixin TABThis!(["datagrid"]));
 
   auto color(string value) {
     this.addClasses("bg-" ~ value);
@@ -19,6 +19,6 @@ class TABDatagrid : H5Div {
 
 ///
 unittest {
-  assert(TABDatagrid, `<div class="datagrid"></div>`);
-  assert(TABDatagrid.color("blue"), `<div class="bg-blue datagrid"></div>`);
+  assert(TABDatagrid == `<div class="datagrid"></div>`);
+  assert(TABDatagrid.color("blue") == `<div class="bg-blue datagrid"></div>`);
 }

@@ -43,3 +43,30 @@ template TABThis(string[] thisClasses = null, string[string] thisAttributes = nu
   }
 }
 
+string tabCalls(string name) {
+  if (name.length > 0) {
+    name = "TAB" ~ name[0..1].capitalize ~ name[1 .. $];
+  }  
+
+  return `
+    static {name} opCall() {
+      return new {name}();
+    }
+    static {name} opCall(string content) {
+      return new {name}(content);
+    }
+    static {name} opCall(string[] classes, string content = "") {
+      return new {name}(classes, content);
+    }
+    static {name} opCall(string[string] attributes, string content = "") {
+      return new {name}(attributes, content);
+    }
+    static {name} opCall(string[] classes, string[string] attributes, string content = "") {
+      return new {name}(classes, attributes, content);
+    }
+    `.mustache("name", name);
+}
+
+template TABCalls(string name) {
+  const char[] TABCalls = tabCalls(name);
+}

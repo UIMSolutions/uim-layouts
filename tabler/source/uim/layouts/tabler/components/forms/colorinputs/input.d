@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABFormColorInput : BS5Obj {
-  mixin(TABThis!("input", ["form-colorinput-input"], null, true));
+  mixin TABThis!("input", ["form-colorinput-input"], null, true));
 }
 static TABFormColorInput");
 

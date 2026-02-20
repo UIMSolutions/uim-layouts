@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABStatusIndicator : BS5Obj {
-  mixin(TABThis!("span", ["status-indicator"]));
+  mixin TABThis!("span", ["status-indicator"]));
 
   override void initialize() {
     super.initialize;

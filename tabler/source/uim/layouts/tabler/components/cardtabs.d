@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABCardTabs : H5Div {
-  mixin(TABThis!(["card-tabs"]));
+  mixin TABThis!(["card-tabs"]));
 
 static TABCardTabs opCall() {
   return new TABCardTabs;

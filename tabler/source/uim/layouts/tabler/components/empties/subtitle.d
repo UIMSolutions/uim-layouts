@@ -6,12 +6,18 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABEmptySubtitle : BS5Obj {
-  mixin(TABThis!("p", ["empty-subtitle"]));
-}
-static TABEmptySubtitle");
 
+/**
+  * Tabler empty subtitle component.
+  *
+  * https://tabler.io/docs/empty#subtitle
+  */
+class TABEmptySubtitle : H5P {
+  mixin TABThis!("p", ["empty-subtitle"]));
+
+  mixin(TABCalls!("EmptySubtitle"));
+}
 ///
 unittest {
-  assert(TABEmptySubtitle == `<p class="empty-subtitle"></p>`);
-}}
+  assert(TABEmptySubtitle() == `<p class="empty-subtitle"></p>`);
+}

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABTimelineTime : H5Div {
-  mixin(TABThis!(["list-timeline-time"]));
+  mixin TABThis!(["list-timeline-time"]));
 
 static TABTimelineTime opCall() {
   return new TABTimelineTime;  

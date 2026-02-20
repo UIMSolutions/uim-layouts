@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABDatagridTitle : H5Div {
-  mixin(TABThis!(["datagrid-title"]));
+  mixin TABThis!(["datagrid-title"]));
 
   auto color(string newColor){ this.addClasses("bg-"~newColor); return this; }
 }

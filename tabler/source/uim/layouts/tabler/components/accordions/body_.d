@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 /* class TABAccordionBody : H5Div {
-  mixin(TABThis!(["accordion-body"]));
+  mixin TABThis!(["accordion-body"]));
 }
 static TABAccordionBody");
 

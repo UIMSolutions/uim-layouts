@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class DTABFormCheckLabel : BS5Obj {
-  mixin(TABThis!("span", ["form-check-label"]));
+  mixin TABThis!("span", ["form-check-label"]));
 }
 static TABFormCheckLabel");
 

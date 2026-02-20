@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABSelectgroupInput : BS5Obj {
-  mixin(TABThis!("input", ["form-selectgroup-input"], null, true));
+  mixin TABThis!("input", ["form-selectgroup-input"], null, true));
 }
 static TABSelectgroupInput");
 

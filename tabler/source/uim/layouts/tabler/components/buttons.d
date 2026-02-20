@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABButtonIcon : BS5Button {
-  mixin(TABThis!("Button", ["btn-icon"]));
+  mixin TABThis!("Button", ["btn-icon"]));
 
   override void initialize() {
     super.initialize;
@@ -26,7 +26,7 @@ unittest {
 }
 
 class TABButtonIconLink : BS5ButtonLink {
-  mixin(TABThis!("A", ["btn-icon"]));
+  mixin TABThis!("A", ["btn-icon"]));
 
   override void initialize() {
     super.initialize();
@@ -47,7 +47,7 @@ unittest {
 }
 
 class TABButtonSquare : BS5Button {
-  mixin(TABThis!("Button", ["btn-square"]));
+  mixin TABThis!("Button", ["btn-square"]));
 
   static TABButtonSquare opCall() {
   return new TABButtonSquare;
@@ -59,7 +59,7 @@ unittest {
 }
 
 class TABButtonSquareLink : BS5ButtonLink {
-  mixin(TABThis!("A", ["btn-square"]));
+  mixin TABThis!("A", ["btn-square"]));
 
   override void initialize() {
     super.initialize();
@@ -76,7 +76,7 @@ unittest {
 }}
 
 class TABButtonPill : BS5Button {
-  mixin(TABThis!("Button", ["btn-pill"]));
+  mixin TABThis!("Button", ["btn-pill"]));
 }
 static TABButtonPill");
 
@@ -86,7 +86,7 @@ unittest {
 }}
 
 class TABButtonPillLink : BS5ButtonLink {
-  mixin(TABThis!("A", ["btn-pill"]));
+  mixin TABThis!("A", ["btn-pill"]));
 }
 static TABButtonPillLink");
 

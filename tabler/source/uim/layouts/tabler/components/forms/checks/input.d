@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class DTABFormCheckInput : BS5Obj {
-  mixin(TABThis!("input", ["form-check-input"], null, true));
+  mixin TABThis!("input", ["form-check-input"], null, true));
 }
 static TABFormCheckInput");
 

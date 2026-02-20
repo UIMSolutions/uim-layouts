@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABDropdownMenuColumns : H5Div {
-  mixin(TABThis!(["dropdown-menu-columns"]));
+  mixin TABThis!(["dropdown-menu-columns"]));
 
   mixin(MyContent!("column", "BS5DropdownMenuColumn"));
 }

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABCardButton : BS5Obj {
-  mixin(TABThis!("A", ["card-btn"]));
+  mixin TABThis!("A", ["card-btn"]));
 
 static TABCardButton opCall() {
   return new TABCardButton;

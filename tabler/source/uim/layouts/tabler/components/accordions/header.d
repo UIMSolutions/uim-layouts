@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 /* class TABAccordionHeader : BS5Obj {
-  mixin(TABThis!("h2", ["accordion-header"]));
+  mixin TABThis!("h2", ["accordion-header"]));
 }
 static TABAccordionHeader");
 

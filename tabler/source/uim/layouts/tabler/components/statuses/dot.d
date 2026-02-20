@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABStatusDot : BS5Obj {
-  mixin(TABThis!("span", ["status-dot"]));
+  mixin TABThis!("span", ["status-dot"]));
 
   O animated(bool value = true){ if (value) this.classes("status-dot-animated"); return this; }
 

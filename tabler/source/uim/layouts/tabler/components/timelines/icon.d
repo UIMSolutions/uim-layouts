@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABTimelineIcon : H5Div {
-  mixin(TABThis!(["list-timeline-icon"]));
+  mixin TABThis!(["list-timeline-icon"]));
 
   auto color(string value){ this.classes("bg-"~value); return this; }
 

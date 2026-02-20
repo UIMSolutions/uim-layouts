@@ -6,12 +6,12 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABEmptyTitle : BS5Obj {
-  mixin(TABThis!("p", ["empty-title"]));
-}
-static TABEmptyTitle");
+class TABEmptyTitle : H5P {
+  mixin TABThis!(["empty-title"]));
 
+  mixin(TABCalls!("EmptyTitle"));
+}
 ///
 unittest {
   assert(TABEmptyTitle == `<p class="empty-title"></p>`);
-}}
+}

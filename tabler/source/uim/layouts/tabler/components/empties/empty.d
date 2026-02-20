@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmpty : H5Div {
-  mixin(TABThis!(["empty"]));
+  mixin TABThis!(["empty"]));
 
   mixin(MyContent!("action", "BS5EmptyAction"));
 

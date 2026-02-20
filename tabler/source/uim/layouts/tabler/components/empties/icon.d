@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmptyIcon : H5Div {
-  mixin(TABThis!(["empty-icon"]));
-}
-static TABEmptyIcon");
+  mixin TABThis!(["empty-icon"]));
 
+  mixin(TABCalls!("EmptyIcon"));
+}
 ///
 unittest {
-  assert(TABEmptyIcon, `<div class="empty-icon"></div>`);
-}}
+  assert(TABEmptyIcon() == `<div class="empty-icon"></div>`);
+}

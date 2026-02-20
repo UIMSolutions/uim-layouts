@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABDatagridItem : H5Div {
-  mixin(TABThis!(["datagrid-item"]));
+  mixin TABThis!(["datagrid-item"]));
 
   TABDatagridItem color(string value) {
     this.addClasses("bg-" ~ value);
@@ -20,6 +20,6 @@ class TABDatagridItem : H5Div {
 }
 ///
 unittest {
-  assert(TABDatagridItem, `<div class="datagrid-item"></div>`);
-  assert(TABDatagridItem.color("blue"), `<div class="bg-blue datagrid-item"></div>`);
+  assert(TABDatagridItem == `<div class="datagrid-item"></div>`);
+  assert(TABDatagridItem.color("blue") == `<div class="bg-blue datagrid-item"></div>`);
 }

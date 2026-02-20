@@ -4,8 +4,8 @@ import uim.layouts.tabler;
 
 @safe:
 
-class TABTimelineTitle : BS5Obj {
-  mixin(TABThis!("p", ["list-timeline-title"]));
+class TABTimelineTitle : H5P {
+  mixin TABThis!("p", ["list-timeline-title"]));
 
   static TABTimelineTitle opCall() {
     return new TABTimelineTitle;

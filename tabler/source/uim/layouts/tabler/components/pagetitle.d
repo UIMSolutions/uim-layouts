@@ -5,7 +5,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABPageTitle : BS5Obj {
-  mixin(TABThis!("h2", ["page-title"]));
+  mixin TABThis!("h2", ["page-title"]));
 
   static TABPageTitle opCall() {
     return new TABPageTitle;

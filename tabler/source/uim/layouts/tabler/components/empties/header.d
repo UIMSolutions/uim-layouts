@@ -7,9 +7,10 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmptyHeader : H5Div {
-  mixin(TABThis!(["empty-header"]));
+  mixin TABThis!(["empty-header"]));
+
+  mixin(TABCalls!("EmptyHeader"));
 }
-static TABEmptyHeader");
 
 ///
 unittest {

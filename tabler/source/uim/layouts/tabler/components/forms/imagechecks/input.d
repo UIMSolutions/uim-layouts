@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABImageCheckInput : BS5Obj {
-  mixin(TABThis!("input", ["form-imagecheck-input"]));
+  mixin TABThis!("input", ["form-imagecheck-input"]));
 
   override public void initialize() {
     super.initialize;
