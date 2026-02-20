@@ -1,0 +1,25 @@
+module uim.bootstrap.bs4.apps.app;
+
+import uim.bootstrap;
+
+mixin(ShowModule!());
+
+@safe: 
+
+/* class BS4App : DH5App {
+  this() { super(); }
+  this(string aName) { super(aName); }
+  this(string aName, string aRootPath) { super(aName, aRootPath); }
+//   this(string aName, string aRootPath, STRINGAA someParameters) { super(aName, aRootPath, parameters); }
+
+/*   override void init() {
+    this
+    .styles(["href":"/lib/bootstrap/last/css/bootstrap.min.css", "rel":"stylesheet"])
+    .scripts(
+      ["src":"/lib/jquery/last/jquery.min.js"], 
+      ["src":"/lib/bootstrap/last/js/bootstrap.bundle.min.js"]);
+  } * /
+}
+auto BS4App() { return new BS4App; }
+auto BS4App(string aName) { return new BS4App(aName); }
+auto BS4App(string aName, string aRootPath) { return new BS4App(aName, aRootPath); } */

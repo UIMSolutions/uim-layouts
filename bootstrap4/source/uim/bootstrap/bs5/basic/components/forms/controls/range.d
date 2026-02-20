@@ -1,0 +1,21 @@
+﻿module uim.bootstrap.bs5.basic.components.forms.controls.range;
+
+import uim.bootstrap;
+
+mixin(ShowModule!());
+
+@safe:  
+
+class BS5InputRange : BS5Input {
+  mixin BS5This!(null, null, `["type":"range"]`));
+
+  override void initialize (Json aConfig = Json(null)) {
+    super.initialize(aConfig);
+  }
+}
+static BS5InputRange"));
+
+///
+unittest {
+  assert(BS5InputRange == `<input class="form-control" type="range">`);  
+}}
