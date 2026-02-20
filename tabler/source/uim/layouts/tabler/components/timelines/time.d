@@ -6,14 +6,16 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * TimelineTime is used to create a time for the timeline.
+ * https://tabler.io/docs/components/timeline#time
+ */
 class TABTimelineTime : H5Div {
-  mixin TABThis!(["list-timeline-time"]));
+  mixin TABThis!(["list-timeline-time"]);
 
-static TABTimelineTime opCall() {
-  return new TABTimelineTime;  
-}}
-
+  mixin(TABCalls!("TimelineTime"));
+}
 ///
 unittest {
-  assert(TABTimelineTime == `<div class="list-timeline-time"></div>`);
+  assert(TABTimelineTime() == `<div class="list-timeline-time"></div>`);
 }

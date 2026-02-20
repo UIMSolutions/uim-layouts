@@ -7,19 +7,24 @@ mixin(ShowModule!());
 @safe:
 
 class TABStatus : H5Span {
-  mixin TABThis!( ["status"]));
+  mixin TABThis!(["status"]);
 
-  auto color(string value){ this.addClasses("status-"~value); return this; }
+  TABStatus color(string value) {
+    this.addClasses("status-" ~ value);
+    return this;
+  }
 
-  O lite(bool value = true){ if (value) this.addClasses("status-lite"); return this; }
+  TABStatus lite(bool value = true) {
+    if (value)
+      this.addClasses("status-lite");
+    return this;
+  }
 
-static TABStatus opCall() {
-  return new TABStatus;
-}}
-
+  mixin(TABCalls!("Status"));
+}
 ///
 unittest {
-  assert(TABStatus == `<span class="status"></span>`);
-  assert(TABStatus.color("blue") == `<span class="status status-blue"></span>`);
-  assert(TABStatus.lite == `<span class="status status-lite"></span>`);
+  assert(TABStatus() == `<span class="status"></span>`);
+  assert(TABStatus().color("blue") == `<span class="status status-blue"></span>`);
+  assert(TABStatus().lite() == `<span class="status status-lite"></span>`);
 }

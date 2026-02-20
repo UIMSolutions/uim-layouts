@@ -6,15 +6,22 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * DatagridTitle is used to create a title for the Datagrid component.
+ * https://tabler.io/docs/datagrid
+ */
 class TABDatagridTitle : H5Div {
-  mixin TABThis!(["datagrid-title"]));
+  mixin TABThis!(["datagrid-title"]);
 
-  auto color(string newColor){ this.addClasses("bg-"~newColor); return this; }
+  TABDatagridTitle color(string newColor) {
+    this.addClasses("bg-" ~ newColor);
+    return this;
+  }
+
+  mixin(TABCalls!("DatagridTitle"));
 }
-static TABDatagridTitle");
-
 ///
 unittest {
-  assert(TABDatagridTitle, `<div class="datagrid-title"></div>`);
-  assert(TABDatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
-}}
+  assert(TABDatagridTitle() == `<div class="datagrid-title"></div>`);
+  assert(TABDatagridTitle.color("blue") == `<div class="bg-blue datagrid-title"></div>`);
+}

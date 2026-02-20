@@ -4,25 +4,57 @@ import uim.layouts.tabler;
 
 @safe:
 
+/** 
+ * DropdownMenuColumn is used to create a column for the dropdown menu.
+ * https://tabler.io/docs/components/dropdown#dropdown-menu-column
+ */
 class TABDropdownMenuColumn : H5Div {
-  mixin TABThis!(["dropdown-menu-column"]));
+  mixin TABThis!(["dropdown-menu-column"]);
 
-  mixin(MyAttribute!("label", "aria-labelledby"));
-
-  auto addDivider() { addContent(BS5DropdownDivider); return this; }
-  auto addHeader() { addContent(BS5DropdownHeader); return this; }
-  auto addItem() { addContent(BS5DropdownItem); return this; }
-  auto addForm() { addContent(BS5DropdownForm); return this; }
-  auto addLink() { addContent(BS5DropdownLink); return this; }
-  auto addText() { addContent(BS5DropdownText); return this; }
-
-  static TABDropdownMenuColumn opCall() {
-    return new TABDropdownMenuColumn;
+  TABDropdownMenuColumn label(string value) {
+    this.addAttribute("aria-labelledby", value);
+    return this;
   }
+
+  IHTMLAttribute label() {
+    return this.addAttribute("aria-labelledby");
+  }
+
+  TABDropdownMenuColumn addDivider() {
+    addContent(BS5DropdownDivider);
+    return this;
+  }
+
+  TABDropdownMenuColumn addHeader() {
+    addContent(BS5DropdownHeader);
+    return this;
+  }
+
+  TABDropdownMenuColumn addItem() {
+    addContent(BS5DropdownItem);
+    return this;
+  }
+
+  TABDropdownMenuColumn addForm() {
+    addContent(BS5DropdownForm);
+    return this;
+  }
+
+  TABDropdownMenuColumn addLink() {
+    addContent(BS5DropdownLink);
+    return this;
+  }
+
+  TABDropdownMenuColumn addText() {
+    addContent(BS5DropdownText);
+    return this;
+  }
+
+  mixin(TABCalls!("DropdownMenuColumn"));
 }
 ///
 unittest {
-  assert(TABDropdownMenuColumn, `<div class="dropdown-menu-column"></div>`);
-  assert(TABDropdownMenuColumn.addLink(), `<div class="dropdown-menu-column"><a class="dropdown-item"></a></div>`);
+  assert(TABDropdownMenuColumn() == `<div class="dropdown-menu-column"></div>`);
+  assert(TABDropdownMenuColumn()
+      .addLink() == `<div class="dropdown-menu-column"><a class="dropdown-item"></a></div>`);
 }
-

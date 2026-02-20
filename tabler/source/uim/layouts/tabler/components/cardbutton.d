@@ -6,13 +6,15 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABCardButton : BS5Obj {
-  mixin TABThis!("A", ["card-btn"]));
+/** 
+ * CardButton is used to create a button in the Card component.
+ * https://tabler.io/docs/card#card-buttons
+ */
+class TABCardButton : H5A {
+  mixin TABThis!(["card-btn"]);
 
-static TABCardButton opCall() {
-  return new TABCardButton;
-}}
-
+  mixin(TABCalls!("CardButton"));
+}
 ///
 unittest {
   assert(TABCardButton == `<a class="card-btn"></a>`);
