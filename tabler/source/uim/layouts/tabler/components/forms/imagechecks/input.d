@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.forms.imagechecks.input;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5ImageCheckInput : BS5Obj {

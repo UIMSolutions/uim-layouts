@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.empties.image;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5EmptyImage : BS5Obj {

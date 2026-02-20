@@ -10,6 +10,6 @@ public import uim.oop;
 public import uim.html;
 public import uim.bootstrap.bs5;
 
-public import layouts.tabler.obj;
-public import layouts.tabler.components;
+public import uim.layouts.tabler.obj;
+public import uim.layouts.tabler.components;
 

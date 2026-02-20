@@ -1,4 +1,4 @@
 module uim.layouts.tabler.obj;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:

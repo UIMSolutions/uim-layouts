@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.buttons;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5ButtonIcon : BS5Button {
@@ -45,11 +45,11 @@ unittest {
 
 class BS5ButtonSquare : BS5Button {
   mixin(H5This!("Button", ["btn-square"]));
-}
-static BS5ButtonSquare opCall() {
-  return new BS5ButtonSquare;
-}}
 
+  static BS5ButtonSquare opCall() {
+  return new BS5ButtonSquare;
+}
+}
 ///
 unittest {
   assert(BS5ButtonSquare == `<button class="btn btn-square" type="button"></button>`);

@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.pageheader;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 
 @safe:
 

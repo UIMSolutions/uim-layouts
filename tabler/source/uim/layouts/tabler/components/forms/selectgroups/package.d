@@ -1,5 +1,5 @@
 module uim.layouts.tabler.components.forms.selectgroups;
 
-public import layouts.tabler.components.forms.selectgroups.input;
-public import layouts.tabler.components.forms.selectgroups.item;
-public import layouts.tabler.components.forms.selectgroups.label;
+public import uim.layouts.tabler.components.forms.selectgroups.input;
+public import uim.layouts.tabler.components.forms.selectgroups.item;
+public import uim.layouts.tabler.components.forms.selectgroups.label;

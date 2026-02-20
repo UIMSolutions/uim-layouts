@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.forms.colorinputs.radio;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5FormColorInputRadio : BS5FormColorInput {

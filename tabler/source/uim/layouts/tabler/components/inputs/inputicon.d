@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.inputs.inputicon;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5InputIcon : BS5Obj {

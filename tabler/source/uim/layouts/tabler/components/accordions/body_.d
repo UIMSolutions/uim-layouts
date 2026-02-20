@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.accordions.body_;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 /* class BS5AccordionBody : BS5Obj {

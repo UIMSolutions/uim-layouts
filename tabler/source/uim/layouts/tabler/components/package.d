@@ -1,33 +1,33 @@
 module uim.layouts.tabler.components;
 
-public import layouts.tabler;
+public import uim.layouts.tabler;
 @safe:
 
 // Packages
-public import layouts.tabler.components.accordions;
-public import layouts.tabler.components.avatars;
-public import layouts.tabler.components.buttons;
-public import layouts.tabler.components.cards;
-public import layouts.tabler.components.datagrids;
-public import layouts.tabler.components.forms;
-public import layouts.tabler.components.inputs;
-public import layouts.tabler.components.icons;
-public import layouts.tabler.components.lists;
-public import layouts.tabler.components.navs;
-public import layouts.tabler.components.statuses;
-public import layouts.tabler.components.timelines;
+public import uim.layouts.tabler.components.accordions;
+public import uim.layouts.tabler.components.avatars;
+public import uim.layouts.tabler.components.buttons;
+public import uim.layouts.tabler.components.cards;
+public import uim.layouts.tabler.components.datagrids;
+public import uim.layouts.tabler.components.forms;
+public import uim.layouts.tabler.components.inputs;
+public import uim.layouts.tabler.components.icons;
+public import uim.layouts.tabler.components.lists;
+public import uim.layouts.tabler.components.navs;
+public import uim.layouts.tabler.components.statuses;
+public import uim.layouts.tabler.components.timelines;
 
 // Modules
-public import layouts.tabler.components.cardbutton;
-public import layouts.tabler.components.cardtabs;
-public import layouts.tabler.components.dropend;
-public import layouts.tabler.components.empties;
-public import layouts.tabler.components.footer;
-public import layouts.tabler.components.menucolumn;
-public import layouts.tabler.components.menucolumns;
-public import layouts.tabler.components.pageheader;
-public import layouts.tabler.components.pagetitle;
-public import layouts.tabler.components.ribbons;
+public import uim.layouts.tabler.components.cardbutton;
+public import uim.layouts.tabler.components.cardtabs;
+public import uim.layouts.tabler.components.dropend;
+public import uim.layouts.tabler.components.empties;
+public import uim.layouts.tabler.components.footer;
+public import uim.layouts.tabler.components.menucolumn;
+public import uim.layouts.tabler.components.menucolumns;
+public import uim.layouts.tabler.components.pageheader;
+public import uim.layouts.tabler.components.pagetitle;
+public import uim.layouts.tabler.components.ribbons;
 
 auto label(BS5DropdownMenu menu, string content) {
   return menu(H5Label(["dropdown-item"], content));

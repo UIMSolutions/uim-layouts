@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.forms.selectgroups.label;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5SelectgroupLabel : BS5Obj {

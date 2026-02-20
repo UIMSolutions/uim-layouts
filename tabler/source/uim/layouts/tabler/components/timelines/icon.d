@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.timelines.icon;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5TimelineIcon : BS5Obj {

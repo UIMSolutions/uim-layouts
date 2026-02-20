@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.datagrids.content;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 
 @safe:
 

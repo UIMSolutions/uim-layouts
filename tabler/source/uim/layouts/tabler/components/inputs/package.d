@@ -1,7 +1,7 @@
 module uim.layouts.tabler.components.inputs;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
-public import layouts.tabler.components.inputs.inputicon;
+public import uim.layouts.tabler.components.inputs.inputicon;
 

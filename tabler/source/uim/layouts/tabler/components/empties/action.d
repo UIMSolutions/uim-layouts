@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.empties.action;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5EmptyAction : BS5Obj {

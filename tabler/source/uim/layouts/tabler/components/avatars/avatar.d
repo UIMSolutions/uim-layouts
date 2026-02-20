@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.avatars.avatar;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5Avatar : BS5Obj {

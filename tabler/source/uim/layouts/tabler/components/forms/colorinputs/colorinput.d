@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.forms.colorinputs.colorinput;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5FormColorinput : BS5Obj {

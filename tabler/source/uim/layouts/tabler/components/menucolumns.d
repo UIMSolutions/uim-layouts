@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.menucolumns;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5DropdownMenuColumns : BS5Obj {

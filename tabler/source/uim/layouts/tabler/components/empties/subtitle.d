@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.empties.subtitle;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5EmptySubtitle : BS5Obj {

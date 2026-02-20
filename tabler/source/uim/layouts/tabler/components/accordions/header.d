@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.accordions.header;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 /* class BS5AccordionHeader : BS5Obj {

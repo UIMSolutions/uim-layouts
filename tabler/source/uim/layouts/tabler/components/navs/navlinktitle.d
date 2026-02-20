@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.navs.navlinktitle;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5NavLinkTitle : BS5Obj {

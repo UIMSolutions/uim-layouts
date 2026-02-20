@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.datagrids.title;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5DatagridTitle : BS5Obj {

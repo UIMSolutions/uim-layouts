@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.icons;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 auto tablerIcon(string name) {

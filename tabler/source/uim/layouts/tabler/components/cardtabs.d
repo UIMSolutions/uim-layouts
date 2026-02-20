@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.cardtabs;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5CardTabs : BS5Obj {

@@ -1,11 +1,11 @@
 module uim.layouts.tabler.components.forms.imagechecks;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
-public import layouts.tabler.components.forms.imagechecks.figure;
-public import layouts.tabler.components.forms.imagechecks.input;
-public import layouts.tabler.components.forms.imagechecks.image;
-public import layouts.tabler.components.forms.imagechecks.imagecontent;
-public import layouts.tabler.components.forms.imagechecks.label;
+public import uim.layouts.tabler.components.forms.imagechecks.figure;
+public import uim.layouts.tabler.components.forms.imagechecks.input;
+public import uim.layouts.tabler.components.forms.imagechecks.image;
+public import uim.layouts.tabler.components.forms.imagechecks.imagecontent;
+public import uim.layouts.tabler.components.forms.imagechecks.label;
 

@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.accordions.collapse;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 /* class BS5AccordionCollapse : BS5Obj {

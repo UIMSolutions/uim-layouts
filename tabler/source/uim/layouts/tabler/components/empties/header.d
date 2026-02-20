@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.empties.header;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5EmptyHeader : BS5Obj {

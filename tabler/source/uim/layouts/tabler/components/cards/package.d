@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.cards;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 auto navbarFirst() {

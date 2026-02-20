@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.cardbutton;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5CardButton : BS5Obj {

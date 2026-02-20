@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.statuses.status;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5Status : BS5Obj {

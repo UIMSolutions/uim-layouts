@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.forms.checks.label;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class DTABFormCheckLabel : BS5Obj {

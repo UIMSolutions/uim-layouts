@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.forms.checks.input;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class DTABFormCheckInput : BS5Obj {

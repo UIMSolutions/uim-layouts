@@ -1,4 +1,4 @@
 module uim.layouts.tabler.components.avatars;
 
-public import layouts.tabler.components.avatars.avatar;
-public import layouts.tabler.components.avatars.list;
+public import uim.layouts.tabler.components.avatars.avatar;
+public import uim.layouts.tabler.components.avatars.list;

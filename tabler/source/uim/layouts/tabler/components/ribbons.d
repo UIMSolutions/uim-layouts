@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.ribbons;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 
 @safe:
 

@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.forms.selectgroups.input;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5SelectgroupInput : BS5Obj {

@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.timelines.time;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5TimelineTime : BS5Obj {

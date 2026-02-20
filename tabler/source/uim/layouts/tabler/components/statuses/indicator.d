@@ -1,6 +1,6 @@
 module uim.layouts.tabler.components.statuses.indicator;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5StatusIndicator : BS5Obj {

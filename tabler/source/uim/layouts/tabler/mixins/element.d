@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:
 
-template TABThis(string[] thisClasses = null, string[string] thisAttributes = null, string thisContent = "") {
+template TABThis(string[] thisClasses = null, string[string] thisAttributes = null, string thisContent = "", IHtmlElement[] thisElements = null) {
   this() {
     super(thisClasses, thisAttributes, thisContent);
   }
@@ -20,7 +20,8 @@ template TABThis(string[] thisClasses = null, string[string] thisAttributes = nu
   }
 
   this(string[] classes, IHtmlElement[] elements) {
-    super(thisClasses ~ classes, thisAttributes, thisContent, elements);
+    super(thisClasses ~ classes, thisAttributes, thisContent);
+    this.elements(elements);
   }
 
   this(string[string] attributes, string content = "") {
@@ -28,7 +29,8 @@ template TABThis(string[] thisClasses = null, string[string] thisAttributes = nu
   }
 
   this(string[string] attributes, IHtmlElement[] elements) {
-    super(thisClasses, thisAttributes ~ attributes, thisContent, elements);
+    super(thisClasses, thisAttributes ~ attributes, thisContent);
+    this.elements(elements);
   }
 
   this(string[] classes, string[string] attributes, string content = "") {
@@ -36,7 +38,8 @@ template TABThis(string[] thisClasses = null, string[string] thisAttributes = nu
   }
 
   this(string[] classes, string[string] attributes, IHtmlElement[] elements) {
-    super(thisClasses ~ classes, thisAttributes ~ attributes, thisContent, elements);
+    super(thisClasses ~ classes, thisAttributes ~ attributes, thisContent);
+    this.elements(elements);
   }
 }
 

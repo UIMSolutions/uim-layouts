@@ -1,5 +1,5 @@
 module uim.layouts.tabler.components.forms.cards;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 

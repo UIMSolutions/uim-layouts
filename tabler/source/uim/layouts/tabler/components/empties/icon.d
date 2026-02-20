@@ -1,6 +1,6 @@
 ﻿module uim.layouts.tabler.components.empties.icon;
 
-import layouts.tabler;
+import uim.layouts.tabler;
 @safe:
 
 class BS5EmptyIcon : BS5Obj {
