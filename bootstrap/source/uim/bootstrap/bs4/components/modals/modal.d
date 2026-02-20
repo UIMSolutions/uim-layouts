@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4Modal : BS4Obj {
-  mixin(H5This!("DIV", ["modal"], `["tabindex":"-1", "role":"dialog", "aria-hidden":"true"]`));
+class BS4Modal : H5Div {
+  mixin H5This!( ["modal"], `["tabindex":"-1", "role":"dialog", "aria-hidden":"true"]`));
   ///
 unittest {
     assert(BS4Modal == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);

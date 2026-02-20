@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4CardDeckwrapper : BS4Obj {
-  mixin(H5This!("DIV", ["card-deck-wrapper"]));
+class BS4CardDeckwrapper : H5Div {
+  mixin H5This!( ["card-deck-wrapper"]));
 }
 static BS4CardDeckwrapper");
 

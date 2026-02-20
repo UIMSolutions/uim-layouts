@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4Collapse : BS4Obj {
-  mixin(H5This!("Div", ["collapse"]));
+class BS4Collapse : H5Div {
+  mixin H5This!( ["collapse"]));
 }
 static BS4Collapse");
 

@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4ModalBody : BS4Obj {
-  mixin(H5This!("Div", ["modal-body"]));
+class BS4ModalBody : H5Div {
+  mixin H5This!( ["modal-body"]));
 }
 
 static BS4ModalBody");

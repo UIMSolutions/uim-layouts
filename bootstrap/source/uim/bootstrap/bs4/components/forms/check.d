@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4FormCheck : BS4Obj {
-  mixin(H5This!("Div", ["form-check"]));
+class BS4FormCheck : H5Div {
+  mixin H5This!( ["form-check"]));
   mixin(TProperty!("string", "forId"));
 
   O inline(bool mode = true) { if (mode) this.addClasses("form-check-inline"); return this; }

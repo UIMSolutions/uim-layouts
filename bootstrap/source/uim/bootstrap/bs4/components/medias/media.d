@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4Media : BS4Obj {
-  mixin(H5This!("DIV", ["media"]));
+class BS4Media : H5Div {
+  mixin H5This!( ["media"]));
 
   mixin(MyContent!("body_", "BS4MediaBody"));
 }

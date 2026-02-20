@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4CardBlock : BS4Obj {
-  mixin(H5This!("DIV", ["card-block"]));
+class BS4CardBlock : H5Div {
+  mixin H5This!( ["card-block"]));
 }
 
 static BS4CardBlock");

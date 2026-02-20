@@ -6,6 +6,10 @@ mixin(ShowModule!());
 
 @safe:
 
+/**
+ * Dropdown menu columns.
+ * https://tabler.io/docs/components/dropdown-menu-columns/
+ */
 class TABDropdownMenuColumns : H5Div {
   mixin TABThis!(["dropdown-menu-columns"]);
 

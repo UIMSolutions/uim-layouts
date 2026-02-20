@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4ProgressBar : BS4Obj {
-  mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));
+class BS4ProgressBar : H5Div {
+  mixin H5This!( ["progress-bar"], `["role":"progressbar"]`));
 
   O valueNow(string value) { return this.attributes(["aria-valuenow":value]); }
   O valueMin(string value) { return this.attributes(["aria-valuemin":value]); }

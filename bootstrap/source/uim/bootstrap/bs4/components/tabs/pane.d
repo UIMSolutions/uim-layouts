@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4TabPane : BS4Obj {
-  mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
+class BS4TabPane : H5Div {
+  mixin H5This!( ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
 
   O active(bool value = true) { if (value) { this.addClasses("active").attributes("aria-expanded", "true"); } return this; }
   O fade(bool value = true) { if (value) this.addClasses("fade"); return this; }

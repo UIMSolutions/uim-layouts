@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4InputGroupText : BS4Obj {
-  mixin(H5This!("DIV", ["input-group-text"]));
+class BS4InputGroupText : H5Div {
+  mixin H5This!( ["input-group-text"]));
 }
 static BS4InputGroupText");
 

@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4ModalFooter : BS4Obj {
-  mixin(H5This!("DIV", ["modal-footer"]));
+class BS4ModalFooter : H5Div {
+  mixin H5This!( ["modal-footer"]));
 }
 static BS4ModalFooter");
 

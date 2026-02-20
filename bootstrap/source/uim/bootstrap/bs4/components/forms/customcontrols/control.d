@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4CustomControl : BS4Obj {
-  mixin(H5This!("DIV", ["custom-control"]));
+class BS4CustomControl : H5Div {
+  mixin H5This!( ["custom-control"]));
 
   mixin(MyContent!("checkbox", "BS4CustomCheckbox"));
   mixin(MyContent!("input", "BS4CustomInput"));

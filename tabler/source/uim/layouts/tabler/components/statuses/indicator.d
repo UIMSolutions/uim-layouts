@@ -19,23 +19,22 @@ class TABStatusIndicator : H5Span {
     );
   }
 
-  O animated(bool value = true) {
+  TABStatusIndicator animated(bool value = true) {
     if (value)
       this.addClasses("status-indicator-animated");
     return this;
   }
 
-  auto color(string value) {
+  TABStatusIndicator color(string value) {
     this.addClasses("status-" ~ value);
     return this;
   }
 
   mixin(TABCalls!("StatusIndicator"));
 }
-
 ///
 unittest {
-  assert(TABStatusIndicator == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
-  assert(TABStatusIndicator.animated == `<span class="status-indicator status-indicator-animated"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
-  assert(TABStatusIndicator.color("blue") == `<span class="status-blue status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(TABStatusIndicator() == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(TABStatusIndicator().animated() == `<span class="status-indicator status-indicator-animated"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(TABStatusIndicator().color("blue") == `<span class="status-blue status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
 }

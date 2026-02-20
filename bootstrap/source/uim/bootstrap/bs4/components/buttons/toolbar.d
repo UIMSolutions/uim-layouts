@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4ButtonToolbar : BS4Obj {
-  mixin(H5This!("DIV", ["btn-toolbar"], `["role":"toolbar"]`));
+class BS4ButtonToolbar : H5Div {
+  mixin H5This!( ["btn-toolbar"], `["role":"toolbar"]`));
 
   mixin(MyAttribute!("label", "aria-label"));
   ///

@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4CustomFile : BS4Obj {
-  mixin(H5This!("DIV", ["custom-file"]));
+class BS4CustomFile : H5Div {
+  mixin H5This!( ["custom-file"]));
 
   mixin(MyContent!("input", "BS4CustomFileInput"));
   mixin(MyContent!("label", "BS4CustomFileLabel"));

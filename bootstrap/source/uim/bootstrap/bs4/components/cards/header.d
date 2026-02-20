@@ -8,8 +8,8 @@ mixin(ShowModule!());
 
 
 /// CardHeader adds a header to a card
-class BS4CardHeader : BS4Obj {
-  mixin(H5This!("DIV", ["card-header"]));
+class BS4CardHeader : H5Div {
+  mixin H5This!( ["card-header"]));
 }
 static BS4CardHeader");
 ///

@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS4TabContent : BS4Obj {
-  mixin(H5This!("DIV", ["tab-content"]));
+class BS4TabContent : H5Div {
+  mixin H5This!( ["tab-content"]));
 
   mixin(MyContent!("pane", "BS4TabPane"));
 }
