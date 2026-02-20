@@ -1,1 +1,0 @@
-module uim.bootstrap.bs5.icons;
