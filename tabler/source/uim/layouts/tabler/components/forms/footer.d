@@ -17,6 +17,7 @@ unittest {
   assert(TABFormFooter == `<div class="form-footer"></div>`);
 }
 
-auto footer(BS5Form form, BS5FormFooter addFooter) {
-  return form(addFooter);
-}
+// auto footer(BS5Form form, BS5FormFooter addFooter) {
+  // return form(addFooter);
+// }
+// 

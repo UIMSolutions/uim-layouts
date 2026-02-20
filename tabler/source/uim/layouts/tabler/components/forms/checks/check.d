@@ -10,15 +10,12 @@ mixin(ShowModule!());
  * Tabler form check component.
  * https://tabler.io/docs/forms#checks
  */
-class DTABFormCheck : H5Label {
+class TABFormCheck : H5Label {
   mixin TABThis!(["form-check"]);
 
-  DTABFormCheck addInput() {
-    addContent(new TABFormCheckInput());
-    return this;
-  }
+  mixin(AddContentCalls!("TABFormCheck", "Input", "Label"));
 
-  DTABFormCheck addLabel() {
+  TABFormCheck addLabel() {
     addContent(new TABFormCheckLabel());
     return this;
   }

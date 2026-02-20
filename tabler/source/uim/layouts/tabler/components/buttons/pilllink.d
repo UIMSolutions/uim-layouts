@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABButtonPillLink : TABButtonLink {
-  mixin TABThis!("A", ["btn-pill"]);
+  mixin TABThis!(["btn-pill"]);
   mixin(TABCalls!("ButtonPillLink"));
 }
 

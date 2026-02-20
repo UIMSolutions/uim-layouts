@@ -7,14 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABButtonSquareLink : TABButtonLink {
-  mixin TABThis!("A", ["btn-square"]);
-
-  override void initialize() {
-    super.initialize();
-
-    this
-      .addClasses("btn");
-  }
+  mixin TABThis!(["btn-square"]);
 
   mixin(TABCalls!("ButtonSquareLink"));
 }
