@@ -9,14 +9,17 @@ mixin(ShowModule!());
 class TABDatagridItem : H5Div {
   mixin(TABThis!(["datagrid-item"]));
 
-  auto color(string value){ this.addClasses("bg-"~value); return this; }
+  TABDatagridItem color(string value) {
+    this.addClasses("bg-" ~ value);
+    return this;
+  }
 
-static BS5DatagridItem opCall() {
+  static TABDatagridItem opCall() {
     return new BS5DatagridItem;
   }
 }
 ///
 unittest {
-  assert(BS5DatagridItem, `<div class="datagrid-item"></div>`);
-  assert(BS5DatagridItem.color("blue"),`<div class="bg-blue datagrid-item"></div>`);
+  assert(TABDatagridItem, `<div class="datagrid-item"></div>`);
+  assert(TABDatagridItem.color("blue"), `<div class="bg-blue datagrid-item"></div>`);
 }

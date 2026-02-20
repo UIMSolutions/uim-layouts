@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABSelectgroupLabel : BS5Obj {
   mixin(TABThis!("span", ["form-selectgroup-label"]));
 }
-static BS5SelectgroupLabel");
+static TABSelectgroupLabel");
 
 ///
 unittest {
-  assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`);
+  assert(TABSelectgroupLabel, `<span class="form-selectgroup-label"></span>`);
 }}
 
 

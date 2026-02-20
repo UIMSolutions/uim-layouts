@@ -13,13 +13,13 @@ class TABStatusDot : BS5Obj {
 
   auto color(string value){ this.classes("status-"~value); return this; }
 
-static BS5StatusDot opCall() {
+static TABStatusDot opCall() {
   return new BS5StatusDot;
 }}
 
 ///
 unittest {
-  assert(BS5StatusDot, `<span class="status-dot"></span>`);
-  assert(BS5StatusDot.animated,`<span class="status-dot status-dot-animated"></span>`);
-  assert(BS5Status.color("blue"),`<span class="status-dot status-blue"></span>`);
+  assert(TABStatusDot, `<span class="status-dot"></span>`);
+  assert(TABStatusDot.animated,`<span class="status-dot status-dot-animated"></span>`);
+  assert(TABStatus.color("blue"),`<span class="status-dot status-blue"></span>`);
 }

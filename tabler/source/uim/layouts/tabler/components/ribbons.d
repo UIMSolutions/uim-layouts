@@ -7,11 +7,11 @@ import uim.layouts.tabler;
 class TABRibbon : H5Div {
   mixin(TABThis!(["ribbon"]));
 
-  static BS5Ribbon opCall() {
+  static TABRibbon opCall() {
     return new BS5Ribbon;
   }
 }
 ///
 unittest {
-  assert(BS5Ribbon == `<div class="ribbon"></div>`);
+  assert(TABRibbon == `<div class="ribbon"></div>`);
 }

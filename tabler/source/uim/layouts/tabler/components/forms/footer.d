@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABFormFooter : H5Div {
   mixin(TABThis!(["form-footer"]));
 }
-static BS5FormFooter");
+static TABFormFooter");
 
 ///
 unittest {
-  assert(BS5FormFooter, `<div class="form-footer"></div>`);
+  assert(TABFormFooter, `<div class="form-footer"></div>`);
 }}
 
 auto footer(BS5Form form, BS5FormFooter addFooter) {

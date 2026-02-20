@@ -11,9 +11,9 @@ class TABDropdownMenuColumns : H5Div {
 
   mixin(MyContent!("column", "BS5DropdownMenuColumn"));
 }
-static BS5DropdownMenuColumns");
+static TABDropdownMenuColumns");
 
 version(test_layout_tabler) { unittest {
-  assert(BS5DropdownMenuColumns, `<div class="dropdown-menu-columns"></div>`);
-  assert(BS5DropdownMenuColumns.column, `<div class="dropdown-menu-columns"><div class="dropdown-menu-column"></div></div>`);
+  assert(TABDropdownMenuColumns, `<div class="dropdown-menu-columns"></div>`);
+  assert(TABDropdownMenuColumns.column, `<div class="dropdown-menu-columns"><div class="dropdown-menu-column"></div></div>`);
 }}

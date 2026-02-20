@@ -21,11 +21,11 @@ class TABEmpty : H5Div {
 
   mixin(MyContent!("title", "BS5EmptyTitle"));
 }
-static BS5Empty");
+static TABEmpty");
 
 ///
 unittest {
-  assert(BS5Empty == `<div class="empty"></div>`);
-  assert(BS5Empty.image == `<div class="empty"><div class="empty-img"></div></div>`);
-  assert(BS5Empty.image.image == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
+  assert(TABEmpty == `<div class="empty"></div>`);
+  assert(TABEmpty.image == `<div class="empty"><div class="empty-img"></div></div>`);
+  assert(TABEmpty.image.image == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
 }}

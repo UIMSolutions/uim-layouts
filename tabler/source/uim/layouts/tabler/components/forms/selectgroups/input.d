@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class TABSelectgroupInput : BS5Obj {
   mixin(TABThis!("input", ["form-selectgroup-input"], null, true));
 }
-static BS5SelectgroupInput");
+static TABSelectgroupInput");
 
 ///
 unittest {
-  assert(BS5SelectgroupInput, `<input class="form-selectgroup-input">`);
+  assert(TABSelectgroupInput, `<input class="form-selectgroup-input">`);
 }}

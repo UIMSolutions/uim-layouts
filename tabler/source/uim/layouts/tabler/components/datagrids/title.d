@@ -11,10 +11,10 @@ class TABDatagridTitle : H5Div {
 
   auto color(string newColor){ this.addClasses("bg-"~newColor); return this; }
 }
-static BS5DatagridTitle");
+static TABDatagridTitle");
 
 ///
 unittest {
-  assert(BS5DatagridTitle, `<div class="datagrid-title"></div>`);
-  assert(BS5DatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
+  assert(TABDatagridTitle, `<div class="datagrid-title"></div>`);
+  assert(TABDatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
 }}

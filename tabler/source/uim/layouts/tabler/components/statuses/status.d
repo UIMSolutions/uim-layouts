@@ -13,13 +13,13 @@ class TABStatus : BS5Obj {
 
   O lite(bool value = true){ if (value) this.addClasses("status-lite"); return this; }
 
-static BS5Status opCall() {
+static TABStatus opCall() {
   return new BS5Status;
 }}
 
 ///
 unittest {
-  assert(BS5Status == `<span class="status"></span>`);
-  assert(BS5Status.color("blue") == `<span class="status status-blue"></span>`);
-  assert(BS5Status.lite == `<span class="status status-lite"></span>`);
+  assert(TABStatus == `<span class="status"></span>`);
+  assert(TABStatus.color("blue") == `<span class="status status-blue"></span>`);
+  assert(TABStatus.lite == `<span class="status status-lite"></span>`);
 }

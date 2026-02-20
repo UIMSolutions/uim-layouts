@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class TABEmptySubtitle : BS5Obj {
   mixin(TABThis!("p", ["empty-subtitle"]));
 }
-static BS5EmptySubtitle");
+static TABEmptySubtitle");
 
 ///
 unittest {
-  assert(BS5EmptySubtitle == `<p class="empty-subtitle"></p>`);
+  assert(TABEmptySubtitle == `<p class="empty-subtitle"></p>`);
 }}

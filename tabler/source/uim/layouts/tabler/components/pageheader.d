@@ -7,12 +7,12 @@ import uim.layouts.tabler;
 class TABPageHeader : H5Div {
   mixin(TABThis!(["page-header"]));
 
-  static BS5PageHeader opCall() {
+  static TABPageHeader opCall() {
     return new BS5PageHeader;
   }
 }
 
 ///
 unittest {
-  assert(BS5PageHeader == `<div class="page-header"></div>`);
+  assert(TABPageHeader == `<div class="page-header"></div>`);
 }

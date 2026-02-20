@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABFormColorInputRadio : BS5FormColorInput {
   mixin(TABThis!("input", ["form-colorinput-input"], null, true));
 }
-static BS5FormColorInputRadio");
+static TABFormColorInputRadio");
 
 ///
 unittest {
-  assert(BS5FormColorInputRadio, `<input class="form-colorinput-input">`);
+  assert(TABFormColorInputRadio, `<input class="form-colorinput-input">`);
 }}
 
 

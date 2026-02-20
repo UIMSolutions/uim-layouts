@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABNavLinkTitle : BS5Obj {
   mixin(TABThis!("span", ["nav-link-title"]));
 
-static BS5NavLinkTitle opCall() {
+static TABNavLinkTitle opCall() {
   return new BS5NavLinkTitle;
 }}
 
 ///
 unittest {
-  assert(BS5NavLinkTitle == `<span class="nav-link-title"></span>`);
+  assert(TABNavLinkTitle == `<span class="nav-link-title"></span>`);
 }

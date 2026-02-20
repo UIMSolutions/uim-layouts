@@ -7,11 +7,11 @@ import uim.layouts.tabler;
 class TABTimelineContent : H5Div {
   mixin(TABThis!(["list-timeline-content"]));
 
-  static BS5TimelineContent opCall() {
+  static TABTimelineContent opCall() {
     return new BS5TimelineContent;
   }
 }
 ///
 unittest {
-  assert(BS5TimelineContent, `<div class="list-timeline-content"></div>`);
+  assert(TABTimelineContent, `<div class="list-timeline-content"></div>`);
 }

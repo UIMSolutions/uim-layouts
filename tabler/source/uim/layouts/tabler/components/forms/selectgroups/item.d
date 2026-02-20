@@ -12,9 +12,9 @@ class TABSelectgroupItem : BS5Obj {
   mixin(MyContent!("input", "BS5SelectgroupInput"));
   mixin(MyContent!("label", "BS5SelectgroupLabel"));
 }
-static BS5SelectgroupItem");
+static TABSelectgroupItem");
 
 ///
 unittest {
-  assert(BS5SelectgroupItem, `<label class="form-selectgroup-item"></label>`);
+  assert(TABSelectgroupItem, `<label class="form-selectgroup-item"></label>`);
 }}

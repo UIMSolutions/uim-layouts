@@ -12,11 +12,11 @@ class TABFormColorinput : BS5Obj {
   mixin(MyContent!("input", "BS5FormColorinputInput"));
   mixin(MyContent!("color", "BS5FormColorinputColor"));
 }
-static BS5FormColorinput");
+static TABFormColorinput");
 
 ///
 unittest {
-  assert(BS5FormColorinput, `<label class="form-colorinput"></label>`);
+  assert(TABFormColorinput, `<label class="form-colorinput"></label>`);
 }}
 
 

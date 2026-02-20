@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABAvatar : BS5Obj {
   mixin(TABThis!("span", ["avatar"]));
 
-static BS5Avatar opCall() {
+static TABAvatar opCall() {
   return new BS5Avatar;
 }}
 
 ///
 unittest {
-  assert(BS5Avatar == `<span class="avatar"></span>`);
+  assert(TABAvatar == `<span class="avatar"></span>`);
 }

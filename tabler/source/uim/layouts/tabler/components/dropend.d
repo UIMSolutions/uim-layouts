@@ -7,11 +7,11 @@ import uim.layouts.tabler;
 class TABDropend : H5Div {
   mixin(TABThis!(["dropend"]));
 
-  static BS5Dropend opCall() {
+  static TABDropend opCall() {
     return new BS5Dropend;
   }
 }
 ///
 unittest {
-  assert(BS5Dropend == `<div class="dropend"></div>`);
+  assert(TABDropend == `<div class="dropend"></div>`);
 }

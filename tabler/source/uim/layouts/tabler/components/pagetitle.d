@@ -7,12 +7,12 @@ import uim.layouts.tabler;
 class TABPageTitle : BS5Obj {
   mixin(TABThis!("h2", ["page-title"]));
 
-  static BS5PageTitle opCall() {
+  static TABPageTitle opCall() {
     return new BS5PageTitle;
   }
 }
 
 ///
 unittest {
-  assert(BS5PageTitle == `<h2 class="page-title"></h2>`);
+  assert(TABPageTitle == `<h2 class="page-title"></h2>`);
 }

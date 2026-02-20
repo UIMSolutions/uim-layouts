@@ -14,9 +14,9 @@ class TABImageCheckImage : BS5Obj {
     _single = true;
   }
 }
-static BS5ImageCheckImage");
+static TABImageCheckImage");
 
 ///
 unittest {
-  assert(BS5ImageCheckImage, `<img class="form-imagecheck-image">`);
+  assert(TABImageCheckImage, `<img class="form-imagecheck-image">`);
 }}

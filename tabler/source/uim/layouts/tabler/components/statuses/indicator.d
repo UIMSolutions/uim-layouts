@@ -23,13 +23,13 @@ class TABStatusIndicator : BS5Obj {
 
   auto color(string value){ this.addClasses("status-"~value); return this; }
 
-static BS5StatusIndicator opCall() {
+static TABStatusIndicator opCall() {
   return new BS5StatusIndicator;
 }}  
 
 ///
 unittest {
-  assert(BS5StatusIndicator == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
-  assert(BS5StatusIndicator.animated == `<span class="status-indicator status-indicator-animated"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
-  assert(BS5StatusIndicator.color("blue") == `<span class="status-blue status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(TABStatusIndicator == `<span class="status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(TABStatusIndicator.animated == `<span class="status-indicator status-indicator-animated"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
+  assert(TABStatusIndicator.color("blue") == `<span class="status-blue status-indicator"><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span><span class="status-indicator-circle"></span></span>`);
 }

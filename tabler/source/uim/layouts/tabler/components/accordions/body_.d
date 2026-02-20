@@ -9,9 +9,9 @@ mixin(ShowModule!());
 /* class TABAccordionBody : H5Div {
   mixin(TABThis!(["accordion-body"]));
 }
-static BS5AccordionBody");
+static TABAccordionBody");
 
 ///
 unittest {
-  assert(BS5AccordionBody, `<div class="accordion-body"></div>`);
+  assert(TABAccordionBody, `<div class="accordion-body"></div>`);
 } */

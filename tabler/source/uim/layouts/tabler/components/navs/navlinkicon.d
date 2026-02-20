@@ -7,12 +7,12 @@ import uim.layouts.tabler;
 class TABNavLinkIcon : BS5Obj {
   mixin(TABThis!("span", ["nav-link-icon"]));
 
-  static BS5NavLinkIcon opCall() {
+  static TABNavLinkIcon opCall() {
     return new BS5NavLinkIcon;
   }
 }
 
 ///
 unittest {
-  assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);
+  assert(TABNavLinkIcon, `<span class="nav-link-icon"></span>`);
 }

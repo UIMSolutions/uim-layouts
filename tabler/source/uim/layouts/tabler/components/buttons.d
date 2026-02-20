@@ -17,12 +17,12 @@ class TABButtonIcon : BS5Button {
       .addAttributes(["type":"button"]);
   }
 
-static BS5ButtonIcon opCall() {
+static TABButtonIcon opCall() {
   return new BS5ButtonIcon;
 }}
 ///
 unittest { 
-    assert(BS5ButtonIcon == `<button class="btn btn-icon" type="button"></button>`);
+    assert(TABButtonIcon == `<button class="btn btn-icon" type="button"></button>`);
 }
 
 class TABButtonIconLink : BS5ButtonLink {
@@ -37,25 +37,25 @@ class TABButtonIconLink : BS5ButtonLink {
       .addAttributes(["role":"button"]);
   }
 
-static BS5ButtonIconLink opCall() {
+static TABButtonIconLink opCall() {
   return new BS5ButtonIconLink;
 }}
 ///
 unittest {
-  assert(BS5ButtonIconLink);
-  assert(BS5ButtonIconLink == `<a class="btn btn-icon" role="button"></a>`);
+  assert(TABButtonIconLink);
+  assert(TABButtonIconLink == `<a class="btn btn-icon" role="button"></a>`);
 }
 
 class TABButtonSquare : BS5Button {
   mixin(TABThis!("Button", ["btn-square"]));
 
-  static BS5ButtonSquare opCall() {
+  static TABButtonSquare opCall() {
   return new BS5ButtonSquare;
 }
 }
 ///
 unittest {
-  assert(BS5ButtonSquare == `<button class="btn btn-square" type="button"></button>`);
+  assert(TABButtonSquare == `<button class="btn btn-square" type="button"></button>`);
 }
 
 class TABButtonSquareLink : BS5ButtonLink {
@@ -68,29 +68,29 @@ class TABButtonSquareLink : BS5ButtonLink {
       .addClasses("btn");
   }
 }
-static BS5ButtonSquareLink");
+static TABButtonSquareLink");
 
 ///
 unittest {
-    assert(BS5ButtonSquareLink == `<a class="btn btn-square" role="button"></a>`);
+    assert(TABButtonSquareLink == `<a class="btn btn-square" role="button"></a>`);
 }}
 
 class TABButtonPill : BS5Button {
   mixin(TABThis!("Button", ["btn-pill"]));
 }
-static BS5ButtonPill");
+static TABButtonPill");
 
 ///
 unittest {
-  assert(BS5ButtonPill == `<button class="btn btn-pill" type="button"></button>`);
+  assert(TABButtonPill == `<button class="btn btn-pill" type="button"></button>`);
 }}
 
 class TABButtonPillLink : BS5ButtonLink {
   mixin(TABThis!("A", ["btn-pill"]));
 }
-static BS5ButtonPillLink");
+static TABButtonPillLink");
 
 ///
 unittest {
-  assert(BS5ButtonPillLink == `<a class="btn btn-pill" role="button"></a>`);
+  assert(TABButtonPillLink == `<a class="btn btn-pill" role="button"></a>`);
 }}

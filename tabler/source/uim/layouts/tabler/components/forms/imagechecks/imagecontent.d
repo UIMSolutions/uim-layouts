@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class TABImageCheckImageContent : BS5Obj {
   mixin(TABThis!("span", ["form-imagecheck-image"]));
 }
-static BS5ImageCheckImageContent");
+static TABImageCheckImageContent");
 
 ///
 unittest {
-  assert(BS5ImageCheckImageContent, `<span class="form-imagecheck-image"></span>`);
+  assert(TABImageCheckImageContent, `<span class="form-imagecheck-image"></span>`);
 }}

@@ -9,10 +9,10 @@ mixin(ShowModule!());
 /* class TABAccordionHeader : BS5Obj {
   mixin(TABThis!("h2", ["accordion-header"]));
 }
-static BS5AccordionHeader");
+static TABAccordionHeader");
 
 ///
 unittest {
-  assert(BS5AccordionHeader, `<h2 class="accordion-header"></h2>`);
+  assert(TABAccordionHeader, `<h2 class="accordion-header"></h2>`);
 }
  */

@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABFormColorInputColor : BS5Obj {
   mixin(TABThis!("span", ["form-colorinput-color"]));
 }
-static BS5FormColorInputColor");
+static TABFormColorInputColor");
 
 ///
 unittest {
-  assert(BS5FormColorInputColor, `<span class="form-colorinput-color"></span>`);
+  assert(TABFormColorInputColor, `<span class="form-colorinput-color"></span>`);
 }}
 
 

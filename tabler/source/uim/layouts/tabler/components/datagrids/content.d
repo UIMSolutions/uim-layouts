@@ -12,13 +12,13 @@ class TABDatagridContent : H5Div {
     return this;
   }
 
-  static BS5DatagridContent opCall() {
+  static TABDatagridContent opCall() {
     return new BS5DatagridContent;
   }
 }
 
 ///
 unittest {
-  assert(BS5DatagridContent == `<div class="datagrid-content"></div>`);
-  assert(BS5DatagridContent.color("blue") == `<div class="bg-blue datagrid-content"></div>`);
+  assert(TABDatagridContent == `<div class="datagrid-content"></div>`);
+  assert(TABDatagridContent.color("blue") == `<div class="bg-blue datagrid-content"></div>`);
 }

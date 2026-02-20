@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class TABEmptyAction : H5Div {
   mixin(TABThis!(["empty-action"]));
 }
-static BS5EmptyAction");
+static TABEmptyAction");
 
 ///
 unittest {
-  assert(BS5EmptyAction, `<div class="empty-action"></div>`);
+  assert(TABEmptyAction, `<div class="empty-action"></div>`);
 }}

@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABTimelineTime : H5Div {
   mixin(TABThis!(["list-timeline-time"]));
 
-static BS5TimelineTime opCall() {
+static TABTimelineTime opCall() {
   return new BS5TimelineTime;  
 }}
 
 ///
 unittest {
-  assert(BS5TimelineTime == `<div class="list-timeline-time"></div>`);
+  assert(TABTimelineTime == `<div class="list-timeline-time"></div>`);
 }

@@ -11,12 +11,12 @@ class TABTimelineIcon : H5Div {
 
   auto color(string value){ this.classes("bg-"~value); return this; }
 
-  static BS5TimelineIcon opCall() {
+  static TABTimelineIcon opCall() {
     return new BS5TimelineIcon;
 }}
 
 ///
 unittest {
-  assert(BS5TimelineIcon, `<div class="list-timeline-icon"></div>`);
-  assert(BS5TimelineIcon.color("blue"),`<div class="bg-blue list-timeline-icon"></div>`);
+  assert(TABTimelineIcon, `<div class="list-timeline-icon"></div>`);
+  assert(TABTimelineIcon.color("blue"),`<div class="bg-blue list-timeline-icon"></div>`);
 }

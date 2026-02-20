@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class TABEmptyImage : H5Div {
   mixin(TABThis!(["empty-img"]));
 }
-static BS5EmptyImage");
+static TABEmptyImage");
 
 ///
 unittest {
-  assert(BS5EmptyImage == `<div class="empty-img"></div>`);
+  assert(TABEmptyImage == `<div class="empty-img"></div>`);
 }}

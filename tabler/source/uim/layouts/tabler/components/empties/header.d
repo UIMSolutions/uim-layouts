@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class TABEmptyHeader : H5Div {
   mixin(TABThis!(["empty-header"]));
 }
-static BS5EmptyHeader");
+static TABEmptyHeader");
 
 ///
 unittest {
-  assert(BS5EmptyHeader == `<div class="empty-header"></div>`);
+  assert(TABEmptyHeader == `<div class="empty-header"></div>`);
 }}

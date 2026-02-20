@@ -9,13 +9,13 @@ class TABAvatarList : H5Div {
 
   mixin(MyContent!("avatar", "BS5Avatar"));
 
-  static BS5AvatarList opCall() {
+  static TABAvatarList opCall() {
     return new BS5AvatarList;
   }
 }
 
 ///
 unittest {
-  assert(BS5AvatarList, `<div class="avatar-list"></div>`);
-  assert(BS5AvatarList.avatar, `<div class="avatar-list"><span class="avatar"></span></div>`);
+  assert(TABAvatarList, `<div class="avatar-list"></div>`);
+  assert(TABAvatarList.avatar, `<div class="avatar-list"><span class="avatar"></span></div>`);
 }

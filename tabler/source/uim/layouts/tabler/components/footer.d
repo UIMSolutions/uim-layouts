@@ -7,11 +7,11 @@ import uim.layouts.tabler;
 class TABFooter : BS5Obj {
   mixin(TABThis!("footer", ["footer"]));
 
-  static BS5Footer opCall() {
+  static TABFooter opCall() {
     return new BS5Footer;
   }
 }
 ///
 unittest {
-  assert(BS5Footer == `<footer class="footer"></footer>`);
+  assert(TABFooter == `<footer class="footer"></footer>`);
 }

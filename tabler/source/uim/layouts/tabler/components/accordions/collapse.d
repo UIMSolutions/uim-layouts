@@ -11,10 +11,10 @@ mixin(ShowModule!());
 
   mixin(MyContent!("body_", "BS5AccordionsBody"));
 }
-static BS5AccordionCollapse");
+static TABAccordionCollapse");
 
 ///
 unittest {
-  assert(BS5AccordionCollapse, `<div class="accordion-collapse collapse"></div>`);
+  assert(TABAccordionCollapse, `<div class="accordion-collapse collapse"></div>`);
 }
  */

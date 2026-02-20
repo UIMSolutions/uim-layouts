@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class TABInputIcon : H5Div {
   mixin(TABThis!(["input-icon"]));
 
-static BS5InputIcon opCall() {
+static TABInputIcon opCall() {
   return new BS5InputIcon;
 }}
 
 ///
 unittest {
-  assert(BS5InputIcon, `<div class="input-icon"></div>`);
+  assert(TABInputIcon, `<div class="input-icon"></div>`);
 }
