@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.cards.overlay;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

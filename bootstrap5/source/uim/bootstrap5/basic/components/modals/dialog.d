@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.modals.dialog;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.cards.columns;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

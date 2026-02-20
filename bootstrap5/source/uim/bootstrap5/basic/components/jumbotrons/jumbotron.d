@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.jumbotrons.jumbotron;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

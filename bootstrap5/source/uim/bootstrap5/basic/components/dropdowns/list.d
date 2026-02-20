@@ -1,6 +1,6 @@
 ﻿module source.uim.bootstrap5.basic.components.dropdowns.list;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

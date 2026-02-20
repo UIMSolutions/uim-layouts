@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.forms.check;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

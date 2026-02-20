@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.forms.inputgroups.prepend;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

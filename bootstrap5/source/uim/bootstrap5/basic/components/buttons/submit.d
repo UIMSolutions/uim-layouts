@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.buttons.submit;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

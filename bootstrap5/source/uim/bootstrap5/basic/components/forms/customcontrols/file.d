@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.forms.customcontrols.file;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

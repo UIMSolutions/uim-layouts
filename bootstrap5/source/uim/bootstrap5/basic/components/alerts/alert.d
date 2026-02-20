@@ -1,7 +1,7 @@
 module uim.bootstrap5.basic.components.alerts.alert;
 
 @safe:
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

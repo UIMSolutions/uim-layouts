@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.classes.tables.table;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

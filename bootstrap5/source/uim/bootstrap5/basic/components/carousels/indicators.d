@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.carousels.indicators;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

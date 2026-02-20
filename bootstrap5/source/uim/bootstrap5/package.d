@@ -1,6 +1,6 @@
 module uim.bootstrap5;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

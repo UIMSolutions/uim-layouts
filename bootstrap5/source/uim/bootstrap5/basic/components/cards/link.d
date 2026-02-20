@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.cards.link;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

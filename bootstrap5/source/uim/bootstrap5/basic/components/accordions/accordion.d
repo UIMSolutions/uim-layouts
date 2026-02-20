@@ -1,7 +1,7 @@
 module uim.bootstrap5.basic.components.accordions.accordion;
 
 @safe:
-import uim.bootstrap;
+import uim.bootstrap5;
 
 class BS5Accordion : H5Div {
   mixin BS5This!(["accordion"]);

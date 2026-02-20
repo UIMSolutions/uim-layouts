@@ -1,6 +1,6 @@
 module uim.bootstrap5.basic.components.badges.badge;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

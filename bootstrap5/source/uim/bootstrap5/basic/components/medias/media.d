@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.medias.media;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

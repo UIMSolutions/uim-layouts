@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.forms.controls.datalist;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

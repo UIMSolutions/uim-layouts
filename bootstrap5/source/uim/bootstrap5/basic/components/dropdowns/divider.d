@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.dropdowns.divider;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

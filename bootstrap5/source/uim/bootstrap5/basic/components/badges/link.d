@@ -1,7 +1,7 @@
 module uim.bootstrap5.basic.components.badges.link;
 
 @safe:
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

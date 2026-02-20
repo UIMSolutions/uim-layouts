@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.utilities.positions;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 

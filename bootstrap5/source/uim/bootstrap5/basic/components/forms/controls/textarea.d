@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap5.basic.components.forms.controls.textarea;
 
-import uim.bootstrap;
+import uim.bootstrap5;
 
 mixin(ShowModule!());
 
