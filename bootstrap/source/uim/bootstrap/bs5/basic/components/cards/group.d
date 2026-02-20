@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 /// The BS5CardGroup creates a grid of cards that are of equal height and width, and no margin between cards
 class BS5CardGroup : H5Div {
-  mixin(H5This!("div", ["card-group"]));
+  mixin(H5This!(["card-group"]));
 
   /// Add card 
   mixin(MyContent!("card", "BS5Card"));

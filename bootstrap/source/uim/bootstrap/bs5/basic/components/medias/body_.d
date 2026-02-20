@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5MediaBody : H5Div {
-  mixin(H5This!("div", ["media-body"]));
+  mixin(H5This!(["media-body"]));
 }
 static BS5MediaBody");
 

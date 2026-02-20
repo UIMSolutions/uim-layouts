@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5InputGroupAppend : H5Div {
-  mixin(H5This!("div", ["input-group-append"]));
+  mixin(H5This!(["input-group-append"]));
 
   mixin(MyContent!("button", "BS5Button"));
   ///

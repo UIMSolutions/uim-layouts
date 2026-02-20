@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5SpinnerGrow : H5Div {
-  mixin(H5This!("div", ["spinner-grow"]));
+  mixin(H5This!(["spinner-grow"]));
 
 static BS5SpinnerGrow opCall() {
     return new BS5SpinnerGrow;

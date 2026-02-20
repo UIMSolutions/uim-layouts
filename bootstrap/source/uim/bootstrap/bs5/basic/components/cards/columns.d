@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 /// The .BS5CardColumns creates a masonry-like grid of cards (like pinterest)
 class BS5CardColumns : H5Div {
-  mixin(H5This!("div", ["card-columns"]));
+  mixin(H5This!(["card-columns"]));
 
   /// Add card 
   mixin(MyContent!("card", "BS5Card"));

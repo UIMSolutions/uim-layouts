@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Row : H5Div {
-  mixin(H5This!("div", ["row"]));
+  mixin(H5This!(["row"]));
 
   mixin(MyContent!("col", "BS5Col"));
 

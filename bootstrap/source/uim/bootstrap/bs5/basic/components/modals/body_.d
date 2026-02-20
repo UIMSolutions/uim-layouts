@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5ModalBody : H5Div {
-  mixin(H5This!("div", ["modal-body"]));
+  mixin(H5This!(["modal-body"]));
 
   static BS5ModalBody opCall() {
     return new BS5ModalBody;

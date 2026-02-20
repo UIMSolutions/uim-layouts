@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5TabContent : H5Div {
-  mixin(H5This!("div", ["tab-content"]));
+  mixin(H5This!(["tab-content"]));
 
   auto addPane(string id, string label) { return this.addContent(new BS5TabPane(id, label)); }
 

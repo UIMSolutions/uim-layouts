@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CustomFile : H5Div {
-  mixin(H5This!("div", ["custom-file"]));
+  mixin(H5This!(["custom-file"]));
 
   mixin(MyContent!("input", "BS5CustomFileInput"));
   mixin(MyContent!("label", "BS5CustomFileLabel"));
