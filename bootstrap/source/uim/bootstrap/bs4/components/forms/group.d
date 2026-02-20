@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4FormGroup : H5Div {
-  mixin H5This!( ["form-group"]));
+  mixin H5This!(["form-group"]));
 
   mixin(MyAttribute!("readOnly", "readonly"));
   mixin(MyAttribute!("value", "value"));
