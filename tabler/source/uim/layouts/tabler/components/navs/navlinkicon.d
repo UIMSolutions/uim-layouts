@@ -4,15 +4,12 @@ import uim.layouts.tabler;
 
 @safe:
 
-class TABNavLinkIcon : BS5Obj {
-  mixin TABThis!("span", ["nav-link-icon"]));
+class TABNavLinkIcon : H5Span {
+  mixin TABThis!(["nav-link-icon"]);
 
-  static TABNavLinkIcon opCall() {
-    return new TABNavLinkIcon;
-  }
+  mixin(TABCalls!("NavLinkIcon"));
 }
-
 ///
 unittest {
-  assert(TABNavLinkIcon, `<span class="nav-link-icon"></span>`);
+  assert(TABNavLinkIcon() == `<span class="nav-link-icon"></span>`);
 }

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmptyHeader : H5Div {
-  mixin TABThis!(["empty-header"]));
+  mixin TABThis!(["empty-header"]);
 
   mixin(TABCalls!("EmptyHeader"));
 }
@@ -15,4 +15,4 @@ class TABEmptyHeader : H5Div {
 ///
 unittest {
   assert(TABEmptyHeader == `<div class="empty-header"></div>`);
-}}
+}

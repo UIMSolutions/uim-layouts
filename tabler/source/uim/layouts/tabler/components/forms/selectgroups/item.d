@@ -9,8 +9,8 @@ mixin(ShowModule!());
 class TABSelectgroupItem : BS5Obj {
   mixin TABThis!("label", ["form-selectgroup-item"]));
 
-  mixin(MyContent!("input", "BS5SelectgroupInput"));
-  mixin(MyContent!("label", "BS5SelectgroupLabel"));
+  auto addinput", "TABSelectgroupInput"));
+  auto addlabel", "TABSelectgroupLabel"));
 }
 static TABSelectgroupItem");
 

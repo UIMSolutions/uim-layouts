@@ -9,7 +9,7 @@ mixin(ShowModule!());
 /* class TABAccordionCollapse : H5Div {
   mixin TABThis!(["accordion-collapse collapse"]));
 
-  mixin(MyContent!("body_", "BS5AccordionsBody"));
+  auto addbody_", "TABAccordionsBody"));
 }
 static TABAccordionCollapse");
 

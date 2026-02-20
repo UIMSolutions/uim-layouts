@@ -7,25 +7,43 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmpty : H5Div {
-  mixin TABThis!(["empty"]));
+  mixin TABThis!(["empty"]);
 
-  mixin(MyContent!("action", "BS5EmptyAction"));
+  TABEmpty addAction() {
+    addContent(new TABEmptyAction());
+    return this;
+  }
 
-  mixin(MyContent!("icon", "BS5EmptyIcon"));
+  TABEmpty addIcon() {
+    addContent(new TABEmptyIcon());
+    return this;
+  }
 
-  mixin(MyContent!("image", "BS5EmptyImage"));
+  TABEmpty addImage() {
+    addContent(new TABEmptyImage());
+    return this;
+  }
 
-  mixin(MyContent!("header", "BS5EmptyHeader"));
+  TABEmpty addHeader() {
+    addContent(new TABEmptyHeader());
+    return this;
+  }
 
-  mixin(MyContent!("subtitle", "BS5EmptySubtitle"));
+  TABEmpty addSubtitle() {
+    addContent(new TABEmptySubtitle());
+    return this;
+  }
 
-  mixin(MyContent!("title", "BS5EmptyTitle"));
+  TABEmpty addTitle() {
+    addContent(new TABEmptyTitle());
+    return this;
+  }
+
+  mixin(TABCalls!("Empty"));
 }
-static TABEmpty");
-
 ///
 unittest {
-  assert(TABEmpty == `<div class="empty"></div>`);
-  assert(TABEmpty.image == `<div class="empty"><div class="empty-img"></div></div>`);
-  assert(TABEmpty.image.image == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
-}}
+  assert(TABEmpty() == `<div class="empty"></div>`);
+  assert(TABEmpty().addImage() == `<div class="empty"><div class="empty-img"></div></div>`);
+  assert(TABEmpty().addImage().addImage() == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
+}

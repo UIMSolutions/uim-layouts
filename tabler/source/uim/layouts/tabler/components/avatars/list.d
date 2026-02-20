@@ -7,7 +7,7 @@ import uim.layouts.tabler;
 class TABAvatarList : H5Div {
   mixin TABThis!(["avatar-list"]));
 
-  mixin(MyContent!("avatar", "BS5Avatar"));
+  auto addavatar", "TABAvatar"));
 
   static TABAvatarList opCall() {
     return new TABAvatarList;

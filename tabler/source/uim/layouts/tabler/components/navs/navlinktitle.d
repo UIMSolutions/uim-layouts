@@ -6,14 +6,14 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABNavLinkTitle : BS5Obj {
-  mixin TABThis!("span", ["nav-link-title"]));
+/// NavLinkTitle is used to create a title for a nav link. It is used in the NavLink component.
+class TABNavLinkTitle : H5Span {
+  mixin TABThis!(["nav-link-title"]);
 
-static TABNavLinkTitle opCall() {
-  return new TABNavLinkTitle;
-}}
+  mixin(TABCalls!("NavLinkTitle"));
+}
 
 ///
 unittest {
-  assert(TABNavLinkTitle == `<span class="nav-link-title"></span>`);
+  assert(TABNavLinkTitle() == `<span class="nav-link-title"></span>`);
 }

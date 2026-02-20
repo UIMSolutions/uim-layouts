@@ -9,8 +9,8 @@ mixin(ShowModule!());
 class DTABFormCheck : BS5Obj {
   mixin TABThis!("label", ["form-check"]));
 
-    mixin(MyContent!("input", "TABFormCheckInput"));
-  mixin(MyContent!("label", "TABFormCheckLabel"));
+    auto addinput", "TABFormCheckInput"));
+  auto addlabel", "TABFormCheckLabel"));
 }
 static TABFormCheck");
 

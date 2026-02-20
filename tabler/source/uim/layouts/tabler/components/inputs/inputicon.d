@@ -7,13 +7,11 @@ mixin(ShowModule!());
 @safe:
 
 class TABInputIcon : H5Div {
-  mixin TABThis!(["input-icon"]));
+  mixin TABThis!(["input-icon"]);
 
-static TABInputIcon opCall() {
-  return new TABInputIcon;
-}}
-
+  mixin(TABCalls!("InputIcon"));
+}
 ///
 unittest {
-  assert(TABInputIcon, `<div class="input-icon"></div>`);
+  assert(TABInputIcon() == `<div class="input-icon"></div>`);
 }

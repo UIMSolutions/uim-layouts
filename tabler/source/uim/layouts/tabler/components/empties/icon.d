@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmptyIcon : H5Div {
-  mixin TABThis!(["empty-icon"]));
+  mixin TABThis!(["empty-icon"]);
 
   mixin(TABCalls!("EmptyIcon"));
 }

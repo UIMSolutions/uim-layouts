@@ -9,8 +9,8 @@ mixin(ShowModule!());
 class TABFormColorinput : BS5Obj {
   mixin TABThis!("label", ["form-colorinput"]));
 
-  mixin(MyContent!("input", "BS5FormColorinputInput"));
-  mixin(MyContent!("color", "BS5FormColorinputColor"));
+  auto addinput", "TABFormColorinputInput"));
+  auto addcolor", "TABFormColorinputColor"));
 }
 static TABFormColorinput");
 
