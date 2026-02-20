@@ -4,10 +4,10 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS4FormGroup : H5Div {
-  mixin H5This!(["form-group"]));
+  mixin H5This!(["form-group"]);
 
   mixin(MyAttribute!("readOnly", "readonly"));
   mixin(MyAttribute!("value", "value"));
@@ -19,39 +19,151 @@ class BS4FormGroup : H5Div {
     this.addContent(H5Label(someClasses, someAttributes, title));
     return this;
   }
-  mixin(MyContent!("div", "H5Div"));
-  
-  mixin(MyContent!("col", "BS4Col"));
-  mixin(MyContent!("input", "BS4Input"));
-  mixin(MyContent!("button", "BS4InputButton"));
-  mixin(MyContent!("checkbox", "BS4Checkbox"));
-  mixin(MyContent!("color", "BS4InputColor"));
-  mixin(MyContent!("inputDate", "BS4InputDate"));
-  mixin(MyContent!("inputDateTime", "BS4InputDateTime"));
-  mixin(MyContent!("email", "BS4InputEmail"));
-  mixin(MyContent!("file", "BS4InputFile"));
-  mixin(MyContent!("group", "BS4InputGroup"));
-  mixin(MyContent!("inputHidden", "BS4InputHidden"));
-  mixin(MyContent!("image", "BS4InputImage"));
-  mixin(MyContent!("month", "BS4InputMonth"));
-  mixin(MyContent!("number", "BS4InputNumber"));
-  mixin(MyContent!("password", "BS4Password"));
-  mixin(MyContent!("radio", "BS4Radio"));
-  mixin(MyContent!("inputRange", "BS4InputRange"));
-  mixin(MyContent!("inputReset", "BS4InputReset"));
-  mixin(MyContent!("search", "BS4InputSearch"));
-  mixin(MyContent!("select", "BS4InputSelect"));
-  mixin(MyContent!("submit", "BS4InputSubmit"));
-  mixin(MyContent!("telephone", "BS4InputTelephone"));
-  mixin(MyContent!("text", "BS4InputText"));
-  mixin(MyContent!("textarea", "BS4InputTextarea"));
-  mixin(MyContent!("inputTime", "BS4InputTime"));
-  mixin(MyContent!("url", "BS4InputUrl"));
-  mixin(MyContent!("week", "BS4InputWeek"));
+
+  BS4FormGoup addDiv() {
+    this.addContent(H5Div());
+    return this;
+  }
+
+  BS4FormGroup addCol() {
+    this.addContent(BS4Col());
+    return this;
+  }
+
+  BS4FormGroup addInput() {
+    this.addContent(BS4Input());
+    return this;
+  }
+
+  BS4FormGroup addButton() {
+    this.addContent(BS4InputButton());
+    return this;
+  }
+
+  BS4FormGroup addCheckbox() {
+    this.addContent(BS4Checkbox());
+    return this;
+  }
+
+  BS4FormGroup addColor() {
+    this.addContent(BS4InputColor());
+    return this;
+  }
+
+  BS4FormGroup addInputDate() {
+    this.addContent(BS4InputDate());
+    return this;
+  }
+
+  BS4FormGroup addInputDateTime() {
+    this.addContent(BS4InputDateTime());
+    return this;
+  }
+
+  BS4FormGroup addEmail() {
+    this.addContent(BS4InputEmail());
+    return this;
+  }
+
+  BS4FormGroup addFile() {
+    this.addContent(BS4InputFile());
+    return this;
+  }
+
+  BS4FormGroup addGroup() {
+    this.addContent(BS4InputGroup());
+    return this;
+  }
+
+  BS4FormGroup addInputHidden() {
+    this.addContent(BS4InputHidden());
+    return this;
+  }
+
+  BS4FormGroup addImage() {
+    this.addContent(BS4InputImage());
+    return this;
+  }
+
+  BS4FormGroup addMonth() {
+    this.addContent(BS4InputMonth());
+    return this;
+  }
+
+  BS4FormGroup addNumber() {
+    this.addContent(BS4InputNumber());
+    return this;
+  }
+
+  BS4FormGroup addPassword() {
+    this.addContent(BS4Password());
+    return this;
+  }
+
+  BS4FormGroup addRadio() {
+    this.addContent(BS4Radio());
+    return this;
+  }
+
+  BS4FormGroup addInputRange() {
+    this.addContent(BS4InputRange());
+    return this;
+  }
+
+  BS4FormGroup addInputReset() {
+    this.addContent(BS4InputReset());
+    return this;
+  }
+
+  BS4FormGroup addSearch() {
+    this.addContent(BS4InputSearch());
+    return this;
+  }
+
+  BS4FormGroup addSelect() {
+    this.addContent(BS4InputSelect());
+    return this;
+  }
+
+  BS4FormGroup addSubmit() {
+    this.addContent(BS4InputSubmit());
+    return this;
+  }
+
+  BS4FormGroup addTelephone() {
+    this.addContent(BS4InputTelephone());
+    return this;
+  }
+
+  BS4FormGroup addText() {
+    this.addContent(BS4InputText());
+    return this;
+  }
+
+  BS4FormGroup addTextarea() {
+    this.addContent(BS4InputTextarea());
+    return this;
+  }
+
+  BS4FormGroup addInputTime() {
+    this.addContent(BS4InputTime());
+    return this;
+  }
+
+  BS4FormGroup addUrl() {
+    this.addContent(BS4InputUrl());
+    return this;
+  }
+
+  BS4FormGroup addWeek() {
+    this.addContent(BS4InputWeek());
+    return this;
+  }
+
+  mixin(BS4Calls!("FormGroup"));
 }
-static BS4FormGroup");
 
 ///
 unittest {
   assert(BS4FormGroup == `<div class="form-group"></div>`);
-}}
+}

@@ -1,4 +1,4 @@
-module uim.layouts.tabler.components.buttons;
+module uim.layouts.tabler.components.buttons.pill;
 
 import uim.layouts.tabler;
 

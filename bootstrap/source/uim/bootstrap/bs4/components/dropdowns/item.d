@@ -7,9 +7,9 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4DropdownItem : H5Div {
-  mixin H5This!(["dropdown-item"]));
-}
+  mixin H5This!(["dropdown-item"]);
 static BS4DropdownItem");
+}
 
 ///
 unittest {

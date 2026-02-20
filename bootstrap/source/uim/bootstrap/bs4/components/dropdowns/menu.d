@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS4DropdownMenu : H5Div {
-  mixin H5This!(["dropdown-menu"]));
+  mixin H5This!(["dropdown-menu"]);
 
   mixin(MyAttribute!("label", "aria-labelledby"));
 
@@ -21,10 +21,9 @@ class BS4DropdownMenu : H5Div {
 unittest {
     assert(BS4DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
   }}
-}
 static BS4DropdownMenu");
-
+}
 ///
 unittest {
   assert(BS4DropdownMenu == `<div class="dropdown-menu"></div>`);
-}}
+}

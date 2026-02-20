@@ -1,15 +1,16 @@
 module uim.layouts.tabler;
 
-public import std.stdio;
-public import std.uuid;
+public {
+  import uim.html;
+}
 
-public import vibe.d;
+public {
+  import uim.layouts.tabler.components;
+  import uim.layouts.tabler.entities;
+  import uim.layouts.tabler.interfaces;
+  import uim.layouts.tabler.mixins;
+}
 
-public import uim.core;
-public import uim.oop;
-public import uim.html;
-public import uim.bootstrap.bs5;
-
-public import uim.layouts.tabler.obj;
-public import uim.layouts.tabler.components;
-
+public {
+  import uim.layouts.tabler.obj;
+}
