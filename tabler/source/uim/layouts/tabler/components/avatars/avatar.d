@@ -10,7 +10,7 @@ class TABAvatar : BS5Obj {
   mixin(TABThis!("span", ["avatar"]));
 
 static TABAvatar opCall() {
-  return new BS5Avatar;
+  return new TABAvatar;
 }}
 
 ///

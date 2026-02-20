@@ -24,7 +24,7 @@ class TABStatusIndicator : BS5Obj {
   auto color(string value){ this.addClasses("status-"~value); return this; }
 
 static TABStatusIndicator opCall() {
-  return new BS5StatusIndicator;
+  return new TABStatusIndicator;
 }}  
 
 ///

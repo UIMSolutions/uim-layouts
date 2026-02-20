@@ -8,7 +8,7 @@ class TABTimelineTitle : BS5Obj {
   mixin(TABThis!("p", ["list-timeline-title"]));
 
   static TABTimelineTitle opCall() {
-    return new BS5TimelineTitle;
+    return new TABTimelineTitle;
   }
 }
 

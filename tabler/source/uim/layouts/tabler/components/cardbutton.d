@@ -10,7 +10,7 @@ class TABCardButton : BS5Obj {
   mixin(TABThis!("A", ["card-btn"]));
 
 static TABCardButton opCall() {
-  return new BS5CardButton;
+  return new TABCardButton;
 }}
 
 ///

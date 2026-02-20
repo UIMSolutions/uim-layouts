@@ -15,7 +15,7 @@ class TABDatagridItem : H5Div {
   }
 
   static TABDatagridItem opCall() {
-    return new BS5DatagridItem;
+    return new TABDatagridItem;
   }
 }
 ///

@@ -8,7 +8,7 @@ class TABDropend : H5Div {
   mixin(TABThis!(["dropend"]));
 
   static TABDropend opCall() {
-    return new BS5Dropend;
+    return new TABDropend;
   }
 }
 ///

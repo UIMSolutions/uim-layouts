@@ -8,7 +8,7 @@ class TABRibbon : H5Div {
   mixin(TABThis!(["ribbon"]));
 
   static TABRibbon opCall() {
-    return new BS5Ribbon;
+    return new TABRibbon;
   }
 }
 ///

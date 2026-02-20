@@ -12,7 +12,7 @@ class TABTimelineIcon : H5Div {
   auto color(string value){ this.classes("bg-"~value); return this; }
 
   static TABTimelineIcon opCall() {
-    return new BS5TimelineIcon;
+    return new TABTimelineIcon;
 }}
 
 ///

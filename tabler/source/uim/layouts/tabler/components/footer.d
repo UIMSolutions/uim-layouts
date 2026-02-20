@@ -8,7 +8,7 @@ class TABFooter : BS5Obj {
   mixin(TABThis!("footer", ["footer"]));
 
   static TABFooter opCall() {
-    return new BS5Footer;
+    return new TABFooter;
   }
 }
 ///

@@ -14,7 +14,7 @@ class TABStatus : BS5Obj {
   O lite(bool value = true){ if (value) this.addClasses("status-lite"); return this; }
 
 static TABStatus opCall() {
-  return new BS5Status;
+  return new TABStatus;
 }}
 
 ///

@@ -8,7 +8,7 @@ class TABNavLinkIcon : BS5Obj {
   mixin(TABThis!("span", ["nav-link-icon"]));
 
   static TABNavLinkIcon opCall() {
-    return new BS5NavLinkIcon;
+    return new TABNavLinkIcon;
   }
 }
 

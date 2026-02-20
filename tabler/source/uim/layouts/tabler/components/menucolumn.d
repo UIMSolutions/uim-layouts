@@ -17,7 +17,7 @@ class TABDropdownMenuColumn : H5Div {
   auto addText() { addContent(BS5DropdownText); return this; }
 
   static TABDropdownMenuColumn opCall() {
-    return new BS5DropdownMenuColumn;
+    return new TABDropdownMenuColumn;
   }
 }
 ///

@@ -10,7 +10,7 @@ class TABInputIcon : H5Div {
   mixin(TABThis!(["input-icon"]));
 
 static TABInputIcon opCall() {
-  return new BS5InputIcon;
+  return new TABInputIcon;
 }}
 
 ///

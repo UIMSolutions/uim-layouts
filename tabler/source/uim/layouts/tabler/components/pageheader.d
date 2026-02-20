@@ -8,7 +8,7 @@ class TABPageHeader : H5Div {
   mixin(TABThis!(["page-header"]));
 
   static TABPageHeader opCall() {
-    return new BS5PageHeader;
+    return new TABPageHeader;
   }
 }
 

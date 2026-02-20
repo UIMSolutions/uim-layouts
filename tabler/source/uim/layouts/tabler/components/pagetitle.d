@@ -8,7 +8,7 @@ class TABPageTitle : BS5Obj {
   mixin(TABThis!("h2", ["page-title"]));
 
   static TABPageTitle opCall() {
-    return new BS5PageTitle;
+    return new TABPageTitle;
   }
 }
 

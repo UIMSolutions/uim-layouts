@@ -10,7 +10,7 @@ class TABCardTabs : H5Div {
   mixin(TABThis!(["card-tabs"]));
 
 static TABCardTabs opCall() {
-  return new BS5CardTabs;
+  return new TABCardTabs;
 }}
 ///
 unittest {

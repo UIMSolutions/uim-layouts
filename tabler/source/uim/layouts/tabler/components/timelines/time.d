@@ -10,7 +10,7 @@ class TABTimelineTime : H5Div {
   mixin(TABThis!(["list-timeline-time"]));
 
 static TABTimelineTime opCall() {
-  return new BS5TimelineTime;  
+  return new TABTimelineTime;  
 }}
 
 ///

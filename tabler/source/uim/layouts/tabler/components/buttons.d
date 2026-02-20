@@ -18,7 +18,7 @@ class TABButtonIcon : BS5Button {
   }
 
 static TABButtonIcon opCall() {
-  return new BS5ButtonIcon;
+  return new TABButtonIcon;
 }}
 ///
 unittest { 
@@ -38,7 +38,7 @@ class TABButtonIconLink : BS5ButtonLink {
   }
 
 static TABButtonIconLink opCall() {
-  return new BS5ButtonIconLink;
+  return new TABButtonIconLink;
 }}
 ///
 unittest {
@@ -50,7 +50,7 @@ class TABButtonSquare : BS5Button {
   mixin(TABThis!("Button", ["btn-square"]));
 
   static TABButtonSquare opCall() {
-  return new BS5ButtonSquare;
+  return new TABButtonSquare;
 }
 }
 ///

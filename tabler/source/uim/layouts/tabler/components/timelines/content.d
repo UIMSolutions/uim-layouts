@@ -8,7 +8,7 @@ class TABTimelineContent : H5Div {
   mixin(TABThis!(["list-timeline-content"]));
 
   static TABTimelineContent opCall() {
-    return new BS5TimelineContent;
+    return new TABTimelineContent;
   }
 }
 ///

@@ -10,7 +10,7 @@ class TABAvatarList : H5Div {
   mixin(MyContent!("avatar", "BS5Avatar"));
 
   static TABAvatarList opCall() {
-    return new BS5AvatarList;
+    return new TABAvatarList;
   }
 }
 

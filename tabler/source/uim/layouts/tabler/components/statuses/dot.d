@@ -14,7 +14,7 @@ class TABStatusDot : BS5Obj {
   auto color(string value){ this.classes("status-"~value); return this; }
 
 static TABStatusDot opCall() {
-  return new BS5StatusDot;
+  return new TABStatusDot;
 }}
 
 ///
