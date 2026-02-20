@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5ListGroup : BS5Obj {
-  mixin(H5This!("Div", ["list-group"]));
+class BS5ListGroup : H5Div {
+  mixin(H5This!("div", ["list-group"]));
 
   mixin(MyContent!("item", "BS5ListGroupItem"));
   mixin(MyContent!("link", "BS5ListLink"));

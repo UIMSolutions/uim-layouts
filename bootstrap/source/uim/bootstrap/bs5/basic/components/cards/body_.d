@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5CardBody : BS5Obj {
-  mixin(H5This!("DIV", ["card-body"]));
+class BS5CardBody : H5Div {
+  mixin(H5This!("div", ["card-body"]));
 
   mixin(MyContent!("title", "BS5CardTitle"));
   ///

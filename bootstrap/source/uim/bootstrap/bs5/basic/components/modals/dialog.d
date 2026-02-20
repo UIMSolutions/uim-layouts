@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5ModalDialog : BS5Obj {
+class BS5ModalDialog : H5Div {
   mixin(H5This!("div", ["modal-dialog"], `["role":"document"]`));
 
   O fade(bool mode = true) {

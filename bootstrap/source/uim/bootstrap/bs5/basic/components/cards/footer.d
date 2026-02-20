@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5CardFooter : BS5Obj {
-  mixin(H5This!("Div", ["card-footer"]));
+class BS5CardFooter : H5Div {
+  mixin(H5This!("div", ["card-footer"]));
 }
 static BS5CardFooter");
 

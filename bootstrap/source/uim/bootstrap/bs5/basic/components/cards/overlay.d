@@ -7,8 +7,8 @@ mixin(ShowModule!());
 @safe: 
 
 /// Turns an image into a card background and adds text on top of the image
-class BS5CardOverlay : BS5Obj {
-  mixin(H5This!("Div", ["card-img-overlay"]));
+class BS5CardOverlay : H5Div {
+  mixin(H5This!("div", ["card-img-overlay"]));
 }
 static BS5CardOverlay");
 

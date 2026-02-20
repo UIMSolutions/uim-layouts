@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5AlertHeading : BS5Obj {
-  mixin(H5This!("Div", ["alert-heading"]));
+class BS5AlertHeading : H5Div {
+  mixin(H5This!("div", ["alert-heading"]));
 
   O size(int size) {
     if ((size > 0) && (size < 7))

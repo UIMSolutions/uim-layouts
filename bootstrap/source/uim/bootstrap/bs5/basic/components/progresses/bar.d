@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5ProgressBar : BS5Obj {
+class BS5ProgressBar : H5Div {
   mixin(H5This!("div", ["progress-bar"], `["role":"progressbar"]`));
 
   BS5ProgressBar valueNow(string value) { return this.attributes(["aria-valuenow":value]); }

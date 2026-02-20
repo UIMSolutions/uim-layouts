@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5FormFloating : BS5Obj {
-  mixin(H5This!("Div", ["form-floating"]));
+class BS5FormFloating : H5Div {
+  mixin(H5This!("div", ["form-floating"]));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

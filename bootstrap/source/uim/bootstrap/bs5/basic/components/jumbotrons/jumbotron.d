@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5Jumbotron : BS5Obj {
-  mixin(H5This!("Div", ["jumbotron"]));
+class BS5Jumbotron : H5Div {
+  mixin(H5This!("div", ["jumbotron"]));
 
   static BS5Jumbotron opCall() {
     return new BS5Jumbotron;

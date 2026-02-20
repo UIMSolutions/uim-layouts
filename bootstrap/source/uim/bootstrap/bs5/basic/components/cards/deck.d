@@ -7,8 +7,8 @@ mixin(ShowModule!());
 @safe: 
 
 /// The BS5CardDeck creates a grid of cards that are of equal height and width
-class BS5CardDeck : BS5Obj {
-  mixin(H5This!("DIV", ["card-deck"]));
+class BS5CardDeck : H5Div {
+  mixin(H5This!("div", ["card-deck"]));
 
   /// Add card 
   mixin(MyContent!("card", "BS5Card"));

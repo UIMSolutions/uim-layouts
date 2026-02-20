@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5FormFile : BS5Obj {
+class BS5FormFile : H5Div {
   mixin(H5This!("div", ["form-file"]));
 }
 static BS5FormFile");

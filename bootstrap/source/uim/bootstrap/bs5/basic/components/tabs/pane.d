@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5TabPane : BS5Obj {
-  mixin(H5This!("DIV", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
+class BS5TabPane : H5Div {
+  mixin(H5This!("div", ["tab-pane"], `["role":"tabpanel", "aria-expanded":"false"]`));
 
   ///
   unittest {

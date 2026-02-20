@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5InputGroup : BS5Obj {
-  mixin(H5This!("DIV", ["input-group"]));
+class BS5InputGroup : H5Div {
+  mixin(H5This!("div", ["input-group"]));
 
   mixin(MyContent!("prepend", "BS5InputGroupPrepend"));
   ///

@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5DropdownDivider : BS5Obj {
+class BS5DropdownDivider : H5Div {
   mixin(H5This!("div", ["dropdown-divider"]));
 }
 static BS5DropdownDivider");

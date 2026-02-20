@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5FormGroup : BS5Obj {
+class BS5FormGroup : H5Div {
   mixin(H5This!("div", ["form-group"]));
 
   mixin(MyAttribute!("readOnly", "readonly"));
