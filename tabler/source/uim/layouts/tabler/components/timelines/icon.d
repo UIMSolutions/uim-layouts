@@ -1,4 +1,4 @@
-module layouts.tabler.components.timelines.icon;
+module uim.layouts.tabler.components.timelines.icon;
 
 import layouts.tabler;
 @safe:

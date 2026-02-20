@@ -1,4 +1,4 @@
-module layouts.argon;
+module uim.layouts.argon;
 
 // Phobos libs
 public import core.vararg;

@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.navs.navlinktitle;
+﻿module uim.layouts.tabler.components.navs.navlinktitle;
 
 import layouts.tabler;
 @safe:

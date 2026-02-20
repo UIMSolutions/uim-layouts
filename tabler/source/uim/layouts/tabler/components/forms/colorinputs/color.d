@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.forms.colorinputs.color;
+﻿module uim.layouts.tabler.components.forms.colorinputs.color;
 
 import layouts.tabler;
 @safe:

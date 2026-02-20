@@ -1,4 +1,4 @@
-module layouts.tabler.components.icons;
+module uim.layouts.tabler.components.icons;
 
 import layouts.tabler;
 @safe:

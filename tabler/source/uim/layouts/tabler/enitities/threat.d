@@ -1,4 +1,4 @@
-module layouts.tabler.enitities.threat;
+module uim.layouts.tabler.enitities.threat;
 
 import layouts.tabler;
 @safe:

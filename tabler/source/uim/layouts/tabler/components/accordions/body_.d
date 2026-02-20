@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.accordions.body_;
+﻿module uim.layouts.tabler.components.accordions.body_;
 
 import layouts.tabler;
 @safe:

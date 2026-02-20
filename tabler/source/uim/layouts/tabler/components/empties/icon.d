@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.empties.icon;
+﻿module uim.layouts.tabler.components.empties.icon;
 
 import layouts.tabler;
 @safe:

@@ -1,4 +1,4 @@
-module layouts.tabler.components.buttons;
+module uim.layouts.tabler.components.buttons;
 
 import layouts.tabler;
 @safe:

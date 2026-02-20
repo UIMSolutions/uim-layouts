@@ -1,4 +1,4 @@
-module layouts.tabler.components.empties;
+module uim.layouts.tabler.components.empties;
 
 public import layouts.tabler.components.empties.action;
 public import layouts.tabler.components.empties.empty;

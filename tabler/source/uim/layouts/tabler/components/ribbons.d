@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.ribbons;
+﻿module uim.layouts.tabler.components.ribbons;
 
 import layouts.tabler;
 

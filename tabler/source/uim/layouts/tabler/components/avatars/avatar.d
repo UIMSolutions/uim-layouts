@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.avatars.avatar;
+﻿module uim.layouts.tabler.components.avatars.avatar;
 
 import layouts.tabler;
 @safe:

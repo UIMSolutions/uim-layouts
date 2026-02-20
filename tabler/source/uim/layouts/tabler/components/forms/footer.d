@@ -1,4 +1,4 @@
-module layouts.tabler.components.forms.footer;
+module uim.layouts.tabler.components.forms.footer;
 
 import layouts.tabler;
 @safe:

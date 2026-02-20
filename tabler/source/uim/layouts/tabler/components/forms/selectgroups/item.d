@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.forms.selectgroups.item;
+﻿module uim.layouts.tabler.components.forms.selectgroups.item;
 
 import layouts.tabler;
 @safe:

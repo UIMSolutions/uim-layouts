@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.pageheader;
+﻿module uim.layouts.tabler.components.pageheader;
 
 import layouts.tabler;
 

@@ -1,4 +1,4 @@
-module layouts.tabler.components.timelines.time;
+module uim.layouts.tabler.components.timelines.time;
 
 import layouts.tabler;
 @safe:

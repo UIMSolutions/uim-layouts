@@ -1,4 +1,4 @@
-module layouts.tabler.components.forms.imagechecks.figure;
+module uim.layouts.tabler.components.forms.imagechecks.figure;
 
 import layouts.tabler;
 @safe:

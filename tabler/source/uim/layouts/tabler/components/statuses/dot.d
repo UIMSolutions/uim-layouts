@@ -1,4 +1,4 @@
-module layouts.tabler.components.statuses.dot;
+module uim.layouts.tabler.components.statuses.dot;
 
 import layouts.tabler;
 @safe:

@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.footer;
+﻿module uim.layouts.tabler.components.footer;
 
 import layouts.tabler;
 

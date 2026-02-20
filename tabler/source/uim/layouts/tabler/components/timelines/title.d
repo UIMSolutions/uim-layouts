@@ -1,4 +1,4 @@
-module layouts.tabler.components.timelines.title;
+module uim.layouts.tabler.components.timelines.title;
 
 import layouts.tabler;
 

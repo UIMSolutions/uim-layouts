@@ -1,4 +1,4 @@
-module layouts.tabler;
+module uim.layouts.tabler;
 
 public import std.stdio;
 public import std.uuid;

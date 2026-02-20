@@ -1,4 +1,4 @@
-module layouts.tabler.components.empties.header;
+module uim.layouts.tabler.components.empties.header;
 
 import layouts.tabler;
 @safe:

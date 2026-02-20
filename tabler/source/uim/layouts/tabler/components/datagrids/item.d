@@ -1,4 +1,4 @@
-module layouts.tabler.components.datagrids.item;
+module uim.layouts.tabler.components.datagrids.item;
 
 import layouts.tabler;
 @safe:

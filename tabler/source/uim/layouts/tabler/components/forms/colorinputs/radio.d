@@ -1,4 +1,4 @@
-module layouts.tabler.components.forms.colorinputs.radio;
+module uim.layouts.tabler.components.forms.colorinputs.radio;
 
 import layouts.tabler;
 @safe:

@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.menucolumn;
+﻿module uim.layouts.tabler.components.menucolumn;
 
 import layouts.tabler;
 

@@ -1,4 +1,4 @@
-module layouts.tabler.components.timelines.content;
+module uim.layouts.tabler.components.timelines.content;
 
 import layouts.tabler;
 

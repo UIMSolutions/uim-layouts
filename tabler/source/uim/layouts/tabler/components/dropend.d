@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.dropend;
+﻿module uim.layouts.tabler.components.dropend;
 
 import layouts.tabler;
 

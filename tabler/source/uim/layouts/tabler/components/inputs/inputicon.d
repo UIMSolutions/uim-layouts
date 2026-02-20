@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.inputs.inputicon;
+﻿module uim.layouts.tabler.components.inputs.inputicon;
 
 import layouts.tabler;
 @safe:

@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.forms.checks.label;
+﻿module uim.layouts.tabler.components.forms.checks.label;
 
 import layouts.tabler;
 @safe:

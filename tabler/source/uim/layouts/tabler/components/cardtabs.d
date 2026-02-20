@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.cardtabs;
+﻿module uim.layouts.tabler.components.cardtabs;
 
 import layouts.tabler;
 @safe:

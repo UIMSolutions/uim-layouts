@@ -1,4 +1,4 @@
-module layouts.tabler.components.avatars.list;
+module uim.layouts.tabler.components.avatars.list;
 
 import layouts.tabler;
 

@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.pagetitle;
+﻿module uim.layouts.tabler.components.pagetitle;
 
 import layouts.tabler;
 

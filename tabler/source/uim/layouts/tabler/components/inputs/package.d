@@ -1,4 +1,4 @@
-module layouts.tabler.components.inputs;
+module uim.layouts.tabler.components.inputs;
 
 import layouts.tabler;
 @safe:

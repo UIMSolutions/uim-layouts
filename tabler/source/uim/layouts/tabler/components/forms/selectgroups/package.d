@@ -1,4 +1,4 @@
-module layouts.tabler.components.forms.selectgroups;
+module uim.layouts.tabler.components.forms.selectgroups;
 
 public import layouts.tabler.components.forms.selectgroups.input;
 public import layouts.tabler.components.forms.selectgroups.item;

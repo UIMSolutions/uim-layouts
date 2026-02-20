@@ -1,1 +1,1 @@
-module layouts.materialize.icons;
+module uim.layouts.materialize.icons;

@@ -1,4 +1,4 @@
-module layouts.tabler.components.forms.colorinputs;
+module uim.layouts.tabler.components.forms.colorinputs;
 
 public import layouts.tabler.components.forms.colorinputs.color;
 public import layouts.tabler.components.forms.colorinputs.colorinput;

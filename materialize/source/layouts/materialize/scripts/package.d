@@ -1,1 +1,1 @@
-module layouts.materialize.scripts;
+module uim.layouts.materialize.scripts;

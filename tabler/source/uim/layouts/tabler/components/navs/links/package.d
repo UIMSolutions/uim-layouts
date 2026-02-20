@@ -1,1 +1,1 @@
-module layouts.tabler.components.navs.links;
+module uim.layouts.tabler.components.navs.links;

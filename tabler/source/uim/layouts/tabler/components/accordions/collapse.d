@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.accordions.collapse;
+﻿module uim.layouts.tabler.components.accordions.collapse;
 
 import layouts.tabler;
 @safe:

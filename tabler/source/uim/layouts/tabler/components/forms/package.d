@@ -1,4 +1,4 @@
-module layouts.tabler.components.forms;
+module uim.layouts.tabler.components.forms;
 
 public import layouts.tabler.components.forms.footer;
 
