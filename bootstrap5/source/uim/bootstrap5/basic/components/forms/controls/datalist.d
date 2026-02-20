@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.datalist;
+﻿module uim.bootstrap5.basic.components.forms.controls.datalist;
 
 import uim.bootstrap;
 

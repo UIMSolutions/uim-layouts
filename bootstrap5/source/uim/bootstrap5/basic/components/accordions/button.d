@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.accordions.button;
+module uim.bootstrap5.basic.components.accordions.button;
 
 import uim.bootstrap;
 

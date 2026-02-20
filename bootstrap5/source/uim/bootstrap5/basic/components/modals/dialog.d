@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.modals.dialog;
+﻿module uim.bootstrap5.basic.components.modals.dialog;
 
 import uim.bootstrap;
 

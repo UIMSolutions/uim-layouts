@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.cards
+# Package 📦 uim.bootstrap5.basic.components.cards

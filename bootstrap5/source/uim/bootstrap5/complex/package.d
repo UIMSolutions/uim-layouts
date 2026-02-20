@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.complex;
+module uim.bootstrap5.complex;
 
 import uim.bootstrap;
 

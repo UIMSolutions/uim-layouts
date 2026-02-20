@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.tabs.list;
+﻿module uim.bootstrap5.basic.components.tabs.list;
 
 import uim.bootstrap;
 

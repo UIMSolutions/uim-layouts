@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.sizing;
+﻿module uim.bootstrap5.basic.utilities.sizing;
 
 import uim.bootstrap;
 

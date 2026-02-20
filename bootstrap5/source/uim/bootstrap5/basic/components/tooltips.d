@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.tooltips;
+﻿module uim.bootstrap5.basic.components.tooltips;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.flex;
+﻿module uim.bootstrap5.basic.utilities.flex;
 
 import uim.bootstrap;
 

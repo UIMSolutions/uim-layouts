@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.dropdowns.menu;
+﻿module uim.bootstrap5.basic.components.dropdowns.menu;
 
 import uim.bootstrap;
 

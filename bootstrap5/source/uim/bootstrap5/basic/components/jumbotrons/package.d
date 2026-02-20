@@ -1,3 +1,3 @@
-﻿module uim.bootstrap.bs5.basic.components.jumbotrons;
+﻿module uim.bootstrap5.basic.components.jumbotrons;
 
-public import uim.bootstrap.bs5.basic.components.jumbotrons.jumbotron;
+public import uim.bootstrap5.basic.components.jumbotrons.jumbotron;

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.alerts.heading;
+﻿module uim.bootstrap5.basic.components.alerts.heading;
 
 import uim.bootstrap;
 

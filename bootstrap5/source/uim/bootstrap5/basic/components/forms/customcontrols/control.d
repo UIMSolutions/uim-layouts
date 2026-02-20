@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.customcontrols.control;
+﻿module uim.bootstrap5.basic.components.forms.customcontrols.control;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.popovers;
+﻿module uim.bootstrap5.basic.components.popovers;
 
 import uim.bootstrap;
 

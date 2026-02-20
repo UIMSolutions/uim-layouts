@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.classes.apps.app;
+module uim.bootstrap5.classes.apps.app;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.classes.tables.column;
+﻿module uim.bootstrap5.classes.tables.column;
 
 import uim.bootstrap;
 

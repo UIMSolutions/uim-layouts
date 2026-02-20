@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.lists.divitem;
+﻿module uim.bootstrap5.basic.components.lists.divitem;
 
 @safe:
 import uim.bootstrap;

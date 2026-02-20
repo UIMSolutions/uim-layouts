@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.cards.deck;
+﻿module uim.bootstrap5.basic.components.cards.deck;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.images;
+﻿module uim.bootstrap5.basic.utilities.images;
 
 import uim.bootstrap;
 

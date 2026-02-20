@@ -1,1 +1,1 @@
-﻿module uim.bootstrap.bs5.basic.helpers;
+﻿module uim.bootstrap5.basic.helpers;

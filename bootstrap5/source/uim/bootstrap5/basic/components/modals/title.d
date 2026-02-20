@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.modals.title;
+﻿module uim.bootstrap5.basic.components.modals.title;
 
 import uim.bootstrap;
 

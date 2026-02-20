@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.hidden;
+﻿module uim.bootstrap5.basic.components.forms.controls.hidden;
 
 import uim.bootstrap;
 

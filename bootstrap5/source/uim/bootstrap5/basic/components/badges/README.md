@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.badges
+# Package 📦 uim.bootstrap5.basic.components.badges

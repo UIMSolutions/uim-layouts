@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.borders;
+﻿module uim.bootstrap5.basic.utilities.borders;
 
 import uim.bootstrap;
 

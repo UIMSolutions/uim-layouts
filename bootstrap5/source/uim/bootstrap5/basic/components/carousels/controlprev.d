@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.carousels.controlprev;
+﻿module uim.bootstrap5.basic.components.carousels.controlprev;
 
 import uim.bootstrap;
 

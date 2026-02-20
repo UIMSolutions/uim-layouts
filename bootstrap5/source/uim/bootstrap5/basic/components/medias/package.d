@@ -1,6 +1,6 @@
-﻿module uim.bootstrap.bs5.basic.components.medias;
+﻿module uim.bootstrap5.basic.components.medias;
 
 public {
-  import uim.bootstrap.bs5.basic.components.medias.media;
-  import uim.bootstrap.bs5.basic.components.medias.body_;
+  import uim.bootstrap5.basic.components.medias.media;
+  import uim.bootstrap5.basic.components.medias.body_;
 }

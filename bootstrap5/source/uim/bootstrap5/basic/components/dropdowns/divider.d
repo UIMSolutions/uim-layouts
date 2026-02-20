@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.dropdowns.divider;
+﻿module uim.bootstrap5.basic.components.dropdowns.divider;
 
 import uim.bootstrap;
 

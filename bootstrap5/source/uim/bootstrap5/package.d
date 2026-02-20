@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5;
+module uim.bootstrap5;
 
 import uim.bootstrap;
 
@@ -11,11 +11,11 @@ public {
 public import uim.oop;
 public import uim.html;
 
-  import uim.bootstrap.bs5.basic;
-  import uim.bootstrap.bs5.classes;
-  import uim.bootstrap.bs5.complex;
-  import uim.bootstrap.bs5.icons;
-  import uim.bootstrap.bs5.mixins;
+  import uim.bootstrap5.basic;
+  import uim.bootstrap5.classes;
+  import uim.bootstrap5.complex;
+  import uim.bootstrap5.icons;
+  import uim.bootstrap5.mixins;
 }
 
 auto bs5CardComponents(string selComponent) {

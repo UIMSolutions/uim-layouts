@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.cards.overlay;
+﻿module uim.bootstrap5.basic.components.cards.overlay;
 
 import uim.bootstrap;
 

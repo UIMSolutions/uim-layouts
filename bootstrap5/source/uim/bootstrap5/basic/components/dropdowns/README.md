@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.dropdowns
+# Package 📦 uim.bootstrap5.basic.components.dropdowns

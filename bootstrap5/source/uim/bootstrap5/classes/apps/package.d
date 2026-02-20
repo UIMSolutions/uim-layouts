@@ -1,3 +1,3 @@
-module uim.bootstrap.bs5.classes.apps;
+module uim.bootstrap5.classes.apps;
 
-public import uim.bootstrap.bs5.classes.apps.app;
+public import uim.bootstrap5.classes.apps.app;

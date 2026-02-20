@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.navbars.brand;
+﻿module uim.bootstrap5.basic.components.navbars.brand;
 
 import uim.bootstrap;
 

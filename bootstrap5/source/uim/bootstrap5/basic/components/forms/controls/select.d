@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.select;
+﻿module uim.bootstrap5.basic.components.forms.controls.select;
 
 import uim.bootstrap;
 

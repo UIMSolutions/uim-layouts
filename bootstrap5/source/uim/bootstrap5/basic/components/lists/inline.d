@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.lists.inline;
+﻿module uim.bootstrap5.basic.components.lists.inline;
 
 import uim.bootstrap;
 

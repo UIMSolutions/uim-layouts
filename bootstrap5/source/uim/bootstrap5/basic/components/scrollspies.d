@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.scrollspies;
+﻿module uim.bootstrap5.basic.components.scrollspies;
 
 import uim.bootstrap;
 

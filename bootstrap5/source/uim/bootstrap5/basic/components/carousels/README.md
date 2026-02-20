@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.carousels
+# Package 📦 uim.bootstrap5.basic.components.carousels

@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.accordions.collapse;
+module uim.bootstrap5.basic.components.accordions.collapse;
 
 import uim.bootstrap;
 

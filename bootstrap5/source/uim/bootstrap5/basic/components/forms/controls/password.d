@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.password;
+﻿module uim.bootstrap5.basic.components.forms.controls.password;
 
 import uim.bootstrap;
 

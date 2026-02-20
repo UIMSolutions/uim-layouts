@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.mixins.element;
+module uim.bootstrap5.mixins.element;
 
 import uim.html;
 

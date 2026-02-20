@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.positions;
+﻿module uim.bootstrap5.basic.utilities.positions;
 
 import uim.bootstrap;
 

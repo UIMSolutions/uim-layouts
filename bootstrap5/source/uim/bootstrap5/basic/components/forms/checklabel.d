@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.checklabel;
+﻿module uim.bootstrap5.basic.components.forms.checklabel;
 
 import uim.bootstrap;
 

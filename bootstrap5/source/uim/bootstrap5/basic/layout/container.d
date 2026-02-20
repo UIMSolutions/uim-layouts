@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.layout.container;
+﻿module uim.bootstrap5.basic.layout.container;
 
 import uim.bootstrap;
 

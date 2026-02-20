@@ -1,4 +1,4 @@
-﻿  module uim.bootstrap.bs5.basic.components.carousels.controlnext;
+﻿  module uim.bootstrap5.basic.components.carousels.controlnext;
 
 import uim.bootstrap;
 

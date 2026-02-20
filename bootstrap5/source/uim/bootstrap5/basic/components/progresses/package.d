@@ -1,6 +1,6 @@
-﻿module uim.bootstrap.bs5.basic.components.progresses;
+﻿module uim.bootstrap5.basic.components.progresses;
 
 public {
-  import uim.bootstrap.bs5.basic.components.progresses.bar;
-  import uim.bootstrap.bs5.basic.components.progresses.progress;
+  import uim.bootstrap5.basic.components.progresses.bar;
+  import uim.bootstrap5.basic.components.progresses.progress;
 }

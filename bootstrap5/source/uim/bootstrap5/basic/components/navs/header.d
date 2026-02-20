@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.navs.header;
+﻿module uim.bootstrap5.basic.components.navs.header;
 
 import uim.bootstrap;
 

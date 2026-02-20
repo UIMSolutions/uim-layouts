@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.checkbox;
+﻿module uim.bootstrap5.basic.components.forms.controls.checkbox;
 
 import uim.bootstrap;
 

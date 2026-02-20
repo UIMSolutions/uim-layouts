@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.month;
+﻿module uim.bootstrap5.basic.components.forms.controls.month;
 
 import uim.bootstrap;
 

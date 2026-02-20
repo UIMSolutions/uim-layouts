@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.email;
+﻿module uim.bootstrap5.basic.components.forms.controls.email;
 
 import uim.bootstrap;
 

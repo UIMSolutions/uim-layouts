@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.navbars.toggler;
+﻿module uim.bootstrap5.basic.components.navbars.toggler;
 
 import uim.bootstrap;
 

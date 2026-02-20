@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.cards.blockquote;
+﻿module uim.bootstrap5.basic.components.cards.blockquote;
 
 import uim.bootstrap;
 

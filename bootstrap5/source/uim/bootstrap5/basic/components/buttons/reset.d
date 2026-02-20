@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.buttons.reset;
+﻿module uim.bootstrap5.basic.components.buttons.reset;
 
 import uim.bootstrap;
 

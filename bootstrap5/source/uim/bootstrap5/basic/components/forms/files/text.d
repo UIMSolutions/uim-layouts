@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.files.text;
+﻿module uim.bootstrap5.basic.components.forms.files.text;
 
 import uim.bootstrap;
 

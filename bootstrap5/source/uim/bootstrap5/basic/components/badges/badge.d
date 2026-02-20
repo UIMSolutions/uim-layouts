@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.badges.badge;
+module uim.bootstrap5.basic.components.badges.badge;
 
 import uim.bootstrap;
 

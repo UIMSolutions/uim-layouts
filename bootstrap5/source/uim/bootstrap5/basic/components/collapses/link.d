@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.collapses.link;
+﻿module uim.bootstrap5.basic.components.collapses.link;
 
 import uim.bootstrap;
 

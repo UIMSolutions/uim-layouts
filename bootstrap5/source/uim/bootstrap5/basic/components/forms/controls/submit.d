@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.submit;
+﻿module uim.bootstrap5.basic.components.forms.controls.submit;
 
 import uim.bootstrap;
 

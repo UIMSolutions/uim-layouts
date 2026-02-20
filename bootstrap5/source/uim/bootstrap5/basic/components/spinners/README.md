@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.spinners
+# Package 📦 uim.bootstrap5.basic.components.spinners

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.classes.obj;
+﻿module uim.bootstrap5.classes.obj;
 
 import uim.bootstrap;
 

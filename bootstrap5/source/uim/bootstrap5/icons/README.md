@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.icons
+# Package 📦 uim.bootstrap5.icons

@@ -1,5 +1,5 @@
-module uim.bootstrap.bs5.helpers;
+module uim.bootstrap5.helpers;
 
 public {
-  import uim.bootstrap.bs5.helpers.helper;
+  import uim.bootstrap5.helpers.helper;
 }

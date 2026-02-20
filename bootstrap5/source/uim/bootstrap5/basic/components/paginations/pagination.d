@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.paginations.pagination;
+﻿module uim.bootstrap5.basic.components.paginations.pagination;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.spacing;
+﻿module uim.bootstrap5.basic.utilities.spacing;
 
 import uim.bootstrap;
 

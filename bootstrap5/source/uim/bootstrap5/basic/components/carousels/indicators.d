@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.carousels.indicators;
+﻿module uim.bootstrap5.basic.components.carousels.indicators;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.medias.media;
+﻿module uim.bootstrap5.basic.components.medias.media;
 
 import uim.bootstrap;
 

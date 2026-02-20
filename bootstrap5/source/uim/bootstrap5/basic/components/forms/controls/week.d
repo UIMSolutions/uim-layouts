@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.week;
+﻿module uim.bootstrap5.basic.components.forms.controls.week;
 
 import uim.bootstrap;
 

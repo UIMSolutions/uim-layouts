@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.classes.tables.footer;
+﻿module uim.bootstrap5.classes.tables.footer;
 
 import uim.bootstrap;
 

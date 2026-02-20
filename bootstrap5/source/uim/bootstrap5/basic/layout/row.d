@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.layout.row;
+﻿module uim.bootstrap5.basic.layout.row;
 
 import uim.bootstrap;
 

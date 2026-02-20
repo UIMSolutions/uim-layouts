@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.forms.floating;
+module uim.bootstrap5.basic.components.forms.floating;
 
 import uim.bootstrap;
 

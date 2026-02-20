@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.progresses.bar;
+﻿module uim.bootstrap5.basic.components.progresses.bar;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.customcontrols.filelabel;
+﻿module uim.bootstrap5.basic.components.forms.customcontrols.filelabel;
 
 import uim.bootstrap;
 

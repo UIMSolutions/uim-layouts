@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.classes.tables.body_;
+﻿module uim.bootstrap5.classes.tables.body_;
 
 import uim.bootstrap;
 

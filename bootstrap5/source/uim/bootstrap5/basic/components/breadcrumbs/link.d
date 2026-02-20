@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.breadcrumbs.link;
+﻿module uim.bootstrap5.basic.components.breadcrumbs.link;
 
 import uim.bootstrap;
 

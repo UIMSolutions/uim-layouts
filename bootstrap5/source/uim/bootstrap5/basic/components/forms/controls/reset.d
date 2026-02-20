@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.reset;
+﻿module uim.bootstrap5.basic.components.forms.controls.reset;
 
 import uim.bootstrap;
 

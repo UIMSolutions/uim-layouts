@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.navs
+# Package 📦 uim.bootstrap5.basic.components.navs

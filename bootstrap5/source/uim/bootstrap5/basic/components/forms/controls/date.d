@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.date;
+﻿module uim.bootstrap5.basic.components.forms.controls.date;
 
 import uim.bootstrap;
 

@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.accordions.header;
+module uim.bootstrap5.basic.components.accordions.header;
 
 import uim.bootstrap;
 

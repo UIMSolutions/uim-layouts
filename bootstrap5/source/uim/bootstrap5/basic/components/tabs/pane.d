@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.tabs.pane;
+﻿module uim.bootstrap5.basic.components.tabs.pane;
 
 import uim.bootstrap;
 

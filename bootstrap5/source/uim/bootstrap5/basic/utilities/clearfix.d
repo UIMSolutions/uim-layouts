@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.clearfix;
+﻿module uim.bootstrap5.basic.utilities.clearfix;
 
 import uim.bootstrap;
 

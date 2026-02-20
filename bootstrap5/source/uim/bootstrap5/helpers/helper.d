@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.helpers.helper;
+module uim.bootstrap5.helpers.helper;
 
 auto bs5Breadcrumbs(string[] links, string[] titles, string activeTitle) {
   string bcrumbs;

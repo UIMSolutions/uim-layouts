@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.tel;
+﻿module uim.bootstrap5.basic.components.forms.controls.tel;
 
 import uim.bootstrap;
 

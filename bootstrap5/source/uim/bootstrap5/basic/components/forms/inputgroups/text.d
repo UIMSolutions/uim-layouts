@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.inputgroups.text;
+﻿module uim.bootstrap5.basic.components.forms.inputgroups.text;
 
 import uim.bootstrap;
 

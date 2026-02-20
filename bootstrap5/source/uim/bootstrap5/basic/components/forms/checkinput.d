@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.checkinput;
+﻿module uim.bootstrap5.basic.components.forms.checkinput;
 
 import uim.bootstrap;
 

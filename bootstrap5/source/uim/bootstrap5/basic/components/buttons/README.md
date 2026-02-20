@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.basic.components.buttons
+# Package 📦 uim.bootstrap5.basic.components.buttons

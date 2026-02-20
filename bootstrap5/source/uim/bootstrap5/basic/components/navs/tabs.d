@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.navs.tabs;
+﻿module uim.bootstrap5.basic.components.navs.tabs;
 
 import uim.bootstrap;
 

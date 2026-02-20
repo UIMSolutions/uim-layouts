@@ -1,1 +1,1 @@
-# Package 📦 uim.bootstrap.bs5.classes
+# Package 📦 uim.bootstrap5.classes

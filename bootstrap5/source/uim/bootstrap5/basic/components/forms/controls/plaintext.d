@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.forms.controls.plaintext;
+﻿module uim.bootstrap5.basic.components.forms.controls.plaintext;
 
 import uim.bootstrap;
 

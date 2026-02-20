@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.accordions.accordion;
+module uim.bootstrap5.basic.components.accordions.accordion;
 
 @safe:
 import uim.bootstrap;

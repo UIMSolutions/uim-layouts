@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.spinners.border;
+module uim.bootstrap5.basic.components.spinners.border;
 
 import uim.bootstrap;
 

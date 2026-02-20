@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.utilities.shadows;
+﻿module uim.bootstrap5.basic.utilities.shadows;
 
 import uim.bootstrap;
 

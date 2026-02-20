@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.cards.columns;
+﻿module uim.bootstrap5.basic.components.cards.columns;
 
 import uim.bootstrap;
 

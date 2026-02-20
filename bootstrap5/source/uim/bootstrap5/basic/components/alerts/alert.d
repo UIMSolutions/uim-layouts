@@ -1,4 +1,4 @@
-module uim.bootstrap.bs5.basic.components.alerts.alert;
+module uim.bootstrap5.basic.components.alerts.alert;
 
 @safe:
 import uim.bootstrap;

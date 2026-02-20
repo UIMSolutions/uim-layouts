@@ -1,4 +1,4 @@
-﻿module uim.bootstrap.bs5.basic.components.navbars.togglericon;
+﻿module uim.bootstrap5.basic.components.navbars.togglericon;
 
 import uim.bootstrap;
 
