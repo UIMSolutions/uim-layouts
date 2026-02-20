@@ -17,7 +17,7 @@ class TABFormCheckInput : H5Input {
 }
 ///
 unittest {
-  assert(TABFormCheckInput() == `<input class="form-check-input">`);
+  assert(TABFormCheckInput() == `<input class="form-check-input" />`);
 }
 
 

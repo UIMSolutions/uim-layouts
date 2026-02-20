@@ -13,5 +13,5 @@ class TABSelectgroupInput : H5Input {
 }
 ///
 unittest {
-  assert(TABSelectgroupInput() == `<input class="form-selectgroup-input">`);
+  assert(TABSelectgroupInput() == `<input class="form-selectgroup-input" />`);
 }

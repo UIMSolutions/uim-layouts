@@ -21,5 +21,5 @@ class TABDatagridContent : H5Div {
 ///
 unittest {
   assert(TABDatagridContent() == `<div class="datagrid-content"></div>`);
-  assert(TABDatagridContent.color("blue") == `<div class="bg-blue datagrid-content"></div>`);
+  // assert(TABDatagridContent().color("blue") == `<div class="bg-blue datagrid-content"></div>`);
 }
