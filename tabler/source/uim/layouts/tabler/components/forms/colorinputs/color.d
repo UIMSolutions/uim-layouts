@@ -17,7 +17,7 @@ class TABFormColorInputColor : H5Span {
 }
 ///
 unittest {
-  assert(TABFormColorInputColor == `<span class="form-colorinput-color"></span>`);
+  assert(TABFormColorInputColor() == `<span class="form-colorinput-color"></span>`);
 }
 
 

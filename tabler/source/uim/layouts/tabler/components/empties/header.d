@@ -14,5 +14,5 @@ class TABEmptyHeader : H5Div {
 
 ///
 unittest {
-  assert(TABEmptyHeader == `<div class="empty-header"></div>`);
+  assert(TABEmptyHeader() == `<div class="empty-header"></div>`);
 }

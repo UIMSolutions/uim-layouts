@@ -14,7 +14,7 @@ class TABFormFooter : H5Div {
 
 ///
 unittest {
-  assert(TABFormFooter == `<div class="form-footer"></div>`);
+  assert(TABFormFooter() == `<div class="form-footer"></div>`);
 }
 
 // auto footer(BS5Form form, BS5FormFooter addFooter) {

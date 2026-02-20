@@ -13,5 +13,5 @@ class TABSelectgroupItem : H5Label {
 }
 ///
 unittest {
-  assert(TABSelectgroupItem == `<label class="form-selectgroup-item"></label>`);
+  assert(TABSelectgroupItem() == `<label class="form-selectgroup-item"></label>`);
 }

@@ -17,7 +17,7 @@ class TABFormColorInputRadio : TABFormColorInput {
 }
 ///
 unittest {
-  assert(TABFormColorInputRadio == `<input class="form-colorinput-input">`);
+  assert(TABFormColorInputRadio() == `<input class="form-colorinput-input">`);
 }
 
 

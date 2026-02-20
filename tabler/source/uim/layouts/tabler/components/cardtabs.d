@@ -17,5 +17,5 @@ class TABCardTabs : H5Div {
 }
 ///
 unittest {
-  assert(TABCardTabs == `<div class="card-tabs"></div>`);
+  assert(TABCardTabs() == `<div class="card-tabs"></div>`);
 }

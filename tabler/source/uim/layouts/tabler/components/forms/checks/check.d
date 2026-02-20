@@ -15,14 +15,11 @@ class TABFormCheck : H5Label {
 
   mixin(AddContentCalls!("TABFormCheck", "Input", "TABFormCheckInput"));
 
-  TABFormCheck addLabel() {
-    addContent(new TABFormCheckLabel());
-    return this;
-  }
+  mixin(AddContentCalls!("TABFormCheck", "Label", "TABFormCheckLabel"));
 
   mixin(TABCalls!("FormCheck"));
 }
 ///
 unittest {
-  assert(TABFormCheck == `<label class="form-check"></label>`);
+  assert(TABFormCheck() == `<label class="form-check"></label>`);
 }

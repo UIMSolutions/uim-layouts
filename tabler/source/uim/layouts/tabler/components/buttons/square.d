@@ -13,5 +13,5 @@ class TABButtonSquare : TABButton {
 }
 ///
 unittest {
-  assert(TABButtonSquare == `<button class="btn btn-square" type="button"></button>`);
+  assert(TABButtonSquare() == `<button class="btn btn-square" type="button"></button>`);
 }

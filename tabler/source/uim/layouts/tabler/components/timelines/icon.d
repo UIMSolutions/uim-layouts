@@ -10,7 +10,7 @@ class TABTimelineIcon : H5Div {
   mixin TABThis!(["list-timeline-icon"]);
 
   TABTimelineIcon color(string value) {
-    this.addClasses("bg-" ~ value);
+    this.addClass("bg-" ~ value);
     return this;
   }
 

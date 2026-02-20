@@ -17,7 +17,7 @@ class TABFormColorInput : H5Input {
 }
 ///
 unittest {
-  assert(TABFormColorInput == `<input class="form-colorinput-input">`);
+  assert(TABFormColorInput() == `<input class="form-colorinput-input">`);
 }
 
 

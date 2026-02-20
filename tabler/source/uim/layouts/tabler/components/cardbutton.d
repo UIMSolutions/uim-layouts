@@ -17,5 +17,5 @@ class TABCardButton : H5A {
 }
 ///
 unittest {
-  assert(TABCardButton == `<a class="card-btn"></a>`);
+  assert(TABCardButton() == `<a class="card-btn"></a>`);
 }

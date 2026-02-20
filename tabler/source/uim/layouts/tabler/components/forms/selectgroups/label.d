@@ -17,7 +17,7 @@ class TABSelectgroupLabel : H5Span {
 
 ///
 unittest {
-  assert(TABSelectgroupLabel == `<span class="form-selectgroup-label"></span>`);
+  assert(TABSelectgroupLabel() == `<span class="form-selectgroup-label"></span>`);
 }
 
 

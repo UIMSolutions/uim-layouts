@@ -11,12 +11,12 @@ class TABStatusDot : H5Span {
 
   TABStatusDot animated(bool value = true) {
     if (value)
-      this.addClasses("status-dot-animated");
+      this.addClass("status-dot-animated");
     return this;
   }
 
   TABStatusDot color(string value) {
-    this.addClasses("status-" ~ value);
+    this.addClass("status-" ~ value);
     return this;
   }
 
@@ -25,7 +25,7 @@ class TABStatusDot : H5Span {
 
 ///
 unittest {
-  assert(TABStatusDot == `<span class="status-dot"></span>`);
-  assert(TABStatusDot.animated == `<span class="status-dot status-dot-animated"></span>`);
-  assert(TABStatusDot.color("blue") == `<span class="status-dot status-blue"></span>`);
+  assert(TABStatusDot() == `<span class="status-dot"></span>`);
+  assert(TABStatusDot().animated() == `<span class="status-dot status-dot-animated"></span>`);
+  assert(TABStatusDot().color("blue") == `<span class="status-dot status-blue"></span>`);
 }

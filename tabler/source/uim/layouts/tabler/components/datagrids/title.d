@@ -14,7 +14,7 @@ class TABDatagridTitle : H5Div {
   mixin TABThis!(["datagrid-title"]);
 
   TABDatagridTitle color(string newColor) {
-    this.addClasses("bg-" ~ newColor);
+    this.addClass("bg-" ~ newColor);
     return this;
   }
 

@@ -17,5 +17,5 @@ class TABImageCheckInput : H5Input {
 }
 ///
 unittest {
-  assert(TABImageCheckInput == `<input class="form-imagecheck-input">`);
+  assert(TABImageCheckInput() == `<input class="form-imagecheck-input">`);
 }

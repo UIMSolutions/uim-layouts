@@ -23,12 +23,12 @@ class TABStatusIndicator : H5Span {
 
   TABStatusIndicator animated(bool value = true) {
     if (value)
-      this.addClasses("status-indicator-animated");
+      this.addClass("status-indicator-animated");
     return this;
   }
 
   TABStatusIndicator color(string value) {
-    this.addClasses("status-" ~ value);
+    this.addClass("status-" ~ value);
     return this;
   }
 

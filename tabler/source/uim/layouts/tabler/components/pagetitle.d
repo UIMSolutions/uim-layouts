@@ -11,5 +11,5 @@ class TABPageTitle : H5H2 {
 }
 ///
 unittest {
-  assert(TABPageTitle == `<h2 class="page-title"></h2>`);
+  assert(TABPageTitle() == `<h2 class="page-title"></h2>`);
 }

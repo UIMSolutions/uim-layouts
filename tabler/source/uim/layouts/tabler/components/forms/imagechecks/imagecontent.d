@@ -17,5 +17,5 @@ class TABImageCheckImageContent : H5Span {
 }
 ///
 unittest {
-  assert(TABImageCheckImageContent == `<span class="form-imagecheck-image"></span>`);
+  assert(TABImageCheckImageContent() == `<span class="form-imagecheck-image"></span>`);
 }

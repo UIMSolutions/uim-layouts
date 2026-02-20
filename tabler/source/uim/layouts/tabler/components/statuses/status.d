@@ -10,13 +10,13 @@ class TABStatus : H5Span {
   mixin TABThis!(["status"]);
 
   TABStatus color(string value) {
-    this.addClasses("status-" ~ value);
+    this.addClass("status-" ~ value);
     return this;
   }
 
   TABStatus lite(bool value = true) {
     if (value)
-      this.addClasses("status-lite");
+      this.addClass("status-lite");
     return this;
   }
 

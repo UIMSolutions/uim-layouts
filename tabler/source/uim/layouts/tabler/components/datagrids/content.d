@@ -12,7 +12,7 @@ class TABDatagridContent : H5Div {
   mixin TABThis!(["datagrid-content"]);
 
   TABDatagridContent color(string value) {
-    this.addClasses("bg-" ~ value);
+    this.addClass("bg-" ~ value);
     return this;
   }
 

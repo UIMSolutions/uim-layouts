@@ -17,5 +17,5 @@ class TABImageCheckLabel : H5Label {
 }
 ///
 unittest {
-  assert(TABImageCheckLabel == `<label class="form-imagecheck"></label>`);
+  assert(TABImageCheckLabel() == `<label class="form-imagecheck"></label>`);
 }

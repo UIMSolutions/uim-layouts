@@ -13,5 +13,5 @@ class TABEmptyTitle : H5P {
 }
 ///
 unittest {
-  assert(TABEmptyTitle == `<p class="empty-title"></p>`);
+  assert(TABEmptyTitle() == `<p class="empty-title"></p>`);
 }
