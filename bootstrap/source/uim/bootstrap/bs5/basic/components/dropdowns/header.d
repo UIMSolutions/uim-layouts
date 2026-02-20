@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5DropdownHeader : BS5Obj {
-  mixin(H5This!("H6", ["dropdown-header"]));
+  mixin BS5This!("H6", ["dropdown-header"]));
 }
 static BS5DropdownHeader opCall() {
   return new BS5DropdownHeader;

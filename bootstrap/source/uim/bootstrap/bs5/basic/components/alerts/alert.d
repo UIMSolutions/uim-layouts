@@ -9,7 +9,7 @@ mixin(ShowModule!());
 
 ///Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
 class BS5Alert : H5Div {
-  mixin(H5This!(["alert"], `["role":"alert"]`));
+  mixin BS5This!(["alert"], `["role":"alert"]`));
 
   auto color(string name) {
     return this.addClasses("alert-" ~ name);
@@ -42,7 +42,7 @@ unittest {
 static BS5Alert"));
 
 class BS5AlertLink : BS5Obj {
-  mixin(H5This!("A", ["alert-link"], `["href":"#"]`));
+  mixin BS5This!("A", ["alert-link"], `["href":"#"]`));
 }
 
 static BS5AlertLink"));

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavbarCollapse : H5Div {
-  mixin(H5This!(["collapse", "navbar-collapse"]));
+  mixin BS5This!(["collapse", "navbar-collapse"]));
 }
 static BS5NavbarCollapse");
 

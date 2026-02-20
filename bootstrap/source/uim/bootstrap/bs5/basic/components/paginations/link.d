@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5PageLink : BS5Obj {
-  mixin(H5This!("A", ["page-link"], `["href":"#"]`));
+  mixin BS5This!("A", ["page-link"], `["href":"#"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

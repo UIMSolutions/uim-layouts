@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Form : BS5Obj {
-  mixin(H5This!("Form"));
+  mixin BS5This!("Form"));
 
   O inline(bool value = true) { return this.addClasses("form-inline"); }
 

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormFileText : BS5Obj {
-  mixin(H5This!("span", ["form-file-text"]));
+  mixin BS5This!("span", ["form-file-text"]));
 }
 static BS5FormFileText");
 

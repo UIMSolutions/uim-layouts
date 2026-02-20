@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5Radio : BS5Input {
-  mixin(H5This!("", null, `["type":"radio"]`));
+  mixin BS5This!("", null, `["type":"radio"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

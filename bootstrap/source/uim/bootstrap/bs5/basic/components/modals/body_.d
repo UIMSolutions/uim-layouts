@@ -7,13 +7,11 @@ mixin(ShowModule!());
 @safe:
 
 class BS5ModalBody : H5Div {
-  mixin(H5This!(["modal-body"]));
+  mixin BS5This!(["modal-body"]);
 
-  static BS5ModalBody opCall() {
-    return new BS5ModalBody;
-  }
+  mixin(BS5Calls!("ModalBody"));
 }
-
+///
 unittest {
   assert(BS5ModalBody == `<div class="modal-body"></div>`);
 }

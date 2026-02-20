@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputDateTime : BS5Input {
-  mixin(H5This!("", null, `["type":"datetime-local"]`));
+  mixin BS5This!("", null, `["type":"datetime-local"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

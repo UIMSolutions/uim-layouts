@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 // Bootstrap 5 Breadcrumb Item
 class BS5BreadcrumbItem : BS5Obj {
-  mixin(H5This!("LI", ["breadcrumb-item"]));
+  mixin BS5This!("LI", ["breadcrumb-item"]));
 
   O active(bool mode = true) {
     if (mode)

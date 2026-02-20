@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 /// An unordered list with list items
 class BS5List : BS5Obj {
-  mixin(H5This!("UL", ["list-group"]));
+  mixin BS5This!("UL", ["list-group"]));
 
   // Removes some borders and rounded corners to render group in a parent container
   O flush() {

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5SpinnerBorder : H5Div {
-  mixin(H5This!(["spinner-border"]));
+  mixin BS5This!(["spinner-border"]));
 
   static BS5SpinnerBorder opCall() {
     return new BS5SpinnerBorder;

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormText : BS5Obj {
-  mixin(H5This!("SMALL", ["form-text"]));
+  mixin BS5This!("SMALL", ["form-text"]));
 }
 static BS5FormText");
 

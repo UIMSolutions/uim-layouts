@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5TableRow : BS5Obj {
-  mixin(H5This!"Tr");
+  mixin BS5This!"Tr");
 
   /// Adding a header cell
   mixin(MyContent!("th", "H5Th"));

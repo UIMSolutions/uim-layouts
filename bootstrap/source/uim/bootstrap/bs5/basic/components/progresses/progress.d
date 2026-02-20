@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5Progress : H5Div {
-  mixin(H5This!(["progress"]));
+  mixin BS5This!(["progress"]));
 
   auto addBar() {
     addContent(BS5ProgressBar());

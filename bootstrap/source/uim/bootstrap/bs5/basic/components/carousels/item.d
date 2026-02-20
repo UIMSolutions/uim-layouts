@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CarouselItem : H5Div {
-  mixin(H5This!(["carousel-item"]));
+  mixin BS5This!(["carousel-item"]));
 
   O active(bool mode = true) {
     if (mode) this.addClasses("active");

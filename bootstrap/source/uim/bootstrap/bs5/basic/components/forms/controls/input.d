@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5Input : BS5Obj {
-  mixin(H5This!("Input", null, null, true));  
+  mixin BS5This!("Input", null, null, true));  
 
   mixin(MyAttribute!"value");
   mixin(MyAttribute!"placeholder");

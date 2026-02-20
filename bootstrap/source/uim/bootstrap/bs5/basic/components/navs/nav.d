@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Nav : BS5Obj {
-  mixin(H5This!("Ul", ["nav"]));
+  mixin BS5This!("Ul", ["nav"]));
 
   mixin(MyContent!("item", "BS5NavItem"));
   ///

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5BreadcrumbLink : BS5Obj {
-  mixin(H5This!("A", null, null));
+  mixin BS5This!("A", null, null));
 
   static BS5BreadcrumbLink opCall() {
     return new BS5BreadcrumbLink;

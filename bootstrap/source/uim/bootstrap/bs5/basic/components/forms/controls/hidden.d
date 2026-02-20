@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputHidden : BS5Input {
-  mixin(H5This!("", null, `["type":"hidden"]`));
+  mixin BS5This!("", null, `["type":"hidden"]`));
 
   O value(UUID id) {
     this.value(id.toString);

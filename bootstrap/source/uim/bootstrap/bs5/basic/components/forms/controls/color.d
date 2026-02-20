@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputColor : BS5Input {
-  mixin(H5This!("", ["form-control", "form-control-color"], `["type":"color"]`));
+  mixin BS5This!("", ["form-control", "form-control-color"], `["type":"color"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

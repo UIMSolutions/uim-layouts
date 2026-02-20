@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CollapseLink : BS5Obj {
-  mixin(H5This!("a", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
+  mixin BS5This!("a", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
 }
 static BS5CollapseLink");
 

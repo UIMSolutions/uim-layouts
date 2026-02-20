@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 /// Button for accordion item header
 class BS5AccordionButton : BS5Obj {
-  mixin(H5This!("BS5AccordionButton"));
+  mixin BS5This!("BS5AccordionButton"));
 
   override bool initialize(Json[string] args = null) {
     if (!super.initialize(args)) {

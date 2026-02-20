@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ModalButton : BS5Obj {
-  mixin(H5This!("Button", ["btn"], `["data-toggle":"modal"]`));
+  mixin BS5This!("Button", ["btn"], `["data-toggle":"modal"]`));
 
   BS5ModalButton target(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
   BS5ModalButton backdrop(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }

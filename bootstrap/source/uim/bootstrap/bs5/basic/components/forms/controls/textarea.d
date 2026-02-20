@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputTextarea : BS5Obj {
-  mixin(H5This!("textarea", ["form-control"]));
+  mixin BS5This!("textarea", ["form-control"]));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

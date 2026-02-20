@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputImage : BS5Obj {
-  mixin(H5This!("Input", ["form-control"], `["type":"image"]`));
+  mixin BS5This!("Input", ["form-control"], `["type":"image"]`));
   override public void initialize() {
     super.initialize;
     _single = true;

@@ -26,7 +26,7 @@ mixin(ShowModule!());
   * ```
   */
 class BS5CarouselControlNext : BS5Obj {
-  mixin(H5This!("a", ["carousel-control-next"], `["data-bs-slide":"next"]`));
+  mixin BS5This!("a", ["carousel-control-next"], `["data-bs-slide":"next"]`));
   
   override public void initialize() {
     super.initialize;

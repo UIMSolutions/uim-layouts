@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ListLink : BS5Obj {
-  mixin(H5This!("A", ["list-group-item", "list-group-item-action"], null));
+  mixin BS5This!("A", ["list-group-item", "list-group-item-action"], null));
 
   O active(bool value = true) { return this.addClasses("active"); }
   ///

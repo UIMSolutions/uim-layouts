@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavbarBrand : BS5Obj {
-  mixin(H5This!("a", ["navbar-brand"]));
+  mixin BS5This!("a", ["navbar-brand"]));
 
   mixin(MyContent!("image", "H5IMG"));
 }

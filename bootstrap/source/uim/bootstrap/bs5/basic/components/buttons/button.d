@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Button : BS5ButtonObj {
-  mixin(H5This!("button", ["btn"], `["type":"button"]`));
+  mixin BS5This!("button", ["btn"], `["type":"button"]`));
 
   // Set button to active state
   O active(bool mode = true){ if (mode) _classes ~= "active"; return this; }

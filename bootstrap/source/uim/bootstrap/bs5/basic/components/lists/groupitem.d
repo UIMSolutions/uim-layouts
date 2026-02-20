@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ListGroupItem : H5Div {
-  mixin(H5This!(["list-group-item"]));
+  mixin BS5This!(["list-group-item"]));
 
   auto color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }
 }

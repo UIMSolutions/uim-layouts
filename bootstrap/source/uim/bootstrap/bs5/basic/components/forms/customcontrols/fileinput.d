@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CustomFileInput : BS5Obj {
-  mixin(H5This!("INPUT", ["custom-file-input"]));
+  mixin BS5This!("INPUT", ["custom-file-input"]));
   override public void initialize() {
     super.initialize;
     _single = true;

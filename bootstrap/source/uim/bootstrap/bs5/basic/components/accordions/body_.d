@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 /// 
 class BS5AccordionBody : BS5Obj {
-  mixin(H5This!"BS5AccordionBody");
+  mixin BS5This!"BS5AccordionBody");
 
   override bool initialize(Json[string] args = null) {
     if (!super.initialize(args)) {

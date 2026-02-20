@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CardBlock : H5Div {
-  mixin(H5This!(["card-block"]));
+  mixin BS5This!(["card-block"]));
 
   mixin(B5Calls!("CardBlock"));
 }

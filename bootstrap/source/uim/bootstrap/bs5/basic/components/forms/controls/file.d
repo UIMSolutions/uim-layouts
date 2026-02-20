@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputFile : BS5Input {
-  mixin(H5This!(null, ["form-control"], `["type":"file"]`));
+  mixin BS5This!(null, ["form-control"], `["type":"file"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

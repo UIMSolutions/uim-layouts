@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5TableColumn : BS5Obj {
-  mixin(H5This!"th");
+  mixin BS5This!"th");
 
   mixin(TProperty!("string", "key"));
   mixin(TProperty!("string", "title"));

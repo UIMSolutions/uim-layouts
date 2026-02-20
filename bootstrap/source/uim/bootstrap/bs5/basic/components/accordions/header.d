@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5AccordionHeader : BS5Obj {
-  mixin(H5This!("H2", ["accordion-header"]));
+  mixin BS5This!("H2", ["accordion-header"]));
 
   mixin(MyContent!("button", "BS5AccordionButton"));
 }

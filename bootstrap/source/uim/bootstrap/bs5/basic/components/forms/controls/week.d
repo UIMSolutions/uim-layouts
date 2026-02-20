@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputWeek : BS5Input {
-  mixin(H5This!("", null, `["type":"week"]`));
+  mixin BS5This!("", null, `["type":"week"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

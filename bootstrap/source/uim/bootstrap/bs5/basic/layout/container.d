@@ -13,7 +13,7 @@ Containers are containing elements to wrap other elements and contain its grid s
 Default: A fixed container is a (responsive) fixed width container. 
 */
 class BS5Container : H5Div {
-  mixin(H5This!(["container"]));
+  mixin BS5This!(["container"]));
   ///
   unittest {
     assert(BS5Container == `<div class="container"></div>`);

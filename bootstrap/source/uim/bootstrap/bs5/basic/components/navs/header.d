@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavHeader : BS5Obj {
-  mixin(H5This!("li", ["nav-header"]));
+  mixin BS5This!("li", ["nav-header"]));
 }
 static BS5NavHeader");
 

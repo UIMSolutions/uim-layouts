@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputNumber : BS5Obj {
-  mixin(H5This!("Input", ["form-control"], `["type":"number"]`));
+  mixin BS5This!("Input", ["form-control"], `["type":"number"]`));
   override public void initialize() {
     super.initialize; _single = true;
   }

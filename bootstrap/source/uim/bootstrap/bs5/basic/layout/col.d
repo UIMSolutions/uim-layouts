@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5Col : BS5Obj {
-  mixin(H5This!("Div"));
+  mixin BS5This!("Div"));
 
   O sizes(string[] someSizes...) {
     foreach (size; someSizes)

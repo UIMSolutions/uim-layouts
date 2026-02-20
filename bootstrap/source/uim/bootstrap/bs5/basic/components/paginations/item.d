@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5PageItem : BS5Obj {
-  mixin(H5This!("LI", ["page-item"]));
+  mixin BS5This!("LI", ["page-item"]));
 
   mixin(MyContent!("link", "BS5PageLink"));
 

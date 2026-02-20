@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5AccordionCollapse : H5Div {
-  mixin(H5This!(["accordion-collapse"]));
+  mixin BS5This!(["accordion-collapse"]));
 
   override bool initialize(Json[string] args = null) {
     if (!super.initialize(args)) {

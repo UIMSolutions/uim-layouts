@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ButtonSubmit : BS5ButtonObj {
-  mixin(H5This!("button", ["btn"], `["type":"submit"]`));
+  mixin BS5This!("button", ["btn"], `["type":"submit"]`));
 
   override void initialize() {
     super.initialize;

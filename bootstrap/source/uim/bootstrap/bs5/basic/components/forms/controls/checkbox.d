@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5Checkbox : BS5Input {
-  mixin(H5This!(null, null, `["type":"checkbox"]`));
+  mixin BS5This!(null, null, `["type":"checkbox"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

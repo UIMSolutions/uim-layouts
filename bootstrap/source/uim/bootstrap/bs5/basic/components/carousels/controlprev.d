@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5CarouselControlPrev : BS5Obj {
-  mixin(H5This!("a", ["carousel-control-prev"], `["data-bs-slide":"prev"]`));
+  mixin BS5This!("a", ["carousel-control-prev"], `["data-bs-slide":"prev"]`));
   override public void initialize() {
     super.initialize;
     this

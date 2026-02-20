@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CarouselIndicators : H5Div {
-  mixin(H5This!(["carousel-indicators"]));
+  mixin BS5This!(["carousel-indicators"]));
 
   O active(bool mode = true) {
     if (mode) addClasses("active");
@@ -27,6 +27,6 @@ unittest {
 }}
 
 class BS5CarouselIndicator : BS5Obj {
-  mixin(H5This!("button", ["carousel-indicator"]));
+  mixin BS5This!("button", ["carousel-indicator"]));
 }
 static BS5CarouselIndicator");

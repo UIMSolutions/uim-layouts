@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CardSubtitle : BS5Obj {
-  mixin(H5This!("H6", ["card-subtitle"]));
+  mixin BS5This!("H6", ["card-subtitle"]));
   override public void initialize() {
     super.initialize;
     _tag = "h6";

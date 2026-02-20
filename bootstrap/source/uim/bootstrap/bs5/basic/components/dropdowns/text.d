@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5DropdownText : BS5Obj {
-  mixin(H5This!("p", null, null));
+  mixin BS5This!("p", null, null));
 
 static BS5DropdownText opCall(string text) {
   auto obj = new BS5DropdownText;

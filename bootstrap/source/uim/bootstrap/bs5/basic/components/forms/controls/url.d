@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputUrl : BS5Input {
-  mixin(H5This!("", null, `["type":"url"]`));
+  mixin BS5This!("", null, `["type":"url"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

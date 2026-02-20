@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormFileLabel : BS5Obj {
-  mixin(H5This!("label", ["form-file-label"]));
+  mixin BS5This!("label", ["form-file-label"]));
 }
 static BS5FormFileLabel");
 

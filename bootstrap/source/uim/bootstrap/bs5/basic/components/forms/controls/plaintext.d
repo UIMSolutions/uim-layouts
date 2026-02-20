@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputPlaintext : BS5Input {
-  mixin(H5This!(""));
+  mixin BS5This!(""));
 
   override void initialize () {
     super.initialize();

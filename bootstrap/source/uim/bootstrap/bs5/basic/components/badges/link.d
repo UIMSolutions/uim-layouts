@@ -12,7 +12,7 @@ mixin(ShowModule!());
  * Authors: UI Manufaktur UG, https://ui-manufaktur.com 
  */
 class BS5BadgeLink : H5A {
-  mixin(H5This!("A"));
+  mixin BS5This!("A"));
 
   override bool initialize(Json[string] args = null) {
     if (!super.initialize(args)) {

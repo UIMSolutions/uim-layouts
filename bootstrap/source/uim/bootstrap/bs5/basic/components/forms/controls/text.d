@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputText : BS5Input {
-  mixin(H5This!("", null, `["type":"text"]`));
+  mixin BS5This!("", null, `["type":"text"]`));
 
   override void initialize (Json aConfig = Json(null)) {
     super.initialize(aConfig);

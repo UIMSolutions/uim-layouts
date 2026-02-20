@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Obj : DH5Obj {
-  mixin(H5This!("DIV"));
+  mixin BS5This!("DIV"));
 
   // Adding margins  
   O margins(string[] values...) {

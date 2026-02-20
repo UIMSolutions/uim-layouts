@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Navbar : BS5Obj {
-  mixin(H5This!("Nav", ["navbar"]));
+  mixin BS5This!("Nav", ["navbar"]));
 
   O center(bool value = true) {
     if (value) this.addClasses("justify-content-center");
