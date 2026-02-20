@@ -6,15 +6,12 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABSelectgroupItem : BS5Obj {
-  mixin TABThis!("label", ["form-selectgroup-item"]));
+class TABSelectgroupItem : H5Label {
+  mixin TABThis!(["form-selectgroup-item"]);
 
-  auto addinput", "TABSelectgroupInput"));
-  auto addlabel", "TABSelectgroupLabel"));
+  mixin(TABCalls!("SelectgroupItem"));
 }
-static TABSelectgroupItem");
-
 ///
 unittest {
-  assert(TABSelectgroupItem, `<label class="form-selectgroup-item"></label>`);
-}}
+  assert(TABSelectgroupItem == `<label class="form-selectgroup-item"></label>`);
+}

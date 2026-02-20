@@ -4,21 +4,22 @@ import uim.layouts.tabler;
 
 @safe:
 
+/** 
+ * Datagrid is used to create a grid of items. It is used in the Datagrid component.
+ * https://tabler.io/docs/datagrid
+ */
 class TABDatagrid : H5Div {
-  mixin TABThis!(["datagrid"]));
+  mixin TABThis!(["datagrid"]);
 
-  auto color(string value) {
+  TABDatagrid color(string value) {
     this.addClasses("bg-" ~ value);
     return this;
   }
 
-  static TABDatagrid opCall() {
-    return new TABDatagrid;
-  }
+  mixin(TABCalls!("Datagrid"));
 }
-
 ///
 unittest {
-  assert(TABDatagrid == `<div class="datagrid"></div>`);
+  assert(TABDatagrid() == `<div class="datagrid"></div>`);
   assert(TABDatagrid.color("blue") == `<div class="bg-blue datagrid"></div>`);
 }

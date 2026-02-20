@@ -6,12 +6,16 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABImageCheckLabel : BS5Obj {
-  mixin TABThis!("label", ["form-imagecheck"]));
-}
-static TABImageCheckLabel");
+/** 
+ * ImageCheckLabel is used to create a label for an image check. It is used in the FormImageCheck component.
+ * https://tabler.io/docs/forms#image-checks
+ */
+class TABImageCheckLabel : H5Label {
+  mixin TABThis!(["form-imagecheck"]);
 
+  mixin(TABCalls!("ImageCheckLabel"));
+}
 ///
 unittest {
-  assert(TABImageCheckLabel, `<label class="form-imagecheck"></label>`);
-}}
+  assert(TABImageCheckLabel == `<label class="form-imagecheck"></label>`);
+}

@@ -6,20 +6,11 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABButtonIcon : BS5Button {
-  mixin TABThis!("Button", ["btn-icon"]));
+class TABButtonIcon : H5Button {
+  mixin TABThis!(["btn", "btn-icon"], ["type":"button"]);
 
-  override void initialize() {
-    super.initialize;
-
-    this
-      .addClasses("btn", "btn-icon")
-      .addAttributes(["type":"button"]);
-  }
-
-static TABButtonIcon opCall() {
-  return new TABButtonIcon;
-}}
+mixin(TABCalls!("ButtonIcon"));
+}
 ///
 unittest { 
     assert(TABButtonIcon == `<button class="btn btn-icon" type="button"></button>`);

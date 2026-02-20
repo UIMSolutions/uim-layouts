@@ -6,17 +6,16 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABImageCheckInput : BS5Obj {
-  mixin TABThis!("input", ["form-imagecheck-input"]));
+/** 
+ * ImageCheckInput is used to create an input for an image check. It is used in the FormImageCheck component.
+ * https://tabler.io/docs/forms#image-checks
+ */
+class TABImageCheckInput : H5Input {
+  mixin TABThis!(["form-imagecheck-input"]);
 
-  override public void initialize() {
-    super.initialize;
-    _single = true;
-  }
+  mixin(TABCalls!("ImageCheckInput"));
 }
-static TABImageCheckInput");
-
 ///
 unittest {
-  assert(TABImageCheckInput, `<input class="form-imagecheck-input">`);
-}}
+  assert(TABImageCheckInput == `<input class="form-imagecheck-input">`);
+}

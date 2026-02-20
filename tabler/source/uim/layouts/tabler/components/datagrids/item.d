@@ -6,8 +6,12 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * DatagridItem is used to create an item in the Datagrid component.
+ * https://tabler.io/docs/datagrid
+ */
 class TABDatagridItem : H5Div {
-  mixin TABThis!(["datagrid-item"]));
+  mixin TABThis!(["datagrid-item"]);
 
   TABDatagridItem color(string value) {
     this.addClasses("bg-" ~ value);
@@ -20,6 +24,6 @@ class TABDatagridItem : H5Div {
 }
 ///
 unittest {
-  assert(TABDatagridItem == `<div class="datagrid-item"></div>`);
+  assert(TABDatagridItem() == `<div class="datagrid-item"></div>`);
   assert(TABDatagridItem.color("blue") == `<div class="bg-blue datagrid-item"></div>`);
 }
