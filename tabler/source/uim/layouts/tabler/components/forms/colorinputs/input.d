@@ -6,6 +6,10 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * FormColorInput is used to create a color input. It is used in the FormColorInput component.
+ * https://tabler.io/docs/forms#color-inputs
+ */
 class TABFormColorInput : H5Input {
   mixin TABThis!(["form-colorinput-input"]);
 
