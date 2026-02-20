@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 
 @safe:
 
-class BS5Dropend : H5Div {
+class TABDropend : H5Div {
   mixin(H5This!(["dropend"]));
 
   static BS5Dropend opCall() {

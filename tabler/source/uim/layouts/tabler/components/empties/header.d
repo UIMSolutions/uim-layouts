@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.empties.header;
 import uim.layouts.tabler;
 @safe:
 
-class BS5EmptyHeader : H5Div {
+class TABEmptyHeader : H5Div {
   mixin(H5This!(["empty-header"]));
 }
 static BS5EmptyHeader");

@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5SelectgroupLabel : BS5Obj {
+class TABSelectgroupLabel : BS5Obj {
   mixin(H5This!("span", ["form-selectgroup-label"]));
 }
 static BS5SelectgroupLabel");

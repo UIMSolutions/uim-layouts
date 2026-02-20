@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.forms.footer;
 import uim.layouts.tabler;
 @safe:
 
-class BS5FormFooter : H5Div {
+class TABFormFooter : H5Div {
   mixin(H5This!(["form-footer"]));
 }
 static BS5FormFooter");

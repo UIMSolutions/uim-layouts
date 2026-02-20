@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5CardTabs : H5Div {
+class TABCardTabs : H5Div {
   mixin(H5This!(["card-tabs"]));
 
 static BS5CardTabs opCall() {

@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.statuses.status;
 import uim.layouts.tabler;
 @safe:
 
-class BS5Status : BS5Obj {
+class TABStatus : BS5Obj {
   mixin(H5This!("span", ["status"]));
 
   auto color(string value){ this.addClasses("status-"~value); return this; }

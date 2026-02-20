@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5Avatar : BS5Obj {
+class TABAvatar : BS5Obj {
   mixin(H5This!("span", ["avatar"]));
 
 static BS5Avatar opCall() {

@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.empties.action;
 import uim.layouts.tabler;
 @safe:
 
-class BS5EmptyAction : H5Div {
+class TABEmptyAction : H5Div {
   mixin(H5This!(["empty-action"]));
 }
 static BS5EmptyAction");

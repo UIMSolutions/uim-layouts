@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.forms.imagechecks.label;
 import uim.layouts.tabler;
 @safe:
 
-class BS5ImageCheckLabel : BS5Obj {
+class TABImageCheckLabel : BS5Obj {
   mixin(H5This!("label", ["form-imagecheck"]));
 }
 static BS5ImageCheckLabel");

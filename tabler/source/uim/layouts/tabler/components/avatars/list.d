@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 
 @safe:
 
-class BS5AvatarList : H5Div {
+class TABAvatarList : H5Div {
   mixin(H5This!(["avatar-list"]));
 
   mixin(MyContent!("avatar", "BS5Avatar"));

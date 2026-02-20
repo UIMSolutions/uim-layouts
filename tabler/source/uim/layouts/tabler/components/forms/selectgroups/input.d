@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5SelectgroupInput : BS5Obj {
+class TABSelectgroupInput : BS5Obj {
   mixin(H5This!("input", ["form-selectgroup-input"], null, true));
 }
 static BS5SelectgroupInput");

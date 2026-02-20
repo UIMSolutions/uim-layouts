@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5CardButton : BS5Obj {
+class TABCardButton : BS5Obj {
   mixin(H5This!("A", ["card-btn"]));
 
 static BS5CardButton opCall() {

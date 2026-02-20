@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.forms.imagechecks.image;
 import uim.layouts.tabler;
 @safe:
 
-class BS5ImageCheckImage : BS5Obj {
+class TABImageCheckImage : BS5Obj {
   mixin(H5This!("img", ["form-imagecheck-image"]));
 
   override public void initialize() {

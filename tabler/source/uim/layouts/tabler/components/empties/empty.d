@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.empties.empty;
 import uim.layouts.tabler;
 @safe:
 
-class BS5Empty : H5Div {
+class TABEmpty : H5Div {
   mixin(H5This!(["empty"]));
 
   mixin(MyContent!("action", "BS5EmptyAction"));

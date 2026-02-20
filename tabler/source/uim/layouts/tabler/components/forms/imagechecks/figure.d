@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.forms.imagechecks.figure;
 import uim.layouts.tabler;
 @safe:
 
-class BS5ImageCheckFigure : BS5Obj {
+class TABImageCheckFigure : BS5Obj {
   mixin(H5This!("span", ["form-imagecheck-figure"]));
 }
 static BS5ImageCheckFigure");

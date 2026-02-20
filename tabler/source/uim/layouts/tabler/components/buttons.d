@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.buttons;
 import uim.layouts.tabler;
 @safe:
 
-class BS5ButtonIcon : BS5Button {
+class TABButtonIcon : BS5Button {
   mixin(H5This!("Button", ["btn-icon"]));
 
   override void initialize() {
@@ -22,7 +22,7 @@ unittest {
     assert(BS5ButtonIcon == `<button class="btn btn-icon" type="button"></button>`);
 }
 
-class BS5ButtonIconLink : BS5ButtonLink {
+class TABButtonIconLink : BS5ButtonLink {
   mixin(H5This!("A", ["btn-icon"]));
 
   override void initialize() {
@@ -43,7 +43,7 @@ unittest {
   assert(BS5ButtonIconLink == `<a class="btn btn-icon" role="button"></a>`);
 }
 
-class BS5ButtonSquare : BS5Button {
+class TABButtonSquare : BS5Button {
   mixin(H5This!("Button", ["btn-square"]));
 
   static BS5ButtonSquare opCall() {
@@ -55,7 +55,7 @@ unittest {
   assert(BS5ButtonSquare == `<button class="btn btn-square" type="button"></button>`);
 }
 
-class BS5ButtonSquareLink : BS5ButtonLink {
+class TABButtonSquareLink : BS5ButtonLink {
   mixin(H5This!("A", ["btn-square"]));
 
   override void initialize() {
@@ -72,7 +72,7 @@ unittest {
     assert(BS5ButtonSquareLink == `<a class="btn btn-square" role="button"></a>`);
 }}
 
-class BS5ButtonPill : BS5Button {
+class TABButtonPill : BS5Button {
   mixin(H5This!("Button", ["btn-pill"]));
 }
 static BS5ButtonPill");
@@ -82,7 +82,7 @@ unittest {
   assert(BS5ButtonPill == `<button class="btn btn-pill" type="button"></button>`);
 }}
 
-class BS5ButtonPillLink : BS5ButtonLink {
+class TABButtonPillLink : BS5ButtonLink {
   mixin(H5This!("A", ["btn-pill"]));
 }
 static BS5ButtonPillLink");

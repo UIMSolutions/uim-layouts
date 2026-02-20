@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.timelines.time;
 import uim.layouts.tabler;
 @safe:
 
-class BS5TimelineTime : H5Div {
+class TABTimelineTime : H5Div {
   mixin(H5This!(["list-timeline-time"]));
 
 static BS5TimelineTime opCall() {

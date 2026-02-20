@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.empties.subtitle;
 import uim.layouts.tabler;
 @safe:
 
-class BS5EmptySubtitle : BS5Obj {
+class TABEmptySubtitle : BS5Obj {
   mixin(H5This!("p", ["empty-subtitle"]));
 }
 static BS5EmptySubtitle");

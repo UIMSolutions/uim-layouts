@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.timelines.icon;
 import uim.layouts.tabler;
 @safe:
 
-class BS5TimelineIcon : H5Div {
+class TABTimelineIcon : H5Div {
   mixin(H5This!(["list-timeline-icon"]));
 
   auto color(string value){ this.classes("bg-"~value); return this; }

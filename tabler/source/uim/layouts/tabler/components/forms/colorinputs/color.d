@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5FormColorInputColor : BS5Obj {
+class TABFormColorInputColor : BS5Obj {
   mixin(H5This!("span", ["form-colorinput-color"]));
 }
 static BS5FormColorInputColor");

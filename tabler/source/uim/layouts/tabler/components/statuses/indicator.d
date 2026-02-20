@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.statuses.indicator;
 import uim.layouts.tabler;
 @safe:
 
-class BS5StatusIndicator : BS5Obj {
+class TABStatusIndicator : BS5Obj {
   mixin(H5This!("span", ["status-indicator"]));
 
   override void initialize() {
