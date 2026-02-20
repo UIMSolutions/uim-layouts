@@ -7,8 +7,18 @@ mixin(ShowModule!());
 @safe: 
 
 ///Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
-class BS4Alert : BS4Obj {
-  mixin(H5This!("Div", ["alert"], `["role":"alert"]`));
+class BS4Alert : H5Div {
+  mixin(H5This!("BS4Alert");
+
+  override bool initialize(Json[string] args = null) {
+    if (!super.initialize(args)) {
+      return false;
+    }
+
+    addClasses("alert");
+    attribute("role", "alert");
+    return true;
+  }
 
   auto color(string name) {
     return this.addClasses("alert-" ~ name);
@@ -16,7 +26,7 @@ class BS4Alert : BS4Obj {
   ///
 unittest {
     assert(BS4Alert.color("success") == `<div class="alert alert-success" role="alert"></div>`);
-  }}
+  }
 
   O link(string content, string url = "#") {
     this.addContent(`<a href="` ~ url ~ `" class="alert-link">` ~ content ~ `</a>`);
@@ -33,18 +43,29 @@ unittest {
   ///
 unittest {
     assert(BS4Alert.color("success").dismissible == `<div class="alert alert-dismissible alert-success" role="alert"><button type="button" class="close" data-dismiss="alert">&times;</button></div>`);
-  }}
+  }
 
-  mixin(MyContent!("heading", "BS4AlertHeading"));
+  auto addHeading(string content) {
+    this.addContent(`<h4 class="alert-heading">` ~ content ~ `</h4>`);
+    return this;
+  }
+
+static BS4Alert opCall(string content = null) {
+    auto alert = new BS4Alert;
+    if (content !is null) {
+      alert.addContent(content);
+    }
+    return alert;
+  }
 }
-
-static BS4Alert"));
 
 class BS4AlertLink : BS4Obj {
   mixin(H5This!("AlertLink", ["alert-link"], `["href":"#"]`));
 }
 
-static BS4AlertLink"));
+static BS4AlertLink opCall() {
+    return new BS4AlertLink;
+}
 
 ///
 unittest {

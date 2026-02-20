@@ -7,9 +7,17 @@ mixin(ShowModule!());
 @safe: 
 
 /// The BS4CardDeck creates a grid of cards that are of equal height and width
-class BS4CardDeck : BS4Obj {
-  mixin(H5This!("DIV", ["card-deck"]));
+class BS4CardDeck : H5Div {
+  mixin(H5This!("DIV"));
 
+  override bool initialize(Json[string] args) {
+    if (!super.initialize(args)) {
+      return false;
+    }
+
+    addClass("card-deck");
+    return true;
+  }
   /// Add card 
   mixin(MyContent!("card", "BS4Card"));
   O card(BS4Card[] cards) { foreach(c; cards) this.card(c); return this; }

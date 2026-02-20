@@ -4,16 +4,7 @@ module uim.bootstrap.bs5.basic.components.accordions.accordion;
 import uim.bootstrap;
 
 class BS5Accordion : H5Div {
-  mixin(H5This!"BS5Accordion");
-
-  override bool initialize(Json[string] args = null) {
-    if (!super.initialize(args)) {
-      return false;
-    }
-
-    addClasses("accordion");
-    return true;
-  }
+  mixin BS5This!(["accordion"]);
 
   BS5Accordion addItem() {
     auto item = new BS5AccordionItem;

@@ -11,6 +11,7 @@ public {
   import uim.bootstrap.bs5.classes;
   import uim.bootstrap.bs5.complex;
   import uim.bootstrap.bs5.icons;
+  import uim.bootstrap.bs5.mixins;
 }
 
 auto bs5CardComponents(string selComponent) {

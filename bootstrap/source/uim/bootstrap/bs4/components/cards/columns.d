@@ -4,21 +4,28 @@ import uim.bootstrap;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 /// The .BS4CardColumns creates a masonry-like grid of cards (like pinterest)
 class BS4CardColumns : BS4Obj {
   mixin(H5This!("DIV", ["card-columns"]));
 
   /// Add card 
-  mixin(MyContent!("card", "BS4Card"));
+  auto addCard() {
+    this.addContent(new BS4Card);
+    return this;
+  }
   ///
-unittest {
-    assert(BS4CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
-  }}
+  unittest {
+    assert(BS4CardColumns.addCard() == `<div class="card-columns"><div class="card"></div></div>`);
+  }
+
+  static BS4CardColumns opCall() {
+    return new BS4CardColumns;
+  }
 }
-static BS4CardColumns");
 ///
 unittest {
   assert(BS4CardColumns == `<div class="card-columns"></div>`);
-}}
+}
+}
