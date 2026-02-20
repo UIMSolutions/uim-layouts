@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-/* class BS5AccordionCollapse : BS5Obj {
+/* class BS5AccordionCollapse : H5Div {
   mixin(H5This!("div", ["accordion-collapse collapse"]));
 
   mixin(MyContent!("body_", "BS5AccordionsBody"));

@@ -3,7 +3,7 @@
 import uim.layouts.tabler;
 @safe:
 
-class BS5EmptyIcon : BS5Obj {
+class BS5EmptyIcon : H5Div {
   mixin(H5This!("div", ["empty-icon"]));
 }
 static BS5EmptyIcon");

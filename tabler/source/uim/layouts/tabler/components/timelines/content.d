@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 
 @safe:
 
-class BS5TimelineContent : BS5Obj {
+class BS5TimelineContent : H5Div {
   mixin(H5This!("div", ["list-timeline-content"]));
 
   static BS5TimelineContent opCall() {

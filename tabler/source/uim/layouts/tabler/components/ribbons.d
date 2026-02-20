@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 
 @safe:
 
-class BS5Ribbon : BS5Obj {
+class BS5Ribbon : H5Div {
   mixin(H5This!("div", ["ribbon"]));
 
   static BS5Ribbon opCall() {

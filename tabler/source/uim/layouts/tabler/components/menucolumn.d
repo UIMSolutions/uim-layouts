@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 
 @safe:
 
-class BS5DropdownMenuColumn : BS5Obj {
+class BS5DropdownMenuColumn : H5Div {
   mixin(H5This!("div", ["dropdown-menu-column"]));
 
   mixin(MyAttribute!("label", "aria-labelledby"));

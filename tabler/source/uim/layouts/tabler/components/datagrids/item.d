@@ -3,7 +3,7 @@ module uim.layouts.tabler.components.datagrids.item;
 import uim.layouts.tabler;
 @safe:
 
-class BS5DatagridItem : BS5Obj {
+class BS5DatagridItem : H5Div {
   mixin(H5This!("div", ["datagrid-item"]));
 
   auto color(string value){ this.addClasses("bg-"~value); return this; }

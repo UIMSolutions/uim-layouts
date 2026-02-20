@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 
 @safe:
 
-class BS5DatagridContent : BS5Obj {
+class BS5DatagridContent : H5Div {
   mixin(H5This!("div", ["datagrid-content"]));
 
   auto color(string value) {
