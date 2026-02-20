@@ -4,14 +4,16 @@ import uim.layouts.tabler;
 
 @safe:
 
+/** 
+ * Ribbon is used to create a ribbon for the card.
+ * https://tabler.io/docs/components/ribbon
+ */
 class TABRibbon : H5Div {
-  mixin TABThis!(["ribbon"]));
+  mixin TABThis!(["ribbon"]);
 
-  static TABRibbon opCall() {
-    return new TABRibbon;
-  }
+  mixin(TABCalls!("Ribbon"));
 }
 ///
 unittest {
-  assert(TABRibbon == `<div class="ribbon"></div>`);
+  assert(TABRibbon() == `<div class="ribbon"></div>`);
 }

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABStatusIndicator : H5Span {
-  mixin TABThis!(["status-indicator"]));
+  mixin TABThis!(["status-indicator"]);
 
   override void initialize() {
     super.initialize;
@@ -30,9 +30,7 @@ class TABStatusIndicator : H5Span {
     return this;
   }
 
-  static TABStatusIndicator opCall() {
-    return new TABStatusIndicator;
-  }
+  mixin(TABCalls!("StatusIndicator"));
 }
 
 ///

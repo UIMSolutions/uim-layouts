@@ -4,6 +4,10 @@ import uim.layouts.tabler;
 
 @safe:
 
+/** 
+ * Tabler datagrid content component.
+ * https://tabler.io/docs/datagrid#content
+ */
 class TABDatagridContent : H5Div {
   mixin TABThis!(["datagrid-content"]);
 

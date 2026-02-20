@@ -5,17 +5,18 @@ import uim.layouts.tabler;
 @safe:
 
 class TABAvatarList : H5Div {
-  mixin TABThis!(["avatar-list"]));
+  mixin TABThis!(["avatar-list"]);
 
-  auto addavatar", "TABAvatar"));
-
-  static TABAvatarList opCall() {
-    return new TABAvatarList;
+  TABAvatarList addAvatar(TABAvatar avatar) {
+    addContent(avatar);
+    return this;
   }
+
+  mixin(TABCalls!("AvatarList"));
 }
 
 ///
 unittest {
-  assert(TABAvatarList, `<div class="avatar-list"></div>`);
-  assert(TABAvatarList.avatar, `<div class="avatar-list"><span class="avatar"></span></div>`);
+  assert(TABAvatarList() == `<div class="avatar-list"></div>`);
+  assert(TABAvatarList().addAvatar(TABAvatar()) == `<div class="avatar-list"><span class="avatar"></span></div>`);
 }

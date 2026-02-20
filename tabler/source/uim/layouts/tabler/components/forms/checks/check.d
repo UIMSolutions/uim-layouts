@@ -6,24 +6,26 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * Tabler form check component.
+ * https://tabler.io/docs/forms#checks
+ */
 class DTABFormCheck : H5Label {
   mixin TABThis!(["form-check"]);
 
-    DTABFormCheck addInput() {  
-      addContent(new TABFormCheckInput());
-      return this;
-    }
+  DTABFormCheck addInput() {
+    addContent(new TABFormCheckInput());
+    return this;
+  }
 
-    DTABFormCheck addLabel() {
-      addContent(new TABFormCheckLabel());
-      return this;
-    }
-mixin(TABCalls!("FormCheck"));
+  DTABFormCheck addLabel() {
+    addContent(new TABFormCheckLabel());
+    return this;
+  }
+
+  mixin(TABCalls!("FormCheck"));
 }
 ///
 unittest {
   assert(TABFormCheck == `<label class="form-check"></label>`);
 }
-
-
-

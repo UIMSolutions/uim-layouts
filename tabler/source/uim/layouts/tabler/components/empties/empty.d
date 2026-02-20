@@ -6,6 +6,10 @@ mixin(ShowModule!());
 
 @safe:
 
+/**
+  * Tabler empty component.
+  * https://tabler.io/docs/empty
+  */
 class TABEmpty : H5Div {
   mixin TABThis!(["empty"]);
 

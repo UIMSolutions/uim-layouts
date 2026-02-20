@@ -6,6 +6,10 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * Tabler empty icon component.
+ * https://tabler.io/docs/empty#icon
+ */
 class TABEmptyIcon : H5Div {
   mixin TABThis!(["empty-icon"]);
 

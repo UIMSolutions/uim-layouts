@@ -4,7 +4,10 @@ import uim.layouts.tabler;
 
 @safe:
 
-
+/** 
+ * TimelineTitle is used to create a title for the timeline.
+ * https://tabler.io/docs/components/timeline#title
+ */
 class TABTimelineTitle : H5P {
   mixin TABThis!(["list-timeline-title"]);
 
@@ -12,5 +15,5 @@ class TABTimelineTitle : H5P {
 }
 ///
 unittest {
-  assert(TABTimelineTitle == `<p class="list-timeline-title"></p>`);
+  assert(TABTimelineTitle() == `<p class="list-timeline-title"></p>`);
 }

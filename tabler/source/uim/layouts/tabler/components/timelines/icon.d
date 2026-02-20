@@ -7,16 +7,17 @@ mixin(ShowModule!());
 @safe:
 
 class TABTimelineIcon : H5Div {
-  mixin TABThis!(["list-timeline-icon"]));
+  mixin TABThis!(["list-timeline-icon"]);
 
-  auto color(string value){ this.classes("bg-"~value); return this; }
+  TABTimelineIcon color(string value) {
+    this.addClasses("bg-" ~ value);
+    return this;
+  }
 
-  static TABTimelineIcon opCall() {
-    return new TABTimelineIcon;
-}}
-
+  mixin(TABCalls!("TimelineIcon"));
+}
 ///
 unittest {
-  assert(TABTimelineIcon, `<div class="list-timeline-icon"></div>`);
-  assert(TABTimelineIcon.color("blue"),`<div class="bg-blue list-timeline-icon"></div>`);
+  assert(TABTimelineIcon() == `<div class="list-timeline-icon"></div>`);
+  assert(TABTimelineIcon().color("blue") == `<div class="bg-blue list-timeline-icon"></div>`);
 }

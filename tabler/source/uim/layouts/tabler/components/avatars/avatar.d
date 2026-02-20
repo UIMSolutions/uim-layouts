@@ -6,14 +6,16 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * Avatar is used to create an avatar for the user.
+ * https://tabler.io/docs/components/avatar
+ */
 class TABAvatar : H5Span {
-  mixin TABThis!( ["avatar"]));
+  mixin TABThis!(["avatar"]);
 
-static TABAvatar opCall() {
-  return new TABAvatar;
-}}
-
+  mixin(TABCalls!("Avatar"));
+}
 ///
 unittest {
-  assert(TABAvatar == `<span class="avatar"></span>`);
+  assert(TABAvatar() == `<span class="avatar"></span>`);
 }

@@ -7,13 +7,17 @@ mixin(ShowModule!());
 @safe:
 
 class TABDropdownMenuColumns : H5Div {
-  mixin TABThis!(["dropdown-menu-columns"]));
+  mixin TABThis!(["dropdown-menu-columns"]);
 
-  auto addcolumn", "TABDropdownMenuColumn"));
+  TABDropdownMenuColumns addColumn(TABDropdownMenuColumn column) {
+    addContent(column);
+    return this;
+  }
+
+  mixin(TABCalls!("DropdownMenuColumns"));
 }
-static TABDropdownMenuColumns");
-
-version(test_layout_tabler) { unittest {
-  assert(TABDropdownMenuColumns, `<div class="dropdown-menu-columns"></div>`);
-  assert(TABDropdownMenuColumns.column, `<div class="dropdown-menu-columns"><div class="dropdown-menu-column"></div></div>`);
-}}
+///
+unittest {
+  assert(TABDropdownMenuColumns() == `<div class="dropdown-menu-columns"></div>`);
+  assert(TABDropdownMenuColumns().addColumn(TABDropdownMenuColumn()) == `<div class="dropdown-menu-columns"><div class="dropdown-menu-column"></div></div>`);
+}
