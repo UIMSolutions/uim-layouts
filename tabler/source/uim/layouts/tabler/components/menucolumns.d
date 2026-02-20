@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class BS5DropdownMenuColumns : H5Div {
-  mixin(H5This!("div", ["dropdown-menu-columns"]));
+  mixin(H5This!(["dropdown-menu-columns"]));
 
   mixin(MyContent!("column", "BS5DropdownMenuColumn"));
 }

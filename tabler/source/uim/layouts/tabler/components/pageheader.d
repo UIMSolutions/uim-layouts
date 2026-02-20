@@ -5,7 +5,7 @@ import uim.layouts.tabler;
 @safe:
 
 class BS5PageHeader : H5Div {
-  mixin(H5This!("div", ["page-header"]));
+  mixin(H5This!(["page-header"]));
 
   static BS5PageHeader opCall() {
     return new BS5PageHeader;

@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class BS5FormFooter : H5Div {
-  mixin(H5This!("div", ["form-footer"]));
+  mixin(H5This!(["form-footer"]));
 }
 static BS5FormFooter");
 

@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class BS5CardTabs : H5Div {
-  mixin(H5This!("div", ["card-tabs"]));
+  mixin(H5This!(["card-tabs"]));
 
 static BS5CardTabs opCall() {
   return new BS5CardTabs;
