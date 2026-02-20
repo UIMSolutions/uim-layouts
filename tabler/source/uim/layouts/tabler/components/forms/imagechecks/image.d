@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABImageCheckImage : BS5Obj {
-  mixin(H5This!("img", ["form-imagecheck-image"]));
+  mixin(TABThis!("img", ["form-imagecheck-image"]));
 
   override public void initialize() {
     super.initialize;

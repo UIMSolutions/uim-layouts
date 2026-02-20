@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABSelectgroupItem : BS5Obj {
-  mixin(H5This!("label", ["form-selectgroup-item"]));
+  mixin(TABThis!("label", ["form-selectgroup-item"]));
 
   mixin(MyContent!("input", "BS5SelectgroupInput"));
   mixin(MyContent!("label", "BS5SelectgroupLabel"));

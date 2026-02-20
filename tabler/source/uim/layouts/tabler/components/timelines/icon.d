@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABTimelineIcon : H5Div {
-  mixin(H5This!(["list-timeline-icon"]));
+  mixin(TABThis!(["list-timeline-icon"]));
 
   auto color(string value){ this.classes("bg-"~value); return this; }
 

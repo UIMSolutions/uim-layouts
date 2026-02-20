@@ -5,7 +5,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABNavLinkIcon : BS5Obj {
-  mixin(H5This!("span", ["nav-link-icon"]));
+  mixin(TABThis!("span", ["nav-link-icon"]));
 
   static BS5NavLinkIcon opCall() {
     return new BS5NavLinkIcon;

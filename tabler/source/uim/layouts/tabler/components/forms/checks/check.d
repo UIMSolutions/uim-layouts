@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class DTABFormCheck : BS5Obj {
-  mixin(H5This!("label", ["form-check"]));
+  mixin(TABThis!("label", ["form-check"]));
 
     mixin(MyContent!("input", "TABFormCheckInput"));
   mixin(MyContent!("label", "TABFormCheckLabel"));

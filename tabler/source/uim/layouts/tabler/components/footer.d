@@ -5,7 +5,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABFooter : BS5Obj {
-  mixin(H5This!("footer", ["footer"]));
+  mixin(TABThis!("footer", ["footer"]));
 
   static BS5Footer opCall() {
     return new BS5Footer;

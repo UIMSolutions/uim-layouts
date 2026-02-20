@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class DTABFormCheckLabel : BS5Obj {
-  mixin(H5This!("span", ["form-check-label"]));
+  mixin(TABThis!("span", ["form-check-label"]));
 }
 static TABFormCheckLabel");
 

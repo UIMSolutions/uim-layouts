@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABStatusIndicator : BS5Obj {
-  mixin(H5This!("span", ["status-indicator"]));
+  mixin(TABThis!("span", ["status-indicator"]));
 
   override void initialize() {
     super.initialize;

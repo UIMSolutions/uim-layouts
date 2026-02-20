@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABTimelineTime : H5Div {
-  mixin(H5This!(["list-timeline-time"]));
+  mixin(TABThis!(["list-timeline-time"]));
 
 static BS5TimelineTime opCall() {
   return new BS5TimelineTime;  

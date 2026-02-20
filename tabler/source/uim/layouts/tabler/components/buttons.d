@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABButtonIcon : BS5Button {
-  mixin(H5This!("Button", ["btn-icon"]));
+  mixin(TABThis!("Button", ["btn-icon"]));
 
   override void initialize() {
     super.initialize;
@@ -23,7 +23,7 @@ unittest {
 }
 
 class TABButtonIconLink : BS5ButtonLink {
-  mixin(H5This!("A", ["btn-icon"]));
+  mixin(TABThis!("A", ["btn-icon"]));
 
   override void initialize() {
     super.initialize();
@@ -44,7 +44,7 @@ unittest {
 }
 
 class TABButtonSquare : BS5Button {
-  mixin(H5This!("Button", ["btn-square"]));
+  mixin(TABThis!("Button", ["btn-square"]));
 
   static BS5ButtonSquare opCall() {
   return new BS5ButtonSquare;
@@ -56,7 +56,7 @@ unittest {
 }
 
 class TABButtonSquareLink : BS5ButtonLink {
-  mixin(H5This!("A", ["btn-square"]));
+  mixin(TABThis!("A", ["btn-square"]));
 
   override void initialize() {
     super.initialize();
@@ -73,7 +73,7 @@ unittest {
 }}
 
 class TABButtonPill : BS5Button {
-  mixin(H5This!("Button", ["btn-pill"]));
+  mixin(TABThis!("Button", ["btn-pill"]));
 }
 static BS5ButtonPill");
 
@@ -83,7 +83,7 @@ unittest {
 }}
 
 class TABButtonPillLink : BS5ButtonLink {
-  mixin(H5This!("A", ["btn-pill"]));
+  mixin(TABThis!("A", ["btn-pill"]));
 }
 static BS5ButtonPillLink");
 

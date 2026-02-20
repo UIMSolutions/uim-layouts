@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABImageCheckImageContent : BS5Obj {
-  mixin(H5This!("span", ["form-imagecheck-image"]));
+  mixin(TABThis!("span", ["form-imagecheck-image"]));
 }
 static BS5ImageCheckImageContent");
 

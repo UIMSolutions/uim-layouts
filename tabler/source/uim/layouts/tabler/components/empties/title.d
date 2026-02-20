@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABEmptyTitle : BS5Obj {
-  mixin(H5This!("p", ["empty-title"]));
+  mixin(TABThis!("p", ["empty-title"]));
 }
 static BS5EmptyTitle");
 

@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABEmptyImage : H5Div {
-  mixin(H5This!(["empty-img"]));
+  mixin(TABThis!(["empty-img"]));
 }
 static BS5EmptyImage");
 

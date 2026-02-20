@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABImageCheckLabel : BS5Obj {
-  mixin(H5This!("label", ["form-imagecheck"]));
+  mixin(TABThis!("label", ["form-imagecheck"]));
 }
 static BS5ImageCheckLabel");
 

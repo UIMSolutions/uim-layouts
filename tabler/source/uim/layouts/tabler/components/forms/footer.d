@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABFormFooter : H5Div {
-  mixin(H5This!(["form-footer"]));
+  mixin(TABThis!(["form-footer"]));
 }
 static BS5FormFooter");
 

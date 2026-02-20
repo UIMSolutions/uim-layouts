@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 /* class TABAccordionBody : H5Div {
-  mixin(H5This!(["accordion-body"]));
+  mixin(TABThis!(["accordion-body"]));
 }
 static BS5AccordionBody");
 

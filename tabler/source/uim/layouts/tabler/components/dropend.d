@@ -5,7 +5,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABDropend : H5Div {
-  mixin(H5This!(["dropend"]));
+  mixin(TABThis!(["dropend"]));
 
   static BS5Dropend opCall() {
     return new BS5Dropend;

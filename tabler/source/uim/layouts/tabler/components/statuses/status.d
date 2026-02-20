@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABStatus : BS5Obj {
-  mixin(H5This!("span", ["status"]));
+  mixin(TABThis!("span", ["status"]));
 
   auto color(string value){ this.addClasses("status-"~value); return this; }
 

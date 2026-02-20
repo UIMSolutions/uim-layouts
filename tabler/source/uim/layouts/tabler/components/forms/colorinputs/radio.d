@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABFormColorInputRadio : BS5FormColorInput {
-  mixin(H5This!("input", ["form-colorinput-input"], null, true));
+  mixin(TABThis!("input", ["form-colorinput-input"], null, true));
 }
 static BS5FormColorInputRadio");
 

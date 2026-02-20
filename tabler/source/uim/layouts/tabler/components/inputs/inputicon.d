@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABInputIcon : H5Div {
-  mixin(H5This!(["input-icon"]));
+  mixin(TABThis!(["input-icon"]));
 
 static BS5InputIcon opCall() {
   return new BS5InputIcon;

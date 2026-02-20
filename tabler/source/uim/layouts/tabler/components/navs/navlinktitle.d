@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABNavLinkTitle : BS5Obj {
-  mixin(H5This!("span", ["nav-link-title"]));
+  mixin(TABThis!("span", ["nav-link-title"]));
 
 static BS5NavLinkTitle opCall() {
   return new BS5NavLinkTitle;

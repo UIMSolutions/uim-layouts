@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 /* class TABAccordionCollapse : H5Div {
-  mixin(H5This!(["accordion-collapse collapse"]));
+  mixin(TABThis!(["accordion-collapse collapse"]));
 
   mixin(MyContent!("body_", "BS5AccordionsBody"));
 }

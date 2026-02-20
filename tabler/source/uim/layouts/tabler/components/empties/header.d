@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABEmptyHeader : H5Div {
-  mixin(H5This!(["empty-header"]));
+  mixin(TABThis!(["empty-header"]));
 }
 static BS5EmptyHeader");
 

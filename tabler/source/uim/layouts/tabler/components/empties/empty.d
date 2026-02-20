@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABEmpty : H5Div {
-  mixin(H5This!(["empty"]));
+  mixin(TABThis!(["empty"]));
 
   mixin(MyContent!("action", "BS5EmptyAction"));
 

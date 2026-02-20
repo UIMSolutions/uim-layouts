@@ -4,7 +4,7 @@ import uim.layouts.tabler;
 @safe:
 
 class TABDatagridTitle : H5Div {
-  mixin(H5This!(["datagrid-title"]));
+  mixin(TABThis!(["datagrid-title"]));
 
   auto color(string newColor){ this.addClasses("bg-"~newColor); return this; }
 }
