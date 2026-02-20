@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.navs.navlinktitle;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABNavLinkTitle : BS5Obj {

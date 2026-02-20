@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.statuses.status;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABStatus : BS5Obj {

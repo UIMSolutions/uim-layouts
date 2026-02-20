@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.forms.imagechecks;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 public import uim.layouts.tabler.components.forms.imagechecks.figure;

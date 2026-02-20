@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.buttons;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABButtonIcon : BS5Button {

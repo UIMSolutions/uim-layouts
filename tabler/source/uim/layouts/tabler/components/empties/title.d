@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.empties.title;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABEmptyTitle : BS5Obj {

@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.forms.checks.input;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class DTABFormCheckInput : BS5Obj {

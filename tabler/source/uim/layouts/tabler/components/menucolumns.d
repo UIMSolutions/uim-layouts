@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.menucolumns;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABDropdownMenuColumns : H5Div {

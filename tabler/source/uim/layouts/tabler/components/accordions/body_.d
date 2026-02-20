@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.accordions.body_;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 /* class TABAccordionBody : H5Div {

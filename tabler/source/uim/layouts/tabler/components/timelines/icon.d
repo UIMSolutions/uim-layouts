@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.timelines.icon;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABTimelineIcon : H5Div {

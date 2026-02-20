@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.timelines.time;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABTimelineTime : H5Div {

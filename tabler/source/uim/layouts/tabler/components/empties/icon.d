@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.empties.icon;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABEmptyIcon : H5Div {

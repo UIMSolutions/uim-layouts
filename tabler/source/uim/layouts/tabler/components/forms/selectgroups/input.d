@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.forms.selectgroups.input;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABSelectgroupInput : BS5Obj {

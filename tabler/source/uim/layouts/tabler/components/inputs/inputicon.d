@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.inputs.inputicon;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABInputIcon : H5Div {

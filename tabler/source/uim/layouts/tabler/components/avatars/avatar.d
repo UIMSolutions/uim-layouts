@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.avatars.avatar;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABAvatar : BS5Obj {

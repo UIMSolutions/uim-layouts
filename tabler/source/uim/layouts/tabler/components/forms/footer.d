@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.forms.footer;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABFormFooter : H5Div {

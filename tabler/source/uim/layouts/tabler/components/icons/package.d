@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.icons;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 auto tablerIcon(string name) {

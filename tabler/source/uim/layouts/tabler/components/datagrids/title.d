@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.datagrids.title;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABDatagridTitle : H5Div {

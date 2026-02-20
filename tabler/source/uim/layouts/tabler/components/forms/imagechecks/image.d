@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.forms.imagechecks.image;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABImageCheckImage : BS5Obj {

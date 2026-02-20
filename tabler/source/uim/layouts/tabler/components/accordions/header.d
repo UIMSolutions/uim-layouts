@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.accordions.header;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 /* class TABAccordionHeader : BS5Obj {

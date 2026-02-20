@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components;
 
 public import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 // Packages

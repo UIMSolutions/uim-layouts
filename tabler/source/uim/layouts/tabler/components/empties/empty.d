@@ -1,6 +1,9 @@
 module uim.layouts.tabler.components.empties.empty;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABEmpty : H5Div {

@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.forms.colorinputs.color;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABFormColorInputColor : BS5Obj {

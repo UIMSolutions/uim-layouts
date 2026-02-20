@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.cardbutton;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABCardButton : BS5Obj {

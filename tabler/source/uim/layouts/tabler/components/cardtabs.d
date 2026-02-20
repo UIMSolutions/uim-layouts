@@ -1,6 +1,9 @@
 ﻿module uim.layouts.tabler.components.cardtabs;
 
 import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
 @safe:
 
 class TABCardTabs : H5Div {
