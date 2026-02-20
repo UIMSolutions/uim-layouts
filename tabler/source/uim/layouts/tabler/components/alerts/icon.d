@@ -1,0 +1,27 @@
+module uim.layouts.tabler.components.alerts.icon;
+
+import uim.layouts.tabler;
+
+mixin(ShowModule!());
+
+@safe:
+
+/** 
+ * AlertIcon is used to create an alert icon component.
+ * https://tabler.io/docs/alerts
+ */
+class TABAlertIcon : H5Div {
+  mixin TABThis!(["alert-icon"]);
+
+  TABAlertIcon color(string value) {
+    this.addClass(value);
+    return this;
+  }
+
+  mixin(TABCalls!("AlertIcon"));
+}
+///
+unittest {
+  assert(TABAlertIcon() == `<div class="alert-icon"></div>`);
+  // assert(TABAlertIcon().color("blue") == `<div class="bg-blue alert-icon"></div>`);
+}

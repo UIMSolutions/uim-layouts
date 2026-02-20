@@ -8,6 +8,7 @@ mixin(ShowModule!());
 
 // Packages
 public import uim.layouts.tabler.components.accordions;
+public import uim.layouts.tabler.components.alerts;
 public import uim.layouts.tabler.components.avatars;
 public import uim.layouts.tabler.components.buttons;
 public import uim.layouts.tabler.components.cards;
