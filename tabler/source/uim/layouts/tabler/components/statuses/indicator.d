@@ -9,14 +9,16 @@ mixin(ShowModule!());
 class TABStatusIndicator : H5Span {
   mixin TABThis!(["status-indicator"]);
 
-  override void initialize() {
-    super.initialize;
+  override bool initialize(Json[string] initData = null) {
+    super.initialize(initData);
 
     this.content(
       H5Span(["status-indicator-circle"]),
       H5Span(["status-indicator-circle"]),
       H5Span(["status-indicator-circle"])
     );
+
+    return true;
   }
 
   TABStatusIndicator animated(bool value = true) {

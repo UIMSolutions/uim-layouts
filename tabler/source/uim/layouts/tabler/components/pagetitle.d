@@ -4,8 +4,8 @@ import uim.layouts.tabler;
 
 @safe:
 
-class TABPageTitle : TABObj {
-  mixin TABThis!("h2", ["page-title"]);
+class TABPageTitle : H5H2 {
+  mixin TABThis!(["page-title"]);
 
   mixin(TABCalls!("PageTitle"));
 }

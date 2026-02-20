@@ -13,5 +13,5 @@ class TABButtonPillLink : TABButtonLink {
 
 ///
 unittest {
-  assert(TABButtonPillLink == `<a class="btn btn-pill" role="button"></a>`);
+  assert(TABButtonPillLink() == `<a class="btn btn-pill" role="button"></a>`);
 }

@@ -13,5 +13,5 @@ class TABButtonSquareLink : TABButtonLink {
 }
 ///
 unittest {
-  assert(TABButtonSquareLink == `<a class="btn btn-square" role="button"></a>`);
+  assert(TABButtonSquareLink() == `<a class="btn btn-square" role="button"></a>`);
 }

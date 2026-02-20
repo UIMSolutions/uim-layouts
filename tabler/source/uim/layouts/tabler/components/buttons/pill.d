@@ -23,5 +23,5 @@ class TABButtonPill : TABButton {
 }
 ///
 unittest {
-  assert(TABButtonPill == `<button class="btn btn-pill" type="button"></button>`);
+  assert(TABButtonPill() == `<button class="btn btn-pill" type="button"></button>`);
 }

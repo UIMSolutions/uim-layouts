@@ -14,5 +14,5 @@ class TABButtonLink : H5A {
 }
 ///
 unittest {
-  assert(TABButtonLink == `<a class="btn" role="button"></a>`);
+  assert(TABButtonLink() == `<a class="btn" role="button"></a>`);
 }

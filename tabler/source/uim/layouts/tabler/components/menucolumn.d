@@ -16,37 +16,37 @@ class TABDropdownMenuColumn : H5Div {
     return this;
   }
 
-  IHTMLAttribute label() {
-    return this.addAttribute("aria-labelledby");
+  string label() {
+    return this.getAttribute("aria-labelledby").value;
   }
 
   TABDropdownMenuColumn addDivider() {
-    addContent(BS5DropdownDivider);
+    addContent(TABDropdownDivider);
     return this;
   }
 
   TABDropdownMenuColumn addHeader() {
-    addContent(BS5DropdownHeader);
+    addContent(TABDropdownHeader);
     return this;
   }
 
   TABDropdownMenuColumn addItem() {
-    addContent(BS5DropdownItem);
+    addContent(TABDropdownItem);
     return this;
   }
 
   TABDropdownMenuColumn addForm() {
-    addContent(BS5DropdownForm);
+    addContent(TABDropdownForm);
     return this;
   }
 
   TABDropdownMenuColumn addLink() {
-    addContent(BS5DropdownLink);
+    addContent(TABDropdownLink);
     return this;
   }
 
   TABDropdownMenuColumn addText() {
-    addContent(BS5DropdownText);
+    addContent(TABDropdownText);
     return this;
   }
 

@@ -13,7 +13,7 @@ mixin(ShowModule!());
 class TABFormCheck : H5Label {
   mixin TABThis!(["form-check"]);
 
-  mixin(AddContentCalls!("TABFormCheck", "Input", "Label"));
+  mixin(AddContentCalls!("TABFormCheck", "Input", "TABFormCheckInput"));
 
   TABFormCheck addLabel() {
     addContent(new TABFormCheckLabel());

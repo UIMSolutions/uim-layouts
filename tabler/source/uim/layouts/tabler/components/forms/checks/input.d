@@ -10,7 +10,7 @@ mixin(ShowModule!());
  * Tabler form check input component.
  * https://tabler.io/docs/forms#checks
  */
-class DTABFormCheckInput : H5Input {
+class TABFormCheckInput : H5Input {
   mixin TABThis!(["form-check-input"]);
 
   mixin(TABCalls!("FormCheckInput"));

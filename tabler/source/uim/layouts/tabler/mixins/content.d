@@ -35,7 +35,7 @@ string addContentCalls(string result, string name, string classname) {
       addContent(element);
       return element;
     }
-  `;
+  `.mustache("name", name).mustache("classname", classname);
 }
 
 template AddContentCalls(string result, string name, string classname) {

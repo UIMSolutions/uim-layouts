@@ -32,27 +32,28 @@ public import uim.layouts.tabler.components.pageheader;
 public import uim.layouts.tabler.components.pagetitle;
 public import uim.layouts.tabler.components.ribbons;
 
-auto label(BS5DropdownMenu menu, string content) {
-  return menu(H5Label(["dropdown-item"], content));
-}
 
-auto label(BS5DropdownMenu menu, string[] classes, string content) {
-  return menu(H5Label(["dropdown-item"]~classes, content));
-}
-
-auto label(BS5DropdownMenu menu, DH5Obj content) {
-  return menu(H5Label(["dropdown-item"], content));
-}
-
-auto label(BS5DropdownMenu menu, string[] classes, DH5Obj content) {
-  return menu(H5Label(["dropdown-item"]~classes, content));
-}
-
-auto pageTitle(string title) {
-  return 
-  H5Div(["page-header d-print-none"], 
-    H5Div(["row align-items-center"], 
-      H5Div(["col"], 
-        H5H2(["page-title"], title))));
-
-}
+// auto label(TABDropdownMenu menu, string content) {
+  // return menu(H5Label(["dropdown-item"], content));
+// }
+// 
+// auto label(TABDropdownMenu menu, string[] classes, string content) {
+  // return menu(H5Label(["dropdown-item"]~classes, content));
+// }
+// 
+// auto label(TABDropdownMenu menu, DH5Obj content) {
+  // return menu(H5Label(["dropdown-item"], content));
+// }
+// 
+// auto label(TABDropdownMenu menu, string[] classes, DH5Obj content) {
+  // return menu(H5Label(["dropdown-item"]~classes, content));
+// }
+// 
+// auto pageTitle(string title) {
+  // return 
+  // H5Div(["page-header d-print-none"], 
+    // H5Div(["row align-items-center"], 
+      // H5Div(["col"], 
+        // H5H2(["page-title"], title))));
+// 
+// }
