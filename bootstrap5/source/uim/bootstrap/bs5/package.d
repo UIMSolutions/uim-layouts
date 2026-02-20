@@ -7,6 +7,10 @@ mixin(ShowModule!());
 @safe: 
 
 public {
+  public import uim.core;
+public import uim.oop;
+public import uim.html;
+
   import uim.bootstrap.bs5.basic;
   import uim.bootstrap.bs5.classes;
   import uim.bootstrap.bs5.complex;
