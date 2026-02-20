@@ -6,15 +6,19 @@ mixin(ShowModule!());
 
 @safe:
 
+/** 
+ * FormColorInputRadio is used to create a radio input for a form color input. It is used in the FormColorInput component.
+ * https://tabler.io/docs/forms#color-inputs
+ */
 class TABFormColorInputRadio : BS5FormColorInput {
-  mixin TABThis!("input", ["form-colorinput-input"], null, true));
+  mixin TABThis!(["form-colorinput-input"]);
+  
+  mixin(TABCalls!("FormColorInputRadio"));
 }
-static TABFormColorInputRadio");
-
 ///
 unittest {
-  assert(TABFormColorInputRadio, `<input class="form-colorinput-input">`);
-}}
+  assert(TABFormColorInputRadio == `<input class="form-colorinput-input">`);
+}
 
 
 

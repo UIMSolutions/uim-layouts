@@ -6,18 +6,27 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABFormColorinput : BS5Obj {
-  mixin TABThis!("label", ["form-colorinput"]));
+/** 
+ * FormColorInput is used to create a color input. It is used in the FormColorInput component.
+ * https://tabler.io/docs/forms#color-inputs
+ */
+class TABFormColorInput : H5Label {
+  mixin TABThis!(["form-colorinput"]);
 
-  auto addinput", "TABFormColorinputInput"));
-  auto addcolor", "TABFormColorinputColor"));
+  auto addInput() {
+    addContent(new TABFormColorInputInput());
+    return this;
+  }
+
+  auto addColor() {
+    addContent(new TABFormColorInputColor());
+    return this;
+  }
+
+  mixin(TABCalls!("FormColorInput"));
 }
-static TABFormColorinput");
 
 ///
 unittest {
-  assert(TABFormColorinput, `<label class="form-colorinput"></label>`);
-}}
-
-
-
+  assert(TABFormColorInput == `<label class="form-colorinput"></label>`);
+}

@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABStatusIndicator : BS5Obj {
-  mixin TABThis!("span", ["status-indicator"]));
+class TABStatusIndicator : H5Span {
+  mixin TABThis!(["status-indicator"]));
 
   override void initialize() {
     super.initialize;
@@ -19,13 +19,21 @@ class TABStatusIndicator : BS5Obj {
     );
   }
 
-  O animated(bool value = true){ if (value) this.addClasses("status-indicator-animated"); return this; }
+  O animated(bool value = true) {
+    if (value)
+      this.addClasses("status-indicator-animated");
+    return this;
+  }
 
-  auto color(string value){ this.addClasses("status-"~value); return this; }
+  auto color(string value) {
+    this.addClasses("status-" ~ value);
+    return this;
+  }
 
-static TABStatusIndicator opCall() {
-  return new TABStatusIndicator;
-}}  
+  static TABStatusIndicator opCall() {
+    return new TABStatusIndicator;
+  }
+}
 
 ///
 unittest {

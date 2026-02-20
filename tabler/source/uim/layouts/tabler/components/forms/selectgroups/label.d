@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABSelectgroupLabel : BS5Obj {
-  mixin TABThis!("span", ["form-selectgroup-label"]));
+class TABSelectgroupLabel : H5Span {
+  mixin TABThis!( ["form-selectgroup-label"]));
 }
 static TABSelectgroupLabel");
 

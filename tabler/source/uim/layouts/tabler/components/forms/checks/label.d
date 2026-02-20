@@ -6,15 +6,20 @@ mixin(ShowModule!());
 
 @safe:
 
-class DTABFormCheckLabel : BS5Obj {
-  mixin TABThis!("span", ["form-check-label"]));
+/** 
+ * FormCheckLabel is used to create a label for a form check. It is used in the FormCheck component.
+ * https://tabler.io/docs/forms#checks
+ */
+class DTABFormCheckLabel : H5Span {
+  mixin TABThis!(["form-check-label"]);
+ 
+  mixin(TABCalls!("FormCheckLabel"));
 }
-static TABFormCheckLabel");
 
 ///
 unittest {
-  assert(TABFormCheckLabel, `<span class="form-check-label"></span>`);
-}}
+  assert(TABFormCheckLabel == `<span class="form-check-label"></span>`);
+}
 
 
 

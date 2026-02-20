@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class TABEmptyTitle : H5P {
-  mixin TABThis!(["empty-title"]));
+  mixin TABThis!(["empty-title"]);
 
   mixin(TABCalls!("EmptyTitle"));
 }

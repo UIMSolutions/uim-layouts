@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABStatus : BS5Obj {
-  mixin TABThis!("span", ["status"]));
+class TABStatus : H5Span {
+  mixin TABThis!( ["status"]));
 
   auto color(string value){ this.addClasses("status-"~value); return this; }
 

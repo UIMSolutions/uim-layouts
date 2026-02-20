@@ -6,15 +6,15 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABFormColorInput : BS5Obj {
-  mixin TABThis!("input", ["form-colorinput-input"], null, true));
-}
-static TABFormColorInput");
+class TABFormColorInput : H5Input {
+  mixin TABThis!(["form-colorinput-input"]);
 
+  mixin(TABCalls!("FormColorInputInput"));
+}
 ///
 unittest {
-  assert(TABFormColorInput, `<input class="form-colorinput-input">`);
-}}
+  assert(TABFormColorInput == `<input class="form-colorinput-input">`);
+}
 
 
 

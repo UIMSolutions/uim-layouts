@@ -13,7 +13,7 @@ mixin(ShowModule!());
   * https://tabler.io/docs/empty#subtitle
   */
 class TABEmptySubtitle : H5P {
-  mixin TABThis!("p", ["empty-subtitle"]));
+  mixin TABThis!(["empty-subtitle"]);
 
   mixin(TABCalls!("EmptySubtitle"));
 }

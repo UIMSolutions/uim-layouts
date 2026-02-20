@@ -6,18 +6,24 @@ mixin(ShowModule!());
 
 @safe:
 
-class DTABFormCheck : BS5Obj {
-  mixin TABThis!("label", ["form-check"]));
+class DTABFormCheck : H5Label {
+  mixin TABThis!(["form-check"]);
 
-    auto addinput", "TABFormCheckInput"));
-  auto addlabel", "TABFormCheckLabel"));
+    DTABFormCheck addInput() {  
+      addContent(new TABFormCheckInput());
+      return this;
+    }
+
+    DTABFormCheck addLabel() {
+      addContent(new TABFormCheckLabel());
+      return this;
+    }
+mixin(TABCalls!("FormCheck"));
 }
-static TABFormCheck");
-
 ///
 unittest {
-  assert(TABFormCheck, `<label class="form-check"></label>`);
-}}
+  assert(TABFormCheck == `<label class="form-check"></label>`);
+}
 
 
 

@@ -6,20 +6,26 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABStatusDot : BS5Obj {
-  mixin TABThis!("span", ["status-dot"]));
+class TABStatusDot : H5Span {
+  mixin TABThis!(["status-dot"]);
 
-  O animated(bool value = true){ if (value) this.classes("status-dot-animated"); return this; }
+  TABStatusDot animated(bool value = true) {
+    if (value)
+      this.addClasses("status-dot-animated");
+    return this;
+  }
 
-  auto color(string value){ this.classes("status-"~value); return this; }
+  TABStatusDot color(string value) {
+    this.addClasses("status-" ~ value);
+    return this;
+  }
 
-static TABStatusDot opCall() {
-  return new TABStatusDot;
-}}
+  mixin(TABCalls!("StatusDot"));
+}
 
 ///
 unittest {
-  assert(TABStatusDot, `<span class="status-dot"></span>`);
-  assert(TABStatusDot.animated,`<span class="status-dot status-dot-animated"></span>`);
-  assert(TABStatus.color("blue"),`<span class="status-dot status-blue"></span>`);
+  assert(TABStatusDot == `<span class="status-dot"></span>`);
+  assert(TABStatusDot.animated == `<span class="status-dot status-dot-animated"></span>`);
+  assert(TABStatusDot.color("blue") == `<span class="status-dot status-blue"></span>`);
 }

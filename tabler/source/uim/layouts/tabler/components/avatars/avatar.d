@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:
 
-class TABAvatar : BS5Obj {
-  mixin TABThis!("span", ["avatar"]));
+class TABAvatar : H5Span {
+  mixin TABThis!( ["avatar"]));
 
 static TABAvatar opCall() {
   return new TABAvatar;
