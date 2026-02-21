@@ -7,10 +7,10 @@ mixin(ShowModule!());
 @safe:
 
 // Bootstrap 5 Breadcrumb Item
-class BS5BreadcrumbItem : BS5Obj {
-  mixin BS5This!("LI", ["breadcrumb-item"]));
+class BS5BreadcrumbItem : H5Li {
+  mixin BS5This!(["breadcrumb-item"]);
 
-  O active(bool mode = true) {
+  BS5BreadcrumbItem active(bool mode = true) {
     if (mode)
       this.addClasses("active");
     return this;
@@ -20,7 +20,7 @@ class BS5BreadcrumbItem : BS5Obj {
     assert(BS5BreadcrumbItem.active == `<li class="active breadcrumb-item"></li>`);
   }
 
-  O disabled(bool mode = true) {
+  BS5BreadcrumbItem disabled(bool mode = true) {
     if (mode)
       this.addClasses("disabled");
     return this;
@@ -36,9 +36,7 @@ class BS5BreadcrumbItem : BS5Obj {
     assert(BS5BreadcrumbItem.link == `<li class="breadcrumb-item"><a></a></li>`);
   }
 
-  static BS5BreadcrumbItem opCall() {
-    return new BS5BreadcrumbItem;
-  }
+  mixin(BS5Calls!("BreadcrumbItem"));
 }
 ///
 unittest {

@@ -7,14 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Carousel : H5Div {
-  mixin BS5This!(["carousel slide"], `["data-bs-ride":"carousel"]`));
+  mixin BS5This!(["carousel", "slide"], ["data-bs-ride":"carousel"]);
 
   mixin(MyContent!("indicators", "BS5CarouselIndicators"));
-  mixin(MyContent!("inner  ", "BS5CarouselInner"));
-}
+  mixin(MyContent!("inner", "BS5CarouselInner"));
 
-static BS5Carousel");
+  mixin(B5Calls!("Carousel"));
+}
 ///
-unittest
-{
+unittest {
 }

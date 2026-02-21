@@ -12,7 +12,7 @@ mixin(ShowModule!());
  * Authors: UI Manufaktur UG, https://ui-manufaktur.com 
  */
 class BS5BadgeLink : H5A {
-  mixin BS5This!(["badge"]););
+  mixin BS5This!(["badge"]);
 
   // Color of badge
   auto color(string name) {
