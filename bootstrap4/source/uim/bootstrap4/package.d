@@ -258,24 +258,24 @@ O " ~ leftName ~ "(string[] classes, string content) { this._objs ~=  BS4" ~ rig
 O " ~ leftName ~ "(string[] classes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(classes, content); return this; }
 O " ~ leftName ~ "(string[] classes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(classes, content); return this; }
 
-O " ~ leftName ~ "(STRINGAA attributes) { this._objs ~=  BS4" ~ rightName ~ "(attributes); return this; }
-O " ~ leftName ~ "(STRINGAA attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(attributes, content); return this; }
-O " ~ leftName ~ "(STRINGAA attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(attributes, content); return this; }
-O " ~ leftName ~ "(STRINGAA attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(attributes, content); return this; }
+O " ~ leftName ~ "(string[string] attributes) { this._objs ~=  BS4" ~ rightName ~ "(attributes); return this; }
+O " ~ leftName ~ "(string[string] attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(attributes, content); return this; }
+O " ~ leftName ~ "(string[string] attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(attributes, content); return this; }
+O " ~ leftName ~ "(string[string] attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(attributes, content); return this; }
 
-O " ~ leftName ~ "(string id, STRINGAA attributes) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes); return this; }
-O " ~ leftName ~ "(string id, STRINGAA attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes, content); return this; }
-O " ~ leftName ~ "(string id, STRINGAA attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes, content); return this; }
-O " ~ leftName ~ "(string id, STRINGAA attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes, content); return this; }
+O " ~ leftName ~ "(string id, string[string] attributes) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes); return this; }
+O " ~ leftName ~ "(string id, string[string] attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes, content); return this; }
+O " ~ leftName ~ "(string id, string[string] attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes, content); return this; }
+O " ~ leftName ~ "(string id, string[string] attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(id, attributes, content); return this; }
 
-O " ~ leftName ~ "(string id, string[] classes, STRINGAA attributes) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes); return this; }
-O " ~ leftName ~ "(string id, string[] classes, STRINGAA attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes, content); return this; }
-O " ~ leftName ~ "(string id, string[] classes, STRINGAA attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes, content); return this; }
-O " ~ leftName ~ "(string id, string[] classes, STRINGAA attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes, content); return this; }
+O " ~ leftName ~ "(string id, string[] classes, string[string] attributes) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes); return this; }
+O " ~ leftName ~ "(string id, string[] classes, string[string] attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes, content); return this; }
+O " ~ leftName ~ "(string id, string[] classes, string[string] attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes, content); return this; }
+O " ~ leftName ~ "(string id, string[] classes, string[string] attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(id, classes, attributes, content); return this; }
 
-O " ~ leftName ~ "(string[] classes, STRINGAA attributes) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes); return this; }
-O " ~ leftName ~ "(string[] classes, STRINGAA attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes, content); return this; }
-O " ~ leftName ~ "(string[] classes, STRINGAA attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes, content); return this; }
-O " ~ leftName ~ "(string[] classes, STRINGAA attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes, content); return this; }
+O " ~ leftName ~ "(string[] classes, string[string] attributes) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes); return this; }
+O " ~ leftName ~ "(string[] classes, string[string] attributes, string content) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes, content); return this; }
+O " ~ leftName ~ "(string[] classes, string[string] attributes, DH5Obj[] content...) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes, content); return this; }
+O " ~ leftName ~ "(string[] classes, string[string] attributes, DH5 content) { this._objs ~=  BS4" ~ rightName ~ "(classes, attributes, content); return this; }
  ";
 }

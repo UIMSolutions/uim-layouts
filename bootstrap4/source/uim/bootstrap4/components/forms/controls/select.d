@@ -16,7 +16,7 @@ class BS4InputSelect : BS4Obj {
     return this;  
   }
 
-  O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+  O options(string[string] values, string selectedKey = "", string disabledKey = "") {
     values.keys.sort.each!(value => setOption(value, selectedKey, disabledKey));
 
     return this;  
@@ -38,7 +38,7 @@ class BS4InputSelect : BS4Obj {
     else this.option(value);
   }
 
-  O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+  O options(string[string] values, string[] selectedKeys, string[] disabledKeys = null) {
     values.keys.sort.each!(key => setOption(k, selectedKeys, disabledKeys));
 
     return this;  

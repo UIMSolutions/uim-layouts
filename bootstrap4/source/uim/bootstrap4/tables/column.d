@@ -14,7 +14,7 @@ class BS4TableColumn : BS4Obj {
   mixin(TProperty!("int", "width"));
   mixin(TProperty!("string", "type"));
 
-  override string renderHTML(STRINGAA bindings = null) {
+  override string renderHTML(string[string] bindings = null) {
     this.clearContent;
     _attributes["scope"]="col";
     if (_width) _attributes["width"]=to!string(_width);

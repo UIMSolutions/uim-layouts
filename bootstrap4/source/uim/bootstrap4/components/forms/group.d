@@ -14,7 +14,7 @@ class BS4FormGroup : H5Div {
   mixin(MyAttribute!("placeHolder", "placeholder"));
 
   mixin(MyContent!("label", "H5Label"));
-  O label(string forId, string title, string[] someClasses = null, STRINGAA someAttributes = null) {
+  O label(string forId, string title, string[] someClasses = null, string[string] someAttributes = null) {
     someAttributes["for"] = forId;
     this.addContent(H5Label(someClasses, someAttributes, title));
     return this;

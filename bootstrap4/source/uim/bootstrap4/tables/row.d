@@ -26,7 +26,7 @@ unittest {
   }}
 
 /*
-  mixin(TProperty!("STRINGAA", "keyPairs"));
+  mixin(TProperty!("string[string]", "keyPairs"));
   mixin(TProperty!("string[]", "values"));
 
   string renderHTML(BS4TableColumn[] columns) {
@@ -39,7 +39,7 @@ unittest {
     }
     return super.renderHTML;
   }
-  override string renderHTML(STRINGAA bindings = null) {
+  override string renderHTML(string[string] bindings = null) {
     this.clearContent;
     if ((_values.length == 0) && (!_keyPairs.empty)) _values = _keyPairs.values;
     _values.each!(v => this.addContent("<td>"~v~"</td>"));

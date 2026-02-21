@@ -26,7 +26,7 @@ class BS4CustomSelect : DH5Select {
     else this.option(optionValue);
   }
 
-  O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+  O options(string[string] values, string selectedKey = "", string disabledKey = "") {
     values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
     return this;  
@@ -47,7 +47,7 @@ class BS4CustomSelect : DH5Select {
 
     return this;  
   }
-  O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+  O options(string[string] values, string[] selectedKeys, string[] disabledKeys = null) {
     values.keys.sort,each(key => setOption(key, selectedKeys, disabledKeys));
     
     return this;  

@@ -19,7 +19,7 @@ class BS4ButtonObj : BS4Obj {
   mixin(TProperty!("string", "role"));
   mixin(TProperty!("string", "sizeMode"));
 
-  override string renderHTML(STRINGAA bindings = null) {
+  override string renderHTML(string[string] bindings = null) {
     if (colorMode) {
       if (outline) this.addClasses("btn-outline-"~colorMode);
       else this.addClasses("btn-"~colorMode);
