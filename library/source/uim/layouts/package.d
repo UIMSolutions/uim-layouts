@@ -1,23 +1,19 @@
 module uim.layouts;
 
-mixin(ImportPhobos!());
-
 // Dub
 public {
-  import  vibe.d;
+  import vibe.d;
 }
 
 public { // uim libraries
   import uim.core;
-  import uim.bootstrap;
   import uim.html;
   import uim.oop;
-  import uim.css;
-  import langs.javascript;
+  // import uim.css;
 }
 
 public {
-    import uim.layouts.library.classes;
-    import uim.layouts.interfaces;
-    import uim.layouts.mixins;
+    // import uim.layouts.library.classes;
+    // import uim.layouts.interfaces;
+    // import uim.layouts.mixins;
 }

@@ -1,17 +1,17 @@
 // Metadata
-name "bootstrap4"
-description "uim library for bootstrap 4 layouts with vibe.d utilities"
-homepage "https://www.sueel.de/uim/layouts/bootstrap4"
+name "library"
+description "uim library for library layouts with vibe.d utilities"
+homepage "https://www.sueel.de/uim/layouts/library"
 authors "Ozan Nurettin Süel"
 copyright "Copyright © 2018 - 2026, ONS"
 license "Apache-2.0"
 
 // Target
-targetName "uim-layouts-bootstrap4"
+targetName "uim-layouts-library"
 targetType "library"
 
 // Dependencies
-dependency "uim-layouts:library" path=".."
+dependency "uim-framework:html" version="*"
 
 // Configurations
 configuration "default" {

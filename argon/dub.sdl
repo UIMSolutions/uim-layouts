@@ -11,9 +11,7 @@ targetName "uim-layouts-argon"
 targetType "library"
 
 // Dependencies
-dependency "uim-framework:core" version="*"
-dependency "uim-framework:oop" version="*"
-dependency "uim-framework:numerical" version="*"
+dependency "uim-layouts:library" path=".."
 
 // Configurations
 configuration "default" {

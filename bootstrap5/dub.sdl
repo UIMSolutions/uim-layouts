@@ -11,7 +11,7 @@ targetName "uim-layouts-bootstrap5"
 targetType "library"
 
 // Dependencies
-dependency "uim-framework:html" version="*"
+dependency "uim-layouts:library" path=".."
 
 // Configurations
 configuration "default" {
