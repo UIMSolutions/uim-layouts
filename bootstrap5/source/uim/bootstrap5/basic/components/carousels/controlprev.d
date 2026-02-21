@@ -6,8 +6,9 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5CarouselControlPrev : BS5Obj {
-  mixin BS5This!("a", ["carousel-control-prev"], `["data-bs-slide":"prev"]`));
+class BS5CarouselControlPrev : H5A {
+  mixin BS5This!(["carousel-control-prev"], ["data-bs-slide":"prev"]);
+  
   override public void initialize() {
     super.initialize;
     this
@@ -15,12 +16,10 @@ class BS5CarouselControlPrev : BS5Obj {
         H5Span(["carousel-control-prev-icon"]), H5Span(["sr-only"], "Previous"));
   }
 
-  static BS5CarouselControlPrev opCall() {
-    return new BS5CarouselControlPrev;
-  }
+  mixin(BS5Calls!("CarouselControlPrev"));  
 }
 ///
 unittest {
-  assert(BS5CarouselControlPrev ==
+  assert(BS5CarouselControlPrev() ==
       `<a class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>`);
 }

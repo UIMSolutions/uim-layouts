@@ -4,38 +4,35 @@ import uim.bootstrap5;
 
 mixin(ShowModule!());
 
-@safe:  
+@safe:
 
-class BS5InputNumber : BS5Obj {
-  mixin BS5This!("Input", ["form-control"], `["type":"number"]`));
-  override public void initialize() {
-    super.initialize; _single = true;
-  }
+class BS5InputNumber : H5Input {
+  mixin BS5This!(["form-control"], ["type": "number"]);
 
-  O value(string aValue) {
+  BS5InputNumber value(string aValue) {
     _attributes["value"] = to!string(aValue);
     return this;
   }
 
-  O value(int aValue) {
+  BS5InputNumber value(int aValue) {
     _attributes["value"] = to!string(aValue);
     return this;
   }
 
-  O value(long aValue) {
+  BS5InputNumber value(long aValue) {
     _attributes["value"] = to!string(aValue);
     return this;
   }
 
-  O value(size_t aValue) {
+  BS5InputNumber value(size_t aValue) {
     _attributes["value"] = to!string(aValue);
     _attributes["min"] = "0";
     return this;
   }
-}
-static BS5InputNumber"));
 
+  mixin(BS5Calls!("InputNumber"));
+}
 ///
 unittest {
   assert(BS5InputNumber == `<input class="form-control" type="number">`);
-}}
+}

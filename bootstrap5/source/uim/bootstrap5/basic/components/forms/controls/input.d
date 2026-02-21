@@ -6,8 +6,8 @@ mixin(ShowModule!());
 
 @safe:  
 
-class BS5Input : BS5Obj {
-  mixin BS5This!("Input", null, null, true));  
+class BS5Input : H5Input {
+  mixin BS5This!();  
 
   mixin(MyAttribute!"value");
   mixin(MyAttribute!"placeholder");
@@ -25,10 +25,10 @@ class BS5Input : BS5Obj {
       .single(true)
       .classes("form-control");
   }
-}
-static BS5Input"));
 
+  mixin(BS5Calls!("Input"));
+}
 ///
 unittest {
-  assert(BS5Input);
-}}
+  assert(BS5Input() == `<input class="form-control" type="text">`);
+}

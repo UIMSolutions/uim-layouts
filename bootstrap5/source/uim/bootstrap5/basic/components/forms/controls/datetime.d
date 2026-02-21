@@ -7,31 +7,26 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputDateTime : BS5Input {
-  mixin BS5This!("", null, `["type":"datetime-local"]`));
+  mixin BS5This!(null, ["type":"datetime-local"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
-
-  O value(long timestamp) {
+  BS5InputDateTime value(long timestamp) {
     _attributes["value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString;
     return this;
   }
   
-  O value(SysTime systime) {
+  BS5InputDateTime value(SysTime systime) {
     _attributes["value"] = (cast(DateTime)systime).toISOExtString;
     return this;
   }
 
-  O value(DateTime datetime) {
+  BS5InputDateTime value(DateTime datetime) {
     _attributes["value"] = datetime.toISOExtString;
     return this;
   }
   
+  mixin(BS5Calls!("InputDateTime"));
 }
-static BS5InputDateTime"));
-
 ///
 unittest {
   assert(BS5InputDateTime == `<input class="form-control" type="datetime-local">`);
-}}
+}

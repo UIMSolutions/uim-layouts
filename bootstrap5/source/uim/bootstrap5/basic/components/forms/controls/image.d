@@ -6,17 +6,14 @@ mixin(ShowModule!());
 
 @safe:  
 
-class BS5InputImage : BS5Obj {
-  mixin BS5This!("Input", ["form-control"], `["type":"image"]`));
-  override public void initialize() {
-    super.initialize;
-    _single = true;
-  }
+class BS5InputImage : H5Input {
+  mixin BS5This!(["form-control"], ["type":"image"]);
+ 
+  mixin(BS5Calls!("InputImage"));
 }
-static BS5InputImage"));
 
 ///
 unittest {
-  assert(BS5InputImage);
-  assert(BS5InputImage == `<input class="form-control" type="image">`);
-}}
+  assert(BS5InputImage());
+  assert(BS5InputImage() == `<input class="form-control" type="image">`);
+}

@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputEmail : BS5Input {
-  mixin BS5This!(null, null, `["type":"email"]`));
+  mixin BS5This!(null, ["type":"email"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputEmail"));
 }
-static BS5InputEmail"));
-
 ///
 unittest {
   assert(BS5InputEmail == `<input class="form-control" type="email">`);
-}}
+}

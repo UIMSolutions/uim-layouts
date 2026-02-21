@@ -7,24 +7,21 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputHidden : BS5Input {
-  mixin BS5This!("", null, `["type":"hidden"]`));
+  mixin BS5This!(null, ["type":"hidden"]);
 
-  O value(UUID id) {
+  BS5InputHidden value(UUID id) {
     this.value(id.toString);
     return this;
   }
 
-  O value(string txt) {
+  BS5InputHidden value(string txt) {
     _attributes["value"] = txt;
     return this;
   }
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputHidden"));
 }
-static BS5InputHidden"));
 ///
 unittest {
   assert(BS5InputHidden == `<input class="form-control" type="hidden">`);
-}}
+}

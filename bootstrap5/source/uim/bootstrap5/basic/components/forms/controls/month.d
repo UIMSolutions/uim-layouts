@@ -7,15 +7,10 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputMonth : BS5Input {
-  mixin BS5This!("", ["form-control"], `["type":"month"]`));
-
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin BS5This!(["form-control"], ["type":"month"]);
+  mixin(BS5Calls!("InputMonth"));
 }
-static BS5InputMonth"));
-
 ///
 unittest {
-  assert(BS5InputMonth == `<input class="form-control" type="month">`);
-}}
+  assert(BS5InputMonth() == `<input class="form-control" type="month">`);
+}

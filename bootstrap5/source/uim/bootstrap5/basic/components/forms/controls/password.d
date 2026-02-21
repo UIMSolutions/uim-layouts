@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputPassword : BS5Input {
-  mixin BS5This!(null, ["form-control"], `["type":"password"]`));
+  mixin BS5This!(["form-control"], ["type":"password"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputPassword"));
 }
-static BS5InputPassword"));
-
 ///
 unittest {
-  assert(BS5InputPassword == `<input class="form-control" type="password">`);
-}}
+  assert(BS5InputPassword() == `<input class="form-control" type="password">`);
+}

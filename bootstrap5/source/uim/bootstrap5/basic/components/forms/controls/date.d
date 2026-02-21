@@ -4,55 +4,50 @@ import uim.bootstrap5;
 
 mixin(ShowModule!());
 
-@safe:  
+@safe:
 
 class BS5InputDate : BS5Input {
-  mixin BS5This!("Input", ["form-control"], `["type":"date"]`));
+  mixin BS5This!(["form-control"], ["type":"date"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
-  
-  O value(long timestamp) {
+  BS5InputDate value(long timestamp) {
     _attributes["value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString.split("T")[0];
     return this;
   }
   ///
-unittest {          
+  unittest {
     /// TODO
-  }}
+  }
 
-  O value(string dateValue) {
+  BS5InputDate value(string dateValue) {
     _attributes["value"] = dateValue;
     return this;
   }
   ///
-unittest {    
+  unittest {
     /// TODO
-  }}
+  }
 
-  O value(SysTime systime) {
+  BS5InputDate value(SysTime systime) {
     _attributes["value"] = (cast(DateTime)systime).toISOExtString.split("T")[0];
     return this;
   }
   ///
-unittest {      
+  unittest {
     /// TODO
-  }}
+  }
 
-  O value(DateTime datetime) {
+  BS5InputDate value(DateTime datetime) {
     _attributes["value"] = datetime.toISOExtString.split("T")[0];
     return this;
   }
   ///
-unittest {    
+  unittest {
     /// TODO  
-  }}
+  }
 
+  mixin(BS5Calls!("InputDate"));
 }
-static BS5InputDate"));
-
 ///
 unittest {
-  assert(BS5InputDate == `<input class="form-control" type="date">`);
-}}
+  assert(BS5InputDate() == `<input class="form-control" type="date">`);
+}
