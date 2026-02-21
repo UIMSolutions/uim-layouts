@@ -18,7 +18,7 @@ class BS5Nav : H5Ul {
 //   mixin(MyContent!("header", "BS5NavHeader"));
 //   ///
 // unittest {
-//     assert(BS5Nav.header == `<ul class="nav"><li class="nav-header"></li></ul>`);
+//     assert(BS5Nav.header() == `<ul class="nav"><li class="nav-header"></li></ul>`);
 //   }}
 
 //   mixin(MyContent!("link", "this.item", "BS5NavLink"));

@@ -16,7 +16,7 @@ class BS5Container : H5Div {
   mixin BS5This!(["container"]);
   // ///
   // unittest {
-  //   assert(BS5Container == `<div class="container"></div>`);
+  //   assert(BS5Container() == `<div class="container"></div>`);
   // }
 
   // O fluid(bool mode = true) {
@@ -37,7 +37,7 @@ class BS5Container : H5Div {
 }
 ///
 unittest {
-  // assert(BS5Container == `<div class="container"></div>`);
+  // assert(BS5Container() == `<div class="container"></div>`);
   // assert(BS5Container.fluid(true) == `<div class="container-fluid"></div>`);
   // assert(BS5Container.mode("fluid") == `<div class="container-fluid"></div>`); // Alternative
   // assert(BS5Container.mode("xl") == `<div class="container-xl"></div>`);

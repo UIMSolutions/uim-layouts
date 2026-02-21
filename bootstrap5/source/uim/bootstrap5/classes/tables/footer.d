@@ -21,5 +21,5 @@ class BS5TableFooter : H5Tfoot {
 }
 ///
 unittest {
-  assert(BS5TableFooter == `<tfoot></tfoot>`);
+  assert(BS5TableFooter() == `<tfoot></tfoot>`);
 }

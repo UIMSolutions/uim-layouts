@@ -16,6 +16,6 @@ class BS5AccordionHeader : H5H2 {
 
 ///
 unittest {
-  assert(BS5AccordionHeader == `<h2 class="accordion-header"></h2>`);
+  assert(BS5AccordionHeader() == `<h2 class="accordion-header"></h2>`);
 }
 

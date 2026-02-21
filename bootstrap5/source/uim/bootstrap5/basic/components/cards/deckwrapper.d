@@ -13,5 +13,5 @@ class BS5CardDeckwrapper : H5Div {
 }
 ///
 unittest {
-  assert(BS5CardDeckwrapper == `<div class="card-deck-wrapper"></div>`);
+  assert(BS5CardDeckwrapper() == `<div class="card-deck-wrapper"></div>`);
 }

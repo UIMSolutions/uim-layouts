@@ -20,7 +20,7 @@ class BS5Table : H5Table {
   // ///
   // unittest {
   //   assert(BS5Table.head == `<table class="table"><thead></thead></table>`);
-  //   assert(BS5Table.header == `<table class="table"><thead></thead></table>`);
+  //   assert(BS5Table.header() == `<table class="table"><thead></thead></table>`);
   // }
 
   // mixin(MyContent!("body_", "H5Tbody"));
@@ -34,7 +34,7 @@ class BS5Table : H5Table {
   // ///
   // unittest {
   //   assert(BS5Table.foot == `<table class="table"><tfoot></tfoot></table>`);
-  //   assert(BS5Table.footer == `<table class="table"><tfoot></tfoot></table>`);
+  //   assert(BS5Table.footer() == `<table class="table"><tfoot></tfoot></table>`);
   // }
 
   // auto addrow()", "BS5TableRow"));

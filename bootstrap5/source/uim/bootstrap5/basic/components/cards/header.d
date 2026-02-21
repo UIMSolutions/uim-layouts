@@ -15,5 +15,5 @@ class BS5CardHeader : H5Div {
 }
 ///
 unittest {
-  assert(BS5CardHeader == `<div class="card-header"></div>`);
+  assert(BS5CardHeader() == `<div class="card-header"></div>`);
 }

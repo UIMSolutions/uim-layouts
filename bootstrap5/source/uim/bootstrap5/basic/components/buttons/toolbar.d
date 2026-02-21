@@ -26,5 +26,5 @@ class BS5ButtonToolbar : H5Div {
 }
 ///
 unittest {
-  assert(BS5ButtonToolbar == `<div class="btn-toolbar" role="toolbar"></div>`);
+  assert(BS5ButtonToolbar() == `<div class="btn-toolbar" role="toolbar"></div>`);
 }

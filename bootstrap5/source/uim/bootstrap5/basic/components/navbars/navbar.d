@@ -16,8 +16,8 @@ class BS5Navbar : H5Nav {
 //   }
 //   ///
 // unittest {
-//     assert(BS5Navbar.center == `<nav class="justify-content-center navbar"></nav>`);
-//     assert(BS5Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
+//     assert(BS5Navbar.center() == `<nav class="justify-content-center navbar"></nav>`);
+//     assert(BS5Navbar("Test").center() == `<nav class="justify-content-center navbar">Test</nav>`);
 //   }}
 
 //   O dark(bool value = true) {

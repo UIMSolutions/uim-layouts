@@ -59,7 +59,7 @@ class BS5Obj : H5Div {
   }
   ///
 unittest {
-    assert(BS5Obj.border == `<div class="border"></div>`);
+    assert(BS5Obj.border() == `<div class="border"></div>`);
     assert(BS5Obj.border(1) == `<div class="border-1"></div>`);
     assert(BS5Obj.border("top") == `<div class="border-top"></div>`);
   }
@@ -72,7 +72,7 @@ unittest {
   }
   ///
 unittest {
-    assert(BS5Obj.noBorder == `<div class="border-0"></div>`);
+    assert(BS5Obj.noBorder() == `<div class="border-0"></div>`);
   }
 
   /// Set border color 

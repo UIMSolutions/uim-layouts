@@ -45,20 +45,20 @@ unittest {
   mixin(MyContent!("footer", "BS5CardFooter"));
   ///
 unittest {
-    assert(BS5Card.footer == `<div class="card"><div class="card-footer"></div></div>`);
+    assert(BS5Card.footer() == `<div class="card"><div class="card-footer"></div></div>`);
   }
 
   /// Add card header
   mixin(MyContent!("header", "BS5CardHeader"));
   ///
 unittest {
-    assert(BS5Card.header == `<div class="card"><div class="card-header"></div></div>`);
+    assert(BS5Card.header() == `<div class="card"><div class="card-header"></div></div>`);
   }
 
   mixin(MyContent!("list", "BS5List"));
   ///
 unittest {
-    // assert(BS5Card.header == `<div class="card"><div class="card-header"></div></div>`);
+    // assert(BS5Card.header() == `<div class="card"><div class="card-header"></div></div>`);
   }
 
   /// Add card image overlay
