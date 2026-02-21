@@ -8,16 +8,8 @@ mixin(ShowModule!());
 
 // Badges in Bootstrap are little additional information to highlight text or numbers.
 class BS5Badge : H5Span {
-  mixin BS5This!("BS5Badge");
+  mixin BS5This!(["badge"]);
 
-  override bool initialize(Json[string] args = null) {
-    if (!super.initialize(args)) {
-      return false;
-    }
-
-    addClasse("badge");
-    return true;
-  }
   // Color of badge
   auto color(string name) {
     addClasses("badge-" ~ name);
@@ -39,10 +31,7 @@ class BS5Badge : H5Span {
     assert(BS5Badge.pill(true) == `<span class="badge badge-pill"></span>`);
   }
 
-  // Shortcut to class BS5Badge
-  static BS5Badge opCall() {
-    return new BS5Badge;
-  }
+  mixin(BS5Calls!("Badge"));
 }
 ///
 unittest {

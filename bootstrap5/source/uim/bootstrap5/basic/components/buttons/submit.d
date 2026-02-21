@@ -4,57 +4,76 @@ import uim.bootstrap5;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
-class BS5ButtonSubmit : BS5ButtonObj {
-  mixin BS5This!("button", ["btn"], `["type":"submit"]`));
-
-  override void initialize() {
-    super.initialize;
-  }
+class BS5ButtonSubmit : H5Button {
+  mixin BS5This!(["btn"], ["type": "submit"]);
 
   // Set button to active state
-  O active(bool mode = true){ if (mode) _classes ~= "active"; return this; }
+  BS5ButtonSubmit active(bool mode = true) {
+    if (mode)
+      _classes ~= "active";
+    return this;
+  }
   ///
-unittest {
+  unittest {
     assert(BS5ButtonSubmit.active(true) == `<button class="active btn" type="submit"></button>`);
-  }}
+  }
 
-  O block(bool mode = true){ if (mode) this.addClasses("btn-block"); return this; }
+  BS5ButtonSubmit block(bool mode = true) {
+    if (mode)
+      this.addClasses("btn-block");
+    return this;
+  }
   ///
-unittest {
+  unittest {
     assert(BS5ButtonSubmit.block(true) == `<button class="btn btn-block" type="submit"></button>`);
-  }}
+  }
 
-  auto color(string value){ this.addClasses("btn-"~value); return this; }
+  auto color(string value) {
+    this.addClasses("btn-" ~ value);
+    return this;
+  }
   ///
-unittest {
-    assert(BS5ButtonSubmit.color("primary") == `<button class="btn btn-primary" type="submit"></button>`);
-  }}
+  unittest {
+    assert(BS5ButtonSubmit.color(
+        "primary") == `<button class="btn btn-primary" type="submit"></button>`);
+  }
 
   // Set button to disabled
-  O disabled(bool mode = true){ if (mode) this.addClasses("disabled"); return this; }
+  BS5ButtonSubmit disabled(bool mode = true) {
+    if (mode)
+      this.addClasses("disabled");
+    return this;
+  }
   ///
-unittest {
+  unittest {
     assert(BS5ButtonSubmit.disabled(true) == `<button class="btn disabled" type="submit"></button>`);
-  }}
+  }
 
   // Set outline color
-  O outline(string value){ this.addClasses("btn-outline-"~value); return this; }
+  BS5ButtonSubmit outline(string value) {
+    this.addClasses("btn-outline-" ~ value);
+    return this;
+  }
   ///
-unittest {
-    assert(BS5ButtonSubmit.outline("primary") == `<button class="btn btn-outline-primary" type="submit"></button>`);
-  }}
+  unittest {
+    assert(BS5ButtonSubmit.outline(
+        "primary") == `<button class="btn btn-outline-primary" type="submit"></button>`);
+  }
 
-  O size(string value){ this.addClasses("btn-"~value); return this; }
+  BS5ButtonSubmit size(string value) {
+    this.addClasses("btn-" ~ value);
+    return this;
+  }
   ///
-unittest {
+  unittest {
     assert(BS5ButtonSubmit.size("lg") == `<button class="btn btn-lg" type="submit"></button>`);
-  }}
-}
-static BS5ButtonSubmit");
+  }
 
+  mixin(BS5Calls!("ButtonSubmit"));
+}
 ///
 unittest {
   // assert(BS5ButtonSubmit == `<button class="btn" type="button"></button>`);
-}}
+}

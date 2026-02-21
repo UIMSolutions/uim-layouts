@@ -6,17 +6,17 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5ButtonLink : BS5Obj {
-  mixin BS5This!("A", ["btn"], `["role":"button"]`));
+class BS5ButtonLink : H5A {
+  mixin BS5This!(["btn"], ["role": "button"]);
 
-  O disabled() {
+  BS5ButtonLink disabled() {
     this.addClasses(["disabled"]).attributes(["tabindex":"-1", "aria-disabled":"true"]);
     return this;
   }
   ///
 unittest {
     // TODO
-  }}
+  }
 }
 static BS5ButtonLink");
 

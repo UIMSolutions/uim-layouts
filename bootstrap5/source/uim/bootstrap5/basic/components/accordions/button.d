@@ -7,22 +7,10 @@ mixin(ShowModule!());
 @safe:
 
 /// Button for accordion item header
-class BS5AccordionButton : BS5Obj {
-  mixin BS5This!("BS5AccordionButton"));
+class BS5AccordionButton : H5Button {
+  mixin BS5This!(["accordion-button"], ["type":"button"]);
 
-  override bool initialize(Json[string] args = null) {
-    if (!super.initialize(args)) {
-      return false;
-    }
-
-    addClasses("accordion-button");
-    attribute("type", "button");
-    return true;
-  }
-
-  static BS5AccordionButton opCall() {
-    return new BS5AccordionButton;
-  }
+  mixin(BS5CCalls!("AccordionButton"));
 }
 ///
 unittest {

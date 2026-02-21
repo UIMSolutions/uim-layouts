@@ -6,16 +6,16 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5AccordionHeader : BS5Obj {
-  mixin BS5This!("H2", ["accordion-header"]);
+class BS5AccordionHeader : H5H2 {
+  mixin BS5This!(["accordion-header"]);
 
-  mixin(MyContent!("button", "BS5AccordionButton"));
+  // mixin(MyContent!("button", "BS5AccordionButton"));
+
+  mixin(BS5CCalls!("AccordionHeader"));
 }
-static BS5AccordionHeader"));
 
 ///
 unittest {
-  assert(BS5AccordionHeader);
   assert(BS5AccordionHeader == `<h2 class="accordion-header"></h2>`);
-}}
+}
 

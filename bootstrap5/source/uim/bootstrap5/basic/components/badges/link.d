@@ -12,16 +12,7 @@ mixin(ShowModule!());
  * Authors: UI Manufaktur UG, https://ui-manufaktur.com 
  */
 class BS5BadgeLink : H5A {
-  mixin BS5This!("A"));
-
-  override bool initialize(Json[string] args = null) {
-    if (!super.initialize(args)) {
-      return false;
-    }
-
-    addClasses("badge");
-    return true;
-  }
+  mixin BS5This!(["badge"]););
 
   // Color of badge
   auto color(string name) {
@@ -33,20 +24,17 @@ class BS5BadgeLink : H5A {
   }
 
   //Rounded badges
-  O pill(bool mode = true) {
+  BS5BadgeLink pill(bool mode = true) {
     if (mode)
       this.addClasses("badge-pill");
-    return cast(O)this;
+    return this;
   }
   ///
   unittest {
     assert(BS5BadgeLink.pill(true) == `<a class="badge badge-pill"></a>`);
   }
 
-  // Shortcut to class BS5Badge
-  static BS5BadgeLink opCall() {
-    return new BS5BadgeLink;
-  }
+  mixin(BS5Calls!("BadgeLink"));
 }
 ///
 unittest {

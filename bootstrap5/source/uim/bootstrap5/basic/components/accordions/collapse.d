@@ -7,25 +7,14 @@ mixin(ShowModule!());
 @safe:
 
 class BS5AccordionCollapse : H5Div {
-  mixin BS5This!(["accordion-collapse"]));
-
-  override bool initialize(Json[string] args = null) {
-    if (!super.initialize(args)) {
-      return false;
-    }
-
-    addClasses("accordion-collapse");
-    return true;
-  }
+  mixin BS5This!(["accordion-collapse"]);
 
   BS5AccordionCollapse body_() {
     addContent(BS5AccordionBody);
     return this;
   }
 
-  static BS5AccordionCollapse opCall() {
-    return new BS5AccordionCollapse;
-  }
+  mixin(BS5CCalls!("AccordionCollapse"));
 }
 ///
 unittest {
