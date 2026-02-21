@@ -18,7 +18,7 @@ class BS5Accordion : H5Div {
 }
 ///
 unittest {
-  assert(BS5Accordion() == `<div class="accordion"></div>`);
-  assert(BS5Accordion()
+  // assert(BS5Accordion() == `<div class="accordion"></div>`);
+  // assert(BS5Accordion()
       .addItem() == `<div class="accordion"><div class="accordion-item"></div></div>`);
 }

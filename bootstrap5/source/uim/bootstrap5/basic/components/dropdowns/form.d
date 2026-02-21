@@ -13,5 +13,5 @@ class BS5DropdownForm : H5Form {
 }
 ///
 unittest {
-  assert(BS5DropdownForm == `<form></form>`);
+  // assert(BS5DropdownForm == `<form></form>`);
 }

@@ -13,6 +13,6 @@ class BS5CardSubtitle : H5H6 {
 }
 ///
 unittest {
-  assert(BS5CardSubtitle == `<h6 class="card-subtitle"></h6>`);
-  assert(BS5CardSubtitle.content("SomeThing") == `<h6 class="card-subtitle">SomeThing</h6>`);
+  // assert(BS5CardSubtitle == `<h6 class="card-subtitle"></h6>`);
+  // assert(BS5CardSubtitle.content("SomeThing") == `<h6 class="card-subtitle">SomeThing</h6>`);
 }

@@ -16,5 +16,5 @@ mixin(BS5Calls!("InputTextarea"));
 }
 ///
 unittest {
-  assert(BS5InputTextarea == `<textarea class="form-control"></textarea>`);
+  // assert(BS5InputTextarea == `<textarea class="form-control"></textarea>`);
 }

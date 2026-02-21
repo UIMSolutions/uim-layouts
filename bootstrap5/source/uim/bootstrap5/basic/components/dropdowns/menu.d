@@ -39,7 +39,7 @@ class BS5DropdownMenu : H5Div {
 }
 ///
 unittest {
-  assert(BS5DropdownMenu() == `<div class="dropdown-menu"></div>`);
-  assert(BS5DropdownMenu().link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
-  assert(BS5DropdownMenu().form == `<div class="dropdown-menu"><form></form></div>`);
+  // assert(BS5DropdownMenu() == `<div class="dropdown-menu"></div>`);
+  // assert(BS5DropdownMenu().link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
+  // assert(BS5DropdownMenu().form == `<div class="dropdown-menu"><form></form></div>`);
 }

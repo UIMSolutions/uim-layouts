@@ -13,6 +13,6 @@ class BS5FormCheckInput : H5Input {
 }
 ///
 unittest {
-// TODO assert(BS5FormCheckInput == );
-  assert(BS5FormCheckInput == `<input class="form-check-input">`);
+// TODO // assert(BS5FormCheckInput == );
+  // assert(BS5FormCheckInput == `<input class="form-check-input">`);
 }

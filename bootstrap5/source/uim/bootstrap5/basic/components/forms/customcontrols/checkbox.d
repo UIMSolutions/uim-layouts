@@ -14,7 +14,7 @@ class BS5CustomCheckbox : BS5CustomControl {
 ///
 unittest {
   // TODO Exists in 5?
-/*   assert(BS5CustomCheckbox);
+/*   // assert(BS5CustomCheckbox);
   writeln(BS5CustomCheckbox);
-  assert(BS5CustomCheckbox ==`<div class="custom-checkbox custom-control"></div>`); */
+  // assert(BS5CustomCheckbox ==`<div class="custom-checkbox custom-control"></div>`); */
 }

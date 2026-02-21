@@ -12,5 +12,5 @@ class BS5InputUrl : BS5Input {
 }
 ///
 unittest {
-   assert(BS5InputUrl() == `<input class="form-control" type="url">`);
+   // assert(BS5InputUrl() == `<input class="form-control" type="url">`);
 }

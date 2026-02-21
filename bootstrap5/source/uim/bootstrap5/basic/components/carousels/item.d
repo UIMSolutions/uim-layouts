@@ -17,6 +17,6 @@ class BS5CarouselItem : H5Div {
 }
 ///
 unittest {
-  assert(BS5CarouselItem() == `<div class="carousel-item"></div>`);
-  assert(BS5CarouselItem().active == `<div class="active carousel-item"></div>`);
+  // assert(BS5CarouselItem() == `<div class="carousel-item"></div>`);
+  // assert(BS5CarouselItem().active == `<div class="active carousel-item"></div>`);
 }

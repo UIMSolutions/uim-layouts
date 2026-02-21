@@ -11,7 +11,7 @@ class BS5TabPane : H5Div {
 
   // ///
   // unittest {
-  //   assert(BS5TabPane == `<div class="tab-pane" aria-expanded="false" role="tabpanel"></div>`);
+  //   // assert(BS5TabPane == `<div class="tab-pane" aria-expanded="false" role="tabpanel"></div>`);
   // }
 
   // BS5TabPane active(bool value = true) {

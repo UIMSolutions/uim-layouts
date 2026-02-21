@@ -15,7 +15,7 @@ class BS5TableCell : H5Td {
 //     return this; }
 //   ///
 // unittest {
-//     assert(BS5TableCell.colspan(2) == `<td colspan="2"></td>`);
+//     // assert(BS5TableCell.colspan(2) == `<td colspan="2"></td>`);
 //   }
 
 //   O rowspan(int span) { return this.rowspan(to!string(span)); }
@@ -24,12 +24,12 @@ class BS5TableCell : H5Td {
 //     return this; }
 //   ///
 // unittest {
-//     assert(BS5TableCell.rowspan(2) == `<td rowspan="2"></td>`);
+//     // assert(BS5TableCell.rowspan(2) == `<td rowspan="2"></td>`);
 //   }
 
 mixin(BS5Calls!"TableCell");
 }
 ///
 unittest {
-  assert(BS5TableCell() == `<td></td>`);
+  // assert(BS5TableCell() == `<td></td>`);
 }

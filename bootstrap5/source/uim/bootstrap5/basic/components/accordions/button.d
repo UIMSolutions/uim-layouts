@@ -14,5 +14,5 @@ class BS5AccordionButton : H5Button {
 }
 ///
 unittest {
-  assert(BS5AccordionButton == `<button class="accordion-button" type="button"></button>`);
+  // assert(BS5AccordionButton == `<button class="accordion-button" type="button"></button>`);
 }

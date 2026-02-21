@@ -19,5 +19,5 @@ class BS5Col : BS5Div {
 }
 ///
 unittest {
-  // assert(BS5Col.sizes("12") == `<div class="col-12"></div>`);
+  // // assert(BS5Col.sizes("12") == `<div class="col-12"></div>`);
 }

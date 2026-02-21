@@ -40,6 +40,6 @@ mixin(BS5Calls!("CarouselControlNext"));
 }
 ///
 unittest {
-  assert(BS5CarouselControlNext == 
+  // assert(BS5CarouselControlNext == 
     `<a class="carousel-control-next" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>`);
 }

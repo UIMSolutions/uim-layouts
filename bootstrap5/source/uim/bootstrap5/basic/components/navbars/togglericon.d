@@ -12,5 +12,5 @@ class BS5NavbarTogglerIcon : H5Span {
 }
 ///
 unittest {
-//  assert(BS5NavbarTogglerIcon == `<div class="btn-group" role="group"></div>`);
+//  // assert(BS5NavbarTogglerIcon == `<div class="btn-group" role="group"></div>`);
 }

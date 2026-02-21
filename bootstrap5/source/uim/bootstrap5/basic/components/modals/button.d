@@ -19,5 +19,5 @@ class BS5ModalButton : H5Button {
 }
 ///
 unittest { 
-  // assert(BS5ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
+  // // assert(BS5ModalButton == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
 }
