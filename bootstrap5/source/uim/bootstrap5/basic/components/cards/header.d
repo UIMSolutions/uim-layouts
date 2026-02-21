@@ -11,7 +11,7 @@ mixin(ShowModule!());
 class BS5CardHeader : H5Div {
   mixin BS5This!(["card-header"]);
 
-  mixin(B5Calls!("CardHeader"));
+  mixin(BS5Calls!("CardHeader"));
 }
 ///
 unittest {

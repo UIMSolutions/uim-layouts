@@ -16,7 +16,7 @@ class BS5CardColumns : H5Div {
 unittest {
     // assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
   }
-  mixin(B5Calls!("CardColumns"));
+  mixin(BS5Calls!("CardColumns"));
 }
 ///
 unittest {

@@ -12,7 +12,7 @@ class BS5Carousel : H5Div {
   // mixin(MyContent!("indicators", "BS5CarouselIndicators"));
   // mixin(MyContent!("inner", "BS5CarouselInner"));
 
-  mixin(B5Calls!("Carousel"));
+  mixin(BS5Calls!("Carousel"));
 }
 ///
 unittest {

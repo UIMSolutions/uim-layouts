@@ -16,7 +16,7 @@ unittest {
     // assert(BS5CardImage().position("bottom") == `<img class="card-img-bottom">`);
   }
 
-  mixin(B5Calls!("CardImage"));
+  mixin(BS5Calls!("CardImage"));
 }
 ///
 unittest {

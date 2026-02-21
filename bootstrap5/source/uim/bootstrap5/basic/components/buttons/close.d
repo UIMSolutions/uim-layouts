@@ -14,7 +14,7 @@ class BS5ButtonClose : H55Button {
   //   return super.renderHTML;
   // }
 
-  mixin(B5Calls!("ButtonClose"));
+  mixin(BS5Calls!("ButtonClose"));
 }
 ///
 unittest {

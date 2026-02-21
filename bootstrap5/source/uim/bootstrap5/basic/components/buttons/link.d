@@ -18,7 +18,7 @@ unittest {
     // TODO
   }
 
-  mixin(B5Calls!("ButtonLink"));
+  mixin(BS5Calls!("ButtonLink"));
 }
 ///
 unittest {

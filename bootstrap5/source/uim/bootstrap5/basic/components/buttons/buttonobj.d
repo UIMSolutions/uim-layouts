@@ -32,7 +32,7 @@ class BS5ButtonObj : H5Button {
 
   //   return super.renderHTML;
   // }
-  mixin(B5Calls!("ButtonObj"));
+  mixin(BS5Calls!("ButtonObj"));
 }
 ///
 unittest {

@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 class BS5CardLink : H5A {
   mixin BS5This!(["card-link"], ["href":"#"]);
-  mixin(B5Calls!("CardLink"));
+  mixin(BS5Calls!("CardLink"));
 }
 ///
 unittest {

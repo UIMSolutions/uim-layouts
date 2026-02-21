@@ -70,7 +70,7 @@ class BS5Button : H5Button {
     // assert(BS5Button.size("lg") == `<button class="btn btn-lg" type="button"></button>`);
   }
 
-  mixin(B5Calls!("Button"));
+  mixin(BS5Calls!("Button"));
 }
 
 ///

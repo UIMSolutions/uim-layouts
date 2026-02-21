@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5CardSubtitle : H5H6 {
   mixin BS5This!(["card-subtitle"]);
   
-  mixin(B5Calls!("CardSubtitle"));
+  mixin(BS5Calls!("CardSubtitle"));
 }
 ///
 unittest {

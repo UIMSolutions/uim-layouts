@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 class BS5CardText : H5P {
   mixin BS5This!("P", ["card-text"]);
-  mixin(B5Calls!("CardText"));
+  mixin(BS5Calls!("CardText"));
 }
 ///
 unittest {

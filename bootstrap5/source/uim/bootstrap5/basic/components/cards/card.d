@@ -68,7 +68,7 @@ unittest {
     // // assert(BS5Card.overlay == `<div class="card"><div class="card-img-overlay"></div></div>`);
   }
 
-  mixin(B5Calls!("Card"));
+  mixin(BS5Calls!("Card"));
 }
 ///
 unittest {

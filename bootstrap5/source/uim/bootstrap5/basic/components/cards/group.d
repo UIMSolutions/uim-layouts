@@ -23,7 +23,7 @@ class BS5CardGroup : H5Div {
     // assert(BS5CardGroup.card == `<div class="card-group"><div class="card"></div></div>`);
   }
 
-  mixin(B5Calls!("CardGroup"));
+  mixin(BS5Calls!("CardGroup"));
 }
 ///
 unittest {

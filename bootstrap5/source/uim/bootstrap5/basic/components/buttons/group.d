@@ -45,7 +45,7 @@ class BS5ButtonGroup : H5Div {
 
   // // mixin(MyContent!("link", "BS5ButtonLink"));
 
-  mixin(B5Calls!("ButtonGroup"));
+  mixin(BS5Calls!("ButtonGroup"));
 }
 ///
 unittest {

@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 class BS5CardFooter : H5Div {
   mixin BS5This!(["card-footer"]);
-  mixin(B5Calls!("CardFooter"));
+  mixin(BS5Calls!("CardFooter"));
 }
 ///
 unittest {

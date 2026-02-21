@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5CardBlock : H5Div {
   mixin BS5This!(["card-block"]);
 
-  mixin(B5Calls!("CardBlock"));
+  mixin(BS5Calls!("CardBlock"));
 }
 ///
 unittest {
