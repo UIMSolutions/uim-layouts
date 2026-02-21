@@ -17,12 +17,12 @@ class BS5ButtonLink : H5A {
 unittest {
     // TODO
   }
-}
-static BS5ButtonLink");
 
+  mixin(B5Calls!("ButtonLink"));
+}
 ///
 unittest {
   assert(BS5ButtonLink == `<a class="btn" role="button"></a>`);
-}}
+}
   
 

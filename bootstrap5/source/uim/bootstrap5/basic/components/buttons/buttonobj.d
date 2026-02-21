@@ -6,18 +6,18 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5ButtonObj : BS5Obj {
-  mixin BS5This!("BUTTON", null, `["type":"button"]`));
+class BS5ButtonObj : H5Button {
+  mixin BS5This!(null, ["type":"button"]);
 
   // mixin(MyAttribute!("buttonType", "type"));
-  mixin(TProperty!("string", "colorMode"));
-  mixin(TProperty!("bool", "outline"));
-  mixin(TProperty!("bool", "block"));
-  mixin(TProperty!("bool", "active"));
-  mixin(TProperty!("bool", "disabled"));
-  mixin(TProperty!("bool", "dataToggle"));
-  mixin(TProperty!("string", "role"));
-  mixin(TProperty!("string", "sizeMode"));
+  // mixin(TProperty!("string", "colorMode"));
+  // mixin(TProperty!("bool", "outline"));
+  // mixin(TProperty!("bool", "block"));
+  // mixin(TProperty!("bool", "active"));
+  // mixin(TProperty!("bool", "disabled"));
+  // mixin(TProperty!("bool", "dataToggle"));
+  // mixin(TProperty!("string", "role"));
+  // mixin(TProperty!("string", "sizeMode"));
 
   override string renderHTML(STRINGAA bindings = null) {
     if (colorMode) {
@@ -32,10 +32,9 @@ class BS5ButtonObj : BS5Obj {
 
     return super.renderHTML;
   }
+  mixin(B5Calls!("ButtonObj"));
 }
-static BS5ButtonObj");
-
 ///
 unittest {
   // TODO
-}}
+}

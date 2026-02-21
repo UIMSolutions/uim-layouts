@@ -7,11 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CardDeckwrapper : H5Div {
-  mixin BS5This!(["card-deck-wrapper"]));
+  mixin BS5This!(["card-deck-wrapper"]);
+ 
+  mixin(B5Calls!("CardDeckwrapper"));
 }
-static BS5CardDeckwrapper");
-
 ///
 unittest {
   assert(BS5CardDeckwrapper == `<div class="card-deck-wrapper"></div>`);
-}}
+}

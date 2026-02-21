@@ -52,4 +52,4 @@ class BS5ButtonGroup : H5Div {
 unittest {
   assert(BS5ButtonGroup == `<div class="btn-group" role="group"></div>`);
 }
-}
+
