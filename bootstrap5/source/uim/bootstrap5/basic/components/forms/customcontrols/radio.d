@@ -7,11 +7,10 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CustomRadio : BS5CustomControl {
-  mixin BS5This!("DIV", ["custom-control", "custom-radio"]));
+  mixin BS5This!(["custom-control", "custom-radio"]);
+  mixin(BS5Calls!("CustomRadio"));
 }
-static BS5CustomRadio");
-
 ///
 unittest {
-    assert(BS5CustomRadio == `<div class="custom-control custom-radio"></div>`);
-}}
+  assert(BS5CustomRadio() == `<div class="custom-control custom-radio"></div>`);
+}

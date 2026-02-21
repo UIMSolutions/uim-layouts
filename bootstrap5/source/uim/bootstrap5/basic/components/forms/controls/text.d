@@ -6,31 +6,30 @@ mixin(ShowModule!());
 
 @safe:  
 
+/** 
+ * BS5InputText represents a text input field in Bootstrap 5 forms.
+ * It extends the BS5Input class and provides additional functionality specific to text inputs.
+ */
 class BS5InputText : BS5Input {
-  mixin BS5This!("", null, `["type":"text"]`));
-
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin BS5This!(null, ["type":"text"]);
   
-  O value(UUID id) {
+  BS5InputText value(UUID id) {
     this.value(id.toString);
     return this;
   }
 
-  O value(bool aValue) {
+  BS5InputText value(bool aValue) {
     value(aValue ? "true" : "false");
     return this;
   }
 
-  O value(string txt) {
+  BS5InputText value(string txt) {
     _attributes["value"] = txt;
     return this;
   }
+mixin(BS5Calls!("InputText"));
 }
-static BS5InputText"));
-
 ///
 unittest {
   assert(BS5InputText == `<input class="form-control" type="text">`);
-}}
+}

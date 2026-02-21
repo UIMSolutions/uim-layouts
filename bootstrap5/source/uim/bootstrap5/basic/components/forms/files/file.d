@@ -7,11 +7,10 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5FormFile : H5Div {
-  mixin BS5This!(["form-file"]));
+  mixin BS5This!(["form-file"]);
+  mixin(BS5Calls!("FormFile"));
 }
-static BS5FormFile");
-
 ///
 unittest {
-  assert(BS5FormFile == `<div class="form-file"></div>`);
-}}
+  assert(BS5FormFile() == `<div class="form-file"></div>`);
+}

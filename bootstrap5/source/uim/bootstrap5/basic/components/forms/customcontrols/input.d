@@ -6,16 +6,11 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5CustomInput : BS5Obj {
-  mixin BS5This!("INPUT", ["custom-control-input"], null, true));
-  override public void initialize() {
-    super.initialize;
-    _single = true;
-  }
+class BS5CustomInput : H5Input {
+  mixin BS5This!(["custom-control-input"]);
+  mixin(BS5Calls!("CustomInput"));
 }
-static BS5CustomInput");
-
 ///
 unittest {
-    assert(BS5CustomInput == `<input class="custom-control-input">`);
-}}
+  assert(BS5CustomInput() == `<input class="custom-control-input">`);
+}

@@ -7,15 +7,14 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CustomFile : H5Div {
-  mixin BS5This!(["custom-file"]));
+  mixin BS5This!(["custom-file"]);
 
   mixin(MyContent!("input", "BS5CustomFileInput"));
   mixin(MyContent!("label", "BS5CustomFileLabel"));
+
+  mixin(BS5Calls!("CustomFile"));
 }
-
-static BS5CustomFile");
-
-unittest
-{
+///
+unittest {
   assert(BS5CustomFile == `<div class="custom-file"></div>`);
 }
