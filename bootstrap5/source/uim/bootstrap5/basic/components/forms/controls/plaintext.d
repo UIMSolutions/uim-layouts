@@ -7,20 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputPlaintext : BS5Input {
-  mixin BS5This!(""));
+  mixin BS5This!(["form-control-plaintext"], ["type":"text"]);
 
-  override void initialize () {
-    super.initialize();
-
-    this
-      .classes("form-control-plaintext")
-      .addAttributes(["type":"text"]);
-  }
+  mixin(BS5Calls!("InputPlaintext"));
 }
-static BS5InputPlaintext"));
-
 ///
 unittest {
-  assert(BS5InputPlaintext);
-  assert(BS5InputPlaintext == `<input class="form-control-plaintext" type="text">`);
-}}
+  assert(BS5InputPlaintext() == `<input class="form-control-plaintext" type="text">`);
+}

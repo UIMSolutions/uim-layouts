@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputRange : BS5Input {
-  mixin BS5This!(null, null, `["type":"range"]`));
+  mixin BS5This!(null, ["type":"range"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputRange"));
 }
-static BS5InputRange"));
-
 ///
 unittest {
   assert(BS5InputRange == `<input class="form-control" type="range">`);  
-}}
+}

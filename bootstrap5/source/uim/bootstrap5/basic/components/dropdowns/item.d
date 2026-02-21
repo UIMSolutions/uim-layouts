@@ -7,12 +7,10 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5DropdownItem : H5Div {
-  mixin BS5This!(["dropdown-item"]));
+  mixin BS5This!(["dropdown-item"]);
 
-static BS5DropdownItem opCall() {
-  return new BS5DropdownItem;
-}  }  
-
+  mixin(BS5Calls!("DropdownItem"));
+  }  
 ///
 unittest {
   // TODO

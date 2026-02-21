@@ -6,15 +6,11 @@ mixin(ShowModule!());
 
 @safe:  
 
-class BS5InputSelect : BS5Obj {
-  mixin BS5This!("Select", ["form-control"]));  
-
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+class BS5InputSelect : H5Select {
+  mixin BS5This!(["form-control"]);  
 
   mixin(MyContent!("option", "H5Option"));
-  O options(string[] values, string selected = "", string disabled = "") {
+  BS5InputSelect options(string[] values, string selected = "", string disabled = "") {
     values.each!(value => setOptionByValue(value, selected, disabled)); 
 
     return this;  
@@ -29,7 +25,7 @@ class BS5InputSelect : BS5Obj {
     else this.option(optionValue);
   }
 
-  O options(STRINGAA[] keyValues, string selectedKey = "", string disabledKey = "") {
+  BS5InputSelect options(STRINGAA[] keyValues, string selectedKey = "", string disabledKey = "") {
     keyValues.each!(keyvalues => setOptionByKeyValues(keyvalues, selectedKey, disabledKey));
 
     return this;  
@@ -45,7 +41,7 @@ class BS5InputSelect : BS5Obj {
     else this.option(["value":k], kv[optionKey]);
   }
 
-  O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+  BS5InputSelect options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
     values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
     return this;  
@@ -61,7 +57,7 @@ class BS5InputSelect : BS5Obj {
     else this.option(["value":optionKey], values[optionKey]);
   }
 
-  O options(string[] values, string[] selected, string[] disabled = null) {
+  BS5InputSelect options(string[] values, string[] selected, string[] disabled = null) {
     values.each!(value => setOptionByValue(value, selected, disabled)); 
 
     return this;  
@@ -77,7 +73,7 @@ class BS5InputSelect : BS5Obj {
     else this.option(optionValue);
   }
 
-  O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+  BS5InputSelect options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
     foreach(k; values.keys.sort) {
       if (selectedKeys.has(k)) {
         this.option(disabledKeys.has(k) 
@@ -89,7 +85,7 @@ class BS5InputSelect : BS5Obj {
     }
     return this;  
   }
-  O option(string value, string key = null, bool selected = false, string disabled = false) {
+  BS5InputSelect option(string value, string key = null, bool selected = false, string disabled = false) {
     auto result = H5Option;
     if (selected) result(["selected":"selected"]); 
     if (disabled) result(["disabled":"disabled"]);
@@ -98,10 +94,10 @@ class BS5InputSelect : BS5Obj {
     
     return this;  
   }
+  
+  mixin(BS5Calls!("InputSelect"));
 }
-static BS5InputSelect"));
-
 ///
 unittest {
   // TODO assert 
-}}
+}

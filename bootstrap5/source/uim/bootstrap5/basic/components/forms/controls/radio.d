@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5Radio : BS5Input {
-  mixin BS5This!("", null, `["type":"radio"]`));
+  mixin BS5This!(null, ["type":"radio"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("Radio"));
 }
-static BS5Radio"));
-
 ///
 unittest {
-  assert(BS5Radio == `<input class="form-control" type="radio">`);
-}}
+  assert(BS5Radio() == `<input class="form-control" type="radio">`);
+}

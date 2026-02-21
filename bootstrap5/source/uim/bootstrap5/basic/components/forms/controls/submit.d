@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputSubmit : BS5Input {
-  mixin BS5This!("Input", ["form-control"], `["type":"submit"]`));
-  override void initialize() {
-    super.initialize;
-    _single = true;
-  }
-}
-static BS5InputSubmit"));
+  mixin BS5This!(["form-control"], ["type":"submit"]);
 
+  mixin(BS5Calls!("InputSubmit"));
+}
 ///
 unittest {
-  assert(BS5InputSubmit == `<input class="form-control" type="submit">`);
-}}
+  assert(BS5InputSubmit() == `<input class="form-control" type="submit">`);
+}

@@ -7,15 +7,10 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputSearch : BS5Input {
-  mixin BS5This!("", null, `["type":"search"]`));
-
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin BS5This!(null, ["type":"search"]);
+  mixin(BS5Calls!("InputSearch"));
 }
-static BS5InputSearch"));
-
 ///
 unittest {
-  assert(BS5InputSearch == `<input class="form-control" type="search">`);  
-}}
+  assert(BS5InputSearch() == `<input class="form-control" type="search">`);  
+}
