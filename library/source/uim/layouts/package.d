@@ -17,7 +17,7 @@ public { // uim libraries
 }
 
 public {
-    import uim.layouts.classes;
+    import uim.layouts.library.classes;
     import uim.layouts.interfaces;
     import uim.layouts.mixins;
 }

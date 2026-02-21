@@ -1,5 +1,5 @@
 // Metadata
-name "uim-framework"
+name "uim-layouts"
 description "A collection of libraries built up over eight years of experience with the D language."
 homepage "https://www.sueel.de/uim/framework"
 authors "Ozan Nurettin Süel" "UI Manufaktur"
@@ -8,19 +8,16 @@ license "Apache-2.0"
 
 // Target
 targetType "library"
-targetName "uim-framework"
+targetName "uim-layouts"
 
 // External dependencies
-dependency "dlib" version="~>1.3.2"
-dependency "colored" version="~>0.0.31"
-dependency "vibe-d" version="~>0.10.3"
-dependency "dyaml" version="~>0.10.0"
+dependency "uim-framework:html" version="*"
 
 // Internal Dependencies
-dependency ":compilers" version="*"
-dependency ":core" version="*"
-dependency ":css" version="*"
-dependency ":errors" version="*"
+dependency ":argon" version="*"
+dependency ":bootstrap4" version="*"
+dependency ":bootstrap5" version="*"
+dependency ":foundation" version="*"
 dependency ":events" version="*"
 dependency ":filesystems" version="*"
 dependency ":html" version="*"
