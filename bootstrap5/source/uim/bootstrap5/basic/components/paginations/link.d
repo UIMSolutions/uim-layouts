@@ -6,17 +6,12 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5PageLink : BS5Obj {
-  mixin BS5This!("A", ["page-link"], `["href":"#"]`));
+class BS5PageLink : H5A {
+  mixin BS5This!(["page-link"], `["href":"#"]`);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("PageLink"));
 }
-static BS5PageLink");
-
 ///
 unittest {
-  assert(BS5PageLink);
-  assert(BS5PageLink == `<a class="page-link" href="#"></a>`);
-}}
+  assert(BS5PageLink() == `<a class="page-link" href="#"></a>`);
+}

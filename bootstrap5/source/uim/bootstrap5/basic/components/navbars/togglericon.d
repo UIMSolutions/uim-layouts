@@ -6,12 +6,11 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5NavbarTogglerIcon : BS5Obj {
-  mixin BS5This!("Span", ["navbar-toggler-icon"]));
+class BS5NavbarTogglerIcon : H5Span {
+  mixin BS5This!(["navbar-toggler-icon"]);
+  mixin(BS5Calls!("NavbarTogglerIcon"));
 }
-static BS5NavbarTogglerIcon");
-
 ///
 unittest {
 //  assert(BS5NavbarTogglerIcon == `<div class="btn-group" role="group"></div>`);
-}}
+}

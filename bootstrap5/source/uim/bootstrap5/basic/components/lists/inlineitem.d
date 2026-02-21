@@ -6,12 +6,12 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5ListInlineItem : BS5Obj {
-  mixin BS5This!("LI", ["list-inline-item"]));
-}
-static BS5ListInlineItem");
+class BS5ListInlineItem : H5Li {
+  mixin BS5This!(["list-inline-item"]);
 
+  mixin(BS5Calls!("ListInlineItem"));
+}
 ///
 unittest {
-  assert(BS5ListInlineItem == `<li class="list-inline-item"></li>`);
-}}
+  assert(BS5ListInlineItem() == `<li class="list-inline-item"></li>`);
+}
