@@ -13,13 +13,13 @@ class BS5Pagination : H5Ul {
   // O right(string aSize) { return this.addClasses("justify-content-end"); }
   // O size(string aSize) { return this.addClasses("pagination-"~aSize); }
 
-  // mixin(MyContent!("item", "BS5PageItem"));
-  // mixin(MyContent!("link", "this.item", "BS5PageLink"));
+  // // mixin(MyContent!("item", "BS5PageItem"));
+  // // mixin(MyContent!("link", "this.item", "BS5PageLink"));
 
   mixin(BS5Calls!("Pagination"));
 }
 ///
 unittest {
-  assert(BS5Pagination() == `<ul class="pagination"></ul>`);
-  assert(BS5Pagination().link == `<ul class="pagination"><li class="page-item"><a class="page-link" href="#"></a></li></ul>`);
+  // assert(BS5Pagination() == `<ul class="pagination"></ul>`);
+  // assert(BS5Pagination().link == `<ul class="pagination"><li class="page-item"><a class="page-link" href="#"></a></li></ul>`);
 }

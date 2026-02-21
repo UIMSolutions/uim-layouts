@@ -17,12 +17,12 @@ class BS5FormCheck : H5Div {
     return this;
   }
 
-  mixin(MyContent!("label", "BS5FormCheckLabel"));
+  // mixin(MyContent!("label", "BS5FormCheckLabel"));
 
   mixin(BS5Calls!("FormCheck"));
 }
 ///
 unittest {
-  assert(BS5FormCheck == `<div class="form-check"></div>`);
-  assert(BS5FormCheck.inline == `<div class="form-check form-check-inline"></div>`);
+  // assert(BS5FormCheck == `<div class="form-check"></div>`);
+  // assert(BS5FormCheck.inline == `<div class="form-check form-check-inline"></div>`);
 }

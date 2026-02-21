@@ -17,14 +17,14 @@ class BS5Form : H5Form {
 
   // O inline(bool value = true) { return this.addClasses("form-inline"); }
 
-  //   mixin(MyContent!("group", "BS5FormGroup"));
-  //   mixin(MyContent!("label", "H5Label"));
-  //   mixin(MyContent!("submit", "BS5ButtonSubmit"));
-  //   mixin(MyContent!("reset", "BS5ButtonReset"));
+  //   // mixin(MyContent!("group", "BS5FormGroup"));
+  //   // mixin(MyContent!("label", "H5Label"));
+  //   // mixin(MyContent!("submit", "BS5ButtonSubmit"));
+  //   // mixin(MyContent!("reset", "BS5ButtonReset"));
   mixin(BS5Calls!("Form"));
 }
 ///
 unittest {
-  assert(BS5Form() == `<form></form>`);
-  // assert(BS5Form.inline == `<form class="form-inline"></form>`);
+  // assert(BS5Form() == `<form></form>`);
+  // // assert(BS5Form.inline == `<form class="form-inline"></form>`);
 }

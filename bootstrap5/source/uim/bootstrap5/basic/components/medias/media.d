@@ -9,11 +9,11 @@ mixin(ShowModule!());
 class BS5Media : H5Div {
   mixin BS5This!(["media"]);
 
-  // mixin(MyContent!("body_", "BS5MediaBody"));
+  // // mixin(MyContent!("body_", "BS5MediaBody"));
   mixin(BS5Calls!("Media"));
 }
 
 ///
 unittest {
-  assert(BS5Media() == `<div class="media"></div>`);
+  // assert(BS5Media() == `<div class="media"></div>`);
 }

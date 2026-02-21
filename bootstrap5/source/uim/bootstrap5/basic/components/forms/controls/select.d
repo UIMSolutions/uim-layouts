@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5InputSelect : H5Select {
   mixin BS5This!(["form-control"]);  
 
-  // mixin(MyContent!("option", "H5Option"));
+  // // mixin(MyContent!("option", "H5Option"));
   // BS5InputSelect options(string[] values, string selected = "", string disabled = "") {
   //   values.each!(value => setOptionByValue(value, selected, disabled)); 
 

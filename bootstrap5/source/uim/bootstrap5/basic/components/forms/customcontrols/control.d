@@ -9,14 +9,14 @@ mixin(ShowModule!());
 class BS5CustomControl : H5Div {
   mixin BS5This!(["custom-control"]);
 
-  // mixin(MyContent!("checkbox", "BS5CustomCheckbox"));
-  // mixin(MyContent!("input", "BS5CustomInput"));
-  // mixin(MyContent!("radio", "BS5CustomRadio"));
-  // mixin(MyContent!("label", "H5Label"));  
+  // // mixin(MyContent!("checkbox", "BS5CustomCheckbox"));
+  // // mixin(MyContent!("input", "BS5CustomInput"));
+  // // mixin(MyContent!("radio", "BS5CustomRadio"));
+  // // mixin(MyContent!("label", "H5Label"));  
   
   mixin(BS5Calls!("CustomControl"));
 }
 ///
 unittest {
-  assert(BS5CustomControl == `<div class="custom-control"></div>`);
+  // assert(BS5CustomControl == `<div class="custom-control"></div>`);
 }

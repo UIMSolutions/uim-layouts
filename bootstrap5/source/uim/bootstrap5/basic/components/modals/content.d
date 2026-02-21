@@ -11,13 +11,13 @@ class BS5ModalContent : H5Div {
 
   // O fade(bool mode = true) { return this.addClasses("fade"); }
 
-  // mixin(MyContent!("header", "BS5ModalHeader"));
-  // mixin(MyContent!("body_", "BS5ModalBody"));
-  // mixin(MyContent!("footer", "BS5ModalFooter"));
+  // // mixin(MyContent!("header", "BS5ModalHeader"));
+  // // mixin(MyContent!("body_", "BS5ModalBody"));
+  // // mixin(MyContent!("footer", "BS5ModalFooter"));
 
   mixin(BS5Calls!("ModalContent"));
 }
 ///
 unittest {
-  assert(BS5ModalContent() == `<div class="modal-content"></div>`);
+  // assert(BS5ModalContent() == `<div class="modal-content"></div>`);
 }

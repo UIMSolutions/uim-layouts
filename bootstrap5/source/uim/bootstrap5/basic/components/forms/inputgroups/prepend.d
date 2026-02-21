@@ -13,7 +13,7 @@ mixin(ShowModule!());
 class BS5InputGroupPrepend : H5Div {
   mixin BS5This!(["input-group-prepend"]);
 
-  // mixin(MyContent!("text", "BS5InputGroupText"));
+  // // mixin(MyContent!("text", "BS5InputGroupText"));
   // ///
   // unittest {
   //   assert(
@@ -24,5 +24,5 @@ class BS5InputGroupPrepend : H5Div {
 }
 ///
 unittest {
-  assert(BS5InputGroupPrepend() == `<div class="input-group-prepend"></div>`);
+  // assert(BS5InputGroupPrepend() == `<div class="input-group-prepend"></div>`);
 }

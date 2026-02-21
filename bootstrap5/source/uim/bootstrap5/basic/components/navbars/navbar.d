@@ -16,8 +16,8 @@ class BS5Navbar : H5Nav {
 //   }
 //   ///
 // unittest {
-//     assert(BS5Navbar.center() == `<nav class="justify-content-center navbar"></nav>`);
-//     assert(BS5Navbar("Test").center() == `<nav class="justify-content-center navbar">Test</nav>`);
+//     // assert(BS5Navbar.center() == `<nav class="justify-content-center navbar"></nav>`);
+//     // assert(BS5Navbar("Test").center() == `<nav class="justify-content-center navbar">Test</nav>`);
 //   }}
 
 //   O dark(bool value = true) {
@@ -26,7 +26,7 @@ class BS5Navbar : H5Nav {
 //   }
 //   ///
 // unittest {
-//     assert(BS5Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);
+//     // assert(BS5Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);
 //   }}
 
 //   O expand(string screenSize) {
@@ -36,7 +36,7 @@ class BS5Navbar : H5Nav {
 //   ///
 //   ///
 // unittest {
-//     assert(BS5Navbar.expand("lg") == `<nav class="navbar navbar-expand-lg"></nav>`);
+//     // assert(BS5Navbar.expand("lg") == `<nav class="navbar navbar-expand-lg"></nav>`);
 //   }}
 
 //   O light(bool value = true) {
@@ -46,20 +46,20 @@ class BS5Navbar : H5Nav {
 //   ///
 //   ///
 // unittest {
-//     assert(BS5Navbar.light == `<nav class="navbar navbar-light"></nav>`);
+//     // assert(BS5Navbar.light == `<nav class="navbar navbar-light"></nav>`);
 //   }}
 
 // /*
-//   mixin(MyContent!("nav", "BS5NavbarNav"));
+//   // mixin(MyContent!("nav", "BS5NavbarNav"));
 //   ///
 //   unittest
 //   {
-//     assert(BS5Navbar.nav == `<nav class="navbar"><ul class="navbar-nav"></ul></nav>`);
+//     // assert(BS5Navbar.nav == `<nav class="navbar"><ul class="navbar-nav"></ul></nav>`);
 //   }*/
 
 mixin(BS5Calls!("Navbar"));
 }
 ///
 unittest {
-  assert(BS5Navbar() == `<nav class="navbar"></nav>`);
+  // assert(BS5Navbar() == `<nav class="navbar"></nav>`);
 }

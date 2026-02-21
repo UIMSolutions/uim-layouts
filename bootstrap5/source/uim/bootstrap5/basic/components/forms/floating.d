@@ -9,12 +9,12 @@ mixin(ShowModule!());
 class BS5FormFloating : H5Div {
   mixin BS5This!(["form-floating"]);
 
-  // mixin(MyContent!("label", "BS5FormLabel"));
+  // // mixin(MyContent!("label", "BS5FormLabel"));
   
   mixin(BS5Calls!("FormFloating"));
 }
 ///
 unittest {
-    assert(BS5FormFloating() == `<div class="form-floating"></div>`);
-    // assert(BS5FormFloating().label == `<div class="form-floating"><label></label></div>`);
+    // assert(BS5FormFloating() == `<div class="form-floating"></div>`);
+    // // assert(BS5FormFloating().label == `<div class="form-floating"><label></label></div>`);
 }

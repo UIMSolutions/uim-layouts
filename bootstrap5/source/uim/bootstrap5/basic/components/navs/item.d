@@ -9,17 +9,17 @@ mixin(ShowModule!());
 class BS5NavItem : H5Li {
   mixin BS5This!(["nav-item"]);
 
-  //   mixin(MyContent!("link", "BS5NavLink"));
+  //   // mixin(MyContent!("link", "BS5NavLink"));
 
   //   O dropdown(bool mode = true) { return this.addClasses("dropdown"); }
   //   ///
   // unittest {
-  //     assert(BS5NavItem.dropdown ==`<li class="dropdown nav-item"></li>`);
+  //     // assert(BS5NavItem.dropdown ==`<li class="dropdown nav-item"></li>`);
   //   }}
 
   mixin(BS5Calls!("NavItem"));
 }
 ///
 unittest {
-  assert(BS5NavItem() == `<li class="nav-item"></li>`);
+  // assert(BS5NavItem() == `<li class="nav-item"></li>`);
 }

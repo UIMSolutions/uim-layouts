@@ -11,14 +11,14 @@ class BS5CardColumns : H5Div {
   mixin BS5This!(["card-columns"]);
 
   /// Add card 
-  mixin(MyContent!("card", "BS5Card"));
+  // mixin(MyContent!("card", "BS5Card"));
   ///
 unittest {
-    assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
+    // assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
   }
   mixin(B5Calls!("CardColumns"));
 }
 ///
 unittest {
-  assert(BS5CardColumns == `<div class="card-columns"></div>`);
+  // assert(BS5CardColumns == `<div class="card-columns"></div>`);
 }

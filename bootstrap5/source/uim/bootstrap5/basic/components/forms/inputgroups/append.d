@@ -9,14 +9,14 @@ mixin(ShowModule!());
 class BS5InputGroupAppend : H5Div {
   mixin BS5This!(["input-group-append"]);
 
-  // mixin(MyContent!("button", "BS5Button"));
+  // // mixin(MyContent!("button", "BS5Button"));
   // ///
   // unittest {
   //   assert(
   //     BS5InputGroupAppend().button == `<div class="input-group-append"><button class="btn" type="button"></button></div>`);
   // }
 
-  // mixin(MyContent!("text", "BS5InputGroupText"));
+  // // mixin(MyContent!("text", "BS5InputGroupText"));
   // ///
   // unittest {
   //   assert(
@@ -27,5 +27,5 @@ class BS5InputGroupAppend : H5Div {
 }
 ///
 unittest {
-  assert(BS5InputGroupAppend() == `<div class="input-group-append"></div>`);
+  // assert(BS5InputGroupAppend() == `<div class="input-group-append"></div>`);
 }

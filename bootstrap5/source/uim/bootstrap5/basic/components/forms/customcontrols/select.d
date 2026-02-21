@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5CustomSelect : DH5Select {
   mixin BS5This!("Select", ["custom-select"]);
 
-  // mixin(MyContent!("option", "H5Option"));
+  // // mixin(MyContent!("option", "H5Option"));
   // O options(string[] values, string selected = "", string disabled = "") {
   //   foreach(value; values) {
   //     if (value == selected) {

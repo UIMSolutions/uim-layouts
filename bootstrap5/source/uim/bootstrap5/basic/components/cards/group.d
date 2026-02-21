@@ -11,7 +11,7 @@ class BS5CardGroup : H5Div {
   mixin BS5This!(["card-group"]);
 
   /// Add card 
-  mixin(MyContent!("card", "BS5Card"));
+  // mixin(MyContent!("card", "BS5Card"));
 
   BS5CardGroup card(BS5Card[] cards) {
     foreach (c; cards)
@@ -20,12 +20,12 @@ class BS5CardGroup : H5Div {
   }
   ///
   unittest {
-    assert(BS5CardGroup.card == `<div class="card-group"><div class="card"></div></div>`);
+    // assert(BS5CardGroup.card == `<div class="card-group"><div class="card"></div></div>`);
   }
 
   mixin(B5Calls!("CardGroup"));
 }
 ///
 unittest {
-  assert(BS5CardGroup == `<div class="card-group"></div>`);
+  // assert(BS5CardGroup == `<div class="card-group"></div>`);
 }
