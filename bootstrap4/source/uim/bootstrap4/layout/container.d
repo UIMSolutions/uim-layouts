@@ -16,7 +16,7 @@ class BS4Container : H5Div {
   mixin H5This!(["container"]));
   ///
 unittest {
-    assert(BS4Container == `<div class="container"></div>`);
+    assert(BS4Container() == `<div class="container"></div>`);
   }}
 
   O fluid(bool mode = true) { if (mode) _classes = _classes.sub("container").add("container-fluid");  return this; }

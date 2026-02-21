@@ -13,5 +13,5 @@ static BS4NavHeader");
 
 ///
 unittest {
-  assert(BS4NavHeader == `<li class="nav-header"></li>`);
+  assert(BS4NavHeader() == `<li class="nav-header"></li>`);
 }}

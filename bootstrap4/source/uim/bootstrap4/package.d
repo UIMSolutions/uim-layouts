@@ -72,13 +72,13 @@ unittest {
   mixin(BS4Def!"cardFooter");
   ///
 unittest {
-      assert(BS4.cardFooter == `<div class="card-footer"></div>`);
+      assert(BS4.cardFooter() == `<div class="card-footer"></div>`);
   }}
 
   mixin(BS4Def!"cardHeader");
   ///
 unittest {
-      assert(BS4.cardHeader == `<div class="card-header"></div>`);
+      assert(BS4.cardHeader() == `<div class="card-header"></div>`);
   }}
 
   mixin(BS4Def!"cardLink");
@@ -102,7 +102,7 @@ unittest {
   mixin(BS4Def!"carouselInner");
   ///
 unittest {
-      assert(BS4.carouselInner == `<div class="carousel-inner"></div>`);
+      assert(BS4.carouselInner() == `<div class="carousel-inner"></div>`);
   }}
 
   mixin(BS4Def!"carouselItem");
@@ -174,13 +174,13 @@ unittest {
   mixin(BS4Def!"modalFooter");
   ///
 unittest {
-      assert(BS4.modalFooter == `<div class="modal-footer"></div>`);
+      assert(BS4.modalFooter() == `<div class="modal-footer"></div>`);
   }}
 
   mixin(BS4Def!"modalHeader");
   ///
 unittest {
-      assert(BS4.modalHeader == `<div class="modal-header"></div>`);
+      assert(BS4.modalHeader() == `<div class="modal-header"></div>`);
   }}
 
   mixin(BS4Def!"nav");
@@ -192,7 +192,7 @@ unittest {
   mixin(BS4Def!"navbar");
   ///
 unittest {
-      assert(BS4.navbar == `<nav class="navbar"></nav>`);
+      assert(BS4.navbar() == `<nav class="navbar"></nav>`);
   }}
 
   mixin(BS4Def!"pagination");
@@ -222,7 +222,7 @@ unittest {
   mixin(BS4Def!"progressBar");
   ///
 unittest {
-      assert(BS4.progressBar == `<div class="progress-bar" role="progressbar"></div>`);
+      assert(BS4.progressBar() == `<div class="progress-bar" role="progressbar"></div>`);
   }}
 }
 

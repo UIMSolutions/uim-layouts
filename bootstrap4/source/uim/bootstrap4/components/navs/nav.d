@@ -18,7 +18,7 @@ unittest {
   mixin(MyContent!("header", "BS4NavHeader"));
   ///
 unittest {
-    assert(BS4Nav.header == `<ul class="nav"><li class="nav-header"></li></ul>`);
+    assert(BS4Nav.header() == `<ul class="nav"><li class="nav-header"></li></ul>`);
   }}
 
   mixin(MyContent!("link", "this.item", "BS4NavLink"));

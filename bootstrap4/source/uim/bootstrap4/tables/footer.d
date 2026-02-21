@@ -17,5 +17,5 @@ static BS4TableFooter");
 ///
 unittest {
   assert(BS4Table.row == `<table class="table"><tr></tr></table>`);
-  assert(BS4TableFooter == `<tfoot></tfoot>`);
+  assert(BS4TableFooter() == `<tfoot></tfoot>`);
 }}

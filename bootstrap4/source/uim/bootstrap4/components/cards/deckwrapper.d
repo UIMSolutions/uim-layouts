@@ -13,5 +13,5 @@ static BS4CardDeckwrapper");
 
 ///
 unittest {
-  assert(BS4CardDeckwrapper == `<div class="card-deck-wrapper"></div>`);
+  assert(BS4CardDeckwrapper() == `<div class="card-deck-wrapper"></div>`);
 }}

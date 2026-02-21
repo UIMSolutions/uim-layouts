@@ -13,5 +13,5 @@ static BS4ModalFooter");
 
 ///
 unittest {
-  assert(BS4ModalFooter == `<div class="modal-footer"></div>`);
+  assert(BS4ModalFooter() == `<div class="modal-footer"></div>`);
 }}

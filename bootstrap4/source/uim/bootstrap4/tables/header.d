@@ -17,5 +17,5 @@ static BS4TableHeader");
 ///
 unittest {
   assert(BS4Table.row == `<table class="table"><tr></tr></table>`);
-  assert(BS4TableHeader == `<thead></thead>`);
+  assert(BS4TableHeader() == `<thead></thead>`);
 }}

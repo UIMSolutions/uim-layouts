@@ -51,7 +51,7 @@ unittest {
   }
   ///
 unittest {
-    assert(BS4Obj.border == `<div class="border"></div>`);
+    assert(BS4Obj.border() == `<div class="border"></div>`);
     assert(BS4Obj.border(1) == `<div class="border-1"></div>`);
     assert(BS4Obj.border("top") == `<div class="border-top"></div>`);
   }}
@@ -64,7 +64,7 @@ unittest {
   }
   ///
 unittest {
-    assert(BS4Obj.noBorder == `<div class="border-0"></div>`);
+    assert(BS4Obj.noBorder() == `<div class="border-0"></div>`);
   }}
 
   /// Set border color 

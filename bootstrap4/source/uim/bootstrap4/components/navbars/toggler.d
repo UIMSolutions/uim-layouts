@@ -22,5 +22,5 @@ static BS4NavbarToggler");
 
 ///
 unittest {
-  assert(BS4NavbarToggler == `<button class="navbar-toggler" aria-controls="navbar" type="button"></button>`);
+  assert(BS4NavbarToggler() == `<button class="navbar-toggler" aria-controls="navbar" type="button"></button>`);
 }}

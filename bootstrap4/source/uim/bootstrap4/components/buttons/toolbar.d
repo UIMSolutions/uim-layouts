@@ -30,5 +30,5 @@ static BS4ButtonToolbar opCall() {
 }
 ///
 unittest {
-  assert(BS4ButtonToolbar == `<div class="btn-toolbar" role="toolbar"></div>`);
+  assert(BS4ButtonToolbar() == `<div class="btn-toolbar" role="toolbar"></div>`);
 }

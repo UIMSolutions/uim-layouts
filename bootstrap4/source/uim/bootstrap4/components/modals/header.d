@@ -13,5 +13,5 @@ static BS4ModalHeader");
 
 ///
 unittest {
-  assert(BS4ModalHeader == `<div class="modal-header"></div>`);
+  assert(BS4ModalHeader() == `<div class="modal-header"></div>`);
 }}

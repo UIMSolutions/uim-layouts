@@ -15,8 +15,8 @@ class BS4Navbar : BS4Obj {
   }
   ///
 unittest {
-    assert(BS4Navbar.center == `<nav class="justify-content-center navbar"></nav>`);
-    assert(BS4Navbar("Test").center == `<nav class="justify-content-center navbar">Test</nav>`);
+    assert(BS4Navbar.center() == `<nav class="justify-content-center navbar"></nav>`);
+    assert(BS4Navbar("Test").center() == `<nav class="justify-content-center navbar">Test</nav>`);
   }}
 
   O dark(bool value = true) {
@@ -46,7 +46,7 @@ static BS4Navbar");
 
 ///
 unittest {
-  assert(BS4Navbar == `<nav class="navbar"></nav>`);
+  assert(BS4Navbar() == `<nav class="navbar"></nav>`);
   assert(BS4Navbar.light == `<nav class="navbar navbar-light"></nav>`);
   assert(BS4Navbar.dark == `<nav class="navbar navbar-dark"></nav>`);
   assert(BS4Navbar.expand("lg") == `<nav class="navbar navbar-expand-lg"></nav>`);

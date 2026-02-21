@@ -31,10 +31,10 @@ static BS4Table");
 ///
 unittest {
   assert(BS4Table.head == `<table class="table"><thead></thead></table>`);
-  assert(BS4Table.header == `<table class="table"><thead></thead></table>`);
+  assert(BS4Table.header() == `<table class="table"><thead></thead></table>`);
   assert(BS4Table.body_ == `<table class="table"><tbody></tbody></table>`);
   assert(BS4Table.foot == `<table class="table"><tfoot></tfoot></table>`);
-  assert(BS4Table.footer == `<table class="table"><tfoot></tfoot></table>`);
+  assert(BS4Table.footer() == `<table class="table"><tfoot></tfoot></table>`);
   assert(BS4Table.row == `<table class="table"><tr></tr></table>`);
   assert(BS4Table == `<table class="table"></table>`);
 }}
