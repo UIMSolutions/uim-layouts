@@ -13,5 +13,5 @@ class BS4CardFooter : H5Div {
 static BS4CardFooter");
 ///
 unittest {
-  assert(BS4CardFooter == `<div class="card-footer"></div>`);
+  assert(BS4CardFooter() == `<div class="card-footer"></div>`);
 }}

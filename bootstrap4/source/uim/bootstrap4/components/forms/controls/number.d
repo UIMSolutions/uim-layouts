@@ -17,5 +17,5 @@ static BS4InputNumber"));
 
 ///
 unittest {
-  assert(BS4InputNumber == `<input class="form-control" type="number">`);
+  assert(BS4InputNumber() == `<input class="form-control" type="number">`);
 }}

@@ -12,5 +12,5 @@ static BS4DropdownDivider");
 }
 ///
 unittest {
-  assert(BS4DropdownDivider == `<div class="dropdown-divider"></div>`);
+  assert(BS4DropdownDivider() == `<div class="dropdown-divider"></div>`);
 }

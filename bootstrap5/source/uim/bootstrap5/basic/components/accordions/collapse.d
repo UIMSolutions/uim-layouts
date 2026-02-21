@@ -14,7 +14,7 @@ class BS5AccordionCollapse : H5Div {
     return this;
   }
 
-  mixin(BS5CCalls!("AccordionCollapse"));
+  mixin(BS5Calls!("AccordionCollapse"));
 }
 ///
 unittest {

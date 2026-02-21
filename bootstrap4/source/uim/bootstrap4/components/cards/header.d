@@ -13,5 +13,5 @@ static BS4CardHeader");
 }
 ///
 unittest {
-  assert(BS4CardHeader == `<div class="card-header"></div>`);
+  assert(BS4CardHeader() == `<div class="card-header"></div>`);
 }

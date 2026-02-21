@@ -10,7 +10,7 @@ mixin(ShowModule!());
 class BS5AccordionButton : H5Button {
   mixin BS5This!(["accordion-button"], ["type":"button"]);
 
-  mixin(BS5CCalls!("AccordionButton"));
+  mixin(BS5Calls!("AccordionButton"));
 }
 ///
 unittest {

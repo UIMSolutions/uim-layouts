@@ -19,5 +19,5 @@ unittest {
 static BS4CarouselInner");
 ///
 unittest {
-  assert(BS4CarouselInner == `<div class="carousel-inner"></div>`);
+  assert(BS4CarouselInner() == `<div class="carousel-inner"></div>`);
 }}

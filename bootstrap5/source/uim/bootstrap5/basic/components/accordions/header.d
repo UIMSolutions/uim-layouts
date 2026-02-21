@@ -11,7 +11,7 @@ class BS5AccordionHeader : H5H2 {
 
   // mixin(MyContent!("button", "BS5AccordionButton"));
 
-  mixin(BS5CCalls!("AccordionHeader"));
+  mixin(BS5Calls!("AccordionHeader"));
 }
 
 ///

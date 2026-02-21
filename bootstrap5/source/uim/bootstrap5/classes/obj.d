@@ -9,35 +9,35 @@ mixin(ShowModule!());
 class BS5Obj : H5Div {
   mixin BS5This!();
 
-  // Adding margins  
-  O margins(string[] values...) {
-    this.margins(values);
-    return cast(O) this;
-  }
-  O margins(string[] values) {
-    foreach(v; values) this.addClasses("m"~v);
-    return cast(O) this;
-  }
-  ///
-unittest {
-    assert(BS5Obj.margins("t-2") == `<div class="mt-2"></div>`);
-    assert(BS5Obj.margins("t-sm-2", "t-lg-4") == `<div class="mt-lg-4 mt-sm-2"></div>`);
-  }
+//   // Adding margins  
+//   O margins(string[] values...) {
+//     this.margins(values);
+//     return cast(O) this;
+//   }
+//   O margins(string[] values) {
+//     foreach(v; values) this.addClasses("m"~v);
+//     return cast(O) this;
+//   }
+//   ///
+// unittest {
+//     assert(BS5Obj.margins("t-2") == `<div class="mt-2"></div>`);
+//     assert(BS5Obj.margins("t-sm-2", "t-lg-4") == `<div class="mt-lg-4 mt-sm-2"></div>`);
+//   }
 
-  /// Adding paddings
-  O paddings(string[] values...)  {
-    this.paddings(values);
-    return cast(O) this;
-  }
-  O paddings(string[] values)  {
-    values.each!(v => this.addClasses("p"~v));
+//   /// Adding paddings
+//   O paddings(string[] values...)  {
+//     this.paddings(values);
+//     return cast(O) this;
+//   }
+//   O paddings(string[] values)  {
+//     values.each!(v => this.addClasses("p"~v));
 
-    return cast(O) this;
-  }
-  ///
-unittest {
-    assert(BS5Obj.paddings("t-2") == `<div class="pt-2"></div>`);
-  }
+//     return cast(O) this;
+//   }
+//   ///
+// unittest {
+//     assert(BS5Obj.paddings("t-2") == `<div class="pt-2"></div>`);
+//   }
 
 /*   /// Clear border 
   O noPadding(string side = null) { 
