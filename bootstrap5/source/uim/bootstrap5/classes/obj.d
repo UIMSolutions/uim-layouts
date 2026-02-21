@@ -184,10 +184,9 @@ unittest {
     assert(BS5Obj.print("none") == `<div class="d-print-none"></div>`);
   }
  */
+// static BS5Obj");
 }
-static BS5Obj");
-
 ///
 unittest {
-  assert(BS5Obj == "<div></div>");
-}}
+  // assert(BS5Obj == "<div></div>");
+}

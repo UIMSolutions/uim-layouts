@@ -6,13 +6,12 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5NavbarText : BS5Obj {
-  mixin BS5This!("SPAN", ["navbar-text"]));
+class BS5NavbarText : H5Span {
+  mixin BS5This!(["navbar-text"]);
+  mixin(BS5Calls!"NavbarText");
 }
-static BS5NavbarText");
-
 ///
 unittest {
-  assert(BS5NavbarText == `<span class="navbar-text"></span>`);
+  assert(BS5NavbarText() == `<span class="navbar-text"></span>`);
   assert(BS5NavbarText("some text") == `<span class="navbar-text">some text</span>`);
-}}
+}

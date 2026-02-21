@@ -25,13 +25,13 @@ class BS5InputSelect : H5Select {
   //   else this.option(optionValue);
   // }
 
-  // BS5InputSelect options(STRINGAA[] keyValues, string selectedKey = "", string disabledKey = "") {
+  // BS5InputSelect options(string[string][] keyValues, string selectedKey = "", string disabledKey = "") {
   //   keyValues.each!(keyvalues => setOptionByKeyValues(keyvalues, selectedKey, disabledKey));
 
   //   return this;  
   // }
 
-  // protected void setOptionByKey(STRINGAA optionKey,  keyValues, string selectedKey = "", string disabledKey = "") {
+  // protected void setOptionByKey(string[string] optionKey,  keyValues, string selectedKey = "", string disabledKey = "") {
   //   if (optionKey == selectedKey) {
   //     this.option(k == disabledKey 
   //       ? ["selected":"selected", "disabled":"disabled"] 
@@ -41,7 +41,7 @@ class BS5InputSelect : H5Select {
   //   else this.option(["value":k], kv[optionKey]);
   // }
 
-  // BS5InputSelect options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+  // BS5InputSelect options(string[string] values, string selectedKey = "", string disabledKey = "") {
   //   values.keys.sort.each!(key => setOptionByKey(key, selectedKey, disabledKey));
 
   //   return this;  
@@ -73,7 +73,7 @@ class BS5InputSelect : H5Select {
   //   else this.option(optionValue);
   // }
 
-  // BS5InputSelect options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+  // BS5InputSelect options(string[string] values, string[] selectedKeys, string[] disabledKeys = null) {
   //   foreach(k; values.keys.sort) {
   //     if (selectedKeys.has(k)) {
   //       this.option(disabledKeys.has(k) 

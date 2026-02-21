@@ -7,14 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5TabContent : H5Div {
-  mixin BS5This!(["tab-content"]));
+  mixin BS5This!(["tab-content"]);
 
-  auto addPane(string id, string label) { return this.addContent(new BS5TabPane(id, label)); }
+//  auto addPane(string id, string label) { return this.addContent(new BS5TabPane(id, label)); }
 
-static BS5TabContent opCall() {
-  return new BS5TabContent;
-}}
+    mixin(BS5Calls!"TabContent");
+}
 ///
 unittest {
-  assert(BS5TabContent == `<div class="tab-content"></div>`);
+  assert(BS5TabContent() == `<div class="tab-content"></div>`);
 }

@@ -7,18 +7,15 @@ mixin(ShowModule!());
 @safe:
 
 class BS5Progress : H5Div {
-  mixin BS5This!(["progress"]));
+  mixin BS5This!(["progress"]);
 
-  auto addBar() {
-    addContent(BS5ProgressBar());
-  }
+  // auto addBar() {
+  //   addContent(BS5ProgressBar());
+  // }
 
-  static BS5Progress opCall() {
-    return new BS5Progress;
-  }
+  mixin(BS5Calls!("Progress"));
 }
-
 ///
 unittest {
-  assert(BS5Progress == `<div class="progress"></div>`);
+  assert(BS5Progress() == `<div class="progress"></div>`);
 }

@@ -7,15 +7,13 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5Row : H5Div {
-  mixin BS5This!(["row"]));
+  mixin BS5This!(["row"]);
 
-  mixin(MyContent!("col", "BS5Col"));
+  // mixin(MyContent!("col", "BS5Col"));
 
-static BS5Row opCall() {
-    return new BS5Row;
-}}
-
+  mixin(BS5Calls!"Row");
+}
 ///
 unittest {
-  assert(BS5Row == `<div class="row"></div>`);
+  assert(BS5Row() == `<div class="row"></div>`);
 }

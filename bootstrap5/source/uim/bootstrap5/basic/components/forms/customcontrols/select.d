@@ -22,7 +22,7 @@ class BS5CustomSelect : DH5Select {
   //   }
   //   return this;  
   // }
-  // O options(STRINGAA values, string selectedKey = "", string disabledKey = "") {
+  // O options(string[string] values, string selectedKey = "", string disabledKey = "") {
   //   foreach(k; values.keys.sort) {
   //     if (k == selectedKey) {
   //       this.option(k == disabledKey 
@@ -46,7 +46,7 @@ class BS5CustomSelect : DH5Select {
   //   }
   //   return this;  
   // }
-  // O options(STRINGAA values, string[] selectedKeys, string[] disabledKeys = null) {
+  // O options(string[string] values, string[] selectedKeys, string[] disabledKeys = null) {
   //   foreach(k; values.keys.sort) {
   //     if (selectedKeys.has(k)) {
   //       this.option(disabledKeys.has(k) 

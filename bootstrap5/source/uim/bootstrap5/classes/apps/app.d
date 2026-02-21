@@ -10,7 +10,7 @@ mixin(ShowModule!());
   this() { super(); }
   this(string aName) { super(aName); }
   this(string aName, string aRootPath) { super(aName, aRootPath); }
-//   this(string aName, string aRootPath, STRINGAA someParameters) { super(aName, aRootPath, parameters); }
+//   this(string aName, string aRootPath, string[string] someParameters) { super(aName, aRootPath, parameters); }
 
 /*   override void init() {
     this

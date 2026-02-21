@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5ButtonClose : H55Button {
   mixin BS5This!(["close"], ["aria-label":"Close"]);
 
-  override string renderHTML(STRINGAA bindings = null) {
+  override string renderHTML(string[string] bindings = null) {
     this.content(H5Span(["aria-hidden": "true"], "&times;"));
     return super.renderHTML;
   }

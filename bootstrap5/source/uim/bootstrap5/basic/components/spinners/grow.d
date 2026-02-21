@@ -7,13 +7,11 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5SpinnerGrow : H5Div {
-  mixin BS5This!(["spinner-grow"]));
+  mixin BS5This!(["spinner-grow"]);
 
-static BS5SpinnerGrow opCall() {
-    return new BS5SpinnerGrow;
-}
+  mixin(BS5Calls!"SpinnerGrow");
 }
 ///
 unittest {
-  assert(BS5SpinnerGrow == `<div class="spinner-grow"></div>`);
+  assert(BS5SpinnerGrow() == `<div class="spinner-grow"></div>`);
 }
