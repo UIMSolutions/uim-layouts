@@ -7,14 +7,11 @@ mixin(ShowModule!());
 @safe:
 
 class BS5ModalFooter : H5Div {
-  mixin BS5This!(["modal-footer"]));
+  mixin BS5This!(["modal-footer"]);
 
-  static BS5ModalFooter opCall() {
-    return new BS5ModalFooter;
-  }
+  mixin(BS5Calls!("ModalFooter"));
 }
-
 ///
 unittest {
-  assert(BS5ModalFooter == `<div class="modal-footer"></div>`);
+  assert(BS5ModalFooter() == `<div class="modal-footer"></div>`);
 }

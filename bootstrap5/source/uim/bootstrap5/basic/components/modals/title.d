@@ -6,12 +6,11 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5ModalTitle : BS5Obj {
-  mixin BS5This!("H5", ["modal-title"]));
+class BS5ModalTitle : H5H5 {
+  mixin BS5This!(["modal-title"]);
+  mixin(BS5Calls!("ModalTitle"));
 }
-static BS5ModalTitle");
-
 ///
 unittest {
-  assert(BS5ModalTitle == `<h5 class="modal-title"></h5>`);
-}}
+  assert(BS5ModalTitle() == `<h5 class="modal-title"></h5>`);
+}

@@ -6,15 +6,13 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5NavbarBrand : BS5Obj {
-  mixin BS5This!("a", ["navbar-brand"]));
+class BS5NavbarBrand : H5A {
+  mixin BS5This!(["navbar-brand"]);
 
-  mixin(MyContent!("image", "H5IMG"));
+  // mixin(MyContent!("image", "H5IMG"));
+  mixin(BS5Calls!("NavbarBrand"));
 }
-
-static BS5NavbarBrand");
 ///
-unittest
-{
-  assert(BS5NavbarBrand == `<a class="navbar-brand"></a>`);
+unittest {
+  assert(BS5NavbarBrand() == `<a class="navbar-brand"></a>`);
 }

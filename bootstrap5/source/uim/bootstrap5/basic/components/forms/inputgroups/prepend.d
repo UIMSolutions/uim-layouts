@@ -4,7 +4,7 @@ import uim.bootstrap5;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 /**
   * The .input-group-prepend class is used to prepend elements to an input group. It can be used with both text and buttons.
@@ -13,13 +13,14 @@ mixin(ShowModule!());
 class BS5InputGroupPrepend : H5Div {
   mixin BS5This!(["input-group-prepend"]);
 
-  mixin(MyContent!("text", "BS5InputGroupText"));
-  ///
-unittest {
-    assert(BS5InputGroupPrepend.text == `<div class="input-group-prepend"><div class="input-group-text"></div></div>`);
-  }
+  // mixin(MyContent!("text", "BS5InputGroupText"));
+  // ///
+  // unittest {
+  //   assert(
+  //     BS5InputGroupPrepend.text == `<div class="input-group-prepend"><div class="input-group-text"></div></div>`);
+  // }
 
-mixin(BS5Calls!("InputGroupPrepend"));
+  mixin(BS5Calls!("InputGroupPrepend"));
 }
 ///
 unittest {
