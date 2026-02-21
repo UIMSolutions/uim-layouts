@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap.bs4.components.navs.pills;
 
-import uim.bootstrap;
+import uim.bootstrap4;
 
 mixin(ShowModule!());
 

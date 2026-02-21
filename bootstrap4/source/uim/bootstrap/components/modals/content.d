@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap.bs4.components.modals.content;
 
-import uim.bootstrap;
+import uim.bootstrap4;
 
 mixin(ShowModule!());
 

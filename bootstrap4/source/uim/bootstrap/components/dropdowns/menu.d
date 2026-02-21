@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap.bs4.components.dropdowns.menu;
 
-import uim.bootstrap;
+import uim.bootstrap4;
 
 mixin(ShowModule!());
 

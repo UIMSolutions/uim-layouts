@@ -1,6 +1,6 @@
 ﻿module uim.bootstrap.bs4.components.alerts.heading;
 
-import uim.bootstrap;
+import uim.bootstrap4;
 
 mixin(ShowModule!());
 
