@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5ButtonObj : H5Button {
   mixin BS5This!(null, ["type":"button"]);
 
-  // mixin(MyAttribute!("buttonType", "type"));
+  // // mixin(MyAttribute!("buttonType", "type"));
   // mixin(TProperty!("string", "colorMode"));
   // mixin(TProperty!("bool", "outline"));
   // mixin(TProperty!("bool", "block"));

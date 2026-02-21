@@ -9,8 +9,8 @@ mixin(ShowModule!());
 class BS5Input : H5Input {
   mixin BS5This!();  
 
-  mixin(MyAttribute!"value");
-  mixin(MyAttribute!"placeholder");
+  // mixin(MyAttribute!"value");
+  // mixin(MyAttribute!"placeholder");
 
   auto color(string newColor) {
     this.addClasses("bg-"~newColor);

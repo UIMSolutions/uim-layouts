@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class BS5FormGroup : H5Div {
   mixin BS5This!(["form-group"]);
 
-  // mixin(MyAttribute!("readOnly", "readonly"));
-  // mixin(MyAttribute!("value", "value"));
-  // mixin(MyAttribute!("placeHolder", "placeholder"));
+  // // mixin(MyAttribute!("readOnly", "readonly"));
+  // // mixin(MyAttribute!("value", "value"));
+  // // mixin(MyAttribute!("placeHolder", "placeholder"));
 
   // // mixin(MyContent!("label", "H5Label"));
   // O label(string forId, string title, string[] someClasses = null, string[string] someAttributes = null) {

@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5DropdownMenu : H5Div {
   mixin BS5This!(["dropdown-menu"]);
 
-  mixin(MyAttribute!("labelledBy", "aria-labelledby"));
+  // mixin(MyAttribute!("labelledBy", "aria-labelledby"));
 
   auto addDivider() {
     return new BS5DropdownDivider;
