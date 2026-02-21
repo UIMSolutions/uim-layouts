@@ -6,15 +6,12 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5DropdownLink : BS5Obj {
-  mixin BS5This!("A", ["dropdown-item"]));
+class BS5DropdownLink : H5A {
+  mixin BS5This!(["dropdown-item"]);
 
-  static BS5DropdownLink opCall() {
-    return new BS5DropdownLink;
-  }
+  mixin(BS5Calls!("DropdownLink"));
 }
-
 ///
 unittest {
-  assert(BS5DropdownLink == `<a class="dropdown-item"></a>`);
+  assert(BS5DropdownLink() == `<a class="dropdown-item"></a>`);
 }

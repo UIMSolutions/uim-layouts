@@ -7,16 +7,12 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputButton : BS5Input {
-  mixin BS5This!(null, null, `["type":"button"]`));
+  mixin BS5This!(null, ["type":"button"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputButton"));
 }
-static BS5InputButton"));
-
 ///
 unittest {
   assert(BS5InputButton);
   assert(BS5InputButton == `<input class="form-control" type="button">`);
-}}
+}

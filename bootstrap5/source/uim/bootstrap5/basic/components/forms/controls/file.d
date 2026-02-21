@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputFile : BS5Input {
-  mixin BS5This!(null, ["form-control"], `["type":"file"]`));
+  mixin BS5This!(null, ["form-control"], `["type":"file"]`);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputFile"));
 }
-static BS5InputFile"));
-
 ///
 unittest {
   assert(BS5InputFile == `<input class="form-control" type="file">`);
-}}
+}

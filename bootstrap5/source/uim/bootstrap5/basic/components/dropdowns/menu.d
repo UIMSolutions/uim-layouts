@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5DropdownMenu : H5Div {
-  mixin BS5This!(["dropdown-menu"]));
+  mixin BS5This!(["dropdown-menu"]);
 
   mixin(MyAttribute!("labelledBy", "aria-labelledby"));
 
@@ -35,14 +35,11 @@ class BS5DropdownMenu : H5Div {
     return new BS5DropdownText;
   }
 
-  static BS5DropdownMenu opCall() {
-    return new BS5DropdownMenu;
-  }
+  mixin(BS5Calls!("DropdownMenu"));
 }
-
 ///
 unittest {
-  assert(BS5DropdownMenu == `<div class="dropdown-menu"></div>`);
-  assert(BS5DropdownMenu.link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
-  assert(BS5DropdownMenu.form == `<div class="dropdown-menu"><form></form></div>`);
+  assert(BS5DropdownMenu() == `<div class="dropdown-menu"></div>`);
+  assert(BS5DropdownMenu().link == `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`);
+  assert(BS5DropdownMenu().form == `<div class="dropdown-menu"><form></form></div>`);
 }

@@ -6,17 +6,13 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5FormCheckInput : BS5Obj {
-  mixin BS5This!("input", ["form-check-input"]));
-  override public void initialize() {
-    super.initialize;
-    _single = true;
-  }
-}
-static BS5FormCheckInput");
+class BS5FormCheckInput : H5Input {
+  mixin BS5This!(["form-check-input"]);
 
+  mixin(BS5Calls!("FormCheckInput"));
+}
 ///
 unittest {
 // TODO assert(BS5FormCheckInput == );
   assert(BS5FormCheckInput == `<input class="form-check-input">`);
-}}
+}

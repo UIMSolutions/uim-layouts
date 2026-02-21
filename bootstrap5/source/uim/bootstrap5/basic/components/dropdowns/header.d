@@ -4,14 +4,13 @@ import uim.bootstrap5;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
-class BS5DropdownHeader : BS5Obj {
-  mixin BS5This!("H6", ["dropdown-header"]));
+class BS5DropdownHeader : H5H6 {
+  mixin BS5This!(["dropdown-header"]);
+
+mixin(BS5Calls!("DropdownHeader"));
 }
-static BS5DropdownHeader opCall() {
-  return new BS5DropdownHeader;
-}  }
 ///
 unittest {
   assert(BS5DropdownHeader == `<h6 class="dropdown-header"></h6>`);

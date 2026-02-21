@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputColor : BS5Input {
-  mixin BS5This!("", ["form-control", "form-control-color"], `["type":"color"]`));
+  mixin BS5This!(["form-control", "form-control-color"], ["type":"color"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("InputColor"));
 }
-static BS5InputColor"));
-
 ///
 unittest {
   assert(BS5InputColor == `<input class="form-control form-control-color" type="color">`);
-}}
+}

@@ -7,15 +7,11 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5Checkbox : BS5Input {
-  mixin BS5This!(null, null, `["type":"checkbox"]`));
+  mixin BS5This!(null, ["type":"checkbox"]);
 
-  override void initialize (Json aConfig = Json(null)) {
-    super.initialize(aConfig);
-  }
+  mixin(BS5Calls!("Checkbox"));
 }
-static BS5Checkbox"));
-
 ///
 unittest {
   assert(BS5Checkbox == `<input class="form-control" type="checkbox">`);
-}}
+}
