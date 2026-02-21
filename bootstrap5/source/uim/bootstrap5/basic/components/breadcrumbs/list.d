@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5BreadcrumbList : BS5Obj {
-  mixin BS5This!("Ol", ["breadcrumb"], `["aria-label":"breadcrumbs"]`));
+  mixin BS5This!("Ol", ["breadcrumb"], `["aria-label":"breadcrumbs"]`);
 
   mixin(MyContent!("item", "BS5BreadcrumbItem"));
   ///

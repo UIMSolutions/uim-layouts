@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5Breadcrumb : BS5Obj {
-  mixin BS5This!("Nav", null, `["aria-label":"breadcrumb"]`));
+  mixin BS5This!("Nav", null, `["aria-label":"breadcrumb"]`);
 
   auto addList() {
     addContent(new BS5BreadcrumbList);

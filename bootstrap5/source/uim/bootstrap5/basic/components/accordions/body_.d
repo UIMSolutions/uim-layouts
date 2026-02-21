@@ -7,21 +7,10 @@ mixin(ShowModule!());
 @safe:
 
 /// 
-class BS5AccordionBody : BS5Obj {
-  mixin BS5This!"BS5AccordionBody");
+class BS5AccordionBody : H5Div {
+  mixin BS5This!(["accordion-body"]);
 
-  override bool initialize(Json[string] args = null) {
-    if (!super.initialize(args)) {
-      return false;
-    }
-
-    addClasses("accordion-body");
-    return true;
-  }
-
-  static BS5AccordionBody opCall() {
-    return new BS5AccordionBody;
-  }
+  mixin(BS5CCalls!("AccordionBody"));
 }
 ///
 unittest {

@@ -7,17 +7,17 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5AlertHeading : H5Div {
-  mixin BS5This!(["alert-heading"]));
+  mixin BS5This!(["alert-heading"]);
 
-  O size(int size) {
+  BS5AlertHeading size(int size) {
     if ((size > 0) && (size < 7))
       _tag = "h" ~ to!string(size);
-    return cast(O) this;
+    return this;
   }
+  
+  mixin(BS5Calls!("AlertHeading"));
 }
-static BS5AlertHeading"));
-
 ///
 unittest {
   // TODO
-}}
+}

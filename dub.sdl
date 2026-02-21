@@ -14,26 +14,26 @@ targetName "uim-layouts"
 dependency "uim-framework:html" version="*"
 
 // Internal Dependencies
-dependency ":argon" version="*"
-dependency ":bootstrap4" version="*"
+// dependency ":argon" version="*"
+// dependency ":bootstrap4" version="*"
 dependency ":bootstrap5" version="*"
-dependency ":foundation" version="*"
+// dependency ":foundation" version="*"
 dependency ":library" version="*"
-dependency ":materialize" version="*"
-dependency ":materializedesign" version="*"
+// dependency ":materialize" version="*"
+// dependency ":materializedesign" version="*"
 dependency ":tabler" version="*"
 
 // Source files
 sourceFiles "./source/uim/layouts.d"
 
 // Subpackages
-subPackage "argon"
-subPackage "bootstrap4"
+// subPackage "argon"
+// subPackage "bootstrap4"
 subPackage "bootstrap5"
-subPackage "foundation"
+// subPackage "foundation"
 subPackage "library"
-subPackage "materialize"
-subPackage "materializedesign"
+// subPackage "materialize"
+// subPackage "materializedesign"
 subPackage "tabler"
 
 buildRequirements "allowWarnings" "silenceDeprecations"

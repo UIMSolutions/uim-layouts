@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 // Badges in Bootstrap are little additional information to highlight text or numbers.
 class BS5Badge : H5Span {
-  mixin BS5This!("BS5Badge"));
+  mixin BS5This!("BS5Badge");
 
   override bool initialize(Json[string] args = null) {
     if (!super.initialize(args)) {
