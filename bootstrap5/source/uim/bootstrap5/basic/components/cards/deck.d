@@ -8,7 +8,7 @@ mixin(ShowModule!());
 
 /// The BS5CardDeck creates a grid of cards that are of equal height and width
 class BS5CardDeck : H5Div {
-  mixin BS5This!(["card-deck"]));
+  mixin BS5This!(["card-deck"]);
 
   /// Add card 
   mixin(MyContent!("card", "BS5Card"));
@@ -16,11 +16,10 @@ class BS5CardDeck : H5Div {
   ///
 unittest {
     assert(BS5CardDeck.card == `<div class="card-deck"><div class="card"></div></div>`);
-  }}
+  }
+mixin(BS5Calls!("CardDeck"));
 }
-
-static BS5CardDeck");
 ///
 unittest {
-  assert(BS5CardDeck == `<div class="card-deck"></div>`);
-}}
+  assert(BS5CardDeck() == `<div class="card-deck"></div>`);
+}

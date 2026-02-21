@@ -7,17 +7,16 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CarouselItem : H5Div {
-  mixin BS5This!(["carousel-item"]));
+  mixin BS5This!(["carousel-item"]);
 
-  O active(bool mode = true) {
+  BS5CarouselItem active(bool mode = true) {
     if (mode) this.addClasses("active");
     return this;
   }
+  mixin(BS5Calls!("CarouselItem"));
 }
-static BS5CarouselItem");
-
 ///
 unittest {
-  assert(BS5CarouselItem == `<div class="carousel-item"></div>`);
-  assert(BS5CarouselItem.active == `<div class="active carousel-item"></div>`);
-}}
+  assert(BS5CarouselItem() == `<div class="carousel-item"></div>`);
+  assert(BS5CarouselItem().active == `<div class="active carousel-item"></div>`);
+}

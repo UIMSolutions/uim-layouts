@@ -6,13 +6,11 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5DropdownForm : BS5Obj {
-  mixin BS5This!("form", null, null));
+class BS5DropdownForm : H5Form {
+  mixin BS5This!();
 
-static BS5DropdownForm opCall() {
-  return new BS5DropdownForm;
-}}
-
+  mixin(BS5Calls!("DropdownForm"));
+}
 ///
 unittest {
   assert(BS5DropdownForm == `<form></form>`);

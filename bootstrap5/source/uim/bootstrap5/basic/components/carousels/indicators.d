@@ -4,29 +4,32 @@ import uim.bootstrap5;
 
 mixin(ShowModule!());
 
-@safe: 
+@safe:
 
 class BS5CarouselIndicators : H5Div {
-  mixin BS5This!(["carousel-indicators"]));
+  mixin BS5This!(["carousel-indicators"]);
 
-  O active(bool mode = true) {
-    if (mode) addClasses("active");
+  BS5CarouselIndicators active(bool mode = true) {
+    if (mode)
+      addClasses("active");
     return this;
   }
-  
+
   mixin(MyContent!("indicator", "H5Button"));
   ///
-unittest {
-    assert(BS5CarouselIndicators.indicator.toString == `<div class="carousel-indicators"><button></button></div>`);
-  }}
+  unittest {
+    assert(
+      BS5CarouselIndicators.indicator.toString == `<div class="carousel-indicators"><button></button></div>`);
+  }
+
+  mixin(BS5Calls!("CarouselIndicators"));
 }
-static BS5CarouselIndicators");
 ///
 unittest {
   assert(BS5CarouselIndicators.toString == `<div class="carousel-indicators"></div>`);
-}}
-
-class BS5CarouselIndicator : BS5Obj {
-  mixin BS5This!("button", ["carousel-indicator"]));
 }
-static BS5CarouselIndicator");
+
+class BS5CarouselIndicator : H5Button {
+  mixin BS5This!(["carousel-indicator"]);
+  mixin(BS5Calls!("CarouselIndicator"));
+}

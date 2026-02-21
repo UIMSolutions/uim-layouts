@@ -6,12 +6,11 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5CollapseLink : BS5Obj {
-  mixin BS5This!("a", ["btn"], `["data-toggle":"collapse", "role":"button"]`));
+class BS5CollapseLink : H5A {
+  mixin BS5This!(["btn"], ["data-toggle":"collapse", "role":"button"]);
+  mixin(BS5Calls!("CollapseLink"));
 }
-static BS5CollapseLink");
-
 ///
 unittest {
-  assert(BS5CollapseLink == `<a class="btn" data-toggle="collapse" role="button"></a>`);
-}}
+  assert(BS5CollapseLink() == `<a class="btn" data-toggle="collapse" role="button"></a>`);
+}

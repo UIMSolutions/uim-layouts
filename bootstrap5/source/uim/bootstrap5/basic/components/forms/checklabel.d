@@ -6,12 +6,11 @@ mixin(ShowModule!());
 
 @safe: 
 
-class BS5FormCheckLabel : BS5Obj {
-  mixin BS5This!("LABEL", ["form-check-label"]));
+class BS5FormCheckLabel : H5Label {
+  mixin BS5This!(["form-check-label"]);
+  mixin(BS5Calls!("FormCheckLabel"));
 }
-static BS5FormCheckLabel");
-
 ///
 unittest {
   assert(BS5FormCheckLabel == `<label class="form-check-label"></label>`);
-}}
+}
