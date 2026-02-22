@@ -72,8 +72,8 @@ import uim.style;
 Or import specific namespaces:
 
 ```d
-import uim.styles.interfaces;
-import uim.styles.library.classes;
+import uim.style.interfaces;
+import uim.style.classes;
 ```
 
 ## Build configurations

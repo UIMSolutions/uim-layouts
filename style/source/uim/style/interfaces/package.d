@@ -1,7 +1,7 @@
 module uim.style.interfaces;
 
 public {
-  import uim.styles.interfaces.icon;
-  import uim.styles.interfaces.script;
-  import uim.styles.interfaces.style;
+  import uim.style.interfaces.icon;
+  import uim.style.interfaces.script;
+  import uim.style.interfaces.style;
 }

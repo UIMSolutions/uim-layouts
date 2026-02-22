@@ -1,7 +1,7 @@
-module uim.style.library.classes;
+module uim.style.classes;
 
 public {
-  import uim.styles.library.classes.icons;
-  import uim.styles.library.classes.scripts;
-  import uim.styles.library.classes.styles;
+  import uim.style.classes.icons;
+  import uim.style.classes.scripts;
+  import uim.style.classes.styles;
 }

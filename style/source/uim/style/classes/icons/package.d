@@ -1,3 +1,3 @@
-module uim.style.library.classes.icons;
+module uim.style.classes.icons;
 
-public import uim.styles.library.classes.icons.icon;
+public import uim.style.classes.icons.icon;
