@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.timelines;
+module uim.tabler.components.timelines;
 
-public import uim.styles.tabler.components.timelines.content;
-public import uim.styles.tabler.components.timelines.icon;
-public import uim.styles.tabler.components.timelines.time;
-public import uim.styles.tabler.components.timelines.title;
+public import uim.tabler.components.timelines.content;
+public import uim.tabler.components.timelines.icon;
+public import uim.tabler.components.timelines.time;
+public import uim.tabler.components.timelines.title;

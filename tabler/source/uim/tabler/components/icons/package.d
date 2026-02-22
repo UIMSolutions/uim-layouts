@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.icons;
+module uim.tabler.components.icons;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

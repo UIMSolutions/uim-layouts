@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.forms.imagechecks.figure;
+module uim.tabler.components.forms.imagechecks.figure;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

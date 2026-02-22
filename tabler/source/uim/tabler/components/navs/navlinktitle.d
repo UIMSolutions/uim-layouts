@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.navs.navlinktitle;
+﻿module uim.tabler.components.navs.navlinktitle;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

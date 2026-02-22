@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.dropend;
+﻿module uim.tabler.components.dropend;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 @safe:
 

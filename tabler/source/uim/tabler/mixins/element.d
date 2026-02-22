@@ -1,4 +1,4 @@
-module uim.styles.tabler.mixins.element;
+module uim.tabler.mixins.element;
 
 import uim.html;
 

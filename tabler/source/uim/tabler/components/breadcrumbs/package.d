@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.breadcrumbs;
+module uim.tabler.components.breadcrumbs;
 

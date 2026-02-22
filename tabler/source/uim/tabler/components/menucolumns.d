@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.menucolumns;
+﻿module uim.tabler.components.menucolumns;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

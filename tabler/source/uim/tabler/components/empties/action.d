@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.empties.action;
+module uim.tabler.components.empties.action;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

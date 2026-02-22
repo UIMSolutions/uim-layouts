@@ -1,12 +1,12 @@
-module uim.styles.tabler.components.buttons;
+module uim.tabler.components.buttons;
 
 public {
-  import uim.styles.tabler.components.buttons.button;
-  import uim.styles.tabler.components.buttons.link;
-  import uim.styles.tabler.components.buttons.pill;
-  import uim.styles.tabler.components.buttons.pilllink;
-  import uim.styles.tabler.components.buttons.icon;
-  import uim.styles.tabler.components.buttons.iconlink;
-  import uim.styles.tabler.components.buttons.square;
-  import uim.styles.tabler.components.buttons.squarelink;
+  import uim.tabler.components.buttons.button;
+  import uim.tabler.components.buttons.link;
+  import uim.tabler.components.buttons.pill;
+  import uim.tabler.components.buttons.pilllink;
+  import uim.tabler.components.buttons.icon;
+  import uim.tabler.components.buttons.iconlink;
+  import uim.tabler.components.buttons.square;
+  import uim.tabler.components.buttons.squarelink;
 }

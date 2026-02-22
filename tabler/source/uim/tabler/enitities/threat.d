@@ -1,6 +1,6 @@
-module uim.styles.tabler.enitities.threat;
+module uim.tabler.enitities.threat;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

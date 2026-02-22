@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.forms.colorinputs.input;
+﻿module uim.tabler.components.forms.colorinputs.input;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

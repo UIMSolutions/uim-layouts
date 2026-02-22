@@ -1,1 +1,1 @@
-module uim.styles.tabler.componenty.cards.card;
+module uim.tabler.componenty.cards.card;

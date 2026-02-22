@@ -4,12 +4,12 @@ Badge components namespace for the Tabler layout package.
 
 ## Module
 
-- `uim.styles.tabler.components.badges`
+- `uim.tabler.components.badges`
 
 ## Usage
 
 ```d
-import uim.styles.tabler.components.badges;
+import uim.tabler.components.badges;
 ```
 
 ## Status

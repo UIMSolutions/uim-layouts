@@ -1,6 +1,6 @@
-module uim.styles.tabler.obj;
+module uim.tabler.obj;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

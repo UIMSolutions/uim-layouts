@@ -1,5 +1,5 @@
-module uim.styles.tabler.components.accordions;
+module uim.tabler.components.accordions;
 
-public import uim.styles.tabler.components.accordions.body_;
-public import uim.styles.tabler.components.accordions.collapse;
-public import uim.styles.tabler.components.accordions.header;
+public import uim.tabler.components.accordions.body_;
+public import uim.tabler.components.accordions.collapse;
+public import uim.tabler.components.accordions.header;

@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.empties.subtitle;
+module uim.tabler.components.empties.subtitle;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.carousels;
+module uim.tabler.components.carousels;
 

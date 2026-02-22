@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.timelines.time;
+module uim.tabler.components.timelines.time;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

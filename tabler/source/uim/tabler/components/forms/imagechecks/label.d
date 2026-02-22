@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.forms.imagechecks.label;
+module uim.tabler.components.forms.imagechecks.label;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.forms.checks.check;
+﻿module uim.tabler.components.forms.checks.check;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

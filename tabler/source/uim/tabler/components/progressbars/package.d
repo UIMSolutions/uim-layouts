@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.progressbars;
+module uim.tabler.components.progressbars;
 

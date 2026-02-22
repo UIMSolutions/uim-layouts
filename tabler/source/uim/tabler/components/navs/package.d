@@ -1,4 +1,4 @@
-module uim.styles.tabler.components.navs;
+module uim.tabler.components.navs;
 
-public import uim.styles.tabler.components.navs.navlinkicon;
-public import uim.styles.tabler.components.navs.navlinktitle;
+public import uim.tabler.components.navs.navlinkicon;
+public import uim.tabler.components.navs.navlinktitle;

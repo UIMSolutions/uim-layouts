@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.vectormaps;
+module uim.tabler.components.vectormaps;
 

@@ -1,6 +1,6 @@
-module uim.styles.tabler.mixins;
+module uim.tabler.mixins;
 
 public {
-  import uim.styles.tabler.mixins.content;
-  import uim.styles.tabler.mixins.element;
+  import uim.tabler.mixins.content;
+  import uim.tabler.mixins.element;
 }

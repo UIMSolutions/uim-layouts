@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.autosize;
+module uim.tabler.components.autosize;
 

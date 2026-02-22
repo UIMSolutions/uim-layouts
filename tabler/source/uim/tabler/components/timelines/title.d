@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.timelines.title;
+module uim.tabler.components.timelines.title;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 @safe:
 

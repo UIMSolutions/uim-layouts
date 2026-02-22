@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.accordions.body_;
+﻿module uim.tabler.components.accordions.body_;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

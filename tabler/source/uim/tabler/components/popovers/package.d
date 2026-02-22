@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.popovers;
+module uim.tabler.components.popovers;
 

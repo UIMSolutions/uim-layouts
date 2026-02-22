@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.dividers;
+module uim.tabler.components.dividers;
 

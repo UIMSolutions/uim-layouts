@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.forms.checks.label;
+﻿module uim.tabler.components.forms.checks.label;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

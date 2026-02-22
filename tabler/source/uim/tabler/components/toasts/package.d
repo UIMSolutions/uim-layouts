@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.toasts;
+module uim.tabler.components.toasts;
 

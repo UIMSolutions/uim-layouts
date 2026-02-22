@@ -1,10 +1,10 @@
-module uim.styles.tabler.components.inputs;
+module uim.tabler.components.inputs;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 
 @safe:
 
-public import uim.styles.tabler.components.inputs.inputicon;
+public import uim.tabler.components.inputs.inputicon;
 

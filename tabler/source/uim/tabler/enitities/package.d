@@ -1,2 +1,2 @@
-module uim.styles.tabler.enitities;
+module uim.tabler.enitities;
 

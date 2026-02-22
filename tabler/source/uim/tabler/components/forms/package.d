@@ -1,10 +1,10 @@
-module uim.styles.tabler.components.forms;
+module uim.tabler.components.forms;
 
-public import uim.styles.tabler.components.forms.footer;
+public import uim.tabler.components.forms.footer;
 
-public import uim.styles.tabler.components.forms.cards;
-public import uim.styles.tabler.components.forms.checks;
-public import uim.styles.tabler.components.forms.colorinputs;
-public import uim.styles.tabler.components.forms.imagechecks;
-public import uim.styles.tabler.components.forms.selectgroups;
+public import uim.tabler.components.forms.cards;
+public import uim.tabler.components.forms.checks;
+public import uim.tabler.components.forms.colorinputs;
+public import uim.tabler.components.forms.imagechecks;
+public import uim.tabler.components.forms.selectgroups;
 

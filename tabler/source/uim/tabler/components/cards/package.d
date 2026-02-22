@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.cards;
+module uim.tabler.components.cards;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

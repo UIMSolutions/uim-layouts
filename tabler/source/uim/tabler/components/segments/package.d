@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.segments;
+module uim.tabler.components.segments;
 

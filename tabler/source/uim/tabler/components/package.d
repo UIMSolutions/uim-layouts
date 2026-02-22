@@ -1,37 +1,37 @@
-module uim.styles.tabler.components;
+module uim.tabler.components;
 
-public import uim.styles.tabler;
+public import uim.tabler;
 
 mixin(ShowModule!());
 
 @safe:
 
 // Packages
-public import uim.styles.tabler.components.accordions;
-public import uim.styles.tabler.components.alerts;
-public import uim.styles.tabler.components.avatars;
-public import uim.styles.tabler.components.buttons;
-public import uim.styles.tabler.components.cards;
-public import uim.styles.tabler.components.datagrids;
-public import uim.styles.tabler.components.forms;
-public import uim.styles.tabler.components.inputs;
-public import uim.styles.tabler.components.icons;
-public import uim.styles.tabler.components.lists;
-public import uim.styles.tabler.components.navs;
-public import uim.styles.tabler.components.statuses;
-public import uim.styles.tabler.components.timelines;
+public import uim.tabler.components.accordions;
+public import uim.tabler.components.alerts;
+public import uim.tabler.components.avatars;
+public import uim.tabler.components.buttons;
+public import uim.tabler.components.cards;
+public import uim.tabler.components.datagrids;
+public import uim.tabler.components.forms;
+public import uim.tabler.components.inputs;
+public import uim.tabler.components.icons;
+public import uim.tabler.components.lists;
+public import uim.tabler.components.navs;
+public import uim.tabler.components.statuses;
+public import uim.tabler.components.timelines;
 
 // Modules
-public import uim.styles.tabler.components.cardbutton;
-public import uim.styles.tabler.components.cardtabs;
-public import uim.styles.tabler.components.dropend;
-public import uim.styles.tabler.components.empties;
-public import uim.styles.tabler.components.footer;
-public import uim.styles.tabler.components.menucolumn;
-public import uim.styles.tabler.components.menucolumns;
-public import uim.styles.tabler.components.pageheader;
-public import uim.styles.tabler.components.pagetitle;
-public import uim.styles.tabler.components.ribbons;
+public import uim.tabler.components.cardbutton;
+public import uim.tabler.components.cardtabs;
+public import uim.tabler.components.dropend;
+public import uim.tabler.components.empties;
+public import uim.tabler.components.footer;
+public import uim.tabler.components.menucolumn;
+public import uim.tabler.components.menucolumns;
+public import uim.tabler.components.pageheader;
+public import uim.tabler.components.pagetitle;
+public import uim.tabler.components.ribbons;
 
 
 // auto label(TABDropdownMenu menu, string content) {

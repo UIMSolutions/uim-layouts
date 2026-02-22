@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.alerts.icon;
+module uim.tabler.components.alerts.icon;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

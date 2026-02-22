@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.badges;
+module uim.tabler.components.badges;
 

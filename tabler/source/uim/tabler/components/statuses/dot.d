@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.statuses.dot;
+module uim.tabler.components.statuses.dot;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

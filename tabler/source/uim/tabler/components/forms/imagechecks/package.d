@@ -1,14 +1,14 @@
-module uim.styles.tabler.components.forms.imagechecks;
+module uim.tabler.components.forms.imagechecks;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 
 @safe:
 
-public import uim.styles.tabler.components.forms.imagechecks.figure;
-public import uim.styles.tabler.components.forms.imagechecks.input;
-public import uim.styles.tabler.components.forms.imagechecks.image;
-public import uim.styles.tabler.components.forms.imagechecks.imagecontent;
-public import uim.styles.tabler.components.forms.imagechecks.label;
+public import uim.tabler.components.forms.imagechecks.figure;
+public import uim.tabler.components.forms.imagechecks.input;
+public import uim.tabler.components.forms.imagechecks.image;
+public import uim.tabler.components.forms.imagechecks.imagecontent;
+public import uim.tabler.components.forms.imagechecks.label;
 

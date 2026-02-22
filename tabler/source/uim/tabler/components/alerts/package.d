@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.alerts;
+module uim.tabler.components.alerts;
 
 public {
-  import uim.styles.tabler.components.alerts.icon;
-  import uim.styles.tabler.components.alerts.alert;
+  import uim.tabler.components.alerts.icon;
+  import uim.tabler.components.alerts.alert;
 }

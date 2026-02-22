@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.footer;
+﻿module uim.tabler.components.footer;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 @safe:
 

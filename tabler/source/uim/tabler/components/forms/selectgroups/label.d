@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.forms.selectgroups.label;
+﻿module uim.tabler.components.forms.selectgroups.label;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

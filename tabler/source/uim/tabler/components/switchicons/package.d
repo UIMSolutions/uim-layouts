@@ -1,2 +1,2 @@
-module uim.styles.tabler.components.switchicons;
+module uim.tabler.components.switchicons;
 

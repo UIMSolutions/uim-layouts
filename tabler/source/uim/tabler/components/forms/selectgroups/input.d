@@ -1,6 +1,6 @@
-﻿module uim.styles.tabler.components.forms.selectgroups.input;
+﻿module uim.tabler.components.forms.selectgroups.input;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 

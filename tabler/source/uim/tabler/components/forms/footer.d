@@ -1,6 +1,6 @@
-module uim.styles.tabler.components.forms.footer;
+module uim.tabler.components.forms.footer;
 
-import uim.styles.tabler;
+import uim.tabler;
 
 mixin(ShowModule!());
 
