@@ -6,8 +6,9 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5DropdownButton : BS5Obj {
-  mixin BS5This!("button", ["dropdown-item"]);
+class BS5DropdownButton : H5Button {
+  mixin BS5This!(["dropdown-item"]);
+
   mixin(BS5Calls!("DropdownButton"));
 }
 ///

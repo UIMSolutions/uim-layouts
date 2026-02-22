@@ -9,19 +9,19 @@ mixin(ShowModule!());
 class BS5InputHidden : BS5Input {
   mixin BS5This!(null, ["type":"hidden"]);
 
-  BS5InputHidden value(UUID id) {
-    this.value(id.toString);
-    return this;
-  }
+  // BS5InputHidden value(UUID id) {
+  //   this.value(id.toString);
+  //   return this;
+  // }
 
-  BS5InputHidden value(string txt) {
-    attribute("value", txt);
-    return this;
-  }
+  // BS5InputHidden value(string txt) {
+  //   attribute("value", txt);
+  //   return this;
+  // }
 
-  IHtmlAttribute value() {
-    return attribute("value");
-  }
+  // IHtmlAttribute value() {
+  //   return attribute("value");
+  // }
 
   mixin(BS5Calls!("InputHidden"));
 }

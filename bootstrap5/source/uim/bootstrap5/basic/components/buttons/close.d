@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5ButtonClose : H55Button {
+class BS5ButtonClose : H5Button {
   mixin BS5This!(["close"], ["aria-label":"Close"]);
 
   // override string renderHTML(string[string] bindings = null) {

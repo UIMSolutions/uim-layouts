@@ -42,11 +42,11 @@ public import uim.tabler.components.ribbons;
   // return menu(H5Label(["dropdown-item"]~classes, content));
 // }
 // 
-// auto label(TABDropdownMenu menu, DH5Obj content) {
+// auto label(TABDropdownMenu menu, H5Obj content) {
   // return menu(H5Label(["dropdown-item"], content));
 // }
 // 
-// auto label(TABDropdownMenu menu, string[] classes, DH5Obj content) {
+// auto label(TABDropdownMenu menu, string[] classes, H5Obj content) {
   // return menu(H5Label(["dropdown-item"]~classes, content));
 // }
 // 

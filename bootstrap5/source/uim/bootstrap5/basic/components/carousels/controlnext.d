@@ -28,18 +28,19 @@ mixin(ShowModule!());
 class BS5CarouselControlNext : H5A {
   mixin BS5This!(["carousel-control-next"], ["data-bs-slide":"next"]);
   
-  override public void initialize() {
-    super.initialize;
+  // override public void initialize() {
+  //   super.initialize;
     
-    this
-      .addContent(
-        H5Span(["carousel-control-next-icon"]), 
-        H5Span(["sr-only"], "Next"));
-  }
+  //   this
+  //     .addContent(
+  //       H5Span(["carousel-control-next-icon"]), 
+  //       H5Span(["sr-only"], "Next"));
+  // }
+
 mixin(BS5Calls!("CarouselControlNext"));
 }
 ///
 unittest {
   // assert(BS5CarouselControlNext == 
-    `<a class="carousel-control-next" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>`);
+  //  `<a class="carousel-control-next" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>`);
 }

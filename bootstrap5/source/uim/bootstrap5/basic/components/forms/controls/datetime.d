@@ -9,20 +9,20 @@ mixin(ShowModule!());
 class BS5InputDateTime : BS5Input {
   mixin BS5This!(null, ["type":"datetime-local"]);
 
-  BS5InputDateTime value(long timestamp) {
-    attribute("value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString;
-    return this;
-  }
+  // BS5InputDateTime value(long timestamp) {
+  //   attribute("value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString;
+  //   return this;
+  // }
   
-  BS5InputDateTime value(SysTime systime) {
-    attribute("value"] = (cast(DateTime)systime).toISOExtString;
-    return this;
-  }
+  // BS5InputDateTime value(SysTime systime) {
+  //   attribute("value"] = (cast(DateTime)systime).toISOExtString;
+  //   return this;
+  // }
 
-  BS5InputDateTime value(DateTime datetime) {
-    attribute("value"] = datetime.toISOExtString;
-    return this;
-  }
+  // BS5InputDateTime value(DateTime datetime) {
+  //   attribute("value"] = datetime.toISOExtString;
+  //   return this;
+  // }
   
   mixin(BS5Calls!("InputDateTime"));
 }

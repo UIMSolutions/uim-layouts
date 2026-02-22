@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5NavLink : H5A {
-  mixin BS5This!(["nav-link"], `["href":"#"]`);
+  mixin BS5This!(["nav-link"], ["href":"#"]);
 
 //   O active(bool value = true) { if (value) this.addClasses("active"); return this; }
 //   ///

@@ -9,7 +9,7 @@ mixin(ShowModule!());
 class BS5CardImage : H5Img { // default top
   mixin BS5This!(["card-img-top"]);
 
-  O position(string value) { _classes = _classes.sub("card-img-top").add("card-img-"~value); return this; }
+  // O position(string value) { _classes = _classes.sub("card-img-top").add("card-img-"~value); return this; }
   ///
 unittest {
     // assert(BS5CardImage().position("top") == `<img class="card-img-top">`);

@@ -17,9 +17,9 @@ public import vibe.d;
 public import uim.html;
 // public import uim.bootstrap;
 // 
-// DH5AppLayout argonLayout;
+// H5AppLayout argonLayout;
 // static this() {
-//   argonLayout = new class DH5AppLayout { 
+//   argonLayout = new class H5AppLayout { 
 //     this() { 
 //       super(); 
 //     }

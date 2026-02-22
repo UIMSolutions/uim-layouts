@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe: 
 
-/* class BS4App : DH5App {
+/* class BS4App : H5App {
   this() { super(); }
   this(string aName) { super(aName); }
   this(string aName, string aRootPath) { super(aName, aRootPath); }

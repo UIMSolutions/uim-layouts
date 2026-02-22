@@ -22,7 +22,7 @@ template BS5This(string[] thisClasses = null, string[string] thisAttributes = nu
 
   this(string[] classes, IHtmlElement[] elements) {
     super(thisClasses ~ classes, thisAttributes, thisContent);
-    this.elements(elements);
+    // this.elements(elements);
   }
 
   this(string[string] attributes, string content = "") {
@@ -30,17 +30,17 @@ template BS5This(string[] thisClasses = null, string[string] thisAttributes = nu
   }
 
   this(string[string] attributes, IHtmlElement[] elements) {
-    super(thisClasses, thisAttributes ~ attributes, thisContent);
-    this.elements(elements);
+    super(thisClasses, thisAttributes.setMap(attributes), thisContent);
+    // this.elements(elements);
   }
 
   this(string[] classes, string[string] attributes, string content = "") {
-    super(thisClasses ~ classes, thisAttributes ~ attributes, thisContent ~ content);
+    super(thisClasses ~ classes, thisAttributes.setMap(attributes), thisContent ~ content);
   }
 
   this(string[] classes, string[string] attributes, IHtmlElement[] elements) {
-    super(thisClasses ~ classes, thisAttributes ~ attributes, thisContent);
-    this.elements(elements);
+    super(thisClasses ~ classes, thisAttributes.setMap(attributes), thisContent);
+    // this.elements(elements);
   }
 }
 

@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:  
 
-class BS4CustomSelect : DH5Select {
+class BS4CustomSelect : H5Select {
   mixin(H5This!("Select", ["custom-select"]));
 
   mixin(MyContent!("option", "H5Option"));

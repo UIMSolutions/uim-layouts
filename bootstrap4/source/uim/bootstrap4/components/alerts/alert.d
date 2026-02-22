@@ -59,16 +59,14 @@ static BS4Alert opCall(string content = null) {
   }
 }
 
-class BS4AlertLink : BS4Obj {
-  mixin(H5This!("AlertLink", ["alert-link"], `["href":"#"]`));
+class BS4AlertLink : H5Div {
+  mixin(H5This!(["alert-link"], ["href":"#"]));
 }
 
-static BS4AlertLink opCall() {
-    return new BS4AlertLink;
-}
+mixin(BS4Calls!("Alert"));
 
 ///
 unittest {
   assert(BS4Alert == `<div class="alert" role="alert"></div>`);
   assert(BS4Alert("anAlert") == `<div class="alert" role="alert">anAlert</div>`);
-}}
+}

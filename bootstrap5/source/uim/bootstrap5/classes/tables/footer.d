@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5TableFooter : H5Tfoot {
-  mixin BS5This!("TableFooter");
+  mixin BS5This!();
 
   // mixin(AddContentCalls!("BSTableRow", "row"));
   // ///
@@ -15,9 +15,7 @@ class BS5TableFooter : H5Tfoot {
   //   // assert(BS5TableFooter.addRow() == `<tfoot><tr></tr></tfoot>`);
   // }
 
-  static BS5TableFooter opCall() {
-    return new BS5TableFooter;
-  }
+  mixin(BS5Calls!("TableFooter"));
 }
 ///
 unittest {

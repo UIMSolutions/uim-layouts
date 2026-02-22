@@ -9,10 +9,10 @@ mixin(ShowModule!());
 class BS5AccordionCollapse : H5Div {
   mixin BS5This!(["accordion-collapse"]);
 
-  BS5AccordionCollapse body_() {
-    addContent(BS5AccordionBody);
-    return this;
-  }
+  // BS5AccordionCollapse body_() {
+  //   addContent(BS5AccordionBody);
+  //   return this;
+  // }
 
   mixin(BS5Calls!("AccordionCollapse"));
 }

@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5TabList : H5Ul {
-  mixin BS5This!(["nav"], `["role":"tablist"]`);
+  mixin BS5This!(["nav"], ["role":"tablist"]);
 
   // // mixin(MyContent!("item", "BS5NavItem"));
 

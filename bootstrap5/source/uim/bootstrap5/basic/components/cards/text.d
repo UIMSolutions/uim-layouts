@@ -7,7 +7,8 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5CardText : H5P {
-  mixin BS5This!("P", ["card-text"]);
+  mixin BS5This!(["card-text"]);
+  
   mixin(BS5Calls!("CardText"));
 }
 ///

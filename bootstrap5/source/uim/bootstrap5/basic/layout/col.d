@@ -15,7 +15,7 @@ class BS5Col : H5Div {
   //   return this;
   // }
 
-  mixin(BS5Call!("Col"));
+  mixin(BS5Calls!("Col"));
 }
 ///
 unittest {

@@ -12,19 +12,19 @@ class BS5Input : H5Input {
   // mixin(MyAttribute!"value");
   // mixin(MyAttribute!"placeholder");
 
-  auto color(string newColor) {
-    this.addClasses("bg-"~newColor);
-    return this;
-  }
+  // auto color(string newColor) {
+  //   this.addClasses("bg-"~newColor);
+  //   return this;
+  // }
 
-  override void initialize () {
-    super.initialize();
+  // override void initialize () {
+  //   super.initialize();
 
-    this
-      .tag("input")
-      .single(true)
-      .classes("form-control");
-  }
+  //   this
+  //     .tag("input")
+  //     .single(true)
+  //     .classes("form-control");
+  // }
 
   mixin(BS5Calls!("Input"));
 }

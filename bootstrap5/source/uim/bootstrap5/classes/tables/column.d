@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:
 
 class BS5TableColumn : H5Th {
-  mixin BS5This!(["scope": "col"]);
+  mixin BS5This!(null, ["scope": "col"]);
 
   // mixin(TProperty!("string", "key"));
   // mixin(TProperty!("string", "title"));
