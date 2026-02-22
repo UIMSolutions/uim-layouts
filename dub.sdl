@@ -24,14 +24,14 @@ dependency ":library" version="*"
 dependency ":tabler" version="*"
 
 // Source files
-sourceFiles "./source/uim/layouts.d"
+sourceFiles "./source/uim/styles.d"
 
 // Subpackages
 // subPackage "argon"
 // subPackage "bootstrap4"
 subPackage "bootstrap5"
 // subPackage "foundation"
-subPackage "library"
+subPackage "style"
 // subPackage "materialize"
 // subPackage "materializedesign"
 subPackage "tabler"

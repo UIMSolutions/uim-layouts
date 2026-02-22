@@ -7,7 +7,7 @@ copyright "Copyright © 2018 - 2026, ONS"
 license "Apache-2.0"
 
 // Target
-targetName "uim-style"
+targetName "uim-styles-style"
 targetType "library"
 
 // Dependencies

@@ -11,7 +11,7 @@ targetName "uim-styles-tabler"
 targetType "library"
 
 // Dependencies
-dependency "uim-styles:library" path=".."
+dependency "uim-styles:style" path=".."
 
 // Configurations
 configuration "default" {

@@ -1,4 +1,4 @@
-# uim-styles (library)
+# uim-style
 
 Base D library for layout-related abstractions and shared types used across the `uim-styles` workspace.
 
@@ -6,20 +6,20 @@ Base D library for layout-related abstractions and shared types used across the 
 
 - Unified entry module: `uim.styles`
 - Core layout interfaces:
-	- `uim.styles.interfaces.icon`
-	- `uim.styles.interfaces.script`
-	- `uim.styles.interfaces.style`
+  - `uim.styles.interfaces.icon`
+  - `uim.styles.interfaces.script`
+  - `uim.styles.interfaces.style`
 - Reusable class implementations for:
-	- icons
-	- scripts
-	- styles
+  - icons
+  - scripts
+  - styles
 - Mixins and registries used by concrete layout packages
 
 ## Module structure
 
 Main source root:
 
-`source/uim/layouts/`
+`source/uim/styles/`
 
 Important modules:
 
