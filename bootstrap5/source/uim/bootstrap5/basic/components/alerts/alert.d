@@ -44,7 +44,7 @@ unittest {
 
 
 class BS5AlertLink : H5A {
-  mixin BS5This!(["alert-link"], `["href":"#"]`);
+  mixin BS5This!(["alert-link"], ["href":"#"]);
 
   mixin(BS5Calls!("AlertLink"));
 }

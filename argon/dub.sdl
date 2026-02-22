@@ -7,11 +7,11 @@ copyright "Copyright © 2018 - 2026, ONS"
 license "Apache-2.0"
 
 // Target
-targetName "uim-layouts-argon"
+targetName "uim-styles-argon"
 targetType "library"
 
 // Dependencies
-dependency "uim-layouts:library" path=".."
+dependency "uim-styles:library" path=".."
 
 // Configurations
 configuration "default" {

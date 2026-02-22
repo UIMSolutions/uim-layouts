@@ -1,4 +1,4 @@
-# uim-layouts
+# uim-styles
 
 Monorepo for D-based UI layout libraries and integrations.
 

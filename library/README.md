@@ -1,6 +1,6 @@
-# uim-layouts (library)
+# uim-styles (library)
 
-Base D library for layout-related abstractions and shared types used across the `uim-layouts` workspace.
+Base D library for layout-related abstractions and shared types used across the `uim-styles` workspace.
 
 ## What this package provides
 
@@ -46,7 +46,7 @@ If this package is used as a standalone dependency, add it to your `dub.json`:
 ```json
 {
 	"dependencies": {
-		"uim-layouts": "~>0.0.1"
+		"uim-styles": "~>0.0.1"
 	}
 }
 ```
@@ -56,7 +56,7 @@ In this monorepo, use a local path dependency when needed:
 ```json
 {
 	"dependencies": {
-		"uim-layouts": {
+		"uim-styles": {
 			"path": "../library"
 		}
 	}
