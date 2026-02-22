@@ -8,5 +8,5 @@ public {
   import uim.tabler.components.buttons.icon;
   import uim.tabler.components.buttons.iconlink;
   import uim.tabler.components.buttons.square;
-  import uim.tabler.components.buttons.squarelink;
+  // import uim.tabler.components.buttons.squarelink;
 }

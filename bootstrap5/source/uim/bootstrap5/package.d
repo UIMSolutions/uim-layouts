@@ -9,7 +9,7 @@ mixin(ShowModule!());
 public {
   public import uim.core;
 public import uim.oop;
-public import uim.html;
+public import uim.style;
 
   import uim.bootstrap5.basic;
   import uim.bootstrap5.classes;

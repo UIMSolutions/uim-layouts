@@ -13,7 +13,8 @@ public { // uim libraries
 }
 
 public {
-    // import uim.style.classes;
-    // import uim.style.interfaces;
-    // import uim.style.mixins;
+  import uim.style.classes;
+  import uim.style.interfaces;
+  import uim.style.helpers;
+  import uim.style.mixins;
 }

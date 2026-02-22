@@ -16,7 +16,7 @@ dependency "uim-framework:html" version="*"
 // Internal Dependencies
 // dependency ":argon" version="*"
 // dependency ":bootstrap4" version="*"
-dependency ":bootstrap5" version="*"
+// dependency ":bootstrap5" version="*"
 // dependency ":foundation" version="*"
 dependency ":style" version="*"
 // dependency ":materialize" version="*"
@@ -24,12 +24,12 @@ dependency ":style" version="*"
 dependency ":tabler" version="*"
 
 // Source files
-sourceFiles "./source/uim/styles.d"
+sourceFiles "./source/uim/styles/all.d"
 
 // Subpackages
 // subPackage "argon"
 // subPackage "bootstrap4"
-subPackage "bootstrap5"
+// subPackage "bootstrap5"
 // subPackage "foundation"
 subPackage "style"
 // subPackage "materialize"
