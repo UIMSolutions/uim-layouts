@@ -1,13 +1,13 @@
 // Metadata
-name "library"
-description "uim library for library layouts with vibe.d utilities"
-homepage "https://www.sueel.de/uim/layouts/library"
+name "style"
+description "uim library for style layouts with vibe.d utilities"
+homepage "https://www.sueel.de/uim/styles/style"
 authors "Ozan Nurettin Süel"
 copyright "Copyright © 2018 - 2026, ONS"
 license "Apache-2.0"
 
 // Target
-targetName "uim-styles-library"
+targetName "uim-style"
 targetType "library"
 
 // Dependencies
