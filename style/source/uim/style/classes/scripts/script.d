@@ -1,1 +1,1 @@
-module uim.styles.library.classes.scripts.script;
+module uim.style.library.classes.scripts.script;

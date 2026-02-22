@@ -1,1 +1,1 @@
-module uim.styles.registries.icons;
+module uim.style.registries.icons;

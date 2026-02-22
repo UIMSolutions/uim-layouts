@@ -1,1 +1,1 @@
-module uim.styles.mixins;
+module uim.style.mixins;

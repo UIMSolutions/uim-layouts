@@ -66,7 +66,7 @@ In this monorepo, use a local path dependency when needed:
 ### 2) Import in D code
 
 ```d
-import uim.styles;
+import uim.style;
 ```
 
 Or import specific namespaces:

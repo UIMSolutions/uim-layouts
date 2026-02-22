@@ -1,1 +1,1 @@
-module uim.styles.library.classes.icons.icon;
+module uim.style.library.classes.icons.icon;

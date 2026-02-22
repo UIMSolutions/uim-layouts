@@ -1,4 +1,4 @@
-module uim.styles;
+module uim.style;
 
 // Dub
 public {

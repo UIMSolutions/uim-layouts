@@ -1,4 +1,4 @@
-module uim.styles.library.classes;
+module uim.style.library.classes;
 
 public {
   import uim.styles.library.classes.icons;

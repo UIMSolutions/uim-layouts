@@ -1,4 +1,4 @@
-module uim.styles.interfaces;
+module uim.style.interfaces;
 
 public {
   import uim.styles.interfaces.icon;

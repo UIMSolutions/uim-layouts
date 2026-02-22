@@ -1,7 +1,7 @@
-module uim.styles.interfaces.script;
+module uim.style.interfaces.script;
 
 @safe:
-import uim.styles;
+import uim.style;
 
 interface ILayoutScript {
 }

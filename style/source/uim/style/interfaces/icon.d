@@ -1,7 +1,7 @@
-module uim.styles.interfaces.icon;
+module uim.style.interfaces.icon;
 
 @safe:
-import uim.styles;
+import uim.style;
 
 interface ILayoutIcon {
 }
