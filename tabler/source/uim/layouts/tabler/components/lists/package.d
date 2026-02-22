@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.lists;
+module uim.styles.tabler.components.lists;
 

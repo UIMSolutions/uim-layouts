@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.dropzones;
+module uim.styles.tabler.components.dropzones;
 

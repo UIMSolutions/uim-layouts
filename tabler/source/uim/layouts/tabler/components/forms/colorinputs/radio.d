@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.forms.colorinputs.radio;
+module uim.styles.tabler.components.forms.colorinputs.radio;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

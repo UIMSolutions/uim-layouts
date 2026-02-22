@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.countup;
+module uim.styles.tabler.components.countup;
 

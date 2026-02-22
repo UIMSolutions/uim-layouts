@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.buttons.pilllink;
+module uim.styles.tabler.components.buttons.pilllink;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

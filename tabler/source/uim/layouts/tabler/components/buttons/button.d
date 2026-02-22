@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.buttons.button;
+module uim.styles.tabler.components.buttons.button;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

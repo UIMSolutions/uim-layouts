@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.forms.colorinputs;
+module uim.styles.tabler.components.forms.colorinputs;
 
-public import uim.layouts.tabler.components.forms.colorinputs.color;
-public import uim.layouts.tabler.components.forms.colorinputs.input;
-public import uim.layouts.tabler.components.forms.colorinputs.label;
-public import uim.layouts.tabler.components.forms.colorinputs.radio;
+public import uim.styles.tabler.components.forms.colorinputs.color;
+public import uim.styles.tabler.components.forms.colorinputs.input;
+public import uim.styles.tabler.components.forms.colorinputs.label;
+public import uim.styles.tabler.components.forms.colorinputs.radio;

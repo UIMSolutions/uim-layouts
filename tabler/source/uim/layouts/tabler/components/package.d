@@ -1,37 +1,37 @@
-module uim.layouts.tabler.components;
+module uim.styles.tabler.components;
 
-public import uim.layouts.tabler;
+public import uim.styles.tabler;
 
 mixin(ShowModule!());
 
 @safe:
 
 // Packages
-public import uim.layouts.tabler.components.accordions;
-public import uim.layouts.tabler.components.alerts;
-public import uim.layouts.tabler.components.avatars;
-public import uim.layouts.tabler.components.buttons;
-public import uim.layouts.tabler.components.cards;
-public import uim.layouts.tabler.components.datagrids;
-public import uim.layouts.tabler.components.forms;
-public import uim.layouts.tabler.components.inputs;
-public import uim.layouts.tabler.components.icons;
-public import uim.layouts.tabler.components.lists;
-public import uim.layouts.tabler.components.navs;
-public import uim.layouts.tabler.components.statuses;
-public import uim.layouts.tabler.components.timelines;
+public import uim.styles.tabler.components.accordions;
+public import uim.styles.tabler.components.alerts;
+public import uim.styles.tabler.components.avatars;
+public import uim.styles.tabler.components.buttons;
+public import uim.styles.tabler.components.cards;
+public import uim.styles.tabler.components.datagrids;
+public import uim.styles.tabler.components.forms;
+public import uim.styles.tabler.components.inputs;
+public import uim.styles.tabler.components.icons;
+public import uim.styles.tabler.components.lists;
+public import uim.styles.tabler.components.navs;
+public import uim.styles.tabler.components.statuses;
+public import uim.styles.tabler.components.timelines;
 
 // Modules
-public import uim.layouts.tabler.components.cardbutton;
-public import uim.layouts.tabler.components.cardtabs;
-public import uim.layouts.tabler.components.dropend;
-public import uim.layouts.tabler.components.empties;
-public import uim.layouts.tabler.components.footer;
-public import uim.layouts.tabler.components.menucolumn;
-public import uim.layouts.tabler.components.menucolumns;
-public import uim.layouts.tabler.components.pageheader;
-public import uim.layouts.tabler.components.pagetitle;
-public import uim.layouts.tabler.components.ribbons;
+public import uim.styles.tabler.components.cardbutton;
+public import uim.styles.tabler.components.cardtabs;
+public import uim.styles.tabler.components.dropend;
+public import uim.styles.tabler.components.empties;
+public import uim.styles.tabler.components.footer;
+public import uim.styles.tabler.components.menucolumn;
+public import uim.styles.tabler.components.menucolumns;
+public import uim.styles.tabler.components.pageheader;
+public import uim.styles.tabler.components.pagetitle;
+public import uim.styles.tabler.components.ribbons;
 
 
 // auto label(TABDropdownMenu menu, string content) {

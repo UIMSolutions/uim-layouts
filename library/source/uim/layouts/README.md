@@ -1,1 +1,1 @@
-# Package 📦 uim.layouts
+# Package 📦 uim.styles

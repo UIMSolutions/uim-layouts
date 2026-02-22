@@ -1,18 +1,18 @@
-module uim.layouts.tabler;
+module uim.styles.tabler;
 
 public {
   import uim.html;
 }
 
 public {
-  import uim.layouts.tabler.components;
-  // import uim.layouts.tabler.entities;
-  import uim.layouts.tabler.interfaces;
-  import uim.layouts.tabler.mixins;
+  import uim.styles.tabler.components;
+  // import uim.styles.tabler.entities;
+  import uim.styles.tabler.interfaces;
+  import uim.styles.tabler.mixins;
 }
 
 public {
-  import uim.layouts.tabler.obj;
+  import uim.styles.tabler.obj;
 }
 
 V[K] setMap(K, V)(V[K] map, V[K] values) {

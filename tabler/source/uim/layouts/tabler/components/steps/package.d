@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.steps;
+module uim.styles.tabler.components.steps;
 

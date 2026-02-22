@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.navbars;
+module uim.styles.tabler.components.navbars;
 

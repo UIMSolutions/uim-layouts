@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.alerts.link;
+module uim.styles.tabler.components.alerts.link;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

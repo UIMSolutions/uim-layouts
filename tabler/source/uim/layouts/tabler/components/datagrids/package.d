@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.datagrids;
+module uim.styles.tabler.components.datagrids;
 
-public import uim.layouts.tabler.components.datagrids.content;
-public import uim.layouts.tabler.components.datagrids.datagrid;
-public import uim.layouts.tabler.components.datagrids.item;
-public import uim.layouts.tabler.components.datagrids.title;
+public import uim.styles.tabler.components.datagrids.content;
+public import uim.styles.tabler.components.datagrids.datagrid;
+public import uim.styles.tabler.components.datagrids.item;
+public import uim.styles.tabler.components.datagrids.title;

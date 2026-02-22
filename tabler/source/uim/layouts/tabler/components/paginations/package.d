@@ -1,1 +1,1 @@
-module uim.layouts.tabler.components.paginations;
+module uim.styles.tabler.components.paginations;

@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.accordions.collapse;
+﻿module uim.styles.tabler.components.accordions.collapse;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

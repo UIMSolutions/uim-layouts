@@ -1,1 +1,1 @@
-module uim.layouts.tabler.components.pages;
+module uim.styles.tabler.components.pages;

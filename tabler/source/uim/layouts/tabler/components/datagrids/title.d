@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.datagrids.title;
+module uim.styles.tabler.components.datagrids.title;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

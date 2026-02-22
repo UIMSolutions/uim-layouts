@@ -1,1 +1,1 @@
-module uim.layouts.library.classes.styles.style;
+module uim.styles.library.classes.styles.style;

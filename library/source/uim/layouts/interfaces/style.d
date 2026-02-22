@@ -1,7 +1,7 @@
-module uim.layouts.interfaces.style;
+module uim.styles.interfaces.style;
 
 @safe:
-import uim.layouts;
+import uim.styles;
 
 interface ILayoutStyle {
 }

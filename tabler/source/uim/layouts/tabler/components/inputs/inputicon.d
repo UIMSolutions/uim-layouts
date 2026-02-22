@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.inputs.inputicon;
+﻿module uim.styles.tabler.components.inputs.inputicon;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.forms.imagechecks.input;
+module uim.styles.tabler.components.forms.imagechecks.input;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

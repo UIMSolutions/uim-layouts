@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.statuses;
+module uim.styles.tabler.components.statuses;
 
-public import uim.layouts.tabler.components.statuses.status;
+public import uim.styles.tabler.components.statuses.status;
 
-public import uim.layouts.tabler.components.statuses.dot;
-public import uim.layouts.tabler.components.statuses.indicator;
+public import uim.styles.tabler.components.statuses.dot;
+public import uim.styles.tabler.components.statuses.indicator;

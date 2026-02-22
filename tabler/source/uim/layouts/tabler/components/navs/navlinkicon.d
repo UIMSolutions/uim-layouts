@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.navs.navlinkicon;
+﻿module uim.styles.tabler.components.navs.navlinkicon;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 @safe:
 

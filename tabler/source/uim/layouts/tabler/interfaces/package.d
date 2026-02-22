@@ -1,1 +1,1 @@
-module uim.layouts.tabler.interfaces;
+module uim.styles.tabler.interfaces;

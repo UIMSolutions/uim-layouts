@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.pagetitle;
+﻿module uim.styles.tabler.components.pagetitle;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 @safe:
 

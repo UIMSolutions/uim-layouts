@@ -1,1 +1,1 @@
-module uim.layouts.registries.styles;
+module uim.styles.registries.styles;

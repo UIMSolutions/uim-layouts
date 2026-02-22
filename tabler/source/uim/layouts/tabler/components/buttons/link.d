@@ -1,7 +1,7 @@
-module uim.layouts.tabler.components.buttons.link;
+module uim.styles.tabler.components.buttons.link;
 
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

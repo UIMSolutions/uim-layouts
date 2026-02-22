@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.cards;
+module uim.styles.tabler.components.cards;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

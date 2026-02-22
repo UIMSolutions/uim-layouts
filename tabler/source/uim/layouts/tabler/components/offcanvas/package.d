@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.offcanvas;
+module uim.styles.tabler.components.offcanvas;
 

@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.cardbutton;
+﻿module uim.styles.tabler.components.cardbutton;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

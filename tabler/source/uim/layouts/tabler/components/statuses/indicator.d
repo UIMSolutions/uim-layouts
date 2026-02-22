@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.statuses.indicator;
+module uim.styles.tabler.components.statuses.indicator;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

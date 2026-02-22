@@ -1,3 +1,3 @@
-module uim.layouts.library.classes.styles;
+module uim.styles.library.classes.styles;
 
-public import uim.layouts.library.classes.styles.style;
+public import uim.styles.library.classes.styles.style;

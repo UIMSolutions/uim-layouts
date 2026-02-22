@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.empties.title;
+module uim.styles.tabler.components.empties.title;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.avatars.avatar;
+﻿module uim.styles.tabler.components.avatars.avatar;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 mixin(ShowModule!());
 

@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.charts;
+module uim.styles.tabler.components.charts;
 

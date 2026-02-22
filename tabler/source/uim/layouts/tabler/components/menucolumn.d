@@ -1,6 +1,6 @@
-﻿module uim.layouts.tabler.components.menucolumn;
+﻿module uim.styles.tabler.components.menucolumn;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 @safe:
 

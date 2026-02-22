@@ -1,3 +1,3 @@
-module uim.layouts.library.classes.scripts;
+module uim.styles.library.classes.scripts;
 
-public import uim.layouts.library.classes.scripts.script;
+public import uim.styles.library.classes.scripts.script;

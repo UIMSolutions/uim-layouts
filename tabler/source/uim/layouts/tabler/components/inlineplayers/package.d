@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.inlineplayers;
+module uim.styles.tabler.components.inlineplayers;
 

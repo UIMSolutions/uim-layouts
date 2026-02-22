@@ -1,2 +1,2 @@
-module uim.layouts.tabler.components.dropdowns;
+module uim.styles.tabler.components.dropdowns;
 

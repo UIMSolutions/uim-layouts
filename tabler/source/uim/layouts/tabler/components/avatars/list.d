@@ -1,6 +1,6 @@
-module uim.layouts.tabler.components.avatars.list;
+module uim.styles.tabler.components.avatars.list;
 
-import uim.layouts.tabler;
+import uim.styles.tabler;
 
 @safe:
 

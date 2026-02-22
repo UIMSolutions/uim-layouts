@@ -4,11 +4,11 @@ Base D library for layout-related abstractions and shared types used across the 
 
 ## What this package provides
 
-- Unified entry module: `uim.layouts`
+- Unified entry module: `uim.styles`
 - Core layout interfaces:
-	- `uim.layouts.interfaces.icon`
-	- `uim.layouts.interfaces.script`
-	- `uim.layouts.interfaces.style`
+	- `uim.styles.interfaces.icon`
+	- `uim.styles.interfaces.script`
+	- `uim.styles.interfaces.style`
 - Reusable class implementations for:
 	- icons
 	- scripts
@@ -23,7 +23,7 @@ Main source root:
 
 Important modules:
 
-- `package.d` → exports `uim.layouts`
+- `package.d` → exports `uim.styles`
 - `interfaces/` → interface definitions
 - `classes/` → common class implementations
 - `mixins/` → helper mixins
@@ -66,14 +66,14 @@ In this monorepo, use a local path dependency when needed:
 ### 2) Import in D code
 
 ```d
-import uim.layouts;
+import uim.styles;
 ```
 
 Or import specific namespaces:
 
 ```d
-import uim.layouts.interfaces;
-import uim.layouts.library.classes;
+import uim.styles.interfaces;
+import uim.styles.library.classes;
 ```
 
 ## Build configurations
