@@ -15,8 +15,12 @@ class BS5InputHidden : BS5Input {
   }
 
   BS5InputHidden value(string txt) {
-    _attributes["value"] = txt;
+    attribute("value", txt);
     return this;
+  }
+
+  IHtmlAttribute value() {
+    return attribute("value");
   }
 
   mixin(BS5Calls!("InputHidden"));

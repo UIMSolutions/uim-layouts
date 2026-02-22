@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe:  
 
 class BS5InputDatalist : BS5Input {
-  mixin BS5This!("", ["form-control"]);
+  mixin BS5This!(["form-control"]);
 
   mixin(BS5Calls!("InputDatalist"));
 }

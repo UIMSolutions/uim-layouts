@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5PageLink : H5A {
-  mixin BS5This!(["page-link"], `["href":"#"]`);
+  mixin BS5This!(["page-link"], ["href":"#"]);
 
   mixin(BS5Calls!("PageLink"));
 }

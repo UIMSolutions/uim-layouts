@@ -7,7 +7,7 @@ mixin(ShowModule!());
 @safe: 
 
 class BS5ListButton : H5Button {
-  mixin BS5This!(["list-group-item", "list-group-item-action"], `["type":"button"]`);
+  mixin BS5This!(["list-group-item", "list-group-item-action"], ["type":"button"]);
 
 //   /// Set button to active
 //   O active(bool value = true) { this.addClasses("active"); return this; }

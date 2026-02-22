@@ -7,8 +7,11 @@ mixin(ShowModule!());
 @safe:
 
 class BS5Modal : H5Div {
-  mixin BS5This!(["modal"], `["tabindex":"-1", "role":"dialog", "aria-hidden":"true"]`);
-  mixin(BS5Calls!("Modal"));
+  mixin BS5This!(["modal"], [
+      "tabindex": "-1",
+      "role": "dialog",
+      "aria-hidden": "true"
+    ]);
   // ///
   // unittest {
   //   // assert(BS5Modal == `<div class="modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
@@ -25,6 +28,7 @@ class BS5Modal : H5Div {
   //   assert(
   //     BS5Modal.fade == `<div class="fade modal" aria-hidden="true" role="dialog" tabindex="-1"></div>`);
   // }
+  mixin(BS5Calls!("Modal"));
 }
 ///
 unittest {

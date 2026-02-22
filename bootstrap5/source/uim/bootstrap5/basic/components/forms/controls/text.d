@@ -13,20 +13,20 @@ mixin(ShowModule!());
 class BS5InputText : BS5Input {
   mixin BS5This!(null, ["type":"text"]);
   
-  BS5InputText value(UUID id) {
-    this.value(id.toString);
-    return this;
-  }
+  // BS5InputText value(UUID id) {
+  //   this.value(id.toString);
+  //   return this;
+  // }
 
-  BS5InputText value(bool aValue) {
-    value(aValue ? "true" : "false");
-    return this;
-  }
+  // BS5InputText value(bool aValue) {
+  //   value(aValue ? "true" : "false");
+  //   return this;
+  // }
 
-  BS5InputText value(string txt) {
-    _attributes["value"] = txt;
-    return this;
-  }
+  // BS5InputText value(string txt) {
+  //   _attributes["value"] = txt;
+  //   return this;
+  // }
 mixin(BS5Calls!("InputText"));
 }
 ///
