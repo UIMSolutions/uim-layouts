@@ -28,7 +28,7 @@ class BS4ButtonObj : BS4Obj {
     if (block) this.addClasses("btn-block");
     if (active) this.addClasses("active");
     if (disabled) this.addClasses("disabled");
-    if (dataToggle) _attributes["data-toggle"]="button"; else _attributes.remove("data-toggle");
+    if (dataToggle) attribute("data-toggle"]="button"; else _attributes.remove("data-toggle");
 
     return super.renderHTML;
   }

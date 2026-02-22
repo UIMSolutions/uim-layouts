@@ -10,23 +10,23 @@ class BS5InputNumber : H5Input {
   mixin BS5This!(["form-control"], ["type": "number"]);
 
   // BS5InputNumber value(string aValue) {
-  //   _attributes["value"] = to!string(aValue);
+  //   attribute("value"] = to!string(aValue);
   //   return this;
   // }
 
   // BS5InputNumber value(int aValue) {
-  //   _attributes["value"] = to!string(aValue);
+  //   attribute("value"] = to!string(aValue);
   //   return this;
   // }
 
   // BS5InputNumber value(long aValue) {
-  //   _attributes["value"] = to!string(aValue);
+  //   attribute("value"] = to!string(aValue);
   //   return this;
   // }
 
   // BS5InputNumber value(size_t aValue) {
-  //   _attributes["value"] = to!string(aValue);
-  //   _attributes["min"] = "0";
+  //   attribute("value"] = to!string(aValue);
+  //   attribute("min"] = "0";
   //   return this;
   // }
 

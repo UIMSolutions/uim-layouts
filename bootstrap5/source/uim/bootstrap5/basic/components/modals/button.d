@@ -9,9 +9,9 @@ mixin(ShowModule!());
 class BS5ModalButton : H5Button {
   mixin BS5This!(["btn"], ["data-toggle":"modal"]);
 
-  // BS5ModalButton target(string targetId) { _attributes["data-target"] = "#"~targetId;  return this; }
-  // BS5ModalButton backdrop(bool modeBackdrop = true) { _attributes["data-backdrop"] = "static"; return this; }
-  // BS5ModalButton keyboard(bool mode = true) { if (mode == false) _attributes["data-keyboard"] = "false"; 
+  // BS5ModalButton target(string targetId) { attribute("data-target"] = "#"~targetId;  return this; }
+  // BS5ModalButton backdrop(bool modeBackdrop = true) { attribute("data-backdrop"] = "static"; return this; }
+  // BS5ModalButton keyboard(bool mode = true) { if (mode == false) attribute("data-keyboard"] = "false"; 
   //   return this;
   // }
 

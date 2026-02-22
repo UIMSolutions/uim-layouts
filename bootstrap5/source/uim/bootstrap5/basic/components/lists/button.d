@@ -17,7 +17,7 @@ class BS5ListButton : H5Button {
 //   }}
 
 //   /// Set button to disabled
-//   O disabled(bool value = true) { _attributes["disabled"] = "true"; return this; }
+//   O disabled(bool value = true) { attribute("disabled"] = "true"; return this; }
 //   ///
 // unittest {
 //     // assert(BS5ListButton.disabled == `<button class="list-group-item list-group-item-action" disabled type="button"></button>`);

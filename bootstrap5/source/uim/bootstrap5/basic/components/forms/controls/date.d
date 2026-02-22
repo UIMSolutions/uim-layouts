@@ -10,7 +10,7 @@ class BS5InputDate : BS5Input {
   mixin BS5This!(["form-control"], ["type":"date"]);
 
   // BS5InputDate value(long timestamp) {
-  //   _attributes["value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString.split("T")[0];
+  //   attribute("value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString.split("T")[0];
   //   return this;
   // }
   // ///
@@ -19,7 +19,7 @@ class BS5InputDate : BS5Input {
   // }
 
   // BS5InputDate value(string dateValue) {
-  //   _attributes["value"] = dateValue;
+  //   attribute("value"] = dateValue;
   //   return this;
   // }
   // ///
@@ -28,7 +28,7 @@ class BS5InputDate : BS5Input {
   // }
 
   // BS5InputDate value(SysTime systime) {
-  //   _attributes["value"] = (cast(DateTime)systime).toISOExtString.split("T")[0];
+  //   attribute("value"] = (cast(DateTime)systime).toISOExtString.split("T")[0];
   //   return this;
   // }
   // ///
@@ -37,7 +37,7 @@ class BS5InputDate : BS5Input {
   // }
 
   // BS5InputDate value(DateTime datetime) {
-  //   _attributes["value"] = datetime.toISOExtString.split("T")[0];
+  //   attribute("value"] = datetime.toISOExtString.split("T")[0];
   //   return this;
   // }
   // ///

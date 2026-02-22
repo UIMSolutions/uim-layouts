@@ -24,7 +24,7 @@ class BS5InputText : BS5Input {
   // }
 
   // BS5InputText value(string txt) {
-  //   _attributes["value"] = txt;
+  //   attribute("value"] = txt;
   //   return this;
   // }
 mixin(BS5Calls!("InputText"));

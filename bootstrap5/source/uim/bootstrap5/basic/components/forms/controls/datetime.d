@@ -10,17 +10,17 @@ class BS5InputDateTime : BS5Input {
   mixin BS5This!(null, ["type":"datetime-local"]);
 
   BS5InputDateTime value(long timestamp) {
-    _attributes["value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString;
+    attribute("value"] = (cast(DateTime)fromTimestamp(timestamp)).toISOExtString;
     return this;
   }
   
   BS5InputDateTime value(SysTime systime) {
-    _attributes["value"] = (cast(DateTime)systime).toISOExtString;
+    attribute("value"] = (cast(DateTime)systime).toISOExtString;
     return this;
   }
 
   BS5InputDateTime value(DateTime datetime) {
-    _attributes["value"] = datetime.toISOExtString;
+    attribute("value"] = datetime.toISOExtString;
     return this;
   }
   

@@ -13,7 +13,7 @@ class BS4ListButton : BS4Obj {
   O active(bool value = true) { this.addClasses("active"); return this; }
 
   /// Set button to disabled
-  O disabled(bool value = true) { _attributes["disabled"] = "disabled"; return this; }
+  O disabled(bool value = true) { attribute("disabled"] = "disabled"; return this; }
 
   /// Set button color
   auto color(string aColor) { this.addClasses("list-group-item-"~aColor); return this; }

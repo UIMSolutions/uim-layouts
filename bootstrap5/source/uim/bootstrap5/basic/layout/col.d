@@ -6,7 +6,7 @@ mixin(ShowModule!());
 
 @safe:
 
-class BS5Col : BS5Div {
+class BS5Col : H5Div {
   mixin BS5This!();
 
   // O sizes(string[] someSizes...) {

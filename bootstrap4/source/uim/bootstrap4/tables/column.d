@@ -16,8 +16,8 @@ class BS4TableColumn : BS4Obj {
 
   override string renderHTML(string[string] bindings = null) {
     this.clearContent;
-    _attributes["scope"]="col";
-    if (_width) _attributes["width"]=to!string(_width);
+    attribute("scope"]="col";
+    if (_width) attribute("width"]=to!string(_width);
     this.addContent(_title);
     return super.renderHTML;
   }
